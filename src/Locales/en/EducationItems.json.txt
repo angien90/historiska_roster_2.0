@@ -1,0 +1,11 @@
+{
+  "learn_heading": "Learn More About Ghost Hunting",
+  "learn_subheading1": "Click to understand how our equipment works or explore ghost hunting through the",
+  "spiritbox": "Spiritbox",
+  "sls_camera": "SLS Camera",
+  "polterscript": "Polterscript",
+  "prs_prp": "PRS & PRP",
+  "mel_meter": "MEL-Meter",
+  "pmb": "PMB",
+  "k2_meter": "K2 Meter"
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Mystery Fair on Sea",
+  "investigation": "Historiska Röster was there",
+  "investigationDate": "March 28, 2025",
+  "image": "src/assets/images/mysterium_massan/silja_line.webp",
+  "history": [
+    {
+      "heading": "Mystery Fair on Sea",
+      "text": [
+        "Mystery Fair on Sea, also known as Ghost Hunt Cruise, is a unique cruise offering an unforgettable experience filled with mystery, adventure, and entertainment for the whole family. The event takes place between March 28 and 30, 2025, aboard the Silja Serenade, one of the largest and most impressive ships sailing between Stockholm and Helsinki."
+      ]
+    },
+    {
+      "heading": "Highlights on board:",
+      "text": [
+        "Artists: Dance the night away with amazing live performances.",
+        "Large fair: Discover a variety of exhibitors in the paranormal and spiritual fields.",
+        "Lectures and séances: Take part in inspiring lectures and large séances with well-known profiles from the TV series Ghost Hunt, such as Wilma Forsberg and Mia Ottosson.",
+        "Meet & Greet: Meet and chat with the Ghost Hunt team and other interesting personalities.",
+        "Ghost Hunt Room: Learn more about ghost hunting and try out the equipment in a specially designed room.",
+        "Entertainment: Enjoy DJs, troubadours, karaoke, and live shows throughout the cruise.",
+        "Kids’ world: For the younger travelers, there are play areas, craft corners, and child-friendly entertainment."
+      ]
+    }
+  ],
+  "resultTitle": "Our Journey",
+"videoSectionTitle": "Join Us on the Investigation",
+"results": [
+  {
+    "title": "",
+    "text": [
+      "Watch our short film about the journey on our Instagram."
+    ]
+  }
+],
+  "moreTitle": "Learn More About Mystery Fair",
+  "more": "Explore the official Mystery Fair website <a href=\"https://mysterieonsea.se/\" target=\"_blank\" class=\"link\">here</a>, and why not join next time?"
+}

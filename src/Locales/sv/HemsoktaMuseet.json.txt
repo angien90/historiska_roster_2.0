@@ -1,0 +1,72 @@
+{
+  "title": "Hemsökta Museet",
+  "investigation": "Historiska Röster var här",
+  "investigationDate": "17–18 augusti 2024",
+  "image": "src/assets/images/hemsokta_museet/Hemsokta_museet.webp",
+  "history": [
+  {
+    "heading": "Hemsökta Museet",
+    "text": [
+    "Hemsökta Museet i Borås är det ända hemsökta museet i Sverige och ägs av spökjägarna LaxTon Ghost Sweden. Museet är en unik och spännande upplevelse för alla som är intresserade av det övernaturliga. Beläget i Borås, erbjuder museet en plats där det förflutna möter det okända. Här får besökarna möjlighet att utforska en samling av föremål och berättelser, där många av dem sägs vara förknippade med spöklika och paranormala fenomen.",
+    "Museet är känt för sina guidade turer och temaevenemang som tar med besökare på en resa genom de olika föremål det har utställt. Från gamla föremål som tros bära på andar, till berättelser om hemsökta byggnader och mystiska händelser, erbjuder museet en fängslande inblick i de historier som inte alltid berättas i traditionella läroböcker.",
+    "Besökarna kan förvänta sig en atmosfär som blandar kulturarv med övernaturliga inslag, och museet är särskilt populärt bland dem som är intresserade av spökjakter, paranormala undersökningar och lokal folklore. Hemsökta Museet i Borås erbjuder en upplevelse för både skeptiker och troende."
+    ]
+  }
+  ],
+  "storyTitle": "Spöken och mystik",
+  "stories": [
+    {
+      "title": "",
+      "text": "Många besökare beskriver en känsla av att bli tittade på, eller att någon eller något är närvarande i rummet."
+    },
+    {
+      "title": "",
+      "text": "Trots normal rumstemperatur upplever många plötsliga köldkänslor, särskilt i närheten av vissa föremål."
+    },
+    {
+      "title": "",
+      "text": "Oväntade ljud, som viskningar, skratt eller steg, har rapporterats av flera besökare."
+    },
+    {
+      "title": "",
+      "text": "Mobiltelefoner och andra elektroniska enheter har upplevts fungera oväntat, eller helt sluta fungera."
+    },
+    {
+      "title": "",
+      "text": "Några besökare har rapporterat att de sett skuggor, figurer eller andra visuella fenomen."
+    },
+    {
+      "title": "",
+      "text": "Katter har länge varit förknippade med spöken och övernaturliga fenomen. Det kan vara att dessa ljud och känslor framkallar en känsla av närvaro eller att något försöker kommunicera."
+    },
+    {
+      "title": "",
+      "text": "Plötslig och oförklarlig sorg eller ångest kan vara en reaktion på en stark känslomässig energi på platsen. Det kan också vara en manifestation av en sorg eller förlust som är kopplad till platsen."
+    },
+    {
+      "title": "",
+      "text": "Speglar har länge setts som portaler till andra världar. Att se skrämmande reflektioner kan vara ett tecken på att något från den andra sidan försöker visa sig."
+    }
+  ],
+  "resultTitle": "Sammanfattning från vår utredning",
+  "videoSectionTitle": "Följ med oss på utredningen",
+  "results": [
+    {
+      "title": "Kortfattat om vad vi fick uppleva",
+      "text": [
+      "Övervakningskameror som Laxton har i sina lokaler slutade fungera helt plötsligt.",
+      "I samma rum såg två i teamet samtidigt ett grönt, oförklarligt sken som åkte ovanpå ett skåp i dockrummet.",
+      "En i teamet hade svårt att stå upp på grund av orkeslöshet och fick sätta sig på golvet och till och med lägga sig ner.",
+      "Två stycken stod i finrummet och pratade och samtidigt reagerade båda på att det luktade brandrök, men gick man lite åt sidan fanns det ingen doft där.",
+      "Flera i teamet hade frossa på natten efter utredningen.",
+      "Ovanligt höga EMF-värden mättes vid det paranormala experimentet.",
+      "Flera av oss såg en skugga av en person som stod i hörnet i demonrummet. Flera olika personer i teamet påpekade detta under kvällen."
+      ]
+    }
+  ],
+    "videos": [
+    "https://www.youtube.com/embed/e1wscUep5jI?si=l-jVkKhCHQw8tSl-"
+  ],
+  "moreTitle": "Lär dig ännu mer om Hemsökta Museet",
+  "more": "Utforska Historiska Museets officiella sida <a href=\"https://www.laxton.se/hemsokt-museum/\" target=\"_blank\" class=\"link\">här</a> och ta del av ännu mer information om denna fantastiska besöksattraktion, och för all del har du chansen så missa inte att besöka det Hemsökta museet."
+}

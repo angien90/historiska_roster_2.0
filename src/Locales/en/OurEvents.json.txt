@@ -1,0 +1,7 @@
+{
+  "event_heading": "Events",
+  "event_subheading": "Click through to explore our various events – both those we've organized ourselves and those we've participated in.",
+  "spokjakts_event": "Ghost haunting event",
+  "mysterie_massan_on_sea": "Mysterium Mässan on sea",
+  "mysterium_massan": "Mysterium Mässan"
+}

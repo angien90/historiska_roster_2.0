@@ -1,0 +1,4 @@
+{
+  "title": "Historiska Röster",
+  "subtitle": "Låt oss ta dig med på en resa genom tid och rum, där gränserna mellan det kända och okända suddas ut."
+}

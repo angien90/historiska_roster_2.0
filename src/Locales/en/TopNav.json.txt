@@ -1,0 +1,31 @@
+{
+  "about_us": "About Us",
+  "visited_places": "Visited Places",
+  "other_events": "Events",
+  "education": "Education",
+  "social_media": "Social Media",
+  "contact_us": "Contact Us",
+  "tip_us": "Send us a tip",
+  "dropdown": {
+    "mapView": "Map View",
+    "pageRydalsHerrgard": "Rydals Herrgård",
+    "pageRankhyttan": "Rankhyttan",
+    "pageGathenhielmskaHuset": "Gathenhielmska Huset",
+    "pageHemsoktaMuseet": "Hemsökta Museet",
+    "pageHjortsberga": "Hjortsberga",
+    "pageFrammegarden": "Frammegården",
+    "pageMysterieMassan": "Mysterie Fair",
+    "pageMysteriumMassan": "Mysterium Fair & Beyond Life Party",
+    "ghost_school": "About ghost haunting",
+    "spiritbox": "Spiritbox",
+    "sls_camera": "SLS Camera",
+    "polterscript": "Polterscript",
+    "prs_prp": "PRS & PRP",
+    "mel_meter": "Mel-meter",
+    "pmb": "PMB",
+    "k2_meter": "K2-meter",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  }
+}
