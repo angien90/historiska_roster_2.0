@@ -3,7 +3,10 @@ const props = defineProps({
   title: String,
   investigation: String,
   date: String,
-  image: String,
+  image: {
+    type: [String, Object],
+    required: true
+  },
   altText: {
     type: String,
     default: ''

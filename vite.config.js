@@ -4,8 +4,8 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-  base: '/', // ← detta är viktigt för lokal utveckling!
-
+  base: '/', 
+  
   plugins: [
     vue(),
     vueDevTools(),

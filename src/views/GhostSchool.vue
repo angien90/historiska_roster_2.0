@@ -3,7 +3,7 @@
 
 <template>
   <h1>{{ $t("ghostSchool.title") }}</h1>
-  <img src="../assets/images/ghost_school/abandoned_school.webp" width="400" alt="Spökjakt-utrustning" class="team-image" />
+  <img src="@/assets/images/generell/abandoned_school.webp" alt="Spökjakt-utrustning" class="team-image" width="400" />
   <p>{{  $t("ghostSchool.whyGhostHunting") }}</p>
   <div class="section-content">
     <section class="section">

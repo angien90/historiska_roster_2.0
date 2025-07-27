@@ -2,7 +2,7 @@
   "title": "Rydals Herrgård",
   "investigation": "Historiska Röster var här",
   "investigationDate": "28-30 maj 2025",
-  "image": "src/assets/images/Rydals_herrgard/rydals_herrgard(1).webp",
+  "image": "src/assets/images/Rydals_herrgard/rydals_herrgard.webp",
   "history": [
   {
     "heading": "Rydals Herrgårds historia",
@@ -169,19 +169,20 @@
   "videoSectionTitle": "Följ med oss på utredningen",
   "results": [
     {
-      "title": "Spökutredningen",
+      "title": "Kortfattat om vad vi fick uppleva",
       "text": [
-      "...."
-      ]
-    },
-    {
-      "title": "Eventet",
-      "text": [
-      "Den 30 maj anordnade vi ett event tillsammans med Rydals Herrgård där våra gäster bjöds på en trerätters middag i sällskap av likasinnade med ett gemensamt intresse för det övernaturliga.",
-      "Efter middagen fick deltagarna en introduktion till den utrustning som används vid spökutredningar, och möjlighet att själva testa utrustningen – både på egen hand och i grupp, utifrån vad man kände sig mest bekväm med. Under kvällen fick flera gäster uppleva oväntad aktivitet genom olika instrument och metoder."
-      ]
+      "Vi fick just igenom ordet 'fot' på utrustningen i det röda rummet – och bara två sekunder senare såg vi att en av teamets skosnören hade gått upp. Var det ett spöke som ville uppmärksamma personen på det?",
+      "Medan vi åt satt vi i övervakningsrummet när plötsligt en mängd ljud hördes i huset.",
+      "Vi fick kontakt på PMB vid entrén. När vi frågade utökades känslan av att Torsten Ek var närvarande med oss där och då.",
+      "Övervakningen fångade märkliga orber som flög runt i källaren, salongen och det röda rummet.", 
+      "När vi var inne i det röda rummet, där det sägs att någon brukar stöka till sängen efter att den bäddats, hade vi en PRS placerad i sängen. Vi frågade om personen som brukar stöka till sängen var där – och PRS-enheten i sängen gav utslag.",
+      "Under dagen var övervakningen igång och vi såg en anställd komma upp från trappan till andra våningen. Han stannade plötsligt till, som om han såg eller kände något, och höll nästan på att ramla bakåt, men lyckades ta tag i räcket. När vi sedan frågade honom vad som hade hänt hade han inget minne av det. När vi skulle visa filmen från övervakningen brann SD-kortet plötsligt upp, och varken han eller vi kunde se händelsen eller andra inspelningar som fanns sparade där. Tragiskt, men det visar också vilken kraft och påverkan andarna kan ha på elektronisk utrustning."
+    ]
     }
   ],
-  "moreTitle": "Lär dig ännu mer om Frammegården",
+  "videos": [
+    "https://www.youtube.com/embed/5eqY1dKSVo0?si=z86z8vfr1KM7pGsc"
+  ],
+  "moreTitle": "Läs mer om Rydals Herrgård",
   "more": "Utforska Rydals Herrgårds officiella sida <a href=\"https://www.rydalsherrgard.se/\" target=\"_blank\" class=\"link\">här</a> och upptäck den unika kombinationen av historisk charm och modern atmosfär. Missa inte chansen att besöka denna vackra plats – njut av vällagad mat i herrgårdsmiljö, ta del av kulturevenemang i inspirerande omgivningar och känn historiens vingslag vid varje steg. En upplevelse för alla sinnen!"
 }

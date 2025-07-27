@@ -22,7 +22,7 @@ const frammegarden = computed(() => {
 
 const frammegardenImage = {
   src: Familjetrad,
-  alt: 'Familjeträdet kopplat till Frammegården'
+  alt: frammegarden.value.historyImage.alt || 'Frammegårdens family tree'
 };
 </script>
 

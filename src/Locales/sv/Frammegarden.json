@@ -1,7 +1,7 @@
 {
   "title": "Frammegården",
   "investigation": "Historiska Röster var här",
-  "investigationDate": "4–5 juni 2025",
+  "investigationDate": "4–5 juni 2024",
   "image": "src/assets/images/Frammegarden/historiska_roster_frammegarden.webp",
   "history": [
     {
@@ -21,7 +21,6 @@
     }
  ],
   "historyImage": {
-    "src": "../assets/frammegarden/Familjetrad_frammegarden.webp",
     "alt": "Frammegårdens släktträd"
   },
   "storyTitle": "Spöken och mystik",
@@ -95,6 +94,6 @@
   "videos": [
     "https://www.youtube.com/embed/ZyDub1qhqmM?si=8UfD0LO3pSuHvoJq"
   ],
-  "moreTitle": "Lär dig ännu mer om Frammegården",
+  "moreTitle": "Läs mer om Frammegården",
   "more": "Utforska Frammegardens officiella sida <a href=\"https://www.skillingmarkshembygdsforening.com/\" target=\"_blank\">här</a> och ta del av ännu mer information om denna fantastiska plats, och för all del har du chansen så missa inte att besöka Frammegarden."
 }

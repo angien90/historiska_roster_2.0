@@ -2,7 +2,7 @@
   "title": "Rankhyttans Herrgård",
   "investigation": "Historiska Röster var här",
   "investigationDate": "17–19 januari 2025",
-  "image": "src/assets/images/Rankhyttan/historiska_roster_rankhyttan.webp",
+  "image": "/src/assets/images/rankhyttan/historiska_roster_rankhyttan.webp",
   "history": [
   {
     "heading": "Rankhyttans Herrgårds historia",
@@ -380,6 +380,6 @@
     "https://www.youtube.com/embed/nCojrK4vZnw",
     "https://www.youtube.com/embed/ZfDh12RJEqo"
   ],
-  "moreTitle": "Lär dig ännu mer om Frammegården",
+  "moreTitle": "Läs mer om Rankhyttan",
   "more": "Utforska Rankhyttans Herrgårds officiella sida <a href=\"https://www.rankhyttan.se/\" target=\"_blank\" class=\"link\">här</a> och ta del av ännu mer information om denna fantastiska ställe, och för all del har du chansen så missa inte att besöka Rankhyttans Herrgård."
 }

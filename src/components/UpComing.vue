@@ -1,4 +1,5 @@
 <script setup>
+import ghostImage from '@/assets/images/generell/empty_room_with_ghost.webp'
 </script>
 
 <template>
@@ -6,7 +7,7 @@
     <div>
     <h2>{{ $t('upcoming_title') }}</h2>
     <div class="upcoming-content">
-      <img src="../assets/images/generall/empty_room_with_ghost.webp" alt="Tomt rum med ett spöke" class="upcoming-image" />
+       <img :src="ghostImage" alt="Tomt rum med ett spöke" class="upcoming-image" />
       <div class="upcoming-text">
         <p>{{ $t('upcoming_paragraph1') }}</p>
         <p>{{ $t('upcoming_paragraph2') }}</p>

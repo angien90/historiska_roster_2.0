@@ -21,7 +21,6 @@
     }
   ],
   "historyImage": {
-    "src": "../assets/frammegarden/Familjetrad_frammegarden.webp",
     "alt": "Frammegårdens family tree"
   },
   "storyTitle": "Ghoststories and mysteries",
@@ -95,6 +94,6 @@
 "videos": [
   "https://www.youtube.com/embed/ZyDub1qhqmM?si=8UfD0LO3pSuHvoJq"
 ],
-"moreTitle": "Learn even more about Frammegården",
+"moreTitle": "Learn more about Frammegården",
 "more": "Explore Frammegården’s official site <a href=\"https://www.skillingmarkshembygdsforening.com/\" target=\"_blank\">here</a> and find even more information about this amazing place. And if you get the chance, don’t miss visiting Frammegården."
 }

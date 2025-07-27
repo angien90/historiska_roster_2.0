@@ -30,7 +30,6 @@ const rankhyttan = computed(() => {
     />
     <PlaceHistory
       :content="rankhyttan.history"
-      :image="rankhyttanImage"
     />
     <PlaceGhostStory 
       :storyTitle="rankhyttan.storyTitle"

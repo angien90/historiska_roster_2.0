@@ -15,7 +15,7 @@ const { t } = useI18n();
       <router-link to="/PageRydalsHerrgard" class="content">
         <ContentItem>
           <template #icon>
-            <img src="../assets/images/rydals_herrgard/rydals_herrgard.webp" alt="Rydals Herrgård" width="125" height="125" />
+            <img src="@/assets/images/rydals_herrgard/rydals_herrgard.webp" alt="Rydals Herrgård" width="125" height="125" />
           </template>
           <template #heading>{{ t('rydals') }}</template>
         </ContentItem>
@@ -24,7 +24,7 @@ const { t } = useI18n();
       <router-link to="/PageRankhyttan" class="content">
         <ContentItem>
           <template #icon>
-            <img src="../assets/images/rankhyttan/rankhyttan.webp" alt="Rankhyttans Herrgård" width="125" height="125" />
+            <img src="@/assets/images/rankhyttan/rankhyttan.webp" alt="Rankhyttans Herrgård" width="125" height="125" />
           </template>
           <template #heading>{{ t('rankhyttan') }}</template>
         </ContentItem>
@@ -33,7 +33,7 @@ const { t } = useI18n();
       <router-link to="/PageGathenhielmskaHuset" class="content">
         <ContentItem>
           <template #icon>
-            <img src="../assets/images/gathenhielmska_huset/Gathenhielmska_huset.webp" alt="Gathenhielmska Huset" width="125" height="125" />
+            <img src="@/assets/images/gathenhielmska_huset/Gathenhielmska_huset.webp" alt="Gathenhielmska Huset" width="125" height="125" />
           </template>
           <template #heading>{{ t('gathenhielmska') }}</template>
         </ContentItem>
@@ -42,7 +42,7 @@ const { t } = useI18n();
       <router-link to="/PageHemsoktaMuseet" class="content">
         <ContentItem>
           <template #icon>
-            <img src="../assets/images/hemsokta_museet/Hemsokta_museet.webp" alt="Hemsökta museet" width="125" height="125" />
+            <img src="@/assets/images/hemsokta_museet/Hemsokta_museet.webp" alt="Hemsökta museet" width="125" height="125" />
           </template>
           <template #heading>{{ t('hemsokta') }}</template>
         </ContentItem>
@@ -51,7 +51,7 @@ const { t } = useI18n();
       <router-link to="/PageHjortsberga" class="content">
         <ContentItem>
           <template #icon>
-            <img src="../assets/images/hjortsberga/Hjortsberga.webp" alt="Hjortsberga Prästgård" width="125" height="125" />
+            <img src="@/assets/images/hjortsberga/Hjortsberga.webp" alt="Hjortsberga Prästgård" width="125" height="125" />
           </template>
           <template #heading>{{ t('hjortsberga') }}</template>
         </ContentItem>
@@ -60,7 +60,7 @@ const { t } = useI18n();
       <router-link to="/PageFrammegarden" class="content">
         <ContentItem>
           <template #icon>
-            <img src="../assets/images/frammegarden/Frammegarden.webp" alt="Frammegården" width="125" height="125" />
+            <img src="@/assets/images/frammegarden/Frammegarden.webp" alt="Frammegården" width="125" height="125" />
           </template>
           <template #heading>{{ t('frammegarden') }}</template>
         </ContentItem>

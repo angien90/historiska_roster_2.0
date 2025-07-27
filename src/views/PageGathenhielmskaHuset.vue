@@ -29,7 +29,6 @@ const gathenhielmskaHuset = computed(() => {
     />
     <PlaceHistory
       :content="gathenhielmskaHuset.history"
-      :image="gathenhielmskaHusetImage"
     />
     <PlaceGhostStory 
       :storyTitle="gathenhielmskaHuset.storyTitle"

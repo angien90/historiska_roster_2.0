@@ -5,7 +5,7 @@
   <h1>{{ $t("aboutUs.title") }}</h1>
   <div class="section-content">
     <section class="section">
-      <img src="../assets/images/about_us/historiska_roster_i_trappa.webp" width="400" alt="En bild på teamet" class="team-image" />
+      <img :src="teamImage" width="400" alt="En bild på teamet" class="team-image" />
       <h2>{{ $t("aboutUs.teamTitle") }}</h2>
       <p>{{ $t("aboutUs.teamText") }}</p>
     </section>
