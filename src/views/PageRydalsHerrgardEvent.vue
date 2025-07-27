@@ -4,6 +4,7 @@ import { useI18n } from 'vue-i18n'
 
 import PlaceHeader from '../components/PlaceHeader.vue'
 import PlaceHistory from '../components/PlaceHistory.vue'
+import PlaceReadMore from '../components/PlaceReadMore.vue'
 
 import rydalsHerrgardEvent_sv from '../Locales/sv/RydalsHerrgardEvent.json'
 import rydalsHerrgardEvent_en from '../Locales/en/RydalsHerrgardEvent.json'
@@ -25,6 +26,10 @@ const rydalsHerrgardEvent = computed(() => {
     />
     <PlaceHistory
       :content="rydalsHerrgardEvent.history"
+    />
+    <PlaceReadMore 
+      :moreTitle="rydalsHerrgardEvent.moreTitle"
+      :more="rydalsHerrgardEvent.more" 
     />
   </div>
   <div v-else>

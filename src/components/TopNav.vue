@@ -29,6 +29,7 @@ const menuItems = computed(() => [
   {
     label: t('other_events'),
     children: [
+      { label: t('dropdown.pageRydalsHerrgardEvent'), to: '/PageRydalsHerrgardEvent' },
       { label: t('dropdown.pageMysterieMassan'), to: '/PageMysterieMassan' },
       { label: t('dropdown.pageMysteriumMassan'), to: '/PageMysteriumMassan' },
       ]
@@ -60,7 +61,7 @@ const menuItems = computed(() => [
   },
   {
     label: t('tip_us'),
-    href: 'https://forms.office.com/...'
+    href: 'https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__4JvANBURjRBUktXSjhNVDAzRllESlFaSDI4UlFRVC4u'
   }
 ]);
 </script>
