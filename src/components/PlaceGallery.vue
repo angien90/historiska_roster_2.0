@@ -46,6 +46,10 @@ img {
   border-radius: 6px;
 }
 
+figcaption {
+  text-align: center;
+}
+
 /* Tablet och uppåt: flera kolumner med jämn höjd */
 @media (min-width: 768px) {
   .gallery {
