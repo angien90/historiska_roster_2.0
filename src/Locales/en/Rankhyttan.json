@@ -2,7 +2,7 @@
   "title": "Rankhyttan Herrgård",
   "investigation": "Historiska Röster was here",
   "investigationDate": "January 17–19, 2025",
-  "image": "/src/assets/images/rankhyttan/historiska_roster_rankhyttan.webp",
+  "image": "//images/rankhyttan/historiska_roster_rankhyttan.webp",
   "history": [
     {
       "heading": "The History of Rankhyttan Herrgård",
@@ -291,67 +291,67 @@
   "galleryTitle": "Image Gallery",
   "gallery": [
     {
-    "src": "src/assets/images/rankhyttan/rankhyttan.webp",
+    "src": "/images/rankhyttan/rankhyttan.webp",
     "alt": "Photo of Rankhyttan",
     "caption": "Rankhyttan Herrgård"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_baksidan.webp",
+    "src": "/images/rankhyttan/rankhyttan_baksidan.webp",
     "alt": "Back of Rankhyttan with memorial stone",
     "caption": "Back of Rankhyttan with memorial stone"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_1.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_1.webp",
     "alt": "Piano and fireplace inside Rankhyttan",
     "caption": "Above the stairs on the second floor"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_2.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_2.webp",
     "alt": "Painting and crystal chandelier inside Rankhyttan",
     "caption": "Piano and fireplace"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_3.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_3.webp",
     "alt": "Key cabinet inside Rankhyttan",
     "caption": "Stairs leading to the upper floor"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_4.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_4.webp",
     "alt": "Old text and interior inside Rankhyttan",
     "caption": "Room where someone is said to have shot themselves"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_5.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_5.webp",
     "alt": "Inside Rankhyttan",
     "caption": "Old keys at the reception"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_6.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_6.webp",
     "alt": "Inside Rankhyttan",
     "caption": "Old text, comb, and pipe"
   },
   {
-    "src": "src/assets/images/rankhyttan/gamla_bilder.webp",
+    "src": "/images/rankhyttan/gamla_bilder.webp",
     "alt": "Old photos of visitors at Rankhyttan from 1925",
     "caption": "Photo from Rankhyttan 1925"
   },
   {
-    "src": "src/assets/images/rankhyttan/gamla_bilder_från_rankhyttan.webp",
+    "src": "/images/rankhyttan/gamla_bilder_från_rankhyttan.webp",
     "alt": "Old photos of visitors at Rankhyttan from 1928",
     "caption": "Hunter training at Rankhyttan 1928"
   },
   {
-    "src": "src/assets/images/rankhyttan/tavla_gustav_vasa.webp",
+    "src": "/images/rankhyttan/tavla_gustav_vasa.webp",
     "alt": "Painting of Gustav Vasa",
     "caption": "Painting of Gustav Vasa inside Rankhyttan"
   },
   {
-    "src": "src/assets/images/rankhyttan/kungsladan.webp",
+    "src": "/images/rankhyttan/kungsladan.webp",
     "alt": "The King's Barn",
     "caption": "The King's Barn where Gustav Vasa hid"
   },
   {
-    "src": "src/assets/images/rankhyttan/kungsladan_1.webp",
+    "src": "/images/rankhyttan/kungsladan_1.webp",
     "alt": "Inside the King's Barn",
     "caption": "Workers' carvings in the King's Barn"
   }

@@ -2,7 +2,7 @@
   "title": "Rankhyttans Herrgård",
   "investigation": "Historiska Röster var här",
   "investigationDate": "17–19 januari 2025",
-  "image": "/src/assets/images/rankhyttan/historiska_roster_rankhyttan.webp",
+  "image": "//images/rankhyttan/historiska_roster_rankhyttan.webp",
   "history": [
   {
     "heading": "Rankhyttans Herrgårds historia",
@@ -290,67 +290,67 @@
   "galleryTitle": "Bildgalleri",
   "gallery": [
     {
-    "src": "src/assets/images/rankhyttan/rankhyttan.webp",
+    "src": "/images/rankhyttan/rankhyttan.webp",
     "alt": "Foto på Rankhyttan",
     "caption": "Rankhyttans Herrgård"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_baksidan.webp",
+    "src": "/images/rankhyttan/rankhyttan_baksidan.webp",
     "alt": "Baksidan på Rankhyttan med minnessten",
     "caption": "Baksidan på Rankhyttan med minnessten"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_1.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_1.webp",
     "alt": "Piano och öppenspis inne på Rankhyttan",
     "caption": "Ovanför trappan på andra vångingen"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_2.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_2.webp",
     "alt": "Tavla och kristallkrona inne på Rankhyttan",
     "caption": "Piano och braskamin"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_3.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_3.webp",
     "alt": "Nyckelskåp inne på Rankhyttan",
     "caption": "Trappar upp till ovanvåningen"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_4.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_4.webp",
     "alt": "Gammal text och intredning inne på Rankhyttan",
     "caption": "Rummer där en sägs ha sjutit sig själv"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_5.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_5.webp",
     "alt": "Inne på Rankhyttan",
     "caption": "Gamla nycklar vid receptionen"
   },
   {
-    "src": "src/assets/images/rankhyttan/rankhyttan_inredning_6.webp",
+    "src": "/images/rankhyttan/rankhyttan_inredning_6.webp",
     "alt": "Inne på Rankhyttan",
     "caption": "Gammal text, kam och pipa"
   },
   {
-    "src": "src/assets/images/rankhyttan/gamla_bilder.webp",
+    "src": "/images/rankhyttan/gamla_bilder.webp",
     "alt": "Gamla bilder på besökare på Rankhyttan från 1925",
     "caption": "Bild från Rankhyttan 1925"
   },
   {
-    "src": "src/assets/images/rankhyttan/gamla_bilder_från_rankhyttan.webp",
+    "src": "/images/rankhyttan/gamla_bilder_från_rankhyttan.webp",
     "alt": "Gamla bilder på besökare på Rankhyttan från 1928",
     "caption": "Jägarutbildning på Rankhyttan 1928"
   },
   {
-    "src": "src/assets/images/rankhyttan/tavla_gustav_vasa.webp",
+    "src": "/images/rankhyttan/tavla_gustav_vasa.webp",
     "alt": "Tavla på Gustav Vasa",
     "caption": "Målning på Gustav Vasa inne i Rankhyttan"
   },
   {
-    "src": "src/assets/images/rankhyttan/kungsladan.webp",
+    "src": "/images/rankhyttan/kungsladan.webp",
     "alt": "Kungsladan",
     "caption": "Kungsladan där Gustav Vasa gömde sig"
   },
   {
-    "src": "src/assets/images/rankhyttan/kungsladan_1.webp",
+    "src": "/images/rankhyttan/kungsladan_1.webp",
     "alt": "Inne på Kungsladan",
     "caption":"Arbetares inristningar i Kungsladan"
   }

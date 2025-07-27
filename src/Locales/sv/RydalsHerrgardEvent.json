@@ -2,7 +2,7 @@
   "title": "Spökjakt event ihop med Rydals Herrgård",
   "investigation": "Detta ägde rum",
   "investigationDate": "30 maj 2025",
-  "image": "src/assets/images/rydals_herrgard/meny_spokjakt.webp",
+  "image": "/images/rydals_herrgard/meny_spokjakt.webp",
   "history": [
   {
     "heading": "Eventet",

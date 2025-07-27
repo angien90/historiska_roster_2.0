@@ -2,7 +2,7 @@
   "title": "Frammegården",
   "investigation": "Historiska Röster var här",
   "investigationDate": "4–5 juni 2024",
-  "image": "src/assets/images/Frammegarden/historiska_roster_frammegarden.webp",
+  "image": "/images/Frammegarden/historiska_roster_frammegarden.webp",
   "history": [
     {
       "heading": "Frammegårdens historia",
@@ -43,27 +43,27 @@
   "galleryTitle": "Bildgalleri",
   "gallery": [
     {
-      "src": "src/assets/images/Frammegarden/grav2_frammegarden.webp",
+      "src": "/images/Frammegarden/grav2_frammegarden.webp",
       "alt": "Kerstin Erikssons gravsten",
       "caption": "Kerstin Erikssons gravsten"
     },
     {
-      "src": "src/assets/images/Frammegarden/grav1_frammegarden.webp",
+      "src": "/images/Frammegarden/grav1_frammegarden.webp",
       "alt": "Nils Nilssons gravsten",
       "caption": "Nils Nilssons gravsten"
     },
     {
-      "src": "src/assets/images/Frammegarden/grav4_frammegarden.webp",
+      "src": "/images/Frammegarden/grav4_frammegarden.webp",
       "alt": "Erik Nilssons gravsten",
       "caption": "Erik Nilssons gravsten"
     },
     {
-      "src": "src/assets/images/Frammegarden/grav3_frammegarden.webp",
+      "src": "/images/Frammegarden/grav3_frammegarden.webp",
       "alt": "Anna Erikssons gravsten",
       "caption": "Anna Erikssons gravsten"
     },
     {
-        "src": "src/assets/images/Frammegarden/anna-erikssons_torp_frammegarden.webp",
+        "src": "/images/Frammegarden/anna-erikssons_torp_frammegarden.webp",
       "alt": "Anna Erikssos hus idag",
       "caption": "Anna Erikssos hus idag"
     }

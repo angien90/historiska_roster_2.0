@@ -2,7 +2,7 @@
   "title": "Rydals Herrgård",
   "investigation": "Historiska Röster var här",
   "investigationDate": "28-29 maj 2025",
-  "image": "src/assets/images/Rydals_herrgard/rydals_herrgard.webp",
+  "image": "/images/Rydals_herrgard/rydals_herrgard.webp",
   "history": [
   {
     "heading": "Rydals Herrgårds historia",
@@ -120,47 +120,47 @@
   "galleryTitle": "Bildgalleri",
   "gallery": [
     {
-    "src": "src/assets/images/rydals_herrgard/rydals_herrgård_CC BY.webp",
+    "src": "/images/rydals_herrgard/rydals_herrgård_CC BY.webp",
     "alt": "Foto på Rydals Herrgård",
     "caption": "Rydals Herrgård"
   },
   {
-    "src": "src/assets/images/rydals_herrgard/rydahls_bomullsspinneri_CC BY.webp",
+    "src": "/images/rydals_herrgard/rydahls_bomullsspinneri_CC BY.webp",
     "alt": "Herrgården uppe till vänster med sina flyglar",
     "caption": "Herrgården uppe till vänster med sina flyglar"
   },
   {
-    "src": "src/assets/images/rydals_herrgard/spinneriet_1900-1927_CC BY.webp",
+    "src": "/images/rydals_herrgard/spinneriet_1900-1927_CC BY.webp",
     "alt": "Rydals Fabrik 1927",
     "caption": "Rydals Fabrik 1927"
   },
   {
-    "src": "src/assets/images/rydals_herrgard/rydals_fabriker_1942_ CC BY.webp",
+    "src": "/images/rydals_herrgard/rydals_fabriker_1942_ CC BY.webp",
     "alt": "Rydals Fabrik 1942",
     "caption": "Rydals Fabrik 1942"
   },
   {
-    "src": "src/assets/images/rydals_herrgard/sven_erikson_1870-1879_CC BY.webp",
+    "src": "/images/rydals_herrgard/sven_erikson_1870-1879_CC BY.webp",
     "alt": "Sven Erikson (1870-1879)",
     "caption": "Sven Erikson (1870-1879)"
   },
   {
-    "src": "src/assets/images/rydals_herrgard/beloningsmedalj_i_brons_CC BY.webp",
+    "src": "/images/rydals_herrgard/beloningsmedalj_i_brons_CC BY.webp",
     "alt": "Belöningsmedalj i brons",
     "caption": "Belöningsmedalj i brons"
   },
   {
-    "src": "src/assets/images/rydals_herrgard/gustaf_alma_claes_stenberg_gravsten_CC-BY-NC.webp",
+    "src": "/images/rydals_herrgard/gustaf_alma_claes_stenberg_gravsten_CC-BY-NC.webp",
     "alt": "Gustaf, Alma och Claes gravsten",
     "caption": "Gustaf, Alma och Claes gravsten"
   },
   {
-    "src": "src/assets/images/rydals_herrgard/torsten_ek.webp",
+    "src": "/images/rydals_herrgard/torsten_ek.webp",
     "alt": "Torsten Ek",
     "caption": "Torsten Ek"
   },
   {
-    "src": "src/assets/images/rydals_herrgard/torsten_willy_gravsten_CC-By-Nc.webp",
+    "src": "/images/rydals_herrgard/torsten_willy_gravsten_CC-By-Nc.webp",
     "alt": "Torsten och Willys gravsten",
     "caption": "Torsten och Willys gravsten"
   }
