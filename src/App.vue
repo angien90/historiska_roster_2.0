@@ -138,8 +138,8 @@ main {
 }
 
 .site-footer p {
-  font-size: 1.5rem;
-  padding-bottom: 0;
+  font-size: 1rem;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -148,7 +148,7 @@ main {
   }
 
   .site-footer p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 </style>

@@ -43,7 +43,7 @@ i {
 .content-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
 }
 

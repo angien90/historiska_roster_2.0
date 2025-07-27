@@ -64,7 +64,7 @@
 .about-us {
   max-width: 100%;
   margin: 0 auto;
-  background-color: #111;
+  background-color: #252525;
   color: #fff;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);

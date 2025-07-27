@@ -21,8 +21,8 @@ import ghostImage from '@/assets/images/generell/empty_room_with_ghost.webp'
 <style scoped>
 .upcoming {
   max-width: 100%;
-  padding: 2rem;
-  background-color: #111;
+  padding: 0.5rem;
+  background-color: #252525;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
   color: white;
@@ -41,6 +41,7 @@ import ghostImage from '@/assets/images/generell/empty_room_with_ghost.webp'
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
   align-self: center;
+  padding-top: 30px;
 }
 
 @media (min-width: 768px) {

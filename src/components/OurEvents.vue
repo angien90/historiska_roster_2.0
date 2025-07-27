@@ -45,7 +45,7 @@ const { t } = useI18n();
   max-width: 100%;
   margin: 20px auto;
   padding: 2rem;
-  background-color: #111;
+  background-color: #252525;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
   color: white;
@@ -54,8 +54,9 @@ const { t } = useI18n();
 .content-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -76,13 +77,18 @@ const { t } = useI18n();
 }
 
 .content img {
-  width: 100%;
+  width: 120%;
   max-width: 250px;
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
   display: block;
-  margin: 0 auto 1rem auto;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.08);
+}
+
+@media (min-width: 768px) {
+  .content img {
+    width: 100%;
+  }
 }
 </style>

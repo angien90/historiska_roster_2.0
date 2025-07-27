@@ -25,7 +25,7 @@ const { t } = useI18n();
 }
 
 h2 {
-  padding: 0 2rem;
+  padding: 0 1rem;
   font-family: 'Amatic SC', cursive;
   
 }
