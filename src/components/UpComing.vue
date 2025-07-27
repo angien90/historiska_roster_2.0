@@ -1,5 +1,5 @@
 <script setup>
-import ghostImage from '@/assets/images/generell/empty_room_with_ghost.webp'
+import ghostImage from '/images/generell/empty_room_with_ghost.webp'
 </script>
 
 <template>

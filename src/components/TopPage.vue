@@ -5,7 +5,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <img src="@/assets/images/generell/logo.svg" alt="Historiska Rösters logga" class="logo" width="125" height="125">
+  <img src="/images/generell/logo.svg" alt="Historiska Rösters logga" class="logo" width="125" height="125">
   
   <div class="greetings">
     <h1 class="titel">{{ t('title') }}</h1>

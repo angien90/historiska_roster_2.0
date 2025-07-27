@@ -17,7 +17,7 @@ const { t } = useI18n();
       <a href="https://www.youtube.com/watch?v=2FDUA-i3GbM" class="content">
         <ContentItem>
           <template #icon>
-            <img src="@/assets/images/equipment/spiritbox.webp" alt="Spiritbox" width="125" height="125" />
+            <img src="/images/equipment/spiritbox.webp" alt="Spiritbox" width="125" height="125" />
           </template>
           <template #heading>{{ t('spiritbox') }}</template>
         </ContentItem>
@@ -26,7 +26,7 @@ const { t } = useI18n();
       <a href="https://www.youtube.com/watch?v=I06jPDzyG6Y" class="content">
         <ContentItem>
           <template #icon>
-            <img src="@/assets/images/equipment/sls_kamera.webp" alt="SLS-kamera" width="125" height="125" />
+            <img src="/images/equipment/sls_kamera.webp" alt="SLS-kamera" width="125" height="125" />
           </template>
           <template #heading>{{ t('sls_camera') }}</template>
         </ContentItem>
@@ -35,7 +35,7 @@ const { t } = useI18n();
       <a href="https://youtu.be/fyxAXO-zfLU?si=NPjWLBzPEYdktrlc" class="content">
         <ContentItem>
           <template #icon>
-            <img src="@/assets/images/equipment/polterscript.webp" alt="Polterscript" width="125" height="125" />
+            <img src="/images/equipment/polterscript.webp" alt="Polterscript" width="125" height="125" />
           </template>
           <template #heading>{{ t('polterscript') }}</template>
         </ContentItem>
@@ -44,7 +44,7 @@ const { t } = useI18n();
       <a href="https://www.youtube.com/watch?v=1PUrwAsEhlk" class="content">
         <ContentItem>
           <template #icon>
-            <img src="@/assets/images/equipment/paranormal_rem_static.webp" alt="PRS & PRP" width="125" height="125" />
+            <img src="/images/equipment/paranormal_rem_static.webp" alt="PRS & PRP" width="125" height="125" />
           </template>
           <template #heading>{{ t('prs_prp') }}</template>
         </ContentItem>
@@ -53,7 +53,7 @@ const { t } = useI18n();
       <a href="https://youtu.be/EedqF5DVQmk?si=fCzKToL8rPYnAbJc" class="content">
         <ContentItem>
           <template #icon>
-            <img src="@/assets/images/equipment/mel_meter.webp" alt="MEL-meter" width="125" height="125" />
+            <img src="/images/equipment/mel_meter.webp" alt="MEL-meter" width="125" height="125" />
           </template>
           <template #heading>{{ t('mel_meter') }}</template>
         </ContentItem>
@@ -62,7 +62,7 @@ const { t } = useI18n();
       <a href="https://youtu.be/t1UAxEBWC_U?si=gS62lbVfP3V8WuHo" class="content">
         <ContentItem>
           <template #icon>
-            <img src="@/assets/images/equipment/PMB.webp" alt="PMB" width="125" height="125" />
+            <img src="/images/equipment/PMB.webp" alt="PMB" width="125" height="125" />
           </template>
           <template #heading>{{ t('pmb') }}</template>
         </ContentItem>
@@ -71,7 +71,7 @@ const { t } = useI18n();
       <a href="https://youtu.be/eaNv-ir632g?si=3A50UMWIvDlGPvc-" class="content">
         <ContentItem>
           <template #icon>
-            <img src="@/assets/images/equipment/K2_matare.webp" alt="K2-mätare" width="125" height="125" />
+            <img src="/images/equipment/K2_matare.webp" alt="K2-mätare" width="125" height="125" />
           </template>
           <template #heading>{{ t('k2_meter') }}</template>
         </ContentItem>
