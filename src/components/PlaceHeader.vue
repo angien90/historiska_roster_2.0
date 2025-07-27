@@ -38,6 +38,7 @@ const props = defineProps({
 }
 
 .top-page h1 {
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
@@ -60,7 +61,7 @@ const props = defineProps({
 /* Gör text och bild responsiva på mindre skärmar */
 @media (max-width: 480px) {
   .top-page h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   .hero-image {

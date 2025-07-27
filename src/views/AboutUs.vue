@@ -2,10 +2,12 @@
 </script>
 
 <template>
-  <h1>{{ $t("aboutUs.title") }}</h1>
+    <span class="about-us">
+      <h1>{{ $t("aboutUs.title") }}</h1>
+    </span>
+    <img :src="`/images/generell/historiska_roster_i_trappa.webp`" width="400" alt="En bild på teamet" class="team-image" />
   <div class="section-content">
     <section class="section">
-      <img :src="teamImage" width="400" alt="En bild på teamet" class="team-image" />
       <h2>{{ $t("aboutUs.teamTitle") }}</h2>
       <p>{{ $t("aboutUs.teamText") }}</p>
     </section>
@@ -61,18 +63,18 @@
 
 
 <style scoped>
-.about-us {
-  max-width: 100%;
-  margin: 0 auto;
-  background-color: #252525;
-  color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+h1 {
+ 
+  font-size: 2rem;
 }
 
 h3 {
   margin-top: 2rem; 
   margin-bottom: 0;
+}
+
+p {
+  padding: 0;
 }
 
 .vision h2 {
@@ -97,7 +99,7 @@ h4 {
 .team-image {
   display: block;
   margin: 0 auto 2rem auto;
-  min-width: 40%;
+  width: 90%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
@@ -110,8 +112,17 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+  }
+
+  p {
+  padding: 20px;
+}
+  
   .team-image {
-    max-width: 40%;
+    max-width: 30%;
   }  
 }
 </style>

@@ -137,12 +137,12 @@ const menuItems = computed(() => [
 
 .hamburger {
   position: absolute;
-  font-size: 2.2rem;
+  font-size: 2rem;
   background: none;
   border: none;
   color: white;
   cursor: pointer;
-  top: -3rem;
+  top: -2.5rem;
   left: 1rem;
   z-index: 1002;
 }
@@ -154,8 +154,7 @@ const menuItems = computed(() => [
 .mobile-menu-overlay.open {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: start;
+  justify-content: left;
   position: fixed;
   top: 0;
   left: 0;
@@ -176,8 +175,8 @@ const menuItems = computed(() => [
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  align-items: center;
   justify-content: flex-start;
+  padding-left: 30px;
 }
 
 .nav-links.desktop-only {
@@ -188,6 +187,7 @@ li,
 .link {
   font-size: 1.3rem;
   text-align: center;
+  text-align: left;
 }
 
 a {
@@ -216,7 +216,7 @@ a {
   background-color: #222;
   padding: 1rem;
   top: 100%;
-  left: 0;
+  left: -0.5rem;
   list-style: none;
   z-index: 1000;
   min-width: 220px;

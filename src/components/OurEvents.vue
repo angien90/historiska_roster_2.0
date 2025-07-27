@@ -13,7 +13,7 @@ const { t } = useI18n();
         <router-link to="/PageRydalsHerrgardEvent" class="content">
         <ContentItem>
           <template #icon>
-            <img src="/images/rydals_herrgard/spokjakt.webp" alt="Rydals Herrgård" width="125" height="125" />
+            <img :src="`/images/rydals_herrgard/spokjakt.webp`" alt="Rydals Herrgård" width="125" height="125" />
           </template>
           <template #heading>{{ t('rydals_herrgard_event') }}</template>
         </ContentItem>
@@ -22,7 +22,7 @@ const { t } = useI18n();
         <router-link to="/PageMysterieMassan" class="content">
         <ContentItem>
           <template #icon>
-            <img src="/images/mysterium_massan/silja_line.webp" alt="Silja Line" width="125" height="125" />
+            <img :src="`/images/mysterium_massan/silja_line.webp`" alt="Silja Line" width="125" height="125" />
           </template>
           <template #heading>{{ t('mysterie_massan_on_sea') }}</template>
         </ContentItem>
@@ -31,7 +31,7 @@ const { t } = useI18n();
       <router-link to="/PageMysteriumMassan" class="content">
         <ContentItem>
           <template #icon>
-            <img src="/images/mysterium_massan/mysterium_massan.webp" alt="Rankhyttans Herrgård" width="125" height="125" />
+            <img :src="`/images/mysterium_massan/Mysterium_massan.webp`" alt="Rankhyttans Herrgård" width="125" height="125" />
           </template>
           <template #heading>{{ t('mysterium_massan') }}</template>
         </ContentItem>
