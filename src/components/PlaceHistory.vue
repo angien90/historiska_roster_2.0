@@ -9,7 +9,7 @@ defineProps({
   <section class="section">
     <div v-for="(section, index) in content" :key="index" class="history-section">
       <h2>{{ section.heading }}</h2>
-      <p v-for="(paragraph, pIndex) in section.text" :key="pIndex">{{ paragraph }}</p>
+      <p v-for="(paragraph, pIndex) in section.text" :key="pIndex" v-html="paragraph"></p>
     </div>
     <div v-if="image" class="history-image">
       <a :href="image.src" target="_blank" rel="noopener">

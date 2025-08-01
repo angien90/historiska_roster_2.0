@@ -8,6 +8,8 @@ import AboutUs from './AboutUs.json';
 import MapView from './MapView.json';
 import GhostSchool from './GhostSchool.json';
 import OurEvents from './OurEvents.json';
+import NewsSection from './NewsSection.json';
+import OurReviews from './OurReviews.json';
 // Importera fler engelska filer här 
 
 export default {
@@ -21,6 +23,8 @@ export default {
     ...AboutUs,
     ...MapView,
     ...GhostSchool,
+    ...NewsSection,
+    ...OurReviews,
     // Lägg till fler engelska objekt här
 };
 

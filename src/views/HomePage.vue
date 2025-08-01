@@ -1,6 +1,7 @@
 <script setup>
 import TopNav from '../components/TopNav.vue';
-import TopPage from '../components/TopPage.vue'
+import TopPage from '../components/TopPage.vue';
+import NewsSection from '@/components/NewsSection.vue';
 import UpComing from '../components/UpComing.vue';
 import CompletedTasks from '../components/CompletedTasks.vue';
 import EducationItems from '@/components/EducationItems.vue';
@@ -14,6 +15,7 @@ import OurEvents from '@/components/OurEvents.vue';
   </header>
 
   <main>
+    <NewsSection />
     <UpComing />
     <CompletedTasks />
     <OurEvents />

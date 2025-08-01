@@ -12,6 +12,7 @@ import PageGathenhielmskaHuset from '@/views/PageGathenhielmskaHuset.vue';
 import PageMysterieMassan from '@/views/PageMysterieMassan.vue';
 import PageMysteriumMassan from '@/views/PageMysteriumMassan.vue';
 import PageRydalsHerrgardEvent from '@/views/PageRydalsHerrgardEvent.vue';
+import PageSpirituellMassa from '@/views/PageSpirituellMassa.vue';
 
 const routes = [
   { path: '/', name: 'HomePage', component: HomePage },
@@ -26,7 +27,8 @@ const routes = [
   { path: '/PageGathenhielmskaHuset', name: 'PageGathenhielmskaHuset', component: PageGathenhielmskaHuset },
   { path: '/PageMysterieMassan', name: 'PageMysterieMassan', component: PageMysterieMassan },
   { path: '/PageMysteriumMassan', name: 'PageMysteriumMassan', component: PageMysteriumMassan },
-   { path: '/PageRydalsHerrgardEvent', name: 'PageRydalsHerrgardEvent', component: PageRydalsHerrgardEvent },
+  { path: '/PageRydalsHerrgardEvent', name: 'PageRydalsHerrgardEvent', component: PageRydalsHerrgardEvent },
+  { path: '/PageSpirituellMassa', name: 'PageSpirituellMassa', component: PageSpirituellMassa },
 ];
 
 const router = createRouter({

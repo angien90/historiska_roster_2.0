@@ -1,4 +1,5 @@
 <script setup>
+import OurReviews from '@/components/OurReviews.vue';
 </script>
 
 <template>
@@ -59,6 +60,7 @@
       <p v-for="(text, index) in $tm('aboutUs.cooperationText')" :key="index" v-html="text" />
     </section>
   </div>
+  <OurReviews />
 </template>
 
 
@@ -87,7 +89,7 @@ p {
 }
 
 h4 {
-  margin-bottom: 0;
+  margin-bottom: -10px;
 }
 
 .back-link {
@@ -116,6 +118,10 @@ h4 {
     font-size: 4rem;
     padding-bottom: 20px;
   }
+
+  h4 {
+  margin-bottom: -25px;
+}
 
   p {
   padding: 20px;

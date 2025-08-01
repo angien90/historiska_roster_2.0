@@ -35,13 +35,16 @@ import ghostImage from '/images/generell/empty_room_with_ghost.webp'
   gap: 2rem;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 .upcoming-image {
   width: 300px;
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
   align-self: center;
-  padding-top: 30px;
 }
 
 @media (min-width: 768px) {
@@ -58,6 +61,7 @@ import ghostImage from '/images/generell/empty_room_with_ghost.webp'
 
   .upcoming-image {
     width: 400px;
+    padding-top: 0;
   }
 }
 
@@ -68,6 +72,7 @@ import ghostImage from '/images/generell/empty_room_with_ghost.webp'
 
   .upcoming-image {
     width: 500px;
+    
   }
 }
 </style>

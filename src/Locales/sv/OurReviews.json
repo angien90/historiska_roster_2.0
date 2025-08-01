@@ -1,0 +1,23 @@
+{
+  "reviews_heading": "Recensioner",
+  "reviews": [
+    {
+      "text": "Vi är tacksamma och glada över att sällskapet Historiska Röster valde just Rydals Herrgård för sina efterforskningar. De stannade hos oss ett par dar för att känna in om det fanns någon sanning i all de känslor på påtaglig närvaro som personer berättat om i över 150 år. Historiska Röster bjöd sedan in oss för att få vara med om och själva uppleva det som de kommit fram till. De tvar en otrolig och upplevelserik kväll, respektfull och informativ, och vi är mycket fascinerade över deras arbete och glada över att få ha varit en del av detta.",
+      "name": "Sara Söderberg",
+      "handle": "@rydalsherrgard",
+      "image": "/images/rydals_herrgard/rydals_herrgard.webp"
+    },
+    {
+      "text": "Fick förmånen att vara med Historiska Röster på en utredning i det Hemsökta Museet och blev tagen av deras noggrannhet och framför allt respekt för det vi inte kan se och ta på. Jag kan varmt rekommendera Historiska Röster till framtida utredningar",
+      "name": "Jan Barck",
+      "handle": "@hemsoktmuseum",
+      "image": "/images/hemsokta_museet/Hemsokta_museet.webp"
+    },
+    {
+      "text": "Historiska Rösters utredning var en fascinerande upplevelse. Deras arbete kännetecknas av en stor respekt för det förflutna och känsla för ansvar. De lämnade platserna i samma skick som när de kom",
+      "name": "Victor Conrad",
+      "handle": "@vaffelstuganiwamopark",
+      "image": "/images/hjortsberga/Hjortsberga.webp"
+    }
+  ]
+}
