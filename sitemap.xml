@@ -8,88 +8,73 @@
 
 
 <url>
-  <loc>https://historiskaroster.se/</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/index.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/AboutUs</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/about_us.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/MapView</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/mysterium_massan_on_sea.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageSpirituellMassa</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/annas_bed_and_kitchen.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageRydalsHerrgard</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/hotell_gastis.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageRankhyttan</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/rankhyttan.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageGathenhielmskaHuset</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/gathenhielmska_huset.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageHemsoktaMuseet</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/hemsokta_museet.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageHjortsberga</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/hjortsberga.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageFrammegarden</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/frammegarden.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageRydalsHerrgardEvent</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/mysterium_massan.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
+  <loc>https://www.historiskaroster.se/PageMysterieMassan</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/asundsholms_herrgard.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.historiskaroster.se/PageMysteriumMassan</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://historiskaroster.se/rydals_herrgard.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://historiskaroster.se/jagarensgrav.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://historiskaroster.se/falks_grav.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://historiskaroster.se/barnmördarkorset.html</loc>
-  <lastmod>2025-03-27T20:02:30+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.historiskaroster.se/ghostschool</loc>
+  <lastmod>2025-08-05T20:02:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 </urlset>
