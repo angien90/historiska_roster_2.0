@@ -1,21 +1,9 @@
 <script setup>
 defineProps({
-  resultTitle: {
-    type: String,
-    required: true
-  },
-  results: {
-    type: Array,
-    required: true
-  },
-  videos: {
-    type: Array,
-    required: false
-  },
-  videoSectionTitle: {
-    type: String,
-    required: false
-  }
+  resultTitle: String,
+  results: Array,
+  videos: Array,
+  videoSectionTitle: String,
 });
 </script>
 
@@ -26,21 +14,30 @@ defineProps({
     <div v-for="result in results" :key="result.title">
       <h3>{{ result.title }}</h3>
       <div v-for="(paragraph, i) in result.text" :key="i">
-      <p>{{ paragraph }}</p>
-    </div>
+        <p>{{ paragraph }}</p>
+      </div>
     </div>
 
-    <!-- Filmsektion -->
-    <div v-if="videos && videos.length" class="video-section">
+    <div v-if="videos?.length" class="video-section">
       <h3>{{ videoSectionTitle }}</h3>
-      <article v-for="(video, index) in videos" :key="index" class="video-wrapper">
-        <iframe v-if="video.includes('youtube.com') || video.includes('youtu.be')" :src="video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <article
+        v-for="(video, index) in videos"
+        :key="index"
+        class="video-wrapper"
+      >
+        <iframe
+          v-if="video.includes('youtube.com') || video.includes('youtu.be')"
+          :src="video"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <video v-else controls>
           <source :src="video" type="video/mp4" />
           Din webbläsare har inte stöd för videouppspelning.
         </video>
       </article>
-          </div>
+    </div>
   </section>
 </template>
 
@@ -56,7 +53,7 @@ defineProps({
 .video-wrapper {
   position: relative;
   width: 100%;
-  max-width: 320px; 
+  max-width: 600px;
   aspect-ratio: 16 / 9;
 }
 

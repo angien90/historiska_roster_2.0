@@ -1,12 +1,17 @@
 <script setup>
-import OurReviews from '@/components/OurReviews.vue';
+import OurReviews from "../components/OurReviews.vue";
 </script>
 
 <template>
-    <span class="about-us">
-      <h1>{{ $t("aboutUs.title") }}</h1>
-    </span>
-    <img :src="`/images/generell/historiska_roster_i_trappa.webp`" width="400" alt="En bild på teamet" class="team-image" />
+  <span class="about-us">
+    <h1>{{ $t("aboutUs.title") }}</h1>
+  </span>
+  <img
+    :src="`/images/generell/historiska_roster_i_trappa.webp`"
+    width="400"
+    alt="En bild på teamet"
+    class="team-image"
+  />
   <div class="section-content">
     <section class="section">
       <h2>{{ $t("aboutUs.teamTitle") }}</h2>
@@ -52,26 +57,32 @@ import OurReviews from '@/components/OurReviews.vue';
 
     <section class="section">
       <h2>{{ $t("aboutUs.howWeInvestigate") }}</h2>
-      <p v-for="(text, index) in $tm('aboutUs.howWeInvestigateText')" :key="index" v-html="text" />
+      <p
+        v-for="(text, index) in $tm('aboutUs.howWeInvestigateText')"
+        :key="index"
+        v-html="text"
+      />
     </section>
 
     <section class="section">
       <h2>{{ $t("aboutUs.interestedInCooperation") }}</h2>
-      <p v-for="(text, index) in $tm('aboutUs.cooperationText')" :key="index" v-html="text" />
+      <p
+        v-for="(text, index) in $tm('aboutUs.cooperationText')"
+        :key="index"
+        v-html="text"
+      />
     </section>
   </div>
   <OurReviews />
 </template>
 
-
 <style scoped>
 h1 {
- 
   font-size: 2rem;
 }
 
 h3 {
-  margin-top: 2rem; 
+  margin-top: 2rem;
   margin-bottom: 0;
 }
 
@@ -98,15 +109,6 @@ h4 {
   font-size: 1.8rem;
 }
 
-.team-image {
-  display: block;
-  margin: 0 auto 2rem auto;
-  width: 90%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
-}
-
 .ledord-wrapper {
   display: grid;
   gap: 1.5rem;
@@ -120,15 +122,11 @@ h4 {
   }
 
   h4 {
-  margin-bottom: -25px;
-}
+    margin-bottom: -25px;
+  }
 
   p {
-  padding: 20px;
-}
-  
-  .team-image {
-    max-width: 30%;
-  }  
+    padding: 20px;
+  }
 }
 </style>

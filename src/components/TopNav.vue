@@ -1,6 +1,6 @@
 <script setup>
-import { useI18n } from 'vue-i18n';
-import { ref, computed } from 'vue';
+import { useI18n } from "vue-i18n";
+import { ref, computed } from "vue";
 
 const { t } = useI18n();
 const isOpen = ref(false);
@@ -11,75 +11,109 @@ const toggleMenu = () => {
 
 const menuItems = computed(() => [
   {
-    label: t('about_us'),
-    to: '/AboutUs'
+    label: t("about_us"),
+    to: "/AboutUs",
   },
   {
-    label: t('visited_places'),
+    label: t("visited_places"),
     children: [
-      { label: t('dropdown.mapView'), to: '/MapView' },
-      { label: t('dropdown.pageRydalsHerrgard'), to: '/PageRydalsHerrgard' },
-      { label: t('dropdown.pageRankhyttan'), to: '/PageRankhyttan' },
-      { label: t('dropdown.pageGathenhielmskaHuset'), to: '/PageGathenhielmskaHuset' },
-      { label: t('dropdown.pageHemsoktaMuseet'), to: '/PageHemsoktaMuseet' },
-      { label: t('dropdown.pageHjortsberga'), to: '/PageHjortsberga' },
-      { label: t('dropdown.pageFrammegarden'), to: '/PageFrammegarden' }
-    ]
+      { label: t("dropdown.mapView"), to: "/MapView" },
+      { label: t("dropdown.pageRydalsHerrgard"), to: "/PageRydalsHerrgard" },
+      { label: t("dropdown.pageRankhyttan"), to: "/PageRankhyttan" },
+      {
+        label: t("dropdown.pageGathenhielmskaHuset"),
+        to: "/PageGathenhielmskaHuset",
+      },
+      { label: t("dropdown.pageHemsoktaMuseet"), to: "/PageHemsoktaMuseet" },
+      { label: t("dropdown.pageHjortsberga"), to: "/PageHjortsberga" },
+      { label: t("dropdown.pageFrammegarden"), to: "/PageFrammegarden" },
+    ],
   },
   {
-    label: t('other_events'),
+    label: t("other_events"),
     children: [
-      { label: t('dropdown.pageRydalsHerrgardEvent'), to: '/PageRydalsHerrgardEvent' },
-      { label: t('dropdown.pageMysterieMassan'), to: '/PageMysterieMassan' },
-      { label: t('dropdown.pageMysteriumMassan'), to: '/PageMysteriumMassan' },
-      ]
+      {
+        label: t("dropdown.pageRydalsHerrgardEvent"),
+        to: "/PageRydalsHerrgardEvent",
+      },
+      { label: t("dropdown.pageMysterieMassan"), to: "/PageMysterieMassan" },
+      { label: t("dropdown.pageMysteriumMassan"), to: "/PageMysteriumMassan" },
+    ],
   },
   {
-    label: t('education'),
+    label: t("education"),
     children: [
-      { label: t('dropdown.ghost_school'), to: '/ghostschool' },
-      { label: t('dropdown.spiritbox'), href: 'https://www.youtube.com/watch?v=2FDUA-i3GbM' },
-      { label: t('dropdown.sls_camera'), href: 'https://www.youtube.com/watch?v=I06jPDzyG6Y' },
-      { label: t('dropdown.polterscript'), href: 'https://youtu.be/fyxAXO-zfLU?si=NPjWLBzPEYdktrlc' },
-      { label: t('dropdown.prs_prp'), href: 'https://www.youtube.com/watch?v=1PUrwAsEhlk' },
-      { label: t('dropdown.mel_meter'), href: 'https://youtu.be/EedqF5DVQmk?si=fCzKToL8rPYnAbJc' },
-      { label: t('dropdown.pmb'), href: 'https://youtu.be/t1UAxEBWC_U?si=gS62lbVfP3V8WuHo' },
-      { label: t('dropdown.k2_meter'), href: 'https://youtu.be/eaNv-ir632g?si=3A50UMWIvDlGPvc-' }
-    ]
+      { label: t("dropdown.ghost_school"), to: "/ghostschool" },
+      {
+        label: t("dropdown.spiritbox"),
+        href: "https://www.youtube.com/watch?v=2FDUA-i3GbM",
+      },
+      {
+        label: t("dropdown.sls_camera"),
+        href: "https://www.youtube.com/watch?v=I06jPDzyG6Y",
+      },
+      {
+        label: t("dropdown.polterscript"),
+        href: "https://youtu.be/fyxAXO-zfLU?si=NPjWLBzPEYdktrlc",
+      },
+      {
+        label: t("dropdown.prs_prp"),
+        href: "https://www.youtube.com/watch?v=1PUrwAsEhlk",
+      },
+      {
+        label: t("dropdown.mel_meter"),
+        href: "https://youtu.be/EedqF5DVQmk?si=fCzKToL8rPYnAbJc",
+      },
+      {
+        label: t("dropdown.pmb"),
+        href: "https://youtu.be/t1UAxEBWC_U?si=gS62lbVfP3V8WuHo",
+      },
+      {
+        label: t("dropdown.k2_meter"),
+        href: "https://youtu.be/eaNv-ir632g?si=3A50UMWIvDlGPvc-",
+      },
+    ],
   },
   {
-    label: t('social_media'),
+    label: t("social_media"),
     children: [
-      { label: t('dropdown.youtube'), href: 'https://www.youtube.com/@HistoriskaR%C3%B6ster' },
-      { label: t('dropdown.instagram'), href: 'https://www.instagram.com/historiskaroster' },
-      { label: t('dropdown.tiktok'), href: 'https://www.tiktok.com/@historiskaroster' }
-    ]
+      {
+        label: t("dropdown.youtube"),
+        href: "https://www.youtube.com/@HistoriskaR%C3%B6ster",
+      },
+      {
+        label: t("dropdown.instagram"),
+        href: "https://www.instagram.com/historiskaroster",
+      },
+      {
+        label: t("dropdown.tiktok"),
+        href: "https://www.tiktok.com/@historiskaroster",
+      },
+    ],
   },
   {
-    label: t('contact_us'),
-    href: 'mailto:historiskaroster@outlook.com'
+    label: t("contact_us"),
+    href: "mailto:historiskaroster@outlook.com",
   },
   {
-    label: t('tip_us'),
-    href: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__4JvANBURjRBUktXSjhNVDAzRllESlFaSDI4UlFRVC4u'
-  }
+    label: t("tip_us"),
+    href: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__4JvANBURjRBUktXSjhNVDAzRllESlFaSDI4UlFRVC4u",
+  },
 ]);
 </script>
-
 
 <template>
   <nav class="navbar" role="navigation" aria-label="Main Menu">
     <button
       class="hamburger"
-      @click="toggleMenu"
       :aria-expanded="isOpen.toString()"
       aria-controls="nav-links"
       :aria-label="isOpen ? t('close_menu') : t('open_menu')"
+      @click="toggleMenu"
     >
-      {{ isOpen ? '✕' : '☰' }}
+      {{ isOpen ? "✕" : "☰" }}
     </button>
 
-    <!-- Mobilmeny (overlay) -->
     <div :class="['mobile-menu-overlay', { open: isOpen }]">
       <ul class="nav-links mobile-only">
         <template v-for="(item, index) in menuItems" :key="index">
@@ -101,7 +135,6 @@ const menuItems = computed(() => [
       </ul>
     </div>
 
-    <!-- Desktopmeny (samma struktur) -->
     <ul class="nav-links desktop-only">
       <template v-for="(item, index) in menuItems" :key="'d' + index">
         <li v-if="!item.children">
@@ -121,8 +154,6 @@ const menuItems = computed(() => [
       </template>
     </ul>
   </nav>
-
-  <div class="gradient-line"></div>
 </template>
 
 <style scoped>
@@ -130,9 +161,12 @@ const menuItems = computed(() => [
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 1rem;
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   position: relative;
   z-index: 1001;
+  color: var(--color-text, #fff);
 }
 
 .hamburger {
@@ -140,11 +174,16 @@ const menuItems = computed(() => [
   font-size: 2rem;
   background: none;
   border: none;
-  color: white;
+  color: var(--color-text, #fff);
   cursor: pointer;
-  top: -2.5rem;
-  left: 1rem;
+  top: -5px;
   z-index: 1002;
+  transition: transform 0.3s ease;
+  font-family: var(--font-display);
+}
+
+.hamburger:hover {
+  transform: scale(1.1);
 }
 
 .mobile-menu-overlay {
@@ -154,15 +193,17 @@ const menuItems = computed(() => [
 .mobile-menu-overlay.open {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: flex-start;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.95);
+  background: linear-gradient(to bottom, #111, var(--color-background));
   z-index: 1000;
   padding-top: 6rem;
+  padding-left: 2rem;
+  color: var(--color-text);
 }
 
 .nav-links {
@@ -175,26 +216,31 @@ const menuItems = computed(() => [
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  justify-content: flex-start;
-  padding-left: 30px;
 }
 
 .nav-links.desktop-only {
   display: none;
 }
 
-li,
-.link {
-  font-size: 1.3rem;
-  text-align: center;
+li {
   text-align: left;
 }
 
-a {
+a,
+.link,
+.dropbtn {
   text-decoration: none;
-  text-transform: lowercase;
-  color: white;
-  font-weight: normal;
+  color: var(--color-text);
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-family: var(--font-display);
+}
+
+a:hover,
+.link:hover,
+.dropbtn:hover {
+  color: #ff5c00;
 }
 
 .dropdown {
@@ -204,24 +250,23 @@ a {
 .dropbtn {
   background: none;
   border: none;
-  color: white;
-  font-size: 1.3rem;
   cursor: pointer;
-  font-family: "Caesar Dressing", cursive;
+  font-family: var(--font-display);
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #222;
+  background-color: #181818;
   padding: 1rem;
   top: 100%;
-  left: -0.5rem;
+  left: 0;
   list-style: none;
   z-index: 1000;
-  min-width: 220px;
+  min-width: 240px;
   border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+  transition: opacity 0.2s ease;
 }
 
 .dropdown:hover .dropdown-content {
@@ -229,13 +274,12 @@ a {
 }
 
 .dropdown-content li {
-  text-align: left;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
   white-space: nowrap;
 }
 
-.dropdown-content li:hover {
-  text-decoration: underline;
+.dropdown-content li:last-child {
+  margin-bottom: 0;
 }
 
 .gradient-line {
@@ -243,24 +287,43 @@ a {
 }
 
 @media (min-width: 768px) {
-  li,
+  a,
   .link,
-  .dropbtn,
-  a {
-    font-size: 1.6rem;
+  .dropbtn {
+    font-size: 1.5rem;
   }
 }
 
 @media (min-width: 1130px) {
+.navbar {
+  width: 100%;
+  padding-top: 0;
+}
+
   .hamburger {
     display: none;
   }
 
+  a,
   .link,
-  .dropbtn,
-  a {
-    display: flex;
-    font-size: clamp(1rem, 0.7vw + 1rem, 1.6rem);
+  .dropbtn {
+    font-size: clamp(1rem, 1.7vw, 1.7rem);
+  }
+
+  .dropdown-content {
+    min-width: 280px;
+    padding: 1.2rem;
+  }
+
+  .dropdown-content li {
+    font-size: 1.2rem;
+    padding: 0.4rem 0;
+  }
+
+  .nav-links.desktop-only a,
+  .nav-links.desktop-only .link,
+  .nav-links.desktop-only .dropbtn {
+    white-space: nowrap;
   }
 
   .mobile-menu-overlay,
@@ -270,16 +333,22 @@ a {
 
   .nav-links.desktop-only {
     display: flex;
-    gap: 2.5rem;
+    justify-content: space-between;
     align-items: center;
-  }
-
-  .gradient-line {
-    display: flex;
+    width: 90%;
+    gap: 2rem;
   }
 
   .dropdown-content li {
     width: auto;
+  }
+
+  .gradient-line {
+    display: block;
+  }
+
+  .hidden {
+    display: none !important;
   }
 }
 </style>

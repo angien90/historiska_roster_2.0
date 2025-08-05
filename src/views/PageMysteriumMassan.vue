@@ -1,19 +1,19 @@
 <script setup>
-import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
 
-import PlaceHeader from '../components/PlaceHeader.vue'
-import PlaceHistory from '../components/PlaceHistory.vue'
-import PlaceResult from '../components/PlaceResult.vue'
-import PlaceReadMore from '../components/PlaceReadMore.vue'
+import PlaceHeader from "../components/PlaceHeader.vue";
+import PlaceHistory from "../components/PlaceHistory.vue";
+import PlaceResult from "../components/PlaceResult.vue";
+import PlaceReadMore from "../components/PlaceReadMore.vue";
 
-import mysteriumMassan_sv from '../Locales/sv/MysteriumMassan.json'
-import mysteriumMassan_en from '../Locales/en/MysteriumMassan.json'
+import mysteriumMassan_sv from "../Locales/sv/MysteriumMassan.json";
+import mysteriumMassan_en from "../Locales/en/MysteriumMassan.json";
 
 const { locale } = useI18n();
 
 const mysteriumMassan = computed(() => {
-  return locale.value === 'sv' ? mysteriumMassan_sv : mysteriumMassan_en;
+  return locale.value === "sv" ? mysteriumMassan_sv : mysteriumMassan_en;
 });
 </script>
 
@@ -25,18 +25,16 @@ const mysteriumMassan = computed(() => {
       :date="mysteriumMassan.investigationDate"
       :image="mysteriumMassan.image"
     />
-    <PlaceHistory
-      :content="mysteriumMassan.history"
-    />
-    <PlaceResult 
+    <PlaceHistory :content="mysteriumMassan.history" />
+    <PlaceResult
       :resultTitle="mysteriumMassan.resultTitle"
       :videoSectionTitle="mysteriumMassan.videoSectionTitle"
-      :results="mysteriumMassan.results" 
-      :videos="mysteriumMassan.videos" 
+      :results="mysteriumMassan.results"
+      :videos="mysteriumMassan.videos"
     />
-    <PlaceReadMore 
+    <PlaceReadMore
       :moreTitle="mysteriumMassan.moreTitle"
-      :more="mysteriumMassan.more" 
+      :more="mysteriumMassan.more"
     />
   </div>
   <div v-else>

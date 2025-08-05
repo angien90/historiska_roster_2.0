@@ -1,15 +1,15 @@
 <script setup>
-import OurReviewsItem from './OurReviewsItem.vue';
-import { useI18n } from 'vue-i18n';
-import { computed } from 'vue';
+import OurReviewsItem from "./OurReviewsItem.vue";
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 
 const { t, tm } = useI18n();
-const reviews = computed(() => tm('reviews'));
+const reviews = computed(() => tm("reviews"));
 </script>
 
 <template>
   <section class="reviews-section">
-    <h2 class="section-title">{{ t('reviews_heading') }}</h2>
+    <h2 class="section-title">{{ t("reviews_heading") }}</h2>
     <div class="content-wrapper">
       <OurReviewsItem
         v-for="(review, index) in reviews"
@@ -42,12 +42,11 @@ const reviews = computed(() => tm('reviews'));
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  flex-direction: column; 
 }
 
 @media (min-width: 768px) {
   .content-wrapper {
-    flex-direction: row; 
+    flex-direction: row;
   }
 }
 </style>

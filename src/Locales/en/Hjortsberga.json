@@ -5,7 +5,7 @@
   "image": "/images/hjortsberga/Hjortsberga.webp",
   "history": [
     {
-      "heading": "History of Hjortsberga",
+      "heading1": "History of Hjortsberga",
       "text": [
         "The oldest documented vicarage was located east of the church. In 1757 it burned down, and a new one was promptly built on the other side of the stream, further south. Remains from the fire-damaged vicarage were moved to Tving (Lilla Näs 4). This happened during the time of Sante Johan Santesson, vicar of Hjortsberga Church. In the house, a wooden plank was found with the inscription: “In 1757, Vicar Sante Johan Santesson had this building newly constructed. The carpenter from Runneby, Hans Broman, made the windows and door.” During the 19th century, the vicarage was a gathering place for local farmers and fishermen, and it also functioned as a school for the village children. The vicarage was in use until 1938, when it was replaced by a new building constructed next to the old one during Pastor Robert Bosson’s tenure. The old vicarage was later dismantled and moved to Vämöparken in Karlskrona in 1941.",
         "When the house was reassembled, efforts were made to preserve the original features, but some doors were replaced with ones from other properties. None of the tiled stoves are originally from the house. In the hallway, the interior painting was preserved, while the upstairs wallpaper was reconstructed based on fragments. The furniture in the house comes from various locations and is not originally from the vicarage. Furniture has been moved inside Hjortsberga vicarage, and impressions were left in an old cradle. Mysterious footsteps, children's voices, and barking dogs have been heard. It is said that the ghost is named Hulda and that she followed when the house was moved to Karlskrona.",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "heading": "Hjortsberga Church",
+      "heading2": "Hjortsberga Church",
       "text": [
         "Hjortsberga Church was built in the early 13th century and is considered one of the oldest in Blekinge.",
         "It is also said to be haunted. One time, a 200-kilo chandelier suddenly detached from the church ceiling and nearly fell directly onto the then sexton, Håkan Lennartsson. He survived with only minor injuries.",
@@ -24,19 +24,19 @@
       ]
     },
     {
-      "heading": "The Witch Trials in Blekinge",
+      "heading2": "The Witch Trials in Blekinge",
       "text": [
         "In 1679, witch burnings took place in Blekinge. On January 20, Bengta Bengtsdotter and Olefva Torstensdotter, two women from the town’s lowest social classes, were imprisoned for witchcraft. The 50-year-old Bengta, a newcomer, freely confessed to causing the burgher’s wife Margareta Feier to fall severely ill by casting bewitched salt on the vicarage walls. However, she placed all the blame on Olefva, who had provided her with the salt. Danish law, still in effect in Ronneby at the time, allowed torture, which was used on both women. Bengta soon broke under the pain, but Olefva remained silent.",
         "Over the three months the trial lasted, both the witnesses’ and the accused’s stories grew increasingly imaginative. When proceedings finally ended, Bengta was sentenced to death. Olefva was also sentenced, largely based on Bengta’s accusations and a few rash statements extracted under torture. By the time the sentences could be carried out in October 1679, Bengta had died a natural death in her prison cell. Before her death, she recanted everything and admitted it had all been lies and fabrications. Nonetheless, Knut Hahn and the clergy managed to persuade Olefva that she should be executed anyway—on the grounds of fornication, misuse of the Lord’s Prayer during priestly blessings, and superstition. Olefva was publicly executed by beheading, followed by burning at the stake at Johannishus gallows hill."
       ]
     },
     {
-      "heading": "The Johannishus Murder of 1899",
+      "heading2": "The Johannishus Murder of 1899",
       "text": [
         "Theodor Julius Sallrot (born 1879) came from a wealthy family, but he did not want to ask them for money to support his extravagant lifestyle. Just before the murder, he had taken an expensive two-week vacation to Germany. He had used up his own money and also spent the insurance premiums of a company for which he was an agent. The day before the murder, the company demanded he repay the debt immediately or face police action.",
         "This led Sallrot, who worked as a station clerk, to murder his colleague Ernst Cederberg (born 1880), who also worked at the railway station, to steal 330 kronor from a cashbox. The next morning, Cederberg’s brutally battered body was found in a potato field not far from the station. Injuries from the struggle and other evidence quickly made Sallrot a suspect. He initially denied everything, but after a few days in custody, he confessed. Shortly after sunrise on July 5, 1900, Sallrot was executed in the courtyard of the county prison in Karlskrona."
       ]
-  }
+    }
   ],
   "resultTitle": "Summary from Our Investigation",
   "videoSectionTitle": "Join Us on the Investigation",
@@ -52,9 +52,7 @@
       ]
     }
   ],
-  "videos": [
-    "https://www.youtube.com/embed/u7hD9J2ORYo?si=PPTHxrpsRzhWVhdW"
-  ],
+  "videos": ["https://www.youtube.com/embed/u7hD9J2ORYo?si=PPTHxrpsRzhWVhdW"],
   "moreTitle": "Learn more about Hjortsberga & the Waffle Cottage",
   "more": "Explore the official page of the Waffle Cottage <a href=\"https://vaffelstugan.com/\" target=\"_blank\">here</a> to discover even more information about this fantastic place. And if you get the chance, don’t miss visiting the Waffle Cottage and admiring Hjortsberga Herrgård."
 }

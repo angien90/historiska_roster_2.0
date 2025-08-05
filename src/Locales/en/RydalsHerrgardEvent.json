@@ -5,26 +5,26 @@
   "image": "/images/rydals_herrgard/meny_spokjakt.webp",
   "history": [
     {
-    "heading": "The Event",
-    "text": [
-      "On May 30th, we hosted an event together with Rydals Manor, where our guests were treated to a three-course dinner in the company of like-minded people with a shared interest in the supernatural.",
-      "During the dinner, we shared our paranormal experiences, which was not only exciting to listen to – it also helped create a warm and trusting atmosphere within the group.",
-      "After the dinner, participants were introduced to the equipment used in ghost investigations, with the opportunity to test it themselves – either individually or in groups, depending on what they felt most comfortable with. Throughout the evening, several guests experienced unexpected activity through various instruments and methods."
-    ]
-  },
-{
-  "heading": "What the Guests Experienced",
-  "text": [
-    "In the bed in the red room, a static field appeared, and immediately after, one of the owners felt a touch on their leg.",
-    "Mapping of children in the attic.",
-    "Mapping of an adult figure by the piano in the dining room.",
-    "Mapping of a figure in the suite, and after some follow-up questions, it turned out to be Torsten Ek. When asked to stand next to one of the owners, the figure moved there.",
-    "The PMB activated in the dining room when no one was present. This was observed via surveillance.",
-    "Participants who wanted to take a short break or step back from the ghost hunt could sit in the surveillance room and follow the others through the monitoring cameras. Even here, they witnessed fascinating phenomena such as orbs and the communication coming through.",
-    "The PMB activated immediately on the staircase as we were demonstrating how the equipment worked."
-    ]
-  }
-],
+      "heading1": "The Event",
+      "text": [
+        "On May 30th, we hosted an event together with Rydals Manor, where our guests were treated to a three-course dinner in the company of like-minded people with a shared interest in the supernatural.",
+        "During the dinner, we shared our paranormal experiences, which was not only exciting to listen to – it also helped create a warm and trusting atmosphere within the group.",
+        "After the dinner, participants were introduced to the equipment used in ghost investigations, with the opportunity to test it themselves – either individually or in groups, depending on what they felt most comfortable with. Throughout the evening, several guests experienced unexpected activity through various instruments and methods."
+      ]
+    },
+    {
+      "heading2": "What the Guests Experienced",
+      "text": [
+        "In the bed in the red room, a static field appeared, and immediately after, one of the owners felt a touch on their leg.",
+        "Mapping of children in the attic.",
+        "Mapping of an adult figure by the piano in the dining room.",
+        "Mapping of a figure in the suite, and after some follow-up questions, it turned out to be Torsten Ek. When asked to stand next to one of the owners, the figure moved there.",
+        "The PMB activated in the dining room when no one was present. This was observed via surveillance.",
+        "Participants who wanted to take a short break or step back from the ghost hunt could sit in the surveillance room and follow the others through the monitoring cameras. Even here, they witnessed fascinating phenomena such as orbs and the communication coming through.",
+        "The PMB activated immediately on the staircase as we were demonstrating how the equipment worked."
+      ]
+    }
+  ],
   "moreTitle": "More About Rydals Manor",
   "more": "You can read more about Rydals Manor and our investigation on <a href='/PageRydalsHerrgard'>this page</a>."
 }

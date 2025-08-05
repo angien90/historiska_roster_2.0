@@ -1,22 +1,22 @@
 <script setup>
-import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
 
-import PlaceHeader from '../components/PlaceHeader.vue'
-import PlaceHistory from '../components/PlaceHistory.vue'
-import PlaceGhostStory from '../components/PlaceGhostStory.vue'
-import PlaceHistoricalEvents from '../components/PlaceHistoricalEvents.vue'
-import PlaceGallery from '../components/PlaceGallery.vue'
-import PlaceResult from '../components/PlaceResult.vue'
-import PlaceReadMore from '../components/PlaceReadMore.vue'
+import PlaceHeader from "../components/PlaceHeader.vue";
+import PlaceHistory from "../components/PlaceHistory.vue";
+import PlaceGhostStory from "../components/PlaceGhostStory.vue";
+import PlaceHistoricalEvents from "../components/PlaceHistoricalEvents.vue";
+import PlaceGallery from "../components/PlaceGallery.vue";
+import PlaceResult from "../components/PlaceResult.vue";
+import PlaceReadMore from "../components/PlaceReadMore.vue";
 
-import rydalsHerrgard_sv from '../Locales/sv/RydalsHerrgard.json'
-import rydalsHerrgard_en from '../Locales/en/RydalsHerrgard.json'
+import rydalsHerrgard_sv from "../Locales/sv/RydalsHerrgard.json";
+import rydalsHerrgard_en from "../Locales/en/RydalsHerrgard.json";
 
 const { locale } = useI18n();
 
 const rydalsHerrgard = computed(() => {
-  return locale.value === 'sv' ? rydalsHerrgard_sv : rydalsHerrgard_en;
+  return locale.value === "sv" ? rydalsHerrgard_sv : rydalsHerrgard_en;
 });
 </script>
 
@@ -28,30 +28,28 @@ const rydalsHerrgard = computed(() => {
       :date="rydalsHerrgard.investigationDate"
       :image="rydalsHerrgard.image"
     />
-    <PlaceHistory
-      :content="rydalsHerrgard.history"
-    />
-    <PlaceGhostStory 
+    <PlaceHistory :content="rydalsHerrgard.history" />
+    <PlaceGhostStory
       :storyTitle="rydalsHerrgard.storyTitle"
       :stories="rydalsHerrgard.stories"
     />
     <PlaceHistoricalEvents
       :eventTitle="rydalsHerrgard.eventTitle"
-      :events="rydalsHerrgard.events" 
+      :events="rydalsHerrgard.events"
     />
-    <PlaceGallery 
-      :galleryTitle="rydalsHerrgard.galleryTitle" 
-      :gallery="rydalsHerrgard.gallery" 
+    <PlaceGallery
+      :galleryTitle="rydalsHerrgard.galleryTitle"
+      :gallery="rydalsHerrgard.gallery"
     />
-    <PlaceResult 
+    <PlaceResult
       :resultTitle="rydalsHerrgard.resultTitle"
       :videoSectionTitle="rydalsHerrgard.videoSectionTitle"
-      :results="rydalsHerrgard.results" 
-      :videos="rydalsHerrgard.videos" 
+      :results="rydalsHerrgard.results"
+      :videos="rydalsHerrgard.videos"
     />
-    <PlaceReadMore 
+    <PlaceReadMore
       :moreTitle="rydalsHerrgard.moreTitle"
-      :more="rydalsHerrgard.more" 
+      :more="rydalsHerrgard.more"
     />
   </div>
   <div v-else>

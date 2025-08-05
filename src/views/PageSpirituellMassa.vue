@@ -1,18 +1,18 @@
 <script setup>
-import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
 
-import PlaceHeader from '../components/PlaceHeader.vue'
-import PlaceHistory from '../components/PlaceHistory.vue'
-import PlaceResult from '../components/PlaceResult.vue'
+import PlaceHeader from "../components/PlaceHeader.vue";
+import PlaceHistory from "../components/PlaceHistory.vue";
+import PlaceResult from "../components/PlaceResult.vue";
 
-import spirituellaMassan_sv from '../Locales/sv/SpirituellaMassan.json'
-import spirituellaMassan_en from '../Locales/en/SpirituellaMassan.json'
+import spirituellaMassan_sv from "../Locales/sv/SpirituellaMassan.json";
+import spirituellaMassan_en from "../Locales/en/SpirituellaMassan.json";
 
 const { locale } = useI18n();
 
 const spirituellaMassan = computed(() => {
-  return locale.value === 'sv' ? spirituellaMassan_sv : spirituellaMassan_en;
+  return locale.value === "sv" ? spirituellaMassan_sv : spirituellaMassan_en;
 });
 </script>
 
@@ -28,18 +28,20 @@ const spirituellaMassan = computed(() => {
       :content="spirituellaMassan.history"
       :image="spirituellaMassanImage"
     />
-    <PlaceHistory
-      :content="spirituellaMassan.history"
-      :image="spirituellaMassanImage"
-    />
-    <PlaceResult 
+    <PlaceResult
       :resultTitle="spirituellaMassan.resultTitle"
       :videoSectionTitle="spirituellaMassan.videoSectionTitle"
-      :results="spirituellaMassan.results" 
-      :videos="spirituellaMassan.videos" 
+      :results="spirituellaMassan.results"
+      :videos="spirituellaMassan.videos"
     />
   </div>
   <div v-else>
     <p>Laddar platsinformation...</p>
   </div>
 </template>
+
+<style scoped>
+spirituellaMassan.image {
+  width: 20%;
+}
+</style>

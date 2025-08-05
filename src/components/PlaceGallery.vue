@@ -2,12 +2,12 @@
 defineProps({
   galleryTitle: {
     type: String,
-    required: true
+    required: true,
   },
   gallery: {
     type: Array,
-    required: true
-  }
+    required: true,
+  },
 });
 </script>
 
@@ -15,14 +15,21 @@ defineProps({
   <section class="section">
     <h2>{{ galleryTitle }}</h2>
     <div class="gallery">
-      <div v-for="(item, index) in gallery" :key="index" class="image-container">
-        <img :src="item.src" :alt="item.alt" />
+      <div
+        v-for="(item, index) in gallery"
+        :key="index"
+        class="image-container text-center"
+      >
+        <img
+          :src="item.src"
+          :alt="item.alt"
+          class="responsive-img img-rounded img-hover-zoom"
+        />
         <figcaption v-if="item.caption">{{ item.caption }}</figcaption>
       </div>
     </div>
   </section>
 </template>
-
 
 <style scoped>
 .gallery {
@@ -33,24 +40,11 @@ defineProps({
 }
 
 .image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   max-width: 100%;
+  margin-top: 20px;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  max-width: 400px;
-  border-radius: 6px;
-}
-
-figcaption {
-  text-align: center;
-}
-
-/* Tablet och uppåt: flera kolumner med jämn höjd */
+/* För större skärmar */
 @media (min-width: 768px) {
   .gallery {
     flex-direction: row;
@@ -59,11 +53,13 @@ figcaption {
     gap: 1rem 1.5rem;
   }
 
+  figcaption {
+  font-size: 1.5rem;
+}
+
   .image-container {
-    /* Sätt max-bredd så att flera bilder får plats i rad, t.ex. 3 per rad */
     flex: 1 1 calc(33.333% - 1.5rem);
     box-sizing: border-box;
-    height: auto;
   }
 
   img {

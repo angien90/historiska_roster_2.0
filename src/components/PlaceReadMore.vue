@@ -2,11 +2,9 @@
 defineProps({
   moreTitle: {
     type: String,
-    required: true
+    required: true,
   },
-  more: {
-    type: String,
-}
+  more: String,
 });
 </script>
 

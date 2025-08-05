@@ -3,8 +3,8 @@ defineProps({
   text: String,
   name: String,
   handle: String,
-  image: String
-})
+  image: String,
+});
 </script>
 
 <template>
@@ -16,7 +16,7 @@ defineProps({
       </blockquote>
       <div class="review-image-wrapper">
         <img :src="image" :alt="name" class="review-image" />
-    </div>
+      </div>
       <div class="author">
         <p class="name">{{ name }}</p>
         <p class="handle">{{ handle }}</p>
@@ -34,7 +34,9 @@ defineProps({
   text-align: center;
   color: white;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .review-card:hover {
@@ -59,24 +61,32 @@ defineProps({
 .stars {
   color: gold;
   font-size: 1.2rem;
+  margin-top: 20px;
+  padding-bottom: 0;
 }
 
 blockquote {
   font-style: italic;
-  font-family: Georgia, serif;
+  max-width: 90%;
+  margin: 0 auto;
+  
 }
 
 p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+  margin-top: 0;
 }
 
 .name {
   font-weight: bold;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .handle {
   font-size: 1.2rem;
   color: #ccc;
+  margin-top: 0;
+  padding-bottom: 0;
 }
 </style>

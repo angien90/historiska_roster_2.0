@@ -1,12 +1,14 @@
 <script setup>
-import { ref } from 'vue';
-import { useI18n } from 'vue-i18n';
-import { useRoute } from 'vue-router';
+import { ref, computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute } from "vue-router";
+import TopNav from "@/components/TopNav.vue";
 
 const { t, locale } = useI18n();
 const route = useRoute();
-
 const currentYear = ref(new Date().getFullYear());
+
+const isHomePage = computed(() => route.path === '/');
 
 function setLanguage(lang) {
   locale.value = lang;
@@ -14,22 +16,26 @@ function setLanguage(lang) {
 </script>
 
 <template>
-  <div class="container">
-    <header>
+  <div class="app-container">
+    <header class="site-header">
       <router-link
         v-if="route.path !== '/'"
         to="/"
-        class="HomePage"
-        aria-label="Hem"
-        title="Gå tillbaka till startsidan"
+        class="home-link"
+        aria-label="Tillbaka"
+        title="Gå tillbaka"
       >
-        <span class="material-symbols-outlined home-icon">home</span>
+        <span class="material-symbols-outlined home-icon">keyboard_return</span>
       </router-link>
-      <section class="language" role="group" aria-label="Välj språk">
+
+      <TopNav v-if="isHomePage" />
+
+      <nav class="language-switcher" aria-label="Välj språk">
         <button
           @click="setLanguage('en')"
           :aria-pressed="locale === 'en'"
           aria-label="Switch to English"
+          title="Translate to English"
           type="button"
         >
           <img src="/images/english_flag.webp" alt="English" width="40" height="30" />
@@ -38,117 +44,126 @@ function setLanguage(lang) {
           @click="setLanguage('sv')"
           :aria-pressed="locale === 'sv'"
           aria-label="Byt till Svenska"
+          title="Översätt till Svenska"
           type="button"
         >
           <img src="/images/swedish_flag.webp" alt="Svenska" width="40" height="30" />
         </button>
-      </section>
+      </nav>
     </header>
+    <router-view />
 
-    <main>
-      <router-view />
-    </main>
+    
+  </div>
 
-    <footer class="site-footer">
+  <footer class="site-footer">
       <div class="footer-content">
-        <p
-          class="comercial"
-          v-html="t('createdBy', {
-            author: '<a href=\'https://github.com/angien90\' target=\'_blank\' rel=\'noopener noreferrer\'>Angelica</a>'
-          })"
-        ></p>
+        <p class="creator" v-html="t('createdBy', {author: `<a href='https://github.com/angien90' target='_blank' rel='noopener noreferrer'>Angelica</a>`})"></p>
         <p v-html="t('copyright', { year: currentYear })"></p>
       </div>
     </footer>
-  </div>
 </template>
 
 <style scoped>
-/* Din stil från tidigare */
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  max-width: 100%;
-}
-
-.container {
+.app-container {
+  font-family: var(--font-display);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  padding: 20px;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 100vw;
-  padding: 0 1rem;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
-.flag {
-  width: 40px;
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
-
-header {
+  height: 50px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
+  padding: 0 2rem;
+  background-color: var(--color-header, #181818);
+  box-shadow: 0 0 30px var(--color-shadow, #000);
+  z-index: 10000;
+  gap: 1rem;
 }
 
-header button {
-  background: transparent;  
-  border: none;             
-  cursor: pointer;          
-}
-
-.language {
-  display: flex;
-  gap: 0.5rem;
-  margin-left: auto;
-}
-
-.HomePage {
+.home-link {
+  color: var(--color-text);
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .home-icon {
   font-size: 2.5rem;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .home-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+}
+
+.language-switcher {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.language-switcher button {
+  background: none;
+  border: none;
   cursor: pointer;
+  padding: 0;
+  outline-offset: 3px;
+  transition: transform 0.3s ease;
 }
 
-.material-symbols-outlined {
-  vertical-align: middle;
+.language-switcher button:focus,
+.language-switcher button[aria-pressed="true"] {
+  transform: scale(1.1);
 }
 
-main {
-  flex: 1;
+.language-switcher img {
+  border-radius: 4px;
+  display: block;
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+}
+
+router-view {
+  margin-top: 90px;
+  flex-grow: 1;
 }
 
 .site-footer {
+  width: 100%;
+  background-color: var(--color-header, #181818);
+  color: var(--color-text);
+  padding: 1rem 2rem;
   text-align: center;
-  font-size: 0.95rem;
-  padding: 1rem 0;
+  box-sizing: border-box;
 }
 
-.site-footer p {
+.footer-content p {
   font-size: 1rem;
-  padding: 0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
-  .site-footer {
-    font-size: 1rem;
+  .footer-content p {
+  font-size: 1.5rem;
   }
+}
 
-  .site-footer p {
-    font-size: 1.5rem;
+@media (min-width: 1130px) {
+  .footer-content p {
+  font-size: 2rem;
   }
 }
 </style>

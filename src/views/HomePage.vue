@@ -1,22 +1,16 @@
 <script setup>
-import TopNav from '../components/TopNav.vue';
-import TopPage from '../components/TopPage.vue';
-import NewsSection from '@/components/NewsSection.vue';
-import UpComing from '../components/UpComing.vue';
-import CompletedTasks from '../components/CompletedTasks.vue';
-import EducationItems from '@/components/EducationItems.vue';
-import OurEvents from '@/components/OurEvents.vue';
+import TopPage from "../components/TopPage.vue";
+import CompletedTasks from "../components/CompletedTasks.vue";
+import EducationItems from "../components/EducationItems.vue";
+import OurEvents from "../components/OurEvents.vue";
+import HighlightsSection from "../components/HighlightsSection.vue";
 </script>
 
 <template>
-  <header>
-    <TopNav />
-    <TopPage />
-  </header>
+  <TopPage />
 
   <main>
-    <NewsSection />
-    <UpComing />
+    <HighlightsSection />
     <CompletedTasks />
     <OurEvents />
     <EducationItems />
@@ -24,18 +18,17 @@ import OurEvents from '@/components/OurEvents.vue';
 </template>
 
 <style scoped>
-header {
+.home-header-content {
   line-height: 1.5;
 }
 
 @media (min-width: 1024px) {
-  header {
+  .home-header-content {
     display: flex;
     flex-direction: column;
- 
   }
 
-  header .wrapper {
+  .home-header-content .wrapper {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;

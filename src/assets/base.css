@@ -1,87 +1,40 @@
 :root {
-  --vt-c-white: #000000;
-  --vt-c-white-soft: #ffffff;
-  --vt-c-white-mute: #ffffff;
-
-  --vt-c-black: #ffffff;
-  --vt-c-black-soft: #ffffff;
-  --vt-c-black-mute: #ffffff;
-
-  --vt-c-indigo: #ffffff;
-
-  --vt-c-divider-light-1: #ffffff;
-  --vt-c-divider-light-2: #ffffff;
-  --vt-c-divider-dark-1: #ffffff;
-  --vt-c-divider-dark-2: #ffffff;
-
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: #ffffff;
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: #ffffff;
-}
-
-/* semantic color variables for this project */
-:root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
-
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
-
-  --section-gap: 160px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
-  }
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
+  --color-background: #000000;
+  --color-text: #ffffff;
+  --font-display: 'Caesar Dressing', cursive;
+  --font-body: 'Amatic SC', cursive;
 }
 
 body {
   min-height: 100vh;
+  margin: 0;
+  
+  padding-top: 50px;
+  padding-bottom: 0;
   color: var(--color-text);
   background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
-  line-height: 1.6;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Caesar Dressing',
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font-body);
   font-size: 1rem;
-  cursor: url('/public/images/cursor.png'), auto;
+  line-height: 1.6;
+  cursor: url("/public/images/cursor.png"), auto;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  height: auto;
+  overflow-y: auto;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-text);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    text-decoration: underline;
+  }
 }

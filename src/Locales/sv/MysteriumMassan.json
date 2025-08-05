@@ -4,20 +4,20 @@
   "investigationDate": "2 november 2024",
   "image": "/images/mysterium_massan/Mysterium_massan.webp",
   "history": [
-  {
-    "heading": "Mysterium Mässan",
-    "text": [
-    "Mysterium Mässa är ett årligt evenemang arrangerat av Laxton Ghost Sweden, där utställare och föreläsare inom områden som meditation, healing, tarot, astrologi och alternativ medicin möts. Mässan ger besökare en unik möjlighet att utforska en mängd spirituella och terapeutiska metoder genom inspirerande föreläsningar, engagerande workshops och personliga behandlingar. Det är en uppskattad mötesplats för alla som söker alternativa vägar till ökat välbefinnande, djupare andlighet och personlig utveckling."
-   ]
-  },
-  {
-    "heading": "Beyond Life Party",
-    "text": [
-    "Efter en dag fylld av insikter och inspiration på Mysterium Mässan är Beyond Life Party det perfekta sättet att avrunda kvällen. Här bjuds du in att släppa loss på dansgolvet tillsammans med likasinnade. Med energifylld musik och en fantastisk DJ skapas en atmosfär av glädje, gemenskap och oförglömliga ögonblick.",    
-    "År 2024 firade vi dessutom Laxton Ghost Sweden som stolt markerade sitt 10-årsjubileum. Det var en magisk upplevelse och ett minne för livet - vi är stolta fans av Laxton Ghost Sweden!"
-    ]
-  }
-],
+    {
+      "heading1": "Mysterium Mässan",
+      "text": [
+        "Mysterium Mässa är ett årligt evenemang arrangerat av Laxton Ghost Sweden, där utställare och föreläsare inom områden som meditation, healing, tarot, astrologi och alternativ medicin möts. Mässan ger besökare en unik möjlighet att utforska en mängd spirituella och terapeutiska metoder genom inspirerande föreläsningar, engagerande workshops och personliga behandlingar. Det är en uppskattad mötesplats för alla som söker alternativa vägar till ökat välbefinnande, djupare andlighet och personlig utveckling."
+      ]
+    },
+    {
+      "heading2": "Beyond Life Party",
+      "text": [
+        "Efter en dag fylld av insikter och inspiration på Mysterium Mässan är Beyond Life Party det perfekta sättet att avrunda kvällen. Här bjuds du in att släppa loss på dansgolvet tillsammans med likasinnade. Med energifylld musik och en fantastisk DJ skapas en atmosfär av glädje, gemenskap och oförglömliga ögonblick.",
+        "År 2024 firade vi dessutom Laxton Ghost Sweden som stolt markerade sitt 10-årsjubileum. Det var en magisk upplevelse och ett minne för livet - vi är stolta fans av Laxton Ghost Sweden!"
+      ]
+    }
+  ],
   "resultTitle": "Häng med oss på Mysterium Mässan & Beyond Life Party",
   "results": [
     {

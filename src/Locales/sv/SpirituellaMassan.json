@@ -5,19 +5,18 @@
   "image": "/images/spirituellmassa/spirituellamassan.webp",
   "history": [
     {
-      "heading": "Mässan",
+      "heading1": "Mässan",
       "text": [
         "Spirituella Mässan är ett årligt evenemang med fokus på andlighet, personlig utveckling och holistisk hälsa. Den hålls i Lillsjöns lokaler i Nittorp, Tranemo kommun i Västra Götaland, och samlar utställare inom bland annat healing, tarot, astrologi, livscoaching, massage och medial vägledning. Besökare har möjlighet att boka föreläsningar och seanser på plats, och det finns även café och lunchservering. Mässan arrangeras av Häxans Hydda, som är aktiv i flera andliga evenemang i regionen.",
         "🏷️ Pris entrébiljett besökare: 80kr/dag, 120kr hel helg, barn under 15 år gratis. Biljetter för besökare säljs vid entrén med Swish.",
         "🕒 Tider: Lördag 10-17 (sista seans/föreläsning kl. 17:00), söndag 10-16 (sista seans/föreläsning kl. 16:00).",
-        "🔮 Tider för seans/föredrag: kl. 10.30, kl. 12.00, kl. 13.30, kl. 15.00 & kl. 17.00 (endast lördag).",     
+        "🔮 Tider för seans/föredrag: kl. 10.30, kl. 12.00, kl. 13.30, kl. 15.00 & kl. 17.00 (endast lördag).",
         "Läs mer om eventet <a href=\"https://www.facebook.com/events/498789516598921?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22notifications_tab%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3A%22group_r2j_approved%22%7D&locale=sv_SE\" target=\"_blank\" rel=\"noopener noreferrer\">här</a>."
-
-    ]
-  },
-  {
-    "heading": "Historiska Röster ställer ut",
-    "text": [
+      ]
+    },
+    {
+      "heading2": "Historiska Röster ställer ut",
+      "text": [
         "Historiska Röster bjuder in dig till att kliva in i vår värld – där historiens vingslag möter det övernaturliga. I vår monter får du en unik möjlighet att:",
         "🎧 Lyssna på inspelade röster från andra sidan – ta på dig hörlurarna och hör själv vad vi fångat under våra utredningar.",
         "🎥 Se bildspel och videoklipp från våra mest fängslande utredningar.",
@@ -26,8 +25,8 @@
         "✍️ Hjälp oss hitta nästa utredningsmål – tipsa oss om platser med mystisk energi eller oförklarliga händelser.",
         "🍬 En liten energiboost – ta en kola och stanna för en pratstund.",
         "🪑 Bekväma sittplatser för dig som vill stanna och prata med oss en stund."
-    ]
-  }
+      ]
+    }
   ],
   "resultTitle": "Sammanfattning från mässan",
   "results": [
@@ -36,7 +35,7 @@
       "text": [
         "Följ oss på sociala medier för att ta del av allt spännande – både inför, under och efter mässan!",
         "En dokumentär släpps inom kort efter att mässan har ägt rum"
-        ]
+      ]
     }
   ]
 }

@@ -2,13 +2,13 @@
 defineProps({
   storyTitle: {
     type: String,
-    required: true
+    required: true,
   },
   stories: {
     type: Array,
-    required: true
-  }
-})
+    required: true,
+  },
+});
 </script>
 
 <template>
@@ -16,9 +16,12 @@ defineProps({
     <h2>{{ storyTitle }}</h2>
     <div class="stories">
       <div v-for="story in stories" :key="story.title">
-        <h3>{{ story.title }}</h3>
         <p>{{ story.text }}</p>
       </div>
     </div>
   </section>
 </template>
+
+<style scoped>
+ 
+</style>

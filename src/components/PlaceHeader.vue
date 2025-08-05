@@ -1,29 +1,27 @@
 <script setup>
-const props = defineProps({
+defineProps({
   title: String,
   investigation: String,
   date: String,
   image: {
     type: [String, Object],
-    required: true
+    required: true,
   },
   altText: {
     type: String,
-    default: ''
-  }
+    default: "",
+  },
 });
 </script>
 
 <template>
-  <header class="place-header">
-    <span class="top-page">
-      <h1>{{ title }}</h1>
-    </span>
-    <p class="date">{{ investigation }} : {{ date }}</p>
-    <img 
-      :src="image" 
-      :alt="altText || title" 
-      class="hero-image" 
+  <header class="place-header text-center">
+    <h1>{{ title }}</h1>
+    <p class="date">{{ investigation }}:<span class="mobile-break"><br></span> {{ date }}</p>
+    <img
+      :src="image"
+      :alt="altText || title"
+      class="responsive-img img-rounded img-shadow img-hover-zoom"
       loading="lazy"
     />
   </header>
@@ -31,43 +29,25 @@ const props = defineProps({
 
 <style scoped>
 .place-header {
-  max-width: 700px;
+  max-width: 90%;
   margin: 2rem auto;
   padding: 0 1rem;
-  text-align: center;
 }
 
-.top-page h1 {
-  font-size: 2rem;
-  margin-bottom: 0;
+.date {
+  font-style: italic;
+  margin-bottom: 2rem;
+  color: #ccc;
+  line-height: 1.2;
 }
 
-.hero-image {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
-  transition: transform 0.3s ease;
-  cursor: zoom-in;
-  display: block;
-  margin: 0 auto;
+.mobile-break {
+  display: none;
 }
 
-.hero-image:hover {
-  transform: scale(1.05);
-}
-
-/* Gör text och bild responsiva på mindre skärmar */
 @media (max-width: 480px) {
-  .top-page h1 {
-    font-size: 2rem;
-  }
-  
-  .hero-image {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  .mobile-break {
+    display: inline;
   }
 }
 </style>

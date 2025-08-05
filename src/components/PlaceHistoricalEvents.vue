@@ -1,13 +1,7 @@
 <script setup>
 defineProps({
-  eventTitle: {
-    type: String,
-    required: true
-  },
-  events: {
-    type: Array,
-    required: true
-  }  
+  eventTitle: String,
+  events: Array,
 });
 </script>
 
@@ -21,5 +15,8 @@ defineProps({
   </section>
 </template>
 
-
-
+<style scoped>
+h3 {
+  margin-top: 20px;
+}
+</style>

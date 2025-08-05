@@ -1,39 +1,42 @@
 <script setup>
-import { computed } from 'vue';
-import { useI18n } from 'vue-i18n';
-import { LMap, LTileLayer, LMarker, LPopup } from '@vue-leaflet/vue-leaflet';
-import L from 'leaflet';
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { LMap, LTileLayer, LMarker, LPopup } from "@vue-leaflet/vue-leaflet";
+import L from "leaflet";
 
-import sv from '../Locales/sv/MapView.json';
-import en from '../Locales/en/MapView.json';
+import sv from "../Locales/sv/MapView.json";
+import en from "../Locales/en/MapView.json";
 
 const { locale } = useI18n();
 
 const translations = computed(() => {
-  return locale.value === 'sv' ? sv : en;
+  return locale.value === "sv" ? sv : en;
 });
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
-  iconRetinaUrl: new URL('leaflet/dist/images/marker-icon-2x.png', import.meta.url).href,
-  iconUrl: new URL('leaflet/dist/images/marker-icon.png', import.meta.url).href,
-  shadowUrl: new URL('leaflet/dist/images/marker-shadow.png', import.meta.url).href,
+  iconRetinaUrl: new URL(
+    "leaflet/dist/images/marker-icon-2x.png",
+    import.meta.url,
+  ).href,
+  iconUrl: new URL("leaflet/dist/images/marker-icon.png", import.meta.url).href,
+  shadowUrl: new URL("leaflet/dist/images/marker-shadow.png", import.meta.url)
+    .href,
 });
 
 const customIcon = new L.Icon({
-  iconUrl: '/images/map_pin.png',
+  iconUrl: "/images/map_pin.png",
   iconSize: [30, 30],
   iconAnchor: [15, 10],
   popupAnchor: [0, -40],
 });
 </script>
 
-
 <template>
   <section class="map-wrapper">
     <h2 class="map-title">{{ translations.map_title }}</h2>
     <div class="custom-map">
-      <LMap :zoom="6" :center="[57.5, 13]" style="height: 100%; width: 100%;">
+      <LMap :zoom="6" :center="[57.5, 13]" style="height: 100%; width: 100%">
         <LTileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="&copy; OpenStreetMap contributors"
@@ -46,9 +49,15 @@ const customIcon = new L.Icon({
         >
           <LPopup>
             <div>
-              <strong style="font-weight: bold; text-transform: uppercase;">{{ location.name }}</strong><br />
-              <span>{{ location.description }}</span><br />
-              <a :href="location.url" class="map-link">{{ translations.readMore }}</a>
+              <strong style="font-weight: bold; text-transform: uppercase">{{
+                location.name
+              }}</strong
+              ><br />
+              <span>{{ location.description }}</span
+              ><br />
+              <a :href="location.url" class="map-link">{{
+                translations.readMore
+              }}</a>
             </div>
           </LPopup>
         </LMarker>
@@ -56,7 +65,6 @@ const customIcon = new L.Icon({
     </div>
   </section>
 </template>
-
 
 <style scoped>
 .map-wrapper {

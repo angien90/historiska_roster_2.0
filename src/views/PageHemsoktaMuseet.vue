@@ -1,20 +1,20 @@
 <script setup>
-import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
 
-import PlaceHeader from '../components/PlaceHeader.vue'
-import PlaceHistory from '../components/PlaceHistory.vue'
-import PlaceGhostStory from '../components/PlaceGhostStory.vue'
-import PlaceResult from '../components/PlaceResult.vue'
-import PlaceReadMore from '../components/PlaceReadMore.vue'
+import PlaceHeader from "../components/PlaceHeader.vue";
+import PlaceHistory from "../components/PlaceHistory.vue";
+import PlaceGhostStory from "../components/PlaceGhostStory.vue";
+import PlaceResult from "../components/PlaceResult.vue";
+import PlaceReadMore from "../components/PlaceReadMore.vue";
 
-import hemsoktaMuseet_sv from '../Locales/sv/HemsoktaMuseet.json'
-import hemsoktaMuseet_en from '../Locales/en/HemsoktaMuseet.json'
+import hemsoktaMuseet_sv from "../Locales/sv/HemsoktaMuseet.json";
+import hemsoktaMuseet_en from "../Locales/en/HemsoktaMuseet.json";
 
 const { locale } = useI18n();
 
 const hemsoktaMuseet = computed(() => {
-  return locale.value === 'sv' ? hemsoktaMuseet_sv : hemsoktaMuseet_en;
+  return locale.value === "sv" ? hemsoktaMuseet_sv : hemsoktaMuseet_en;
 });
 </script>
 
@@ -30,19 +30,19 @@ const hemsoktaMuseet = computed(() => {
       :content="hemsoktaMuseet.history"
       :image="hemsoktaMuseetImage"
     />
-    <PlaceGhostStory 
+    <PlaceGhostStory
       :storyTitle="hemsoktaMuseet.storyTitle"
       :stories="hemsoktaMuseet.stories"
     />
-    <PlaceResult 
+    <PlaceResult
       :resultTitle="hemsoktaMuseet.resultTitle"
       :videoSectionTitle="hemsoktaMuseet.videoSectionTitle"
-      :results="hemsoktaMuseet.results" 
-      :videos="hemsoktaMuseet.videos" 
+      :results="hemsoktaMuseet.results"
+      :videos="hemsoktaMuseet.videos"
     />
-    <PlaceReadMore 
+    <PlaceReadMore
       :moreTitle="hemsoktaMuseet.moreTitle"
-      :more="hemsoktaMuseet.more" 
+      :more="hemsoktaMuseet.more"
     />
   </div>
   <div v-else>
