@@ -24,13 +24,12 @@
     }
   ],
   "resultTitle": "Vår resas",
-  "videoSectionTitle": "Följ med oss på utredningen",
-  "results": [
-    {
-      "title": "",
-      "text": ["Se vår korta film om resan på vår Instagram."]
-    }
-  ],
+  "videos": [
+  {
+    "title": "Instagram Reel",
+    "url": "https://www.instagram.com/reel/DIKGccAgy8p/"
+  }
+],
   "moreTitle": "Läs mer om Mysterie Mässan On Sea",
   "more": "Utforska Mysterie Mässans officiella sida <a href=\"https://mysteriumonsea.se//\" target=\"_blank\" class=\"link\">här</a> och varför inte hänga på nästa gång."
 }

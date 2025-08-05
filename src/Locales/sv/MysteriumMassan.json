@@ -19,14 +19,11 @@
     }
   ],
   "resultTitle": "Häng med oss på Mysterium Mässan & Beyond Life Party",
-  "results": [
-    {
-      "title": "",
-      "text": [
-        "Gå in på vår Youtube kanal för att se en film från mässan och festen."
-      ]
-    }
-  ],
+   "videos": [
+  {
+    "url": "https://www.youtube.com/embed/ASPz8teIqCA?start=3"
+  }
+],
   "moreTitle": "Läs mer om Mysterium Mässan",
   "more": "Utforska Mysterium Mässans officiella sida <a href=\"https://www.laxton.se/mysteriummassan/\" target=\"_blank\" class=\"link\">här</a> och varför inte hänga på nästa gång."
 }

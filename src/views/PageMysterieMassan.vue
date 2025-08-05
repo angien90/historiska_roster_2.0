@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from "vue";
+import { computed, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 
 import PlaceHeader from "../components/PlaceHeader.vue";
@@ -28,10 +28,9 @@ const mysterieMassan = computed(() => {
     <PlaceHistory :content="mysterieMassan.history" />
     <PlaceResult
       :resultTitle="mysterieMassan.resultTitle"
-      :videoSectionTitle="mysterieMassan.videoSectionTitle"
-      :results="mysterieMassan.results"
       :videos="mysterieMassan.videos"
     />
+
     <PlaceReadMore
       :moreTitle="mysterieMassan.moreTitle"
       :more="mysterieMassan.more"

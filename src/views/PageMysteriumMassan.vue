@@ -28,8 +28,6 @@ const mysteriumMassan = computed(() => {
     <PlaceHistory :content="mysteriumMassan.history" />
     <PlaceResult
       :resultTitle="mysteriumMassan.resultTitle"
-      :videoSectionTitle="mysteriumMassan.videoSectionTitle"
-      :results="mysteriumMassan.results"
       :videos="mysteriumMassan.videos"
     />
     <PlaceReadMore

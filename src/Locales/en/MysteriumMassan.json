@@ -19,13 +19,8 @@
     }
   ],
   "resultTitle": "Join us at Mysterium Fair & Beyond Life Party",
-  "results": [
-    {
-      "title": "",
-      "text": [
-        "Visit our YouTube channel to watch a video from the fair and the party."
-      ]
-    }
+  "videos": [
+    "https://www.youtube.com/embed/ASPz8teIqCA&t=3s"
   ],
   "moreTitle": "Read more about Mysterium Fair",
   "more": "Explore the official Mysterium Fair website <a href=\"https://www.laxton.se/mysteriummassan/\" target=\"_blank\" class=\"link\">here</a> – and why not join us next time?"
