@@ -18,12 +18,7 @@ defineProps({
   <header class="place-header text-center">
     <h1>{{ title }}</h1>
     <p class="date">{{ investigation }}:<span class="mobile-break"><br></span> {{ date }}</p>
-    <img
-      :src="image"
-      :alt="altText || title"
-      class="responsive-img img-rounded img-shadow img-hover-zoom"
-      loading="lazy"
-    />
+    <img :src="image" :alt="altText || title" width="250" height="180" class="responsive-img img-rounded img-shadow img-hover-zoom" loading="lazy"/>
   </header>
 </template>
 

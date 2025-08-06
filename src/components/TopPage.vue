@@ -5,20 +5,12 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <img
-    src="/images/generell/logo.svg"
-    alt="Historiska Rösters logga"
-    class="logo"
-    width="125"
-    height="125"
-  />
+  <img src="/images/generell/logo.svg" alt="Historiska Rösters logga" class="logo" width="125" height="125" loading="lazy"/>
 
   <div class="greetings">
     <h1 class="titel">{{ t("title") }}</h1>
     <h2>{{ t("subtitle") }}</h2>
   </div>
-
-
 </template>
 
 <style scoped>

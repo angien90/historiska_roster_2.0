@@ -8,14 +8,10 @@ const reviews = computed(() => tm("reviews"));
 </script>
 
 <template>
-  <section class="reviews-section">
-    <h2 class="section-title">{{ t("reviews_heading") }}</h2>
+  <section class="section">
+    <h2>{{ t("reviews_heading") }}</h2>
     <div class="content-wrapper">
-      <OurReviewsItem
-        v-for="(review, index) in reviews"
-        :key="index"
-        v-bind="review"
-      />
+      <OurReviewsItem v-for="(review, index) in reviews" :key="index" v-bind="review"/>
     </div>
   </section>
 </template>
@@ -42,6 +38,7 @@ const reviews = computed(() => tm("reviews"));
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {

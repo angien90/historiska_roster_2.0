@@ -6,12 +6,7 @@ import OurReviews from "../components/OurReviews.vue";
   <span class="about-us">
     <h1>{{ $t("aboutUs.title") }}</h1>
   </span>
-  <img
-    :src="`/images/generell/historiska_roster_i_trappa.webp`"
-    width="400"
-    alt="En bild på teamet"
-    class="team-image"
-  />
+  <img :src="`/images/generell/historiska_roster_i_trappa.webp`" width="250" height="180" alt="En bild på teamet" class="team-image" loading="lazy"/>
   <div class="section-content">
     <section class="section">
       <h2>{{ $t("aboutUs.teamTitle") }}</h2>
@@ -51,29 +46,25 @@ import OurReviews from "../components/OurReviews.vue";
             <h4>{{ $t("aboutUs.keywords.collaborate.title") }}</h4>
             <p>{{ $t("aboutUs.keywords.collaborate.text") }}</p>
           </div>
+          <div class="ledord-block">
+            <h4>{{ $t("aboutUs.keywords.reliability.title") }}</h4>
+            <p>{{ $t("aboutUs.keywords.reliability.text") }}</p>
+          </div>
         </div>
       </section>
     </section>
 
     <section class="section">
       <h2>{{ $t("aboutUs.howWeInvestigate") }}</h2>
-      <p
-        v-for="(text, index) in $tm('aboutUs.howWeInvestigateText')"
-        :key="index"
-        v-html="text"
-      />
+      <p v-for="(text, index) in $tm('aboutUs.howWeInvestigateText')" :key="index" v-html="text"/>
     </section>
 
     <section class="section">
       <h2>{{ $t("aboutUs.interestedInCooperation") }}</h2>
-      <p
-        v-for="(text, index) in $tm('aboutUs.cooperationText')"
-        :key="index"
-        v-html="text"
-      />
+      <p v-for="(text, index) in $tm('aboutUs.cooperationText')" :key="index" v-html="text"/>
     </section>
+    <OurReviews />
   </div>
-  <OurReviews />
 </template>
 
 <style scoped>

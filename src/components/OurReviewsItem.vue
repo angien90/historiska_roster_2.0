@@ -15,7 +15,7 @@ defineProps({
         <p>{{ text }}</p>
       </blockquote>
       <div class="review-image-wrapper">
-        <img :src="image" :alt="name" class="review-image" />
+        <img :src="image" :alt="name" width="250" height="180" class="review-image" loading="lazy"/>
       </div>
       <div class="author">
         <p class="name">{{ name }}</p>

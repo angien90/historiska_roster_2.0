@@ -37,27 +37,13 @@ const customIcon = new L.Icon({
     <h2 class="map-title">{{ translations.map_title }}</h2>
     <div class="custom-map">
       <LMap :zoom="6" :center="[57.5, 13]" style="height: 100%; width: 100%">
-        <LTileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution="&copy; OpenStreetMap contributors"
-        />
-        <LMarker
-          v-for="(location, index) in translations.locations"
-          :key="index"
-          :lat-lng="[location.lat, location.lng]"
-          :icon="customIcon"
-        >
+        <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution="&copy; OpenStreetMap contributors"/>
+        <LMarker v-for="(location, index) in translations.locations" :key="index" :lat-lng="[location.lat, location.lng]" :icon="customIcon">
           <LPopup>
             <div>
-              <strong style="font-weight: bold; text-transform: uppercase">{{
-                location.name
-              }}</strong
-              ><br />
-              <span>{{ location.description }}</span
-              ><br />
-              <a :href="location.url" class="map-link">{{
-                translations.readMore
-              }}</a>
+              <strong style="font-weight: bold; text-transform: uppercase">{{ location.name }}</strong><br />
+              <span>{{ location.description }}</span><br />
+              <a :href="location.url" class="map-link">{{ translations.readMore }}</a>
             </div>
           </LPopup>
         </LMarker>

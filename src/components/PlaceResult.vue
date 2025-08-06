@@ -51,37 +51,22 @@ watch(() => props.videos, () => {
 
     <div v-if="videos?.length" class="video-section">
       <h3>{{ videoSectionTitle }}</h3>
-      <article
-  v-for="(video, index) in videos"
-  :key="index"
-  :class="['video-wrapper', { 'instagram-wrapper': isInstagram(video.url ?? video) }]"
->
-  <!-- Instagram Reel -->
-  <div v-if="isInstagram(video.url ?? video)">
-    <blockquote
-      class="instagram-media"
-      :data-instgrm-permalink="video.url ?? video"
-      data-instgrm-version="14"
-      style="background:#FFF; border:0; margin:1rem auto; max-width:540px; width:100%;"
-    ></blockquote>
-  </div>
+      <article v-for="(video, index) in videos" :key="index" :class="['video-wrapper', { 'instagram-wrapper': isInstagram(video.url ?? video) }]">
+  
+        <!-- Instagram Reel -->
+        <div v-if="isInstagram(video.url ?? video)">
+          <blockquote class="instagram-media" :data-instgrm-permalink="video.url ?? video" data-instgrm-version="14" style="background:#FFF; border:0; margin:1rem auto; max-width:540px; width:100%;"></blockquote>
+        </div>
 
-  <!-- YouTube -->
-  <iframe
-    v-else-if="(video.url ?? video).includes('youtube.com') || (video.url ?? video).includes('youtu.be')"
-    :src="video.url ?? video"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
+        <!-- YouTube -->
+        <iframe v-else-if="(video.url ?? video).includes('youtube.com') || (video.url ?? video).includes('youtu.be')" :src="video.url ?? video" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 
-  <!-- Lokal mp4 eller annat -->
-  <video v-else controls>
-    <source :src="video.url ?? video" type="video/mp4" />
-    Din webbläsare har inte stöd för videouppspelning.
-  </video>
-</article>
-
+        <!-- Lokal mp4 eller annat -->
+        <video v-else controls loading="lazy">
+          <source :src="video.url ?? video" type="video/mp4" />
+          Din webbläsare har inte stöd för videouppspelning.
+        </video>
+      </article>
     </div>
   </section>
 </template>

@@ -104,13 +104,7 @@ const menuItems = computed(() => [
 
 <template>
   <nav class="navbar" role="navigation" aria-label="Main Menu">
-    <button
-      class="hamburger"
-      :aria-expanded="isOpen.toString()"
-      aria-controls="nav-links"
-      :aria-label="isOpen ? t('close_menu') : t('open_menu')"
-      @click="toggleMenu"
-    >
+    <button class="hamburger" :aria-expanded="isOpen.toString()" aria-controls="nav-links" :aria-label="isOpen ? t('close_menu') : t('open_menu')" @click="toggleMenu">
       {{ isOpen ? "✕" : "☰" }}
     </button>
 

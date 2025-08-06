@@ -57,17 +57,10 @@ const items = [
     </p>
 
     <div class="grid-style">
-      <a
-        v-for="(item, index) in items"
-        :key="index"
-        :href="item.href"
-        class="card-style"
-        target="_blank"
-        rel="noopener"
-      >
+      <a v-for="(item, index) in items" :key="index" :href="item.href" class="card-style" target="_blank" rel="noopener">
         <ContentItem>
           <template #icon>
-            <img :src="item.image" :alt="item.alt" class="card-img-style" width="125" height="125" />
+            <img :src="item.image" :alt="item.alt" class="card-img-style" width="125" height="125" loading="lazy"/>
           </template>
           <template #heading>{{ t(item.heading) }}</template>
         </ContentItem>

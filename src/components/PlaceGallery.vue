@@ -15,16 +15,8 @@ defineProps({
   <section class="section">
     <h2>{{ galleryTitle }}</h2>
     <div class="gallery">
-      <div
-        v-for="(item, index) in gallery"
-        :key="index"
-        class="image-container text-center"
-      >
-        <img
-          :src="item.src"
-          :alt="item.alt"
-          class="responsive-img img-rounded img-hover-zoom"
-        />
+      <div v-for="(item, index) in gallery" :key="index" class="image-container text-center">
+        <img :src="item.src" :alt="item.alt" width="250" height="180" class="responsive-img img-rounded img-hover-zoom" loading="lazy"/>
         <figcaption v-if="item.caption">{{ item.caption }}</figcaption>
       </div>
     </div>

@@ -10,25 +10,25 @@ const { t } = useI18n();
     <div class="grid-style">
     <!-- Nyheter -->
     <router-link to="/PageSpirituellMassa" class="highlight upcoming" aria-label="Spirituell Massa">
-        <h3>{{ t("spirituell_massa") }}</h3>
-        <img src="/images/spirituellmassa/spirituellamassan.webp" alt="Spirituella Mässan" class="upcoming-image" loading="lazy"/>
-        <div class="upcoming-text">
-            <p>{{ t("spirituell_massa_text1") }}</p>
-            <p>{{ t("spirituell_massa_text2") }}</p>
-            <p>{{ t("spirituell_massa_text3") }}</p>
-        </div>
+      <h3>{{ t("spirituell_massa") }}</h3>
+      <img src="/images/spirituellmassa/spirituellamassan.webp" alt="Spirituella Mässan" width="250" height="180" class="upcoming-image" loading="lazy"/>
+      <div class="upcoming-text">
+          <p>{{ t("spirituell_massa_text1") }}</p>
+          <p>{{ t("spirituell_massa_text2") }}</p>
+          <p>{{ t("spirituell_massa_text3") }}</p>
+      </div>
     </router-link>
 
-        <!-- Kommande utredningar -->
-        <div class="highlight upcoming">
+      <!-- Kommande utredningar -->
+      <div class="highlight upcoming">
         <h3>{{ t("upcoming") }}</h3>
-        <img src="/images/generell/empty_room_with_ghost.webp" alt="Tomt rum med ett spöke" class="upcoming-image" loading="lazy"/>
+        <img src="/images/generell/empty_room_with_ghost.webp" alt="Tomt rum med ett spöke" width="250" height="180" class="upcoming-image" loading="lazy"/>
         <div class="upcoming-text">
             <p>{{ t("upcoming_paragraph1") }}</p>
             <p>{{ t("upcoming_paragraph2") }}</p>
             <p>{{ t("upcoming_paragraph3") }}</p>
         </div>
-        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -42,8 +42,6 @@ const { t } = useI18n();
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(255 255 255 / 0.08);
   color: white;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
-
 }
 
 .highlights-wrapper {

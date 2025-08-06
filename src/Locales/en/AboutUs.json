@@ -30,8 +30,12 @@
       "collaborate": {
         "title": "Collaborate",
         "text": "We actively seek collaboration with local communities, historical societies, and researchers to foster a broad and diverse perspective on paranormal research and its relevance."
-      }
-    },
+      },
+      "reliability": {
+      "title": "Reliable",
+      "text": "We never fake results. Our ghost hunts are based on honest observations and an open, critical mind. Reliability always comes before drama – we seek truth, not sensationalism."
+    }
+  },
     "howWeInvestigate": "How does an investigation work?",
     "howWeInvestigateText": [
       "To build a solid foundation for our research, we begin with an in-depth historical study before visiting the site. We look for names, photos, and specific events tied to the property and its previous owners.",

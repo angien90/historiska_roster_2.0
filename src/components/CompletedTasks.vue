@@ -60,5 +60,6 @@ const items = [
   </section>
 </template>
 
-<style>
+<style scoped>
+
 </style>

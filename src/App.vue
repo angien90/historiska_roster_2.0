@@ -18,42 +18,22 @@ function setLanguage(lang) {
 <template>
   <div class="app-container">
     <header class="site-header">
-      <router-link
-        v-if="route.path !== '/'"
-        to="/"
-        class="home-link"
-        aria-label="Tillbaka"
-        title="Gå tillbaka"
-      >
+      <router-link v-if="route.path !== '/'" to="/" class="home-link" aria-label="Tillbaka" title="Gå tillbaka">
         <span class="material-symbols-outlined home-icon">keyboard_return</span>
       </router-link>
 
       <TopNav v-if="isHomePage" />
 
       <nav class="language-switcher" aria-label="Välj språk">
-        <button
-          @click="setLanguage('en')"
-          :aria-pressed="locale === 'en'"
-          aria-label="Switch to English"
-          title="Translate to English"
-          type="button"
-        >
+        <button @click="setLanguage('en')" :aria-pressed="locale === 'en'" aria-label="Switch to English" title="Translate to English" type="button">
           <img src="/images/english_flag.webp" alt="English" width="40" height="30" />
         </button>
-        <button
-          @click="setLanguage('sv')"
-          :aria-pressed="locale === 'sv'"
-          aria-label="Byt till Svenska"
-          title="Översätt till Svenska"
-          type="button"
-        >
+        <button @click="setLanguage('sv')" :aria-pressed="locale === 'sv'" aria-label="Byt till Svenska" title="Översätt till Svenska" type="button">
           <img src="/images/swedish_flag.webp" alt="Svenska" width="40" height="30" />
         </button>
       </nav>
     </header>
-    <router-view />
-
-    
+    <router-view /> 
   </div>
 
   <footer class="site-footer">

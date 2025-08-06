@@ -31,22 +31,10 @@ const items = [
     <p>{{ t("event_subheading") }}</p>
 
     <div class="grid-style">
-      <router-link
-        v-for="item in items"
-        :key="item.to"
-        :to="item.to"
-        class="card-style"
-      >
+      <router-link v-for="item in items" :key="item.to" :to="item.to" class="card-style">
         <ContentItem>
           <template #icon>
-            <img
-              :src="item.src"
-              :alt="t(item.alt)"
-              class="card-img-style"
-              width="250"
-              height="180"
-              loading="lazy"
-            />
+            <img :src="item.src" :alt="t(item.alt)" class="card-img-style" width="250" height="180" loading="lazy"/>
           </template>
           <template #heading>{{ t(item.label) }}</template>
         </ContentItem>

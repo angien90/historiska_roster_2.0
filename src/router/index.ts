@@ -1,74 +1,20 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomePage from "../views/HomePage.vue";
-import GhostSchool from "../views/GhostSchool.vue";
-import MapView from "../views/MapView.vue";
-import AboutUs from "../views/AboutUs.vue";
-import PageRydalsHerrgard from "../views/PageRydalsHerrgard.vue";
-import PageRankhyttan from "../views/PageRankhyttan.vue";
-import PageFrammegarden from "../views/PageFrammegarden.vue";
-import PageHjortsberga from "../views/PageHjortsberga.vue";
-import PageHemsoktaMuseet from "../views/PageHemsoktaMuseet.vue";
-import PageGathenhielmskaHuset from "../views/PageGathenhielmskaHuset.vue";
-import PageMysterieMassan from "../views/PageMysterieMassan.vue";
-import PageMysteriumMassan from "../views/PageMysteriumMassan.vue";
-import PageRydalsHerrgardEvent from "../views/PageRydalsHerrgardEvent.vue";
-import PageSpirituellMassa from "../views/PageSpirituellMassa.vue";
 
 const routes = [
-  { path: "/", name: "HomePage", component: HomePage },
-  { path: "/ghostschool", name: "GhostSchool", component: GhostSchool },
-  { path: "/MapView", name: "MapView", component: MapView },
-  { path: "/AboutUs", name: "AboutUs", component: AboutUs },
-  {
-    path: "/PageRydalsHerrgard",
-    name: "PageRydalsHerrgard",
-    component: PageRydalsHerrgard,
-  },
-  {
-    path: "/PageRankhyttan",
-    name: "PageRankhyttan",
-    component: PageRankhyttan,
-  },
-  {
-    path: "/PageFrammegarden",
-    name: "PageFrammegarden",
-    component: PageFrammegarden,
-  },
-  {
-    path: "/PageHjortsberga",
-    name: "PageHjortsberga",
-    component: PageHjortsberga,
-  },
-  {
-    path: "/PageHemsoktaMuseet",
-    name: "PageHemsoktaMuseet",
-    component: PageHemsoktaMuseet,
-  },
-  {
-    path: "/PageGathenhielmskaHuset",
-    name: "PageGathenhielmskaHuset",
-    component: PageGathenhielmskaHuset,
-  },
-  {
-    path: "/PageMysterieMassan",
-    name: "PageMysterieMassan",
-    component: PageMysterieMassan,
-  },
-  {
-    path: "/PageMysteriumMassan",
-    name: "PageMysteriumMassan",
-    component: PageMysteriumMassan,
-  },
-  {
-    path: "/PageRydalsHerrgardEvent",
-    name: "PageRydalsHerrgardEvent",
-    component: PageRydalsHerrgardEvent,
-  },
-  {
-    path: "/PageSpirituellMassa",
-    name: "PageSpirituellMassa",
-    component: PageSpirituellMassa,
-  },
+  { path: "/", name: "HomePage", component: () => import("../views/HomePage.vue") },
+  { path: "/ghostschool", name: "GhostSchool", component: () => import("../views/GhostSchool.vue") },
+  { path: "/MapView", name: "MapView", component: () => import("../views/MapView.vue") },
+  { path: "/AboutUs", name: "AboutUs", component: () => import("../views/AboutUs.vue") },
+  { path: "/PageRydalsHerrgard", name: "PageRydalsHerrgard", component: () => import("../views/PageRydalsHerrgard.vue") },
+  { path: "/PageRankhyttan", name: "PageRankhyttan", component: () => import("../views/PageRankhyttan.vue") },
+  { path: "/PageFrammegarden", name: "PageFrammegarden", component: () => import("../views/PageFrammegarden.vue") },
+  { path: "/PageHjortsberga", name: "PageHjortsberga", component: () => import("../views/PageHjortsberga.vue") },
+  { path: "/PageHemsoktaMuseet", name: "PageHemsoktaMuseet", component: () => import("../views/PageHemsoktaMuseet.vue") },
+  { path: "/PageGathenhielmskaHuset", name: "PageGathenhielmskaHuset", component: () => import("../views/PageGathenhielmskaHuset.vue") },
+  { path: "/PageMysterieMassan", name: "PageMysterieMassan", component: () => import("../views/PageMysterieMassan.vue") },
+  { path: "/PageMysteriumMassan", name: "PageMysteriumMassan", component: () => import("../views/PageMysteriumMassan.vue") },
+  { path: "/PageRydalsHerrgardEvent", name: "PageRydalsHerrgardEvent", component: () => import("../views/PageRydalsHerrgardEvent.vue") },
+  { path: "/PageSpirituellMassa", name: "PageSpirituellMassa", component: () => import("../views/PageSpirituellMassa.vue") },
 ];
 
 const router = createRouter({
