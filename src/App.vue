@@ -1,11 +1,12 @@
 <script setup>
 import { ref, computed } from "vue";
 import { useI18n } from "vue-i18n";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 import TopNav from "@/components/TopNav.vue";
 
 const { t, locale } = useI18n();
 const route = useRoute();
+const router = useRouter();
 const currentYear = ref(new Date().getFullYear());
 
 const isHomePage = computed(() => route.path === '/');
@@ -13,14 +14,22 @@ const isHomePage = computed(() => route.path === '/');
 function setLanguage(lang) {
   locale.value = lang;
 }
+
+function goBack() {
+  if (window.history.length > 1) {
+    router.back();  // går till föregående sida i historiken
+  } else {
+    router.push('/');  // om ingen historik, gå till startsidan
+  }
+}
 </script>
 
 <template>
   <div class="app-container">
     <header class="site-header">
-      <router-link v-if="route.path !== '/'" to="/" class="home-link" aria-label="Tillbaka" title="Gå tillbaka">
+      <button v-if="route.path !== '/'" @click="goBack" class="home-link" aria-label="Tillbaka" title="Gå tillbaka" type="button">
         <span class="material-symbols-outlined home-icon">keyboard_return</span>
-      </router-link>
+      </button>
 
       <TopNav v-if="isHomePage" />
 
@@ -76,6 +85,12 @@ function setLanguage(lang) {
   text-decoration: none;
   display: flex;
   align-items: center;
+  background: none;       
+  border: none;           
+  box-shadow: none;       
+  padding: 0;             
+  margin: 0;              
+  cursor: pointer;
 }
 
 .home-icon {
