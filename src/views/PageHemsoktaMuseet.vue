@@ -13,6 +13,8 @@ import hemsoktaMuseet_en from "../Locales/en/HemsoktaMuseet.json";
 
 const { locale } = useI18n();
 
+const hemsoktaMuseetImage = "/images/hemsokta/museet.webp"
+
 const hemsoktaMuseet = computed(() => {
   return locale.value === "sv" ? hemsoktaMuseet_sv : hemsoktaMuseet_en;
 });

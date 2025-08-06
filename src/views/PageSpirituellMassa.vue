@@ -11,6 +11,8 @@ import spirituellaMassan_en from "../Locales/en/SpirituellaMassan.json";
 
 const { locale } = useI18n();
 
+const spirituellaMassanImage = "/images/spirituella/massan.webp"
+
 const spirituellaMassan = computed(() => {
   return locale.value === "sv" ? spirituellaMassan_sv : spirituellaMassan_en;
 });

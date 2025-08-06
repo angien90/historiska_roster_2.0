@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
   content: Array,
-  image: Object,
+  image: [String, Object],
 });
 </script>
 
@@ -14,7 +14,7 @@ defineProps({
     </div>
 
     <div v-if="image" class="text-center">
-      <a :href="image.src" target="_blank" rel="noopener">
+      <a :href="typeof image === 'object' ? image.src : image" target="_blank" rel="noopener">
         <img :src="image.src" :alt="image.alt" width="250" height="180" class="responsive-img img-rounded img-hover-zoom" loading="lazy"/>
       </a>
     </div>
