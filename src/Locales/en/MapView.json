@@ -4,45 +4,51 @@
   "locations": [
     {
       "name": "Rydals Manor",
-      "description": "A manor with an exciting history",
+      "description": "Rydal Manor is a historic estate known for its ghost stories and mysterious events that captivate both visitors and investigators.",
       "lat": 57.55471,
       "lng": 12.69499,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageRydalsHerrgard",
+      "image": "/images/rydals_herrgard/rydals_herrgard.webp"
     },
     {
       "name": "Rankhyttans Manor",
-      "description": "Dennis had his scariest experience during the Estes method",
+      "description": "Rankhyttans Manor is one of Dalarna's most enigmatic places, where history and supernatural experiences blend in an atmosphere of mystery. Dennis had his scariest experience during the Estes Method here.",
       "lat": 60.47551,
       "lng": 15.72056,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageRankhyttan",
+      "image": "/images/rankhyttan/rankhyttan.webp"
     },
     {
       "name": "Gathenhielm House",
-      "description": "This is where Stig came through for the second time",
+      "description": "The Gathenhielmska House in Gothenburg is a historic 18th-century building surrounded by legends, pirate history, and tales of ghosts that never left the place. This was where Stig came through for the second time.",
       "lat": 57.69856,
       "lng": 11.93414,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageGathenhielmskaHuset",
+      "image": "/images/gathenhielmska_huset/Gathenhielmska_huset.webp"
     },
     {
       "name": "The Haunted Museum",
-      "description": "The team's calmest investigation so far.",
+      "description": "The Haunted Museum in Borås is a unique place filled with cursed objects and supernatural phenomena that send shivers down visitors' spines. The team's calmest investigation so far.",
       "lat": 57.71478,
       "lng": 12.95052,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageHemsoktaMuseet",
+      "image": "/images/hemsokta_museet/Hemsokta_museet.webp"
     },
     {
       "name": "Hjortsberga Vicarage",
-      "description": "Where we first made contact with Stig",
+      "description": "Hjortsberga Vicarage in Värnamo Park is a historic site surrounded by mystery and is said to be haunted by former residents. This is where we first made contact with Stig.",
       "lat": 56.17984,
       "lng": 15.6124,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageHjortsberga",
+      "image": "/images/hjortsberga/Hjortsberga.webp"
     },
     {
       "name": "Frammegården",
-      "description": "The team's very first investigation together",
+      "description": "The team's first investigation together. Frammegården in Skillingaryd is one of Sweden's most haunted locations, known for its eerie history and paranormal activity.",
       "lat": 59.81873,
       "lng": 11.98332,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageFrammegarden",
+      "image": "/images/frammegarden/Frammegarden.webp"
     }
   ]
 }

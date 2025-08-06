@@ -4,45 +4,51 @@
   "locations": [
     {
       "name": "Rydals herrgård",
-      "description": "En herrgård med häftig historia",
+      "description": "Rydals Herrgård är en historisk gård känd för sina spökhistorier och mystiska händelser som fascinerar både besökare och utredare.",
       "lat": 57.55471,
       "lng": 12.69499,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageRydalsHerrgard",
+      "image": "/images/rydals_herrgard/rydals_herrgard.webp"
     },
     {
       "name": "Rankhyttans Herrgård",
-      "description": "Dennis var med om sin läskigaste upplevelse under Estes-metod",
+      "description": "Rankhyttans Herrgård är en av Dalarnas mest gåtfulla platser, där historia och övernaturliga upplevelser smälter samman i en atmosfär av mystik. Dennis var med om sin läskigaste upplevelse under Estes-metod.",
       "lat": 60.47551,
       "lng": 15.72056,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageRankhyttan",
+      "image": "/images/rankhyttan/rankhyttan.webp"
     },
     {
       "name": "Gathenhielmska Huset",
-      "description": "Här kom Stig igenom för andra gången",
+      "description": "Gathenhielmska Huset i Göteborg är ett anrikt 1700-talshus omgivet av sägner, pirathistoria och berättelser om spöken som aldrig lämnat platsen. Här kom Stig igenom för andra gången.",
       "lat": 57.69856,
       "lng": 11.93414,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageGathenhielmskaHuset",
+      "image": "/images/gathenhielmska_huset/Gathenhielmska_huset.webp"
     },
     {
       "name": "Hemsökta Museet",
-      "description": "Teamets lugnaste utredning hittills.",
+      "description": "Det Hemsökta Museet i Borås är ett unikt museum fyllt av förbannade föremål och övernaturliga fenomen som väcker rysningar hos sina besökare. Teamets lugnaste utredning hittills.",
       "lat": 57.71478,
       "lng": 12.95052,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageHemsoktaMuseet",
+      "image": "/images/hemsokta_museet/Hemsokta_museet.webp"
     },
     {
       "name": "Hjortsberga Prästgård",
-      "description": "Här kom vi i kontakt med Stig för första gången",
+      "description": "Hjortsberga Prästgård i Värnamo Park är en historisk plats omgiven av mystik och sägs vara hemsökt av tidigare invånare. Här kom vi i kontakt med Stig för första gången.",
       "lat": 56.17984,
       "lng": 15.6124,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageHjortsberga",
+      "image": "/images/hjortsberga/Hjortsberga.webp"
     },
     {
       "name": "Frammegården",
-      "description": "Teamets första utredning ihop",
+      "description": "Teamets första utredning ihop. Frammegården i Skillingaryd är en av Sveriges mest hemsökta platser, känd för sin kusliga historia och paranormala aktivitet.",
       "lat": 59.81873,
       "lng": 11.98332,
-      "url": "/utredningar/rydals-herrgard"
+      "url": "/PageFrammegarden",
+      "image": "/images/frammegarden/Frammegarden.webp"
     }
   ]
 }

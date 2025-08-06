@@ -34,16 +34,17 @@ const customIcon = new L.Icon({
 
 <template>
   <section class="map-wrapper">
-    <h2 class="map-title">{{ translations.map_title }}</h2>
+    <h2>{{ translations.map_title }}</h2>
     <div class="custom-map">
       <LMap :zoom="6" :center="[57.5, 13]" style="height: 100%; width: 100%">
         <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution="&copy; OpenStreetMap contributors"/>
         <LMarker v-for="(location, index) in translations.locations" :key="index" :lat-lng="[location.lat, location.lng]" :icon="customIcon">
           <LPopup>
-            <div>
-              <strong style="font-weight: bold; text-transform: uppercase">{{ location.name }}</strong><br />
-              <span>{{ location.description }}</span><br />
-              <a :href="location.url" class="map-link">{{ translations.readMore }}</a>
+            <div class="popup-content">
+              <h3 class="title">{{ location.name }}</h3><br />
+              <img :src="location.image" alt="location.name"/><br />
+              <span class="description">{{ location.description }}</span><br />
+              <router-link :to="location.url" class="map-link">{{ translations.readMore }}</router-link>
             </div>
           </LPopup>
         </LMarker>
@@ -55,27 +56,59 @@ const customIcon = new L.Icon({
 <style scoped>
 .map-wrapper {
   background-color: #000;
-  padding: rem 1rem;
   color: #fff;
   text-align: center;
 }
 
-.map-title {
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 2.5rem;
-}
-
 .custom-map {
-  height: 500px;
+  height: 480px;
   width: 100%;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 12px;
   overflow: hidden;
+  box-shadow: 0 0 10px rgba(255 255 255 / 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-top: 20px;
 }
 
-/* Leaflet container anpassning */
+.custom-map:hover {
+  box-shadow: 0 0 20px rgba(255 255 255 / 0.3);
+}
+
+.popup-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 220px;
+  padding: 0.2rem 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  font-family: var(--font-display);
+  font-weight: bold; 
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.popup-content img {
+  border-radius: 8px;
+  max-width: 150px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
+
 :deep(.leaflet-container) {
   width: 100%;
   height: 100%;
@@ -83,20 +116,57 @@ const customIcon = new L.Icon({
   border-radius: 12px;
 }
 
-/* Stil på popup-länken */
 .map-link {
   display: inline-block;
-  margin-top: 8px;
   color: #fff;
   background-color: #444;
   padding: 6px 12px;
-  border-radius: 4px;
+  border-radius: 6px;
   text-decoration: none;
   font-size: 0.9rem;
-  transition: background-color 0.3s ease;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 0 6px rgba(255 255 255 / 0.1);
+  font-family: var(--font-display);
 }
 
-.map-link:hover {
+.map-link:hover,
+.map-link:focus {
   background-color: #666;
+  color: #ddd;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255 255 255 / 0.4);
+}
+
+
+@media (min-width: 600px) {
+  .custom-map {
+    height: 700px;
+    border-width: 2px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .popup-content {
+    max-width: 300px;
+    padding: 1rem 0;
+  }
+
+  .popup-content img {
+    max-width: 200px;
+  }
+
+  .description {
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+}
+
+
+  .map-link {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
 }
 </style>

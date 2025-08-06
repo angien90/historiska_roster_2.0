@@ -164,11 +164,11 @@ p {
   }
 
   .responsive-img {
-  width: 50%;
+  width: 60%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1130px) {
   body {
     display: flex;
   }
@@ -190,6 +190,6 @@ p {
   }
 
   .responsive-img {
-  width: 40%;
+  width: 30%;
   }
 }
