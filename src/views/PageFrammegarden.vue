@@ -9,7 +9,7 @@ import PlaceGallery from "../components/PlaceGallery.vue";
 import PlaceResult from "../components/PlaceResult.vue";
 import PlaceReadMore from "../components/PlaceReadMore.vue";
 
-import Familjetrad from "/images/frammegarden/Familjetrad_frammegarden.webp";
+import Familjetrad from "/images/Frammegarden/Familjetrad_frammegarden.webp";
 
 import frammegarden_sv from "../Locales/sv/Frammegarden.json";
 import frammegarden_en from "../Locales/en/Frammegarden.json";

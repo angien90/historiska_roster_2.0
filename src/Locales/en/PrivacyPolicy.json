@@ -1,0 +1,43 @@
+{
+  "privacy": {
+    "title": "Privacy Policy & Cookie Policy",
+    "intro": "Historiska Röster uses cookies to improve your experience, analyze traffic, and personalize content. On this page, you can read more about how and why we use cookies, as well as how you can manage them.",
+    "whatAreCookiesTitle": "What are cookies?",
+    "whatAreCookiesText": "A cookie is a small text file stored on your device when you visit a website. Cookies are used to save settings, track how the website is used, and display personalized content.",
+    "typesTitle": "What types of cookies do we use?",
+    "tableHeaders": {
+      "type": "Type of cookie",
+      "purpose": "Purpose",
+      "example": "Example"
+    },
+    "types": {
+      "necessary": {
+        "name": "Necessary",
+        "purpose": "Required for the website to function properly.",
+        "example": "Language settings, login"
+      },
+      "statistics": {
+        "name": "Statistics",
+        "purpose": "Helps us understand how the website is used and improve it.",
+        "example": "Google Analytics"
+      },
+      "marketing": {
+        "name": "Marketing",
+        "purpose": "Used to display relevant advertising.",
+        "example": "Facebook Pixel"
+      }
+    },
+    "thirdPartyTitle": "Third-party cookies",
+    "thirdPartyText": "We may use third-party services that place cookies, such as:",
+    "thirdPartyList": [
+      "Google Analytics",
+      "YouTube (embedded videos)",
+      "Social media feeds"
+    ],
+    "manageTitle": "Manage cookies",
+    "manageText": "You can change or withdraw your consent at any time by clicking Cookie settings at the bottom of the page. You can also block or delete cookies through your browser settings.",
+    "contactTitle": "Contact",
+    "contactText": "Do you have questions about how we use cookies or handle personal data? Contact us at",
+    "contactEmail": "historiskaroster@outlook.com"
+  }
+}

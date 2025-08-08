@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 import { useI18n } from "vue-i18n";
 import { useRoute, useRouter } from "vue-router";
 import TopNav from "@/components/TopNav.vue";
+import CookiePopup from "@/components/CookiePopup.vue";
 
 const { t, locale } = useI18n();
 const route = useRoute();
@@ -44,6 +45,7 @@ function goBack() {
     </header>
     <router-view /> 
   </div>
+  <CookiePopup />
 
   <footer class="site-footer">
       <div class="footer-content">

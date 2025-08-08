@@ -1,5 +1,8 @@
 import TopNav from "./TopNav.json";
 import Footer from "./Footer.json";
+import CookiePopup from "./CookiePopup.json";
+import CookieSettings from "./CookieSettings";
+import PrivacyPolicy from "./PrivacyPolicy.json";
 import TopPage from "./TopPage.json";
 import CompletedTasks from "./CompletedTasks.json";
 import EducationItems from "./EducationItems.json";
@@ -14,6 +17,9 @@ import HighlightsSection from "./HighlightsSection.json";
 export default {
   ...TopNav,
   ...Footer,
+  ...CookiePopup,
+  ...CookieSettings,
+  ...PrivacyPolicy,
   ...TopPage,
   ...CompletedTasks,
   ...OurEvents,

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   { path: "/", name: "HomePage", component: () => import("../views/HomePage.vue") },
+  { path: "/PrivacyPolicy", name: "PrivacyPolicy", component: () => import('../views/PrivacyPolicy.vue') },
   { path: "/ghostschool", name: "GhostSchool", component: () => import("../views/GhostSchool.vue") },
   { path: "/MapView", name: "MapView", component: () => import("../views/MapView.vue") },
   { path: "/AboutUs", name: "AboutUs", component: () => import("../views/AboutUs.vue") },

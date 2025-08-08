@@ -30,7 +30,7 @@ const items = [
     label: "hjortsberga" 
   },
   { to: "/PageFrammegarden", 
-    src: "/images/frammegarden/Frammegarden.webp", 
+    src: "/images/Frammegarden/Frammegarden.webp", 
     alt: "Frammegården",  
     label: "frammegarden" 
   },

@@ -1,0 +1,43 @@
+{
+  "privacy": {
+    "title": "Integritetspolicy & Cookiepolicy",
+    "intro": "Historiska Röster använder cookies för att förbättra din upplevelse, analysera trafik och anpassa innehåll. På denna sida kan du läsa mer om hur och varför vi använder cookies samt hur du kan hantera dem.",
+    "whatAreCookiesTitle": "Vad är cookies?",
+    "whatAreCookiesText": "En cookie är en liten textfil som lagras på din enhet när du besöker en webbplats. Cookies används för att spara inställningar, följa hur webbplatsen används och visa anpassat innehåll.",
+    "typesTitle": "Vilka typer av cookies använder vi?",
+    "tableHeaders": {
+      "type": "Typ av cookie",
+      "purpose": "Syfte",
+      "example": "Exempel"
+    },
+    "types": {
+      "necessary": {
+        "name": "Nödvändiga",
+        "purpose": "Krävs för att webbplatsen ska fungera korrekt.",
+        "example": "Språkinställningar, inloggning"
+      },
+      "statistics": {
+        "name": "Statistik",
+        "purpose": "Hjälper oss förstå hur webbplatsen används och förbättra den.",
+        "example": "Google Analytics"
+      },
+      "marketing": {
+        "name": "Marknadsföring",
+        "purpose": "Används för att visa relevant annonsering.",
+        "example": "Facebook Pixel"
+      }
+    },
+    "thirdPartyTitle": "Tredjepartscookies",
+    "thirdPartyText": "Vi kan använda tjänster från tredje part som placerar cookies, t.ex.:",
+    "thirdPartyList": [
+      "Google Analytics",
+      "YouTube (inbäddade videor)",
+      "Sociala medier-flöden"
+    ],
+    "manageTitle": "Hantera cookies",
+    "manageText": "Du kan när som helst ändra eller återkalla ditt samtycke genom att klicka på Cookie-inställningar längst ner på sidan. Du kan också blockera eller radera cookies via inställningarna i din webbläsare.",
+    "contactTitle": "Kontakt",
+    "contactText": "Har du frågor om hur vi använder cookies eller hanterar personuppgifter? Kontakta oss på",
+    "contactEmail": "historiskaroster@outlook.com"
+  }
+}
