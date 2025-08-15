@@ -1,13 +1,62 @@
 <script setup>
 import { useI18n } from "vue-i18n";
-import { ref, computed } from "vue";
+import { ref, computed, nextTick } from "vue";
+import { onMounted, onBeforeUnmount } from "vue";
 
 const { t } = useI18n();
 const isOpen = ref(false);
+const menuRef = ref(null);
+const closeButton = ref(null);
 
 const toggleMenu = () => {
   isOpen.value = !isOpen.value;
+
+  if (isOpen.value) {
+    document.addEventListener('keydown', trapFocus);
+
+    // Fokusera första tabb-bara element i menyn när den är synlig
+    nextTick(() => {
+      const focusableEls = menuRef.value.querySelectorAll('a, button');
+      focusableEls[0]?.focus();
+    });
+  } else {
+    document.removeEventListener('keydown', trapFocus);
+
+    // Sätt tillbaka fokus till hamburgaren när menyn stängs
+    closeButton.value?.focus();
+  }
 };
+
+const trapFocus = (event) => {
+  if (!isOpen.value) return;
+
+  // Inkludera hamburgaren i tabb-fokus
+  const focusableEls = [
+    closeButton.value, 
+    ...menuRef.value.querySelectorAll('a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])')
+  ].filter(Boolean);
+
+  const firstEl = focusableEls[0];
+  const lastEl = focusableEls[focusableEls.length - 1];
+
+  if (event.key === 'Tab') {
+    if (event.shiftKey && document.activeElement === firstEl) {
+      event.preventDefault();
+      lastEl.focus();
+    } else if (!event.shiftKey && document.activeElement === lastEl) {
+      event.preventDefault();
+      firstEl.focus();
+    }
+  }
+};
+
+onMounted(() => {
+  document.addEventListener('keydown', trapFocus);
+});
+
+onBeforeUnmount(() => {
+  document.removeEventListener('keydown', trapFocus);
+});
 
 const menuItems = computed(() => [
   {
@@ -20,10 +69,7 @@ const menuItems = computed(() => [
       { label: t("dropdown.mapView"), to: "/MapView" },
       { label: t("dropdown.pageRydalsHerrgard"), to: "/PageRydalsHerrgard" },
       { label: t("dropdown.pageRankhyttan"), to: "/PageRankhyttan" },
-      {
-        label: t("dropdown.pageGathenhielmskaHuset"),
-        to: "/PageGathenhielmskaHuset",
-      },
+      { label: t("dropdown.pageGathenhielmskaHuset"), to: "/PageGathenhielmskaHuset" },
       { label: t("dropdown.pageHemsoktaMuseet"), to: "/PageHemsoktaMuseet" },
       { label: t("dropdown.pageHjortsberga"), to: "/PageHjortsberga" },
       { label: t("dropdown.pageFrammegarden"), to: "/PageFrammegarden" },
@@ -32,10 +78,7 @@ const menuItems = computed(() => [
   {
     label: t("other_events"),
     children: [
-      {
-        label: t("dropdown.pageRydalsHerrgardEvent"),
-        to: "/PageRydalsHerrgardEvent",
-      },
+      { label: t("dropdown.pageRydalsHerrgardEvent"), to: "/PageRydalsHerrgardEvent" },
       { label: t("dropdown.pageMysterieMassan"), to: "/PageMysterieMassan" },
       { label: t("dropdown.pageMysteriumMassan"), to: "/PageMysteriumMassan" },
     ],
@@ -44,74 +87,46 @@ const menuItems = computed(() => [
     label: t("education"),
     children: [
       { label: t("dropdown.ghost_school"), to: "/ghostschool" },
-      {
-        label: t("dropdown.spiritbox"),
-        href: "https://www.youtube.com/watch?v=2FDUA-i3GbM",
-      },
-      {
-        label: t("dropdown.sls_camera"),
-        href: "https://www.youtube.com/watch?v=I06jPDzyG6Y",
-      },
-      {
-        label: t("dropdown.polterscript"),
-        href: "https://youtu.be/fyxAXO-zfLU?si=NPjWLBzPEYdktrlc",
-      },
-      {
-        label: t("dropdown.prs_prp"),
-        href: "https://www.youtube.com/watch?v=1PUrwAsEhlk",
-      },
-      {
-        label: t("dropdown.mel_meter"),
-        href: "https://youtu.be/EedqF5DVQmk?si=fCzKToL8rPYnAbJc",
-      },
-      {
-        label: t("dropdown.pmb"),
-        href: "https://youtu.be/t1UAxEBWC_U?si=gS62lbVfP3V8WuHo",
-      },
-      {
-        label: t("dropdown.k2_meter"),
-        href: "https://youtu.be/eaNv-ir632g?si=3A50UMWIvDlGPvc-",
-      },
+      { label: t("dropdown.spiritbox"), href: "https://www.youtube.com/watch?v=2FDUA-i3GbM" },
+      { label: t("dropdown.sls_camera"), href: "https://www.youtube.com/watch?v=I06jPDzyG6Y" },
+      { label: t("dropdown.polterscript"), href: "https://youtu.be/fyxAXO-zfLU?si=NPjWLBzPEYdktrlc" },
+      { label: t("dropdown.prs_prp"), href: "https://www.youtube.com/watch?v=1PUrwAsEhlk" },
+      { label: t("dropdown.mel_meter"), href: "https://youtu.be/EedqF5DVQmk?si=fCzKToL8rPYnAbJc" },
+      { label: t("dropdown.pmb"), href: "https://youtu.be/t1UAxEBWC_U?si=gS62lbVfP3V8WuHo" },
+      { label: t("dropdown.k2_meter"), href: "https://youtu.be/eaNv-ir632g?si=3A50UMWIvDlGPvc-" },
     ],
   },
   {
     label: t("social_media"),
     children: [
-      {
-        label: t("dropdown.youtube"),
-        href: "https://www.youtube.com/@HistoriskaR%C3%B6ster",
-      },
-      {
-        label: t("dropdown.instagram"),
-        href: "https://www.instagram.com/historiskaroster",
-      },
-      {
-        label: t("dropdown.tiktok"),
-        href: "https://www.tiktok.com/@historiskaroster",
-      },
+      { label: t("dropdown.youtube"), href: "https://www.youtube.com/@HistoriskaR%C3%B6ster" },
+      { label: t("dropdown.instagram"), href: "https://www.instagram.com/historiskaroster" },
+      { label: t("dropdown.tiktok"), href: "https://www.tiktok.com/@historiskaroster" },
     ],
   },
-  {
-    label: t("contact_us"),
-    href: "mailto:historiskaroster@outlook.com",
-  },
-  {
-    label: t("tip_us"),
-    href: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__4JvANBURjRBUktXSjhNVDAzRllESlFaSDI4UlFRVC4u",
-  },
+  { label: t("contact_us"), href: "mailto:historiskaroster@outlook.com" },
+  { label: t("tip_us"), href: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__4JvANBURjRBUktXSjhNVDAzRllESlFaSDI4UlFRVC4u" },
 ]);
 </script>
 
+
 <template>
   <nav class="navbar" role="navigation" aria-label="Main Menu">
-    <button class="hamburger" :aria-expanded="isOpen.toString()" aria-controls="nav-links" :aria-label="isOpen ? t('close_menu') : t('open_menu')" @click="toggleMenu">
-      {{ isOpen ? "✕" : "☰" }}
-    </button>
+    <button
+    ref="closeButton"
+    class="hamburger"
+    :class="{ open: isOpen }"
+    :aria-expanded="isOpen ? 'true' : 'false'"
+    aria-controls="main-menu"
+    :aria-label="isOpen ? t('close_menu') : t('open_menu')"
+    @click="toggleMenu">
+    {{ isOpen ? t('close_menu') : t('menu') }} {{ isOpen ? "✕" : "☰" }}
+  </button>
 
     <div :class="['mobile-menu-overlay', { open: isOpen }]">
-      <ul class="nav-links mobile-only">
+      <ul id="main-menu" ref="menuRef" class="nav-links mobile-only" :aria-hidden="isOpen ? 'false' : 'true'">
         <template v-for="(item, index) in menuItems" :key="index">
-          <li v-if="!item.children">
+          <li v-if="!item.children" ref="firstMenuItem">
             <router-link v-if="item.to" :to="item.to" class="link">{{ item.label }}</router-link>
             <a v-else :href="item.href" class="link" target="_blank" rel="noopener">{{ item.label }}</a>
           </li>
@@ -121,7 +136,7 @@ const menuItems = computed(() => [
             <ul class="dropdown-content">
               <li v-for="(child, cIndex) in item.children" :key="cIndex">
                 <router-link v-if="child.to" :to="child.to" class="link">{{ child.label }}</router-link>
-                <a v-else :href="child.href" target="_blank" rel="noopener">{{ child.label }}</a>
+                <a v-else :href="child.href" class="link" target="_blank" rel="noopener">{{ child.label }}</a>
               </li>
             </ul>
           </li>
@@ -155,20 +170,17 @@ const menuItems = computed(() => [
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 2.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-right: 0.5rem;
   position: relative;
   z-index: 1001;
-  color: var(--color-text, #fff);
+  color: var(--color-text);
 }
 
 .hamburger {
-  position: absolute;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background: none;
   border: none;
-  color: var(--color-text, #fff);
+  color: var(--color-text);
   cursor: pointer;
   top: -5px;
   z-index: 1002;
@@ -178,6 +190,14 @@ const menuItems = computed(() => [
 
 .hamburger:hover {
   transform: scale(1.1);
+}
+
+.hamburger.open { 
+  display: flex;
+  justify-content: left;
+  min-width: 20rem;
+
+  padding-right: 80px;
 }
 
 .mobile-menu-overlay {
@@ -195,7 +215,7 @@ const menuItems = computed(() => [
   height: 100vh;
   background: linear-gradient(to bottom, #111, var(--color-background));
   z-index: 1000;
-  padding-top: 6rem;
+  padding-top: 5rem;
   padding-left: 2rem;
   color: var(--color-text);
 }
@@ -209,7 +229,7 @@ const menuItems = computed(() => [
 .nav-links.mobile-only {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .nav-links.desktop-only {
@@ -234,7 +254,7 @@ a,
 a:hover,
 .link:hover,
 .dropbtn:hover {
-  color: #ff5c00;
+  text-decoration: underline;
 }
 
 .dropdown {
@@ -246,6 +266,7 @@ a:hover,
   border: none;
   cursor: pointer;
   font-family: var(--font-display);
+  padding: 0;
 }
 
 .dropdown-content {

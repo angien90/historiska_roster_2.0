@@ -6,7 +6,7 @@ import OurReviews from "../components/OurReviews.vue";
   <span class="about-us">
     <h1>{{ $t("aboutUs.title") }}</h1>
   </span>
-  <img :src="`/images/generell/historiska_roster_i_trappa.webp`" width="250" height="180" alt="En bild på teamet" class="team-image" loading="lazy"/>
+  <img :src="`/images/generell/historiska_roster_i_trappa.webp`" width="250" height="180" alt="En bild på teamet" class="responsive-img" loading="lazy"/>
   <div class="section-content">
     <section class="section">
       <h2>{{ $t("aboutUs.teamTitle") }}</h2>
@@ -68,50 +68,21 @@ import OurReviews from "../components/OurReviews.vue";
 </template>
 
 <style scoped>
-h1 {
-  font-size: 2rem;
-}
-
-h3 {
-  margin-top: 2rem;
-  margin-bottom: 0;
-}
-
 p {
   padding: 0;
-}
-
-.vision h2 {
-  margin-top: 2rem;
-  margin-bottom: 0;
-}
-
-.vision p {
-  margin-top: 0;
 }
 
 h4 {
   margin-bottom: -10px;
 }
 
-.back-link {
-  color: white;
-  text-decoration: none;
-  font-size: 1.8rem;
-}
-
 .ledord-wrapper {
   display: grid;
   gap: 1.5rem;
   margin-top: 1rem;
-}
-
-@media (min-width: 1024px) {
-  h1 {
-    font-size: 4rem;
-    padding-bottom: 20px;
   }
 
+@media (min-width: 1024px) {
   h4 {
     margin-bottom: -25px;
   }

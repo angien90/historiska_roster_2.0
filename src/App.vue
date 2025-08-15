@@ -28,11 +28,9 @@ function goBack() {
 <template>
   <div class="app-container">
     <header class="site-header">
-      <button v-if="route.path !== '/'" @click="goBack" class="home-link" aria-label="Tillbaka" title="Gå tillbaka" type="button">
+<button v-if="route.path !== '/'" @click="goBack" class="home-link" aria-label="Tillbaka" title="Gå tillbaka" type="button">
         <span class="material-symbols-outlined home-icon">keyboard_return</span>
       </button>
-
-      <TopNav v-if="isHomePage" />
 
       <nav class="language-switcher" aria-label="Välj språk">
         <button @click="setLanguage('en')" :aria-pressed="locale === 'en'" aria-label="Switch to English" title="Translate to English" type="button">
@@ -42,6 +40,10 @@ function goBack() {
           <img src="/images/swedish_flag.webp" alt="Svenska" width="40" height="30" />
         </button>
       </nav>
+
+      
+      <TopNav v-if="isHomePage" />
+
     </header>
     <router-view /> 
   </div>
@@ -71,15 +73,15 @@ function goBack() {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
-  background-color: var(--color-header, #181818);
-  box-shadow: 0 0 30px var(--color-shadow, #000);
+  padding: 0;
+  background-color: var(--color-second-background);
   z-index: 10000;
   gap: 1rem;
+  
 }
 
 .home-link {
@@ -98,6 +100,7 @@ function goBack() {
 .home-icon {
   font-size: 2.5rem;
   transition: transform 0.3s ease;
+  padding-left: 20px;
 }
 
 .home-icon:hover {
@@ -108,7 +111,7 @@ function goBack() {
   display: flex;
   gap: 1rem;
   align-items: center;
-  padding-right: 70px;
+  padding: 1rem;
 }
 
 .language-switcher button {
@@ -140,7 +143,6 @@ router-view {
 
 .site-footer {
   width: 100%;
-  background-color: var(--color-header, #181818);
   color: var(--color-text);
   padding: 1rem 2rem;
   text-align: center;

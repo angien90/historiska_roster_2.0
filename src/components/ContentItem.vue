@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  margin-bottom: 20px;
 }
 
 .heading-wrapper h3 {
@@ -25,5 +25,6 @@
   min-height: 3.5rem; 
   padding: 0 0.5rem;
   text-align: center;
+  margin-top: 0;
 }
 </style>

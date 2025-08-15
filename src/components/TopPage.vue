@@ -29,7 +29,7 @@ h1 {
 h2 {
   font-family: "Amatic SC", cursive;
   font-weight: lighter;
-  padding: 0 2rem;
+  padding: 0 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }

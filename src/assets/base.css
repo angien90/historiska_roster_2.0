@@ -1,5 +1,7 @@
 :root {
   --color-background: #000000;
+  --color-second-background: #252525;
+  --color-third-background: #1a1a1a;
   --color-text: #ffffff;
   --font-display: 'Caesar Dressing', cursive;
   --font-body: 'Amatic SC', cursive;
@@ -30,10 +32,4 @@ a {
   text-transform: uppercase;
   color: var(--color-text);
   transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    text-decoration: underline;
-  }
 }

@@ -9,7 +9,7 @@ const { t } = useI18n();
 
     <div class="grid-style">
     <!-- Nyheter -->
-    <router-link to="/PageSpirituellMassa" class="highlight upcoming" aria-label="Spirituell Massa">
+    <router-link to="/PageSpirituellMassa" class="highlight-upcoming" aria-label="Spirituell Massa">
       <h3>{{ t("spirituell_massa") }}</h3>
       <img src="/images/spirituellmassa/spirituellamassan.webp" alt="Spirituella Mässan" width="250" height="180" class="upcoming-image" loading="lazy"/>
       <div class="upcoming-text">
@@ -20,7 +20,7 @@ const { t } = useI18n();
     </router-link>
 
       <!-- Kommande utredningar -->
-      <div class="highlight upcoming">
+      <div class="highlight-upcoming highlight-upcoming-div">
         <h3>{{ t("upcoming") }}</h3>
         <img src="/images/generell/empty_room_with_ghost.webp" alt="Tomt rum med ett spöke" width="250" height="180" class="upcoming-image" loading="lazy"/>
         <div class="upcoming-text">
@@ -51,7 +51,7 @@ const { t } = useI18n();
   justify-content: center;
 }
 
-.highlight {
+.highlight-upcoming {
   background-color: #1a1a1a;
   border-radius: 12px;
   padding: 1.5rem;
@@ -63,11 +63,20 @@ const { t } = useI18n();
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   color: inherit;
   text-decoration: none;
+  margin-top: 20px;}
+
+.highlight-upcoming-div {
+  flex: 0 0 300px; /* fast bredd */
+  max-width: 215px;
 }
 
-h2,
+h2 {
+  margin-bottom: 0;
+}
+
 h3 {
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .upcoming-image {
@@ -76,12 +85,11 @@ h3 {
   max-width: 320px;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255 255 255 / 0.05);
-  margin-bottom: 1rem;
   object-fit: cover;
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   text-align: center;
   padding-bottom: 0;
@@ -94,7 +102,8 @@ p {
       gap: 8%;
     }
 
-    .highlight {
+    .highlight,
+    .highlight-upcoming-div {
       width: 100%;
       max-width: 450px;
     }

@@ -22,8 +22,5 @@ defineProps({
 </template>
 
 <style scoped>
-h3 {
-  padding-left: 0;
-  padding-right: 0;
-}
+
 </style>

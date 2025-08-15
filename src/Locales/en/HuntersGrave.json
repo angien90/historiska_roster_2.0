@@ -1,0 +1,35 @@
+{
+  "title": "The Hunter's Grave",
+  "investigation": "Historical Voices were here",
+  "investigationDate": "August 16, 2025",
+  "image": "/images/hunters_grave/jagarens_grav.webp",
+  "history": [
+    {
+      "heading1": "The Story",
+      "text": [
+        "According to an old legend, a hunter rests here in the forest’s quiet peace. He is said to have thrown himself into the Hönedammen to save a young girl from drowning. But fate had other plans. Both were pulled down into the dark waters, and when the search finally came to an end, only the hunter’s body was found. The girl remained missing without a trace, vanished among the reeds – and was never seen again."
+      ]
+    }
+  ],
+  "galleryTitle": "Image Gallery",
+  "gallery": [
+    {
+      "src": "/images/rankhyttan/rankhyttan.webp",
+      "alt": "Photo of Rankhyttan",
+      "caption": "Rankhyttan Manor"
+    }
+  ],
+  "resultTitle": "Summary from Our Investigation",
+  "videoSectionTitle": "Join Us on the Investigation",
+  "results": [
+    {
+      "title": "Brief Summary of Our Experience",
+      "text": [
+        "Coming soon."
+      ]
+    }
+  ],
+  "videos": [
+    "Coming soon"
+  ]
+}

@@ -66,10 +66,14 @@ function loadOptionalScripts(settings = {}) {
     // Lägg till scripts för marknadsföring här, t.ex. Facebook Pixel
   }
 }
+function closePopup() {
+  showPopup.value = false
+}
 </script>
 
 <template>
   <div v-if="showPopup" class="cookie-consent">
+    <button class="close-btn" @click="closePopup">x</button>
     <h2>{{ t('cookie.title') }}</h2>
     <p>{{ t('cookie.message') }} <router-link to="/PrivacyPolicy" class="link">{{ t('cookie.readMore') }}</router-link></p>
     <div class="buttons">
@@ -79,7 +83,6 @@ function loadOptionalScripts(settings = {}) {
     </div>
   </div>
   <CookieSettingsModal v-if="showModal" @save="onSaveSettings" @close="showModal = false" />
-
 </template>
 
 <style scoped>
@@ -92,15 +95,32 @@ function loadOptionalScripts(settings = {}) {
   z-index: 1000;
 }
 
+.cookie-consent .close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
 .cookie-consent h2 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-top: 1rem;
   font-weight: bold;
   color: #000;
 }
 
 .cookie-consent p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 1rem;
   margin-bottom: 0;
   line-height: 1.4;
@@ -115,7 +135,7 @@ function loadOptionalScripts(settings = {}) {
 .cookie-consent .buttons {
   display: flex;           
   justify-content: center; 
-  gap: 1rem;               
+  gap: 0.5rem;               
   flex-wrap: nowrap;       
   padding: 0 1rem 1rem;
 }
@@ -124,7 +144,7 @@ function loadOptionalScripts(settings = {}) {
   flex: 1 1 120px;
   max-width: 200px;
   padding: 0.6rem 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border-radius: 8px;
   border: none;
   cursor: pointer;

@@ -21,9 +21,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 0;
   line-height: 1.2;
+  margin-top: 40px;
 }
 
 h3 {
@@ -33,7 +32,8 @@ h3 {
   line-height: 1.2;
   word-break: keep-all;
   overflow-wrap: break-word;
-  padding: 2rem 1rem 0 1rem;
+  padding: 0rem 1rem 0 1rem;
+  margin-top: 40px;
 }
 
 h4 {
@@ -44,19 +44,10 @@ h4 {
 p {
   font-family: var(--font-body);
   font-size: 1.7rem;
+  line-height: 1.2;
   text-align: center;
-  margin-top: 0;
-}
-
-.section {
-  max-width: 100%;
-  margin: 20px auto;
-  padding: 2rem;
-  padding-top: 0.5rem;
-  background-color: #252525;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
-  color: white;
+  margin: 0;
+  padding-top: 20px;
 }
 
 .gradient-line {
@@ -64,6 +55,16 @@ p {
   width: 100%;
   margin: 1rem 0 2rem 0;
   background: linear-gradient(to right, transparent, #fff, transparent);
+}
+
+.section {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 0.5rem 2rem 2rem;
+  background-color: var(--color-second-background);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+  color: white;
 }
 
 .text-center {
@@ -87,15 +88,14 @@ p {
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .card-style {
-  background-color: #1a1a1a;
-  padding: 1.5rem;
+  background-color: var(--color-third-background);
+  margin: 1rem;
   border-radius: 12px;
   text-decoration: none;
-  color: inherit;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
   display: flex;
@@ -104,25 +104,28 @@ p {
   width: 260px;
   flex: 0 0 260px;
 }
+
 .card-style:hover {
   transform: scale(1.03);
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.12);
 }
 
 .card-img-style {
-  width: 100%;
+  width: 90%;
   max-width: 250px;
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .section-style {
   max-width: 100%;
   margin: 20px auto;
   padding: 2rem;
-  background-color: #252525;
+  background-color: var(--color-second-background);
   border-radius: 12px;
   color: white;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
@@ -132,25 +135,11 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
   margin-top: 20px;
+  gap: 20px;
 }
 
-.section-style p {
-  margin: 0;
-  padding-top: 10px;
-  line-height: 1.2;
-  font-size: 1.2rem;
-}
 
-.team-image {
-  display: block;
-  margin: 0 auto 2rem auto;
-  width: 90%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
-}
 
 /* Responsivt */
 @media (min-width: 600px) {
@@ -159,12 +148,12 @@ p {
     margin-bottom: 1rem;
   }
 
-  .section-style p {
-    font-size: 1.5rem;
+  p {
+    font-size: 2rem;
   }
 
   .responsive-img {
-  width: 60%;
+    width: 60%;
   }
 }
 
@@ -181,15 +170,11 @@ p {
     font-size: 2.5rem;
   }
 
-  .section-style p {
-    font-size: 2rem;
-  }
-
-  .team-image {
-  max-width: 30%;
+  p {
+    font-size: 2.2rem;
   }
 
   .responsive-img {
-  width: 30%;
+    width: 30%;
   }
 }

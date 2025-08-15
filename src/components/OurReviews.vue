@@ -21,7 +21,7 @@ const reviews = computed(() => tm("reviews"));
   max-width: 100%;
   margin: 20px auto;
   padding: 2rem;
-  background-color: #252525;
+  background-color: var(--color-second-background);
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
   color: white;

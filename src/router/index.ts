@@ -16,6 +16,7 @@ const routes = [
   { path: "/PageMysteriumMassan", name: "PageMysteriumMassan", component: () => import("../views/PageMysteriumMassan.vue") },
   { path: "/PageRydalsHerrgardEvent", name: "PageRydalsHerrgardEvent", component: () => import("../views/PageRydalsHerrgardEvent.vue") },
   { path: "/PageSpirituellMassa", name: "PageSpirituellMassa", component: () => import("../views/PageSpirituellMassa.vue") },
+  { path: "/PageHuntersGrave", name: "PageHuntersGrave", component: () => import("../views/PageHuntersGrave.vue") },
 ];
 
 const router = createRouter({

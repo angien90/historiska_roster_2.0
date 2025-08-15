@@ -12,7 +12,7 @@ defineProps({
     <div class="details">
       <p class="stars">⭐⭐⭐⭐⭐</p>
       <blockquote>
-        <p>{{ text }}</p>
+        <p>"{{ text }}"</p>
       </blockquote>
       <div class="review-image-wrapper">
         <img :src="image" :alt="name" width="250" height="180" class="review-image" loading="lazy"/>
@@ -27,7 +27,7 @@ defineProps({
 
 <style scoped>
 .review-card {
-  background-color: #1a1a1a;
+  background-color: var(--color-third-background);
   padding: 1.5rem;
   border-radius: 12px;
   max-width: 300px;
@@ -47,7 +47,7 @@ defineProps({
 .review-image-wrapper {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin: 2rem auto 1rem;
 }
 
 .review-image {
@@ -86,7 +86,7 @@ p {
 .handle {
   font-size: 1.2rem;
   color: #ccc;
-  margin-top: 0;
+  padding-top: 0;
   padding-bottom: 0;
 }
 </style>

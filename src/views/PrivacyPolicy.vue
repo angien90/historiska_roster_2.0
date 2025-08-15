@@ -93,14 +93,14 @@ onMounted(() => {
 
 .cookie-table th,
 .cookie-table td {
-  border: 1px solid #ccc;
+  border: 1px solid var(--color-text);
   padding: 0.6rem;
   text-align: left;
 }
 
 .cookie-table th {
-  background-color: var(--color-header, #181818);
-  color: var(--color-text, #fff);
+  background-color: var(--color-background);
+  color: var(--color-text);
   text-align: center;
 }
 
