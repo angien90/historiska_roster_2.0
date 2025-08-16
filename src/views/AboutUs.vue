@@ -65,12 +65,11 @@ import OurReviews from "../components/OurReviews.vue";
     </section>
     <OurReviews />
 
-    <div class="link-to-grave">
-      <router-link to="/PageHuntersGrave" class="link">
+    <div>
+      <router-link to="/PageHuntersGrave">
         Gå till Hunter's Grave →
       </router-link>
     </div>
-
   </div>
 </template>
 
