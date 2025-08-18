@@ -12,6 +12,7 @@ import PlaceReadMore from "../components/PlaceReadMore.vue";
 
 import huntersGrave_sv from "../Locales/sv/HuntersGrave.json";
 import huntersGrave_en from "../Locales/en/HuntersGrave.json";
+import PlaceReferences from "@/components/PlaceReferences.vue";
 
 const { locale } = useI18n();
 
@@ -38,6 +39,10 @@ const huntersGrave = computed(() => {
       :videoSectionTitle="huntersGrave.videoSectionTitle"
       :results="huntersGrave.results"
       :videos="huntersGrave.videos"
+    />
+    <PlaceReferences
+      :more-title="huntersGrave.referencesTitle"
+      :sources="huntersGrave.sources"
     />
     </div>
   <div v-else>

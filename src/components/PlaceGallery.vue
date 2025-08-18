@@ -36,6 +36,11 @@ defineProps({
   margin-top: 20px;
 }
 
+.responsive-img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* För större skärmar */
 @media (min-width: 768px) {
   .gallery {

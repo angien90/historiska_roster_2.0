@@ -64,12 +64,6 @@ import OurReviews from "../components/OurReviews.vue";
       <p v-for="(text, index) in $tm('aboutUs.cooperationText')" :key="index" v-html="text"/>
     </section>
     <OurReviews />
-
-    <div>
-      <router-link to="/PageHuntersGrave">
-        Gå till Hunter's Grave →
-      </router-link>
-    </div>
   </div>
 </template>
 

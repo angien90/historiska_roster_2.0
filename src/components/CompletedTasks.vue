@@ -4,6 +4,11 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const items = [
+  { to: "/PageHuntersGrave", 
+    src: "/images/hunters_grave/jagarens_grav.webp", 
+    alt: "Jägarens grav", 
+    label: "huntersgrave" 
+  },
   { to: "/PageRydalsHerrgard", 
     src: "/images/rydals_herrgard/rydals_herrgard.webp", 
     alt: "Rydals Herrgård", 
