@@ -52,7 +52,7 @@ function goBack() {
   <footer class="site-footer">
       <div class="footer-content">
         <p class="creator" v-html="t('createdBy', {author: `<a href='https://github.com/angien90' target='_blank' rel='noopener noreferrer'>Angelica</a>`})"></p>
-        <p v-html="t('copyright', { year: currentYear })"></p>
+        <p class="creator" v-html="t('copyright', { year: currentYear })"></p>
       </div>
     </footer>
 </template>
@@ -66,6 +66,7 @@ function goBack() {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  padding-bottom: 0;
 }
 
 .site-header {
@@ -152,6 +153,10 @@ router-view {
 .footer-content p {
   font-size: 1rem;
   margin-bottom: 0;
+}
+
+.creator {
+  padding-top: 0;
 }
 
 @media (min-width: 768px) {

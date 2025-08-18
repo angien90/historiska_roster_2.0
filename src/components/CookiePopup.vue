@@ -1,12 +1,10 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
-import CookieSettingsModal from './CookieSettingsModal.vue'
 
 const { t } = useI18n()
 
 const showPopup = ref(false)
-const showModal = ref(false)
 
 onMounted(() => {
   const consent = localStorage.getItem('cookieConsent')
@@ -14,10 +12,6 @@ onMounted(() => {
     showPopup.value = true
   } else if (consent === 'all') {
     loadOptionalScripts({ statistics: true, marketing: true })
-  } else if (consent === 'custom') {
-    // Läs sparade val
-    const customSettings = JSON.parse(localStorage.getItem('cookieConsentSettings') || '{}')
-    loadOptionalScripts(customSettings)
   }
 })
 
@@ -27,26 +21,13 @@ function acceptAll() {
   loadOptionalScripts({ statistics: true, marketing: true })
 }
 
-function rejectNecessary() {
+function acceptNecessary() {
   localStorage.setItem('cookieConsent', 'necessary')
-  showPopup.value = false
-}
-
-function customSettings() {
-  showModal.value = true
-}
-
-function onSaveSettings(settings) {
-  localStorage.setItem('cookieConsent', 'custom')
-  localStorage.setItem('cookieConsentSettings', JSON.stringify(settings))
-  loadOptionalScripts(settings)
-  showModal.value = false
   showPopup.value = false
 }
 
 function loadOptionalScripts(settings = {}) {
   if (settings.statistics) {
-    // Exempel: Google Analytics
     if (!document.getElementById('ga-script')) {
       const script = document.createElement('script')
       script.id = 'ga-script'
@@ -61,11 +42,8 @@ function loadOptionalScripts(settings = {}) {
       }
     }
   }
-
-  if (settings.marketing) {
-    // Lägg till scripts för marknadsföring här, t.ex. Facebook Pixel
-  }
 }
+
 function closePopup() {
   showPopup.value = false
 }
@@ -73,17 +51,16 @@ function closePopup() {
 
 <template>
   <div v-if="showPopup" class="cookie-consent">
-    <button class="close-btn" @click="closePopup">x</button>
+    <button class="close-btn" @click="closePopup" :title="t('cookie.close')">x</button>
     <h2>{{ t('cookie.title') }}</h2>
     <p>{{ t('cookie.message') }} <router-link to="/PrivacyPolicy" class="link">{{ t('cookie.readMore') }}</router-link></p>
     <div class="buttons">
       <button @click="acceptAll">{{ t('cookie.acceptAll') }}</button>
-      <button @click="rejectNecessary">{{ t('cookie.necessaryOnly') }}</button>
-      <button @click="customSettings">{{ t('cookie.customize') }}</button>
+      <button @click="acceptNecessary">{{ t('cookie.necessaryOnly') }}</button>
     </div>
   </div>
-  <CookieSettingsModal v-if="showModal" @save="onSaveSettings" @close="showModal = false" />
 </template>
+
 
 <style scoped>
 .cookie-consent {
@@ -101,11 +78,12 @@ function closePopup() {
   right: 12px;
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
   color: #666;
   transition: color 0.2s ease;
+  padding-top: 0;
 }
 
 .close-btn:hover {
@@ -113,14 +91,14 @@ function closePopup() {
 }
 
 .cookie-consent h2 {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   margin-top: 1rem;
   font-weight: bold;
   color: #000;
 }
 
 .cookie-consent p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 1rem;
   margin-bottom: 0;
   line-height: 1.4;

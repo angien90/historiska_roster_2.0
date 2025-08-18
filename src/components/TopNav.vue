@@ -196,8 +196,7 @@ const menuItems = computed(() => [
   display: flex;
   justify-content: left;
   min-width: 20rem;
-
-  padding-right: 80px;
+  padding-right: 0;
 }
 
 .mobile-menu-overlay {
@@ -245,7 +244,7 @@ a,
 .dropbtn {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
   transition: color 0.3s ease;
   font-family: var(--font-display);

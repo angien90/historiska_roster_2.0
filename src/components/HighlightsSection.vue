@@ -20,7 +20,7 @@ const { t } = useI18n();
     </router-link>
 
       <!-- Kommande utredningar -->
-      <div class="highlight-upcoming highlight-upcoming-div">
+      <div class="highlight-upcoming">
         <h3>{{ t("upcoming") }}</h3>
         <img src="/images/generell/empty_room_with_ghost.webp" alt="Tomt rum med ett spöke" width="250" height="180" class="upcoming-image" loading="lazy"/>
         <div class="upcoming-text">
@@ -56,22 +56,15 @@ const { t } = useI18n();
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 0 12px rgba(255 255 255 / 0.05);
-  flex: 1 1 280px;
   width: 100%;
   max-width: 320px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   color: inherit;
   text-decoration: none;
-  margin-top: 20px;}
-
-.highlight-upcoming-div {
-  flex: 0 0 300px; /* fast bredd */
+  margin-top: 20px;
+  flex: 0 0 300px;
   max-width: 215px;
-}
-
-h2 {
-  margin-bottom: 0;
 }
 
 h3 {
@@ -89,7 +82,7 @@ h3 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
   padding-bottom: 0;
