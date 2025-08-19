@@ -24,10 +24,14 @@
         "📄 Få med dig vårt informationsmaterial med QR-koder, kontaktuppgifter och allt du behöver för att följa eller samarbeta med oss.",
         "✍️ Hjälp oss hitta nästa utredningsmål – tipsa oss om platser med mystisk energi eller oförklarliga händelser.",
         "🍬 En liten energiboost – ta en kola och stanna för en pratstund.",
-        "🪑 Bekväma sittplatser för dig som vill stanna och prata med oss en stund."
+        "🪑 Bekväma sittplatser för dig som vill stanna och prata med oss en stund.",
+        "<strong>HÄR KOMMER DU HITTA OSS;</strong>"
       ]
     }
   ],
+  "historyImage": {
+    "alt": "Placering Spirituella Mässan"
+  },
   "resultTitle": "Sammanfattning från mässan",
   "results": [
     {

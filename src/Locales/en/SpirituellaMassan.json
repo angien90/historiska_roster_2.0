@@ -24,10 +24,14 @@
         "📄 Take home our info materials with QR codes, contact details, and everything you need to follow or collaborate with us.",
         "✍️ Help us find our next investigation – suggest places with mysterious energy or unexplained activity.",
         "🍬 Grab a small energy boost – enjoy a candy and stay for a chat.",
-        "🪑 Comfortable seating for those who want to hang out and talk with us for a while."
+        "🪑 Comfortable seating for those who want to hang out and talk with us for a while.",
+        "<strong>HERE YOU WILL FIND US</strong>;"
       ]
     }
   ],
+  "historyImage": {
+    "alt": "Placering Spirituella Mässan"
+  },
   "resultTitle": "Fair Summary",
   "results": [
     {
