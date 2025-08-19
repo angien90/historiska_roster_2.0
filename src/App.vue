@@ -82,7 +82,6 @@ function goBack() {
   padding: 0;
   background-color: var(--color-second-background);
   z-index: 10000;
-  gap: 1rem;
   
 }
 
