@@ -29,7 +29,9 @@ const gathenhielmskaHuset = computed(() => {
       :date="gathenhielmskaHuset.investigationDate"
       :image="gathenhielmskaHuset.image"
     />
-    <PlaceHistory :content="gathenhielmskaHuset.history" />
+    <PlaceHistory 
+      :content="gathenhielmskaHuset.history" 
+    />
     <PlaceGhostStory
       :storyTitle="gathenhielmskaHuset.storyTitle"
       :stories="gathenhielmskaHuset.stories"

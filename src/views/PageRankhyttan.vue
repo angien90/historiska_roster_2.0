@@ -28,7 +28,9 @@ const rankhyttan = computed(() => {
       :date="rankhyttan.investigationDate"
       :image="rankhyttan.image"
     />
-    <PlaceHistory :content="rankhyttan.history" />
+    <PlaceHistory 
+      :content="rankhyttan.history" 
+      />
     <PlaceGhostStory
       :storyTitle="rankhyttan.storyTitle"
       :stories="rankhyttan.stories"

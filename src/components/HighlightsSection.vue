@@ -34,21 +34,9 @@ const { t } = useI18n();
 </template>
 
 <style scoped>
-.highlights-section {
-  max-width: 100%;
-  margin: 20px auto;
-  padding: 2rem;
-  background-color: #252525;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(255 255 255 / 0.08);
-  color: white;
-}
-
-.highlights-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+.section-style {
+  padding: 10px;
+  padding-bottom: 30px;
 }
 
 .highlight-upcoming {
@@ -59,12 +47,9 @@ const { t } = useI18n();
   width: 100%;
   max-width: 320px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: inherit;
   text-decoration: none;
   margin-top: 20px;
-  flex: 0 0 300px;
-  max-width: 215px;
+
 }
 
 h3 {

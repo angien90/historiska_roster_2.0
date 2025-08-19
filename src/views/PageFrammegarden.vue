@@ -34,7 +34,10 @@ const frammegardenImage = {
       :date="frammegarden.investigationDate"
       :image="frammegarden.image"
     />
-    <PlaceHistory :content="frammegarden.history" :image="frammegardenImage" />
+    <PlaceHistory 
+      :content="frammegarden.history" 
+      :image="frammegardenImage" 
+    />
     <PlaceGhostStory
       :storyTitle="frammegarden.storyTitle"
       :stories="frammegarden.stories"

@@ -8,6 +8,12 @@ const isOpen = ref(false);
 const menuRef = ref(null);
 const closeButton = ref(null);
 
+const openDropdown = ref(null)
+
+  const toggleDropdown = (index) => {
+    openDropdown.value = openDropdown.value === index ? null : index
+  }
+
 const toggleMenu = () => {
   isOpen.value = !isOpen.value;
 
@@ -152,11 +158,17 @@ const menuItems = computed(() => [
         </li>
 
         <li v-else class="dropdown">
-          <button class="dropbtn">{{ item.label }}</button>
-          <ul class="dropdown-content">
-            <li v-for="(child, cIndex) in item.children" :key="'d' + index + '-' + cIndex">
+          <button
+            class="dropbtn"
+            @click="toggleDropdown(index)"
+            :aria-expanded="openDropdown === index ? 'true' : 'false'"
+          >
+            {{ item.label }}
+          </button>
+          <ul v-show="openDropdown === index" class="dropdown-content">
+            <li v-for="(child, cIndex) in item.children" :key="cIndex">
               <router-link v-if="child.to" :to="child.to" class="link">{{ child.label }}</router-link>
-              <a v-else :href="child.href" target="_blank" rel="noopener">{{ child.label }}</a>
+              <a v-else :href="child.href" class="link" target="_blank" rel="noopener">{{ child.label }}</a>
             </li>
           </ul>
         </li>
@@ -194,9 +206,8 @@ const menuItems = computed(() => [
 
 .hamburger.open { 
   display: flex;
-  justify-content: left;
-  min-width: 20rem;
-  padding-right: 0;
+  text-align:end;
+  padding-right: 10px;
 }
 
 .mobile-menu-overlay {
@@ -265,11 +276,18 @@ a:hover,
   border: none;
   cursor: pointer;
   font-family: var(--font-display);
-  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: color 0.3s ease;
+}
+
+.dropbtn:hover {
+  text-decoration: underline;
 }
 
 .dropdown-content {
-  display: none;
+  display: none; /* Grundläge, dold */
   position: absolute;
   background-color: #181818;
   padding: 1rem;
@@ -281,10 +299,16 @@ a:hover,
   border-radius: 6px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
   transition: opacity 0.2s ease;
+  opacity: 0;
+  pointer-events: none; /* Gör så man inte kan klicka när den är dold */
 }
 
-.dropdown:hover .dropdown-content {
+/* När Vue sätter v-show = true så får den inline style display:block,
+   så vi "förbättrar" med extra states */
+.dropdown-content[style*="display: block"] {
   display: block;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .dropdown-content li {

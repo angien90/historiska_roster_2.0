@@ -26,7 +26,9 @@ const rydalsHerrgardEvent = computed(() => {
       :date="rydalsHerrgardEvent.investigationDate"
       :image="rydalsHerrgardEvent.image"
     />
-    <PlaceHistory :content="rydalsHerrgardEvent.history" />
+    <PlaceHistory 
+      :content="rydalsHerrgardEvent.history" 
+    />
     <PlaceReadMore
       :moreTitle="rydalsHerrgardEvent.moreTitle"
       :more="rydalsHerrgardEvent.more"

@@ -28,7 +28,7 @@ function goBack() {
 <template>
   <div class="app-container">
     <header class="site-header">
-<button v-if="route.path !== '/'" @click="goBack" class="home-link" aria-label="Tillbaka" title="Gå tillbaka" type="button">
+      <button v-if="route.path !== '/'" @click="goBack" class="home-link" aria-label="Tillbaka" title="Gå tillbaka" type="button">
         <span class="material-symbols-outlined home-icon">keyboard_return</span>
       </button>
 
@@ -41,21 +41,22 @@ function goBack() {
         </button>
       </nav>
 
-      
       <TopNav v-if="isHomePage" />
-
     </header>
-    <router-view /> 
-  </div>
-  <CookiePopup />
 
-  <footer class="site-footer">
+    <router-view /> 
+
+    <footer class="site-footer">
       <div class="footer-content">
         <p class="creator" v-html="t('createdBy', {author: `<a href='https://github.com/angien90' target='_blank' rel='noopener noreferrer'>Angelica</a>`})"></p>
         <p class="creator" v-html="t('copyright', { year: currentYear })"></p>
       </div>
     </footer>
+  </div>
+
+  <CookiePopup />
 </template>
+
 
 <style scoped>
 .app-container {
@@ -143,15 +144,17 @@ router-view {
 }
 
 .site-footer {
+  margin-top: auto;
   width: 100%;
   color: var(--color-text);
-  padding: 1rem 2rem;
+  padding: 0.5rem;
   text-align: center;
   box-sizing: border-box;
+  
 }
 
 .footer-content p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 0;
 }
 

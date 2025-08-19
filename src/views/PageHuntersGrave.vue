@@ -29,7 +29,9 @@ const huntersGrave = computed(() => {
       :date="huntersGrave.investigationDate"
       :image="huntersGrave.image"
     />
-    <PlaceHistory :content="huntersGrave.history" />  
+    <PlaceHistory 
+      :content="huntersGrave.history" 
+    />  
     <PlaceGallery
       :galleryTitle="huntersGrave.galleryTitle"
       :gallery="huntersGrave.gallery"

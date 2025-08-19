@@ -25,7 +25,9 @@ const mysterieMassan = computed(() => {
       :date="mysterieMassan.investigationDate"
       :image="mysterieMassan.image"
     />
-    <PlaceHistory :content="mysterieMassan.history" />
+    <PlaceHistory 
+      :content="mysterieMassan.history" 
+    />
     <PlaceResult
       :resultTitle="mysterieMassan.resultTitle"
       :videos="mysterieMassan.videos"

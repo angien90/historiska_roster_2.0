@@ -25,7 +25,9 @@ const hjortsberga = computed(() => {
       :date="hjortsberga.investigationDate"
       :image="hjortsberga.image"
     />
-    <PlaceHistory :content="hjortsberga.history" :image="hjortsberga.image" />
+    <PlaceHistory 
+      :content="hjortsberga.history"  
+    />
     <PlaceResult
       :resultTitle="hjortsberga.resultTitle"
       :videoSectionTitle="hjortsberga.videoSectionTitle"

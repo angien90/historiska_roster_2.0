@@ -30,7 +30,6 @@ const hemsoktaMuseet = computed(() => {
     />
     <PlaceHistory
       :content="hemsoktaMuseet.history"
-      :image="hemsoktaMuseetImage"
     />
     <PlaceGhostStory
       :storyTitle="hemsoktaMuseet.storyTitle"
