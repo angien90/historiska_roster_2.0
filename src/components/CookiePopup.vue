@@ -129,4 +129,15 @@ function closePopup() {
   transition: all 0.2s ease-in-out;
   font-family: var(--font-display);
 }
+
+@media (min-width: 1024px) {
+  .cookie-consent p {
+  font-size: 2rem;
+  }
+
+  .cookie-consent button {
+  font-size: 1.5rem;
+  max-width: 300px;
+  }
+}
 </style>

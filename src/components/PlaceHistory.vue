@@ -8,8 +8,7 @@ defineProps({
 <template>
   <section class="section">
     <div v-for="(section, index) in content" :key="index" class="history-section">
-      <h2>{{ section.heading1 }}</h2>
-      <h3>{{ section.heading2 }}</h3>
+      <h2>{{ section.heading1 }}{{ section.heading2 }}</h2>
       <p v-for="(paragraph, pIndex) in section.text" :key="pIndex" v-html="paragraph"></p>
     </div>
 
@@ -22,5 +21,7 @@ defineProps({
 </template>
 
 <style scoped>
-
+h2 {
+  margin-top: 50px;
+}
 </style>

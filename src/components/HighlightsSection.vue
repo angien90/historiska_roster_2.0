@@ -9,6 +9,16 @@ const { t } = useI18n();
 
     <div class="grid-style">
     <!-- Nyheter -->
+    <router-link to="/PageJugendHouseEvent" class="highlight-upcoming" aria-label="Klevs Gästgiveri">
+      <h3>{{ t("klevs_gastgiveri_event") }}</h3>
+      <img src="/images/jugend_house/Klevs Gästgiveri (CC BY).webp" alt="Klevs Gästgiveri" width="250" height="180" class="upcoming-image" loading="lazy"/>
+      <div class="upcoming-text">
+          <p>{{ t("klevs_gastgiveri_event_text1") }}</p>
+          <p>{{ t("klevs_gastgiveri_event_text2") }}</p>
+          <p>{{ t("klevs_gastgiveri_event_text3") }}</p>
+      </div>
+    </router-link>
+
     <router-link to="/PageSpirituellMassa" class="highlight-upcoming" aria-label="Spirituell Massa">
       <h3>{{ t("spirituell_massa") }}</h3>
       <img src="/images/spirituellmassa/spirituellamassan.webp" alt="Spirituella Mässan" width="250" height="180" class="upcoming-image" loading="lazy"/>
