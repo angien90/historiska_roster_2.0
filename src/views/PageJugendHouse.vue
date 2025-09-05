@@ -4,11 +4,14 @@ import { useI18n } from "vue-i18n";
 
 import PlaceHeader from "../components/PlaceHeader.vue";
 import PlaceHistory from "../components/PlaceHistory.vue";
+import PlaceGhostStory from "../components/PlaceGhostStory.vue";
+import PlaceGallery from "../components/PlaceGallery.vue";
 import PlaceResult from "../components/PlaceResult.vue";
 import PlaceReadMore from "../components/PlaceReadMore.vue";
-import PlaceReferences from "@/components/PlaceReferences.vue";
+import PlaceReferences from "../components/PlaceReferences.vue";
 
 import jugendHouse_sv from "../Locales/sv/JugendHouse.json";
+import jugendHouse_en from "../Locales/en/JugendHouse.json";
 
 const { locale } = useI18n();
 
@@ -28,6 +31,14 @@ const jugendHouse = computed(() => {
     <PlaceHistory 
       :content="jugendHouse.history" 
     />  
+    <PlaceGhostStory
+      :storyTitle="jugendHouse.storyTitle"
+      :stories="jugendHouse.stories"
+    />
+    <PlaceGallery
+      :galleryTitle="frammegarden.galleryTitle"
+      :gallery="frammegarden.gallery"
+    />
     <PlaceResult
       :resultTitle="jugendHouse.resultTitle"
       :videoSectionTitle="jugendHouse.videoSectionTitle"

@@ -34,7 +34,7 @@ const toggleMenu = () => {
 };
 
 const trapFocus = (event) => {
-  if (!isOpen.value) return;
+  if (!isOpen.value || event.key !== "Tab") return;
 
   // Inkludera hamburgaren i tabb-fokus
   const focusableEls = [
@@ -138,14 +138,20 @@ const menuItems = computed(() => [
           </li>
 
           <li v-else class="dropdown">
-            <button class="dropbtn">{{ item.label }}</button>
-            <ul class="dropdown-content">
-              <li v-for="(child, cIndex) in item.children" :key="cIndex">
-                <router-link v-if="child.to" :to="child.to" class="link">{{ child.label }}</router-link>
-                <a v-else :href="child.href" class="link" target="_blank" rel="noopener">{{ child.label }}</a>
-              </li>
-            </ul>
-          </li>
+    <button
+      class="dropbtn"
+      @click="toggleDropdown(index)"
+      :aria-expanded="openDropdown === index ? 'true' : 'false'"
+    >
+      {{ item.label }}
+    </button>
+    <ul v-show="openDropdown === index" class="dropdown-content">
+      <li v-for="(child, cIndex) in item.children" :key="cIndex">
+        <router-link v-if="child.to" :to="child.to" class="link">{{ child.label }}</router-link>
+        <a v-else :href="child.href" class="link" target="_blank" rel="noopener">{{ child.label }}</a>
+      </li>
+    </ul>
+  </li>
         </template>
       </ul>
     </div>
@@ -287,20 +293,11 @@ a:hover,
 }
 
 .dropdown-content {
-  display: none; /* Grundläge, dold */
-  position: absolute;
-  background-color: #181818;
-  padding: 1rem;
-  top: 100%;
-  left: 0;
-  list-style: none;
-  z-index: 1000;
-  min-width: 240px;
-  border-radius: 6px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
-  transition: opacity 0.2s ease;
-  opacity: 0;
-  pointer-events: none; /* Gör så man inte kan klicka när den är dold */
+  position: relative; /* istället för absolute */
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+    min-width: auto;
 }
 
 /* När Vue sätter v-show = true så får den inline style display:block,
@@ -312,8 +309,9 @@ a:hover,
 }
 
 .dropdown-content li {
-  margin-bottom: 0.8rem;
-  white-space: nowrap;
+  margin: 0.5rem 1.5rem;
+  list-style: none;
+
 }
 
 .dropdown-content li:last-child {
@@ -358,6 +356,12 @@ a:hover,
     padding: 0.4rem 0;
   }
 
+  .dropdown:hover .dropdown-content {
+    display: block !important;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
   .nav-links.desktop-only a,
   .nav-links.desktop-only .link,
   .nav-links.desktop-only .dropbtn {
@@ -377,8 +381,24 @@ a:hover,
     gap: 2rem;
   }
 
+  .dropdown-content {
+  position: absolute;
+  top: 100%;       /* direkt under knappen */
+  left: 0;
+  min-width: 200px; /* justera efter behov */
+  background-color: #181818;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1000;  
+  }
+
   .dropdown-content li {
     width: auto;
+    top: 50px;
   }
 
   .gradient-line {

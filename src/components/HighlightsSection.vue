@@ -55,11 +55,11 @@ const { t } = useI18n();
   padding: 1.5rem;
   box-shadow: 0 0 12px rgba(255 255 255 / 0.05);
   width: 100%;
-  max-width: 320px;
+  max-width: none;
   text-align: center;
   text-decoration: none;
+  margin: 0 auto 20px;
   margin-top: 20px;
-
 }
 
 h3 {
@@ -69,8 +69,8 @@ h3 {
 
 .upcoming-image {
   width: 100%;
-  height: 270px;
-  max-width: 320px;
+  height: auto;
+  max-width: 100%;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255 255 255 / 0.05);
   object-fit: cover;
@@ -86,29 +86,28 @@ p {
 
 /* Desktop justeringar */
 @media (min-width: 768px) {
-    .highlights-wrapper {
-      gap: 8%;
-    }
+  .highlight,
+  .highlight-upcoming-div {
+    max-width: 450px;
+  }
 
-    .highlight,
-    .highlight-upcoming-div {
-      width: 100%;
-      max-width: 450px;
-    }
+  h3 {
+    font-size: 1.7rem; 
+  }
 
-    h3 {
-      font-size: 1.7rem; 
-    }
-
-    p {
-      font-size: 1.5rem;
-    }  
+  p {
+    font-size: 1.5rem;
+  }  
 }
 
 @media (min-width: 1130px) {
-    .highlight {
-      width: 100%;
-      max-width: 550px;
+    .highlight-upcoming {
+      max-width: 500px;
+    }
+
+    .upcoming-image {
+      max-height: 320px;
+      width: auto;
     }
   }
 </style>

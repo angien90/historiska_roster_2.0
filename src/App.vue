@@ -66,23 +66,19 @@ function goBack() {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  padding-bottom: 0;
+  padding: 0; /* ta bort padding här */
 }
 
 .site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
   height: 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 0; /* viktigt! */
   background-color: var(--color-second-background);
   z-index: 10000;
-  
 }
 
 .home-link {

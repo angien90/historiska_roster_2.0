@@ -10,7 +10,6 @@
 body {
   min-height: 100vh;
   margin: 0;
-  padding-top: 50px;
   padding-bottom: 0;
   color: var(--color-text);
   background: var(--color-background);

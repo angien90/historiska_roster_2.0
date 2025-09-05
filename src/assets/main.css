@@ -57,10 +57,11 @@ p {
   background: linear-gradient(to right, transparent, #fff, transparent);
 }
 
+.section-style,
 .section {
   max-width: 100%;
-  margin: 20px auto;
-  padding: 0.5rem 2rem 2rem;
+  margin: 35px 20px;
+  padding: 1rem 1rem 1rem;
   background-color: var(--color-second-background);
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
@@ -93,7 +94,6 @@ p {
 
 .card-style {
   background-color: var(--color-third-background);
-  margin: 1rem;
   border-radius: 12px;
   text-decoration: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -101,8 +101,12 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 260px;
-  flex: 0 0 260px;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+
 }
 
 .card-style:hover {
@@ -112,7 +116,6 @@ p {
 
 .card-img-style {
   width: 90%;
-  max-width: 250px;
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
@@ -121,22 +124,11 @@ p {
   margin-bottom: 15px;
 }
 
-.section-style {
-  max-width: 100%;
-  margin: 20px auto;
-  padding: 2rem;
-  background-color: var(--color-second-background);
-  border-radius: 12px;
-  color: white;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
-}
-
 .grid-style {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  gap: 20px;
 }
 
 
@@ -160,6 +152,20 @@ p {
 @media (min-width: 1130px) {
   body {
     display: flex;
+  }
+
+  .card-style {
+    width: 460px;   
+    flex: 0 0 460px;
+    margin: 50px 30px;
+  }
+
+  .card-img-style {
+  height: 250px;
+  }
+
+  .grid-style {
+    gap: 30px;
   }
 
   h1 {
