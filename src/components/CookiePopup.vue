@@ -53,7 +53,7 @@ function closePopup() {
   <div v-if="showPopup" class="cookie-consent">
     <button class="close-btn" @click="closePopup" :title="t('cookie.close')">x</button>
     <h2>{{ t('cookie.title') }}</h2>
-    <p>{{ t('cookie.message') }} <router-link to="/PrivacyPolicy" class="link">{{ t('cookie.readMore') }}</router-link></p>
+    <p>{{ t('cookie.message') }}<router-link :to="{ name: 'PrivacyPolicy' }" class="link">{{ t('cookie.readMore') }}</router-link></p>
     <div class="buttons">
       <button @click="acceptAll">{{ t('cookie.acceptAll') }}</button>
       <button @click="acceptNecessary">{{ t('cookie.necessaryOnly') }}</button>
