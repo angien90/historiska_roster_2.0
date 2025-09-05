@@ -3,7 +3,7 @@
 
 <template>
   <h1>{{ $t("ghostSchool.title") }}</h1>
-  <img src="/images/generell/abandoned_school.webp"  alt="Spökjakt-utrustning" class="team-image" width="250" height="180" loading="lazy"/>
+  <img src="/images/generell/abandoned_school.webp"  alt="Spökjakt-utrustning" class="responsive-img" width="250" height="180" loading="lazy"/>
   <p>{{ $t("ghostSchool.whyGhostHunting") }}</p>
   
   <div class="section-content">
@@ -33,11 +33,5 @@
 p {
   padding: 0 2rem;
 }
-
-
-@media (min-width: 1024px) {
-  img {
-    width: 50%;
-  }
-}
+  
 </style>
