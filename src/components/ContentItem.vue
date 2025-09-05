@@ -14,6 +14,7 @@
 .item {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
   margin-bottom: 20px;
 }

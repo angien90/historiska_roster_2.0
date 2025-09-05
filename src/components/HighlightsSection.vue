@@ -70,7 +70,7 @@ h3 {
 .upcoming-image {
   width: 100%;
   height: auto;
-  max-width: 100%;
+  max-height: 400px;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255 255 255 / 0.05);
   object-fit: cover;
