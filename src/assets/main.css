@@ -115,7 +115,7 @@ p {
 
 .card-img-style {
   width: 90%;
-  height: 180px;
+  height: 250px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
