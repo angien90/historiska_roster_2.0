@@ -36,8 +36,8 @@ const jugendHouse = computed(() => {
       :stories="jugendHouse.stories"
     />
     <PlaceGallery
-      :galleryTitle="frammegarden.galleryTitle"
-      :gallery="frammegarden.gallery"
+      :galleryTitle="jugendHouse.galleryTitle"
+      :gallery="jugendHouse.gallery"
     />
     <PlaceResult
       :resultTitle="jugendHouse.resultTitle"
