@@ -103,7 +103,6 @@ p {
   text-align: center;
   width: 100%;
   height: auto;
-  max-width: 400px;
   flex: 1 1 100%;
   margin-bottom: 20px;
 
@@ -158,6 +157,7 @@ p {
     width: 460px;   
     flex: 0 0 460px;
     margin: 50px 30px;
+    margin-top: 0px;
   }
 
   .card-img-style {
@@ -166,6 +166,7 @@ p {
 
   .grid-style {
     gap: 30px;
+    margin-top: 40px; 
   }
 
   h1 {
