@@ -5,10 +5,16 @@ const { t } = useI18n();
 
 const items = [
   {
+    to: "/PageSpirituellMassa",
+    src: "/images/spirituellmassa/spirituellamassan.webp",
+    alt: "event_place4",
+    label: "event_place4",
+  },
+  {
     to: "/PageRydalsHerrgardEvent",
     src: "/images/rydals_herrgard/spokjakt.webp",
-    alt: "event_place1",
-    label: "event_place1",
+    alt: "event_place3",
+    label: "event_place3",
   },
   {
     to: "/PageMysterieMassan",
@@ -19,8 +25,8 @@ const items = [
   {
     to: "/PageMysteriumMassan",
     src: "/images/mysterium_massan/Mysterium_massan.webp",
-    alt: "event_place3",
-    label: "event_place3",
+    alt: "event_place1",
+    label: "event_place1",
   },
 ];
 </script>

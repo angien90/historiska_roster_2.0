@@ -19,16 +19,6 @@ const { t } = useI18n();
       </div>
     </router-link>
 
-    <router-link to="/PageSpirituellMassa" class="highlight-upcoming" aria-label="Spirituell Massa">
-      <h3>{{ t("spirituell_massa") }}</h3>
-      <img src="/images/spirituellmassa/spirituellamassan.webp" alt="Spirituella Mässan" width="250" height="180" class="upcoming-image" loading="lazy"/>
-      <div class="upcoming-text">
-          <p>{{ t("spirituell_massa_text1") }}</p>
-          <p>{{ t("spirituell_massa_text2") }}</p>
-          <p>{{ t("spirituell_massa_text3") }}</p>
-      </div>
-    </router-link>
-
       <!-- Kommande utredningar -->
       <div class="highlight-upcoming">
         <h3>{{ t("upcoming") }}</h3>
@@ -103,6 +93,7 @@ p {
 @media (min-width: 1130px) {
     .highlight-upcoming {
       max-width: 500px;
+      margin: 0 40px;
     }
 
     .upcoming-image {

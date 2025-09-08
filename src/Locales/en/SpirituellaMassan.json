@@ -1,6 +1,6 @@
 {
   "title": "Spiritual Fair at Lillsjön in Nittorp",
-  "investigation": "Historical Voices will be there",
+  "investigation": "Historical Voices exhibited",
   "investigationDate": "September 6–7, 2025",
   "image": "/images/spirituellmassa/spirituellamassan.webp",
   "history": [
@@ -24,21 +24,17 @@
         "📄 Take home our info materials with QR codes, contact details, and everything you need to follow or collaborate with us.",
         "✍️ Help us find our next investigation – suggest places with mysterious energy or unexplained activity.",
         "🍬 Grab a small energy boost – enjoy a candy and stay for a chat.",
-        "🪑 Comfortable seating for those who want to hang out and talk with us for a while.",
-        "<strong>HERE YOU WILL FIND US</strong>;"
+        "🪑 Comfortable seating for those who want to hang out and talk with us for a while."
       ]
     }
   ],
-  "historyImage": {
-    "alt": "Placering Spirituella Mässan"
-  },
-  "resultTitle": "Fair Summary",
-  "results": [
-    {
-      "text": [
-        "Follow us on social media to stay updated with all the excitement – before, during, and after the fair!",
-        "A documentary will be released shortly after the event has taken place."
-      ]
-    }
-  ]
+  "resultTitle": "Join us at the Spiritual Fair in Nittorp",
+"videos": [
+  {
+    "title": "Instagram Reel",
+    "url": "https://www.instagram.com/p/DOUHT3CAH60/"
+  }
+],
+"moreTitle": "Read more about the fair",
+"more": "Read more about the event <a href=\"https://www.facebook.com/events/498789516598921?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22notifications_tab%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3A%22group_r2j_approved%22%7D&locale=sv_SE\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>"
 }

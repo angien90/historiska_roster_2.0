@@ -5,6 +5,7 @@ import { useI18n } from "vue-i18n";
 import PlaceHeader from "../components/PlaceHeader.vue";
 import PlaceHistory from "../components/PlaceHistory.vue";
 import PlaceResult from "../components/PlaceResult.vue";
+import PlaceReadMore from "../components/PlaceReadMore.vue";
 
 import Har_ar_vi from "/images/spirituellmassa/Har_ar_vi.jpg";
 
@@ -16,12 +17,6 @@ const { locale } = useI18n();
 const spirituellaMassan = computed(() => {
   return locale.value === "sv" ? spirituellaMassan_sv : spirituellaMassan_en;
 });
-
-// 👇 computed gör att bilden uppdateras när språk byts
-const spirituellaMassanImage = computed(() => ({
-  src: Har_ar_vi,
-  alt: spirituellaMassan.value?.historyImage?.alt || "Spirituella Mässan",
-}));
 </script>
 
 <template>
@@ -34,11 +29,14 @@ const spirituellaMassanImage = computed(() => ({
     />
     <PlaceHistory
       :content="spirituellaMassan.history"
-      :image="spirituellaMassanImage"
     />
     <PlaceResult
       :resultTitle="spirituellaMassan.resultTitle"
-      :results="spirituellaMassan.results"
+      :videos="spirituellaMassan.videos"
+    />
+    <PlaceReadMore
+      :moreTitle="spirituellaMassan.moreTitle"
+      :more="spirituellaMassan.more"
     />
   </div>
   <div v-else>
@@ -46,8 +44,3 @@ const spirituellaMassanImage = computed(() => ({
   </div>
 </template>
 
-<style scoped>
-spirituellaMassan.image {
-  width: 20%;
-}
-</style>

@@ -1,6 +1,6 @@
 {
   "title": "Spirituellmässa Lillsjön i Nittorp",
-  "investigation": "Historiska Röster kommer att vara där",
+  "investigation": "Historiska Röster ställde ut",
   "investigationDate": "6-7 september 2025",
   "image": "/images/spirituellmassa/spirituellamassan.webp",
   "history": [
@@ -10,8 +10,7 @@
         "Spirituella Mässan är ett årligt evenemang med fokus på andlighet, personlig utveckling och holistisk hälsa. Den hålls i Lillsjöns lokaler i Nittorp, Tranemo kommun i Västra Götaland, och samlar utställare inom bland annat healing, tarot, astrologi, livscoaching, massage och medial vägledning. Besökare har möjlighet att boka föreläsningar och seanser på plats, och det finns även café och lunchservering. Mässan arrangeras av Häxans Hydda, som är aktiv i flera andliga evenemang i regionen.",
         "🏷️ Pris entrébiljett besökare: 80kr/dag, 120kr hel helg, barn under 15 år gratis. Biljetter för besökare säljs vid entrén med Swish.",
         "🕒 Tider: Lördag 10-17 (sista seans/föreläsning kl. 17:00), söndag 10-16 (sista seans/föreläsning kl. 16:00).",
-        "🔮 Tider för seans/föredrag: kl. 10.30, kl. 12.00, kl. 13.30, kl. 15.00 & kl. 17.00 (endast lördag).",
-        "Läs mer om eventet <a href=\"https://www.facebook.com/events/498789516598921?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22notifications_tab%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3A%22group_r2j_approved%22%7D&locale=sv_SE\" target=\"_blank\" rel=\"noopener noreferrer\">här</a>."
+        "🔮 Tider för seans/föredrag: kl. 10.30, kl. 12.00, kl. 13.30, kl. 15.00 & kl. 17.00 (endast lördag)."
       ]
     },
     {
@@ -24,22 +23,17 @@
         "📄 Få med dig vårt informationsmaterial med QR-koder, kontaktuppgifter och allt du behöver för att följa eller samarbeta med oss.",
         "✍️ Hjälp oss hitta nästa utredningsmål – tipsa oss om platser med mystisk energi eller oförklarliga händelser.",
         "🍬 En liten energiboost – ta en kola och stanna för en pratstund.",
-        "🪑 Bekväma sittplatser för dig som vill stanna och prata med oss en stund.",
-        "<strong>HÄR KOMMER DU HITTA OSS;</strong>"
+        "🪑 Bekväma sittplatser för dig som vill stanna och prata med oss en stund."
       ]
     }
   ],
-  "historyImage": {
-    "alt": "Placering Spirituella Mässan"
-  },
-  "resultTitle": "Sammanfattning från mässan",
-  "results": [
-    {
-      "title": "",
-      "text": [
-        "Följ oss på sociala medier för att ta del av allt spännande – både inför, under och efter mässan!",
-        "En dokumentär släpps inom kort efter att mässan har ägt rum"
-      ]
-    }
-  ]
+  "resultTitle": "Häng med oss till den Spirituella Mässan i Nittorp",
+  "videos": [
+  {
+    "title": "Instagram Reel",
+    "url": "https://www.instagram.com/p/DOUHT3CAH60/"
+  }
+  ],
+  "moreTitle": "Läs mer om mässan",
+  "more": "Läs mer om eventet <a href=\"https://www.facebook.com/events/498789516598921?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22notifications_tab%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3A%22group_r2j_approved%22%7D&locale=sv_SE\" target=\"_blank\" rel=\"noopener noreferrer\">här</a>"
 }
