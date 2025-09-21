@@ -8,6 +8,7 @@ import PlaceGhostStory from "../components/PlaceGhostStory.vue";
 import PlaceGallery from "../components/PlaceGallery.vue";
 import PlaceResult from "../components/PlaceResult.vue";
 import PlaceReadMore from "../components/PlaceReadMore.vue";
+import PlaceReferences from "../components/PlaceReferences.vue";
 
 import Familjetrad from "/images/Frammegarden/Familjetrad_frammegarden.webp";
 
@@ -55,6 +56,10 @@ const frammegardenImage = {
     <PlaceReadMore
       :moreTitle="frammegarden.moreTitle"
       :more="frammegarden.more"
+    />
+    <PlaceReferences
+      :more-title="frammegarden.referencesTitle"
+      :sources="frammegarden.sources"
     />
   </div>
   <div v-else>
