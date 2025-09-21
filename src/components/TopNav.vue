@@ -73,6 +73,7 @@ const menuItems = computed(() => [
     label: t("visited_places"),
     children: [
       { label: t("dropdown.mapView"), to: "/MapView" },
+      { label: t("dropdown.pageHuntersGrave"), to: "/PageHuntersGrave" },
       { label: t("dropdown.pageRydalsHerrgard"), to: "/PageRydalsHerrgard" },
       { label: t("dropdown.pageRankhyttan"), to: "/PageRankhyttan" },
       { label: t("dropdown.pageGathenhielmskaHuset"), to: "/PageGathenhielmskaHuset" },
