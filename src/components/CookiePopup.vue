@@ -10,8 +10,18 @@ onMounted(() => {
   const consent = localStorage.getItem('cookieConsent')
   if (!consent) {
     showPopup.value = true
-  } else if (consent === 'all') {
-    loadOptionalScripts({ statistics: true, marketing: true })
+  } else {
+    try {
+      const parsed = JSON.parse(consent)
+      if (parsed.statistics || parsed.marketing) {
+        loadOptionalScripts(parsed)
+      }
+    } catch {
+      // fallback om det bara är "all" eller "necessary"
+      if (consent === 'all') {
+        loadOptionalScripts({ statistics: true, marketing: true })
+      }
+    }
   }
 })
 

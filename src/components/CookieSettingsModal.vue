@@ -10,10 +10,12 @@ const allowStatistics = ref(false)
 const allowMarketing = ref(false)
 
 function saveSettings() {
-  emit('save', {
+  const settings = {
     statistics: allowStatistics.value,
     marketing: allowMarketing.value,
-  })
+  }
+  localStorage.setItem('cookieConsent', JSON.stringify(settings))
+  emit('save', settings)
   emit('close')
 }
 </script>
