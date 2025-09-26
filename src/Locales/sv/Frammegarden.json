@@ -47,10 +47,21 @@
     ]
   },
   {
-    "heading2": "Spöken, myter och modern turism",
+    "heading2": "Skillingsmark och andra världskriget",
     "text": [
-      "Idag är Frammegården internationellt känd som ett av Sveriges mest hemsökta hus. Besökare berättar om fotsteg, knackningar, röster, föremål som flyttar sig och kalla vinddrag. Myterna om avrättningar, husoffer och tragiska dödsfall lever kvar som sägner, och platsen lockar både journalister, författare och nyfikna turister. Huset har uppmärksammats i TV och på YouTube.",
-      "På kyrkogården i Skillingmark finns gravarna för bland andra Nils Nilsson, Björn Nilsson, Erik Nilsson, Kerstin Eriksson och Anna Eriksson. Även Kerstins syster Annas hus från 1926 står kvar och kan besökas."
+      "Under andra världskriget blev Skillingmark i västra Värmland en viktig knutpunkt vid gränsen mot Norge. Genom området passerade tusentals norska flyktingar, kurirer och hemliga meddelanden på väg in i Sverige.",
+      "Gården Mörkerud, som ägdes av syskonen Ola och Lina Olsson, spelade en central roll som gömställe och bas för motståndsrörelsens arbete. Många av traktens invånare deltog också i hjälparbetet genom att föra människor, pengar och information över gränsen. Organisationer som Milorg och agentgruppen Hector hade kopplingar till gården.",
+      "Även enskilda flyktingar fann tillflykt i bygden. I ett torp nära Nissedråga, Långebäck, övernattade exempelvis den tyske desertören Willi Jutzi tillsammans med sin partner år 1941.",
+      "Samtidigt fanns starka motsättningar i bygden. Den nazistvänlige prästen Hilding Malmgren sjöng tyska krigssånger, skickade telegram till Hitler och dekorerade prästgården med hakkors.",
+      "Som tidigare nämnts användes Anna Erikssons torp som officersmäss, marketenteri och bostad för officerare, vilket antyder att även Frammegården kan ha haft en betydande roll."
+    ]
+  },
+  {
+    "heading2": "Skillingsmark kyrka",
+    "text": [
+      "På kyrkogården i Skillingmark finns gravarna för bland andra Nils Nilsson, Björn Nilsson, Erik Nilsson, Kerstin Eriksson och Anna Eriksson. Även Kerstins syster Annas hus från 1926 står kvar och kan besökas.",
+      "Den kyrkan man kan beskåda idag stod färdig 1689, tidigare stod kyrkan i Kleven, ca 5km norr om Skillingsfors. Dit kom den enligt traditionen från Norge på 1300-talet, under den Stora Dödens tid. Traditionen säger att den byggdes på Ranbolsmon år 1122.",
+      "Det finns idag en minnessten där den gamla kyrkan stod som man kan beskåda."
     ]
   },
   {
@@ -122,20 +133,21 @@
   },
   "storyTitle": "Spöken och mystik",
   "stories": [
-    { "title": "", "text": "Sängen på ovanvåningen. Kvinna gråter och har ett dött barn i famnen." },
-    { "title": "", "text": "Hör steg på ovanvåningen." },
-    { "title": "", "text": "Hör barnröster och gråt." },
-    { "title": "", "text": "Pianot spelar på ovanvåningen." },
-    { "title": "", "text": "Ser spöken och ljussken." },
-    { "title": "", "text": "Ser någon som tittar in genom fönsterna." },
-    { "title": "", "text": "Hör viskningar och mummel." },
-    { "title": "", "text": "Kalla drag och temperaturförändringar." },
-    { "title": "", "text": "Beröring (någon stryker handen i håret eller lägger handen på deras axel)." },
-    { "title": "", "text": "Elektroniska störningar." },
-    { "title": "", "text": "Hörnskåpet i köket kan öppna dörrar av sig självt." },
-    { "title": "", "text": "Foto tagen på öppna spisen där Kerstin syns i elden." },
-    { "title": "", "text": "Fotboll som låg på tröskeln till skrubben sköts iväg framför ögonen på fyra personer." },
-    { "title": "", "text": "Gungstol gungar av sig själv." }
+    { "title": "", "text": "Idag är Frammegården internationellt känd som ett av Sveriges mest hemsökta hus. Besökare berättar om fotsteg, knackningar, röster, föremål som flyttar sig och kalla vinddrag. Myterna om avrättningar, husoffer och tragiska dödsfall lever kvar som sägner, och platsen lockar både journalister, författare och nyfikna turister. Huset har uppmärksammats i TV och på YouTube." },
+    { "title": "", "text": "- Sängen på ovanvåningen. Kvinna gråter och har ett dött barn i famnen." },
+    { "title": "", "text": "- Hör steg på ovanvåningen." },
+    { "title": "", "text": "- Hör barnröster och gråt." },
+    { "title": "", "text": "- Pianot spelar på ovanvåningen." },
+    { "title": "", "text": "- Ser spöken och ljussken." },
+    { "title": "", "text": "- Ser någon som tittar in genom fönsterna." },
+    { "title": "", "text": "- Hör viskningar och mummel." },
+    { "title": "", "text": "- Kalla drag och temperaturförändringar." },
+    { "title": "", "text": "- Beröring (någon stryker handen i håret eller lägger handen på deras axel)." },
+    { "title": "", "text": "- Elektroniska störningar." },
+    { "title": "", "text": "- Hörnskåpet i köket kan öppna dörrar av sig självt." },
+    { "title": "", "text": "- Foto tagen på öppna spisen där Kerstin syns i elden." },
+    { "title": "", "text": "- Fotboll som låg på tröskeln till skrubben sköts iväg framför ögonen på fyra personer." },
+    { "title": "", "text": "- Gungstol gungar av sig själv." }
   ],
   "galleryTitle": "Bildgalleri",
   "gallery": [
@@ -231,6 +243,14 @@
     {
       "text": "Visit Värmland",
       "url": "https://visitvarmland.com/tips-och-guider/spokhuset-frammegarden-har-en-gast-som-gast/?utm_source=chatgpt.com"
+    },
+    {
+      "text": "Andra världskriget och Skillingsmark",
+      "url": "https://historicalsites.se/lander/sverige/skillingmark/?utm_source=chatgpt.com"
+    },
+    {
+      "text": "Skillingsmark kyrka",
+      "url": "https://skillingmarksbygden.se/skillingmarks-kyrka-3/"
     },
     {
       "text": "Intervju med Anna Erikssons sondottersons",

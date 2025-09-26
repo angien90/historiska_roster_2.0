@@ -47,12 +47,23 @@
       ]
     },
     {
-      "heading2": "Ghosts, Myths, and Modern Tourism",
+      "heading2": "Skillingmark and the Second World War",
       "text": [
-        "Today, Frammegården is internationally known as one of Sweden's most haunted houses. Visitors report footsteps, knocks, voices, objects moving, and cold drafts. Myths about executions, house sacrifices, and tragic deaths persist as legends, attracting journalists, authors, and curious tourists. The house has been featured on TV and YouTube.",
-        "At Skillingmark cemetery are the graves of Nils Nilsson, Björn Nilsson, Erik Nilsson, Kerstin Eriksson, and Anna Eriksson. Kerstin's sister Anna's house from 1926 also still stands and can be visited."
+        "During the Second World War, Skillingmark in western Värmland became an important hub at the border with Norway. Thousands of Norwegian refugees, couriers, and secret messages passed through the area on their way into Sweden.",
+        "The farm Mörkerud, owned by the siblings Ola and Lina Olsson, played a central role as a hiding place and base for the resistance movement. Many of the local inhabitants also took part in the relief efforts by helping to move people, money, and information across the border. Organizations such as Milorg and the agent group Hector had connections to the farm.",
+        "Individual refugees also found shelter in the area. In a cottage near Nissedråga, Långebäck, the German deserter Willi Jutzi, for example, spent the night with his partner in 1941.",
+        "At the same time, there were strong divisions in the community. The Nazi-sympathizing priest Hilding Malmgren sang German war songs, sent telegrams to Hitler, and decorated the vicarage with swastikas.",
+        "As previously mentioned, Anna Eriksson’s cottage was used as an officers’ mess, canteen, and accommodation for officers, which suggests that Frammegården may also have played a significant role."
       ]
-    },
+    },   
+    {
+      "heading2": "Skillingmark Church",
+      "text": [
+        "In the cemetery at Skillingmark are the graves of, among others, Nils Nilsson, Björn Nilsson, Erik Nilsson, Kerstin Eriksson, and Anna Eriksson. Kerstin’s sister Anna’s house from 1926 also remains and can be visited.",
+        "The church visible today was completed in 1689. The previous church stood in Kleven, about 5 km north of Skillingsfors. According to tradition, it came from Norway in the 14th century, during the time of the Black Death. The tradition also says that it was originally built at Ranbolsmon in 1122.",
+        "Today, a memorial stone marks the site where the old church once stood and can be seen there."
+      ]
+    }, 
     {
       "heading1": "Information from Church Records",
       "text": [
@@ -122,20 +133,21 @@
 },
   "storyTitle": "Ghosts and Mysticism",
   "stories": [
-    { "title": "", "text": "The bed on the upper floor. A woman cries, holding a dead child in her arms." },
-    { "title": "", "text": "Hearing footsteps on the upper floor." },
-    { "title": "", "text": "Hearing children's voices and crying." },
-    { "title": "", "text": "The piano plays on the upper floor." },
-    { "title": "", "text": "Seeing ghosts and light glows." },
-    { "title": "", "text": "Seeing someone looking through the windows." },
-    { "title": "", "text": "Hearing whispers and murmurs." },
-    { "title": "", "text": "Cold drafts and temperature changes." },
-    { "title": "", "text": "Being touched (someone brushes the hair or places a hand on their shoulder)." },
-    { "title": "", "text": "Electronic disturbances." },
-    { "title": "", "text": "The corner cupboard in the kitchen can open doors by itself." },
-    { "title": "", "text": "A photo taken of the fireplace shows Kerstin appearing in the flames." },
-    { "title": "", "text": "A football lying on the threshold to the storage room is kicked away in front of four people." },
-    { "title": "", "text": "A rocking chair rocks by itself." }
+    { "title": "", "text": "Today, Frammegården is internationally known as one of Sweden’s most haunted houses. Visitors report footsteps, knocks, voices, objects moving, and cold drafts. Myths about executions, house sacrifices, and tragic deaths live on as legends, attracting journalists, authors, and curious tourists alike. The house has been featured on TV and YouTube." },
+    { "title": "", "text": "- The bed upstairs. A woman is crying while holding a dead child in her arms." },
+    { "title": "", "text": "- Hear footsteps upstairs." },
+    { "title": "", "text": "- Hear children’s voices and crying." },
+    { "title": "", "text": "- The piano plays upstairs." },
+    { "title": "", "text": "- See ghosts and flashes of light." },
+    { "title": "", "text": "- See someone looking in through the windows." },
+    { "title": "", "text": "- Hear whispers and murmurs." },
+    { "title": "", "text": "- Cold drafts and temperature changes." },
+    { "title": "", "text": "- Touch (someone stroking their hair or placing a hand on their shoulder)." },
+    { "title": "", "text": "- Electronic disturbances." },
+    { "title": "", "text": "- The corner cabinet in the kitchen can open its doors by itself." },
+    { "title": "", "text": "- Photo taken of the fireplace where Kerstin appears in the flames." },
+    { "title": "", "text": "- A football lying in the doorway to the storage room was kicked away in front of four people’s eyes." },
+    { "title": "", "text": "- Rocking chair moves by itself." }
   ],
   "galleryTitle": "Image Gallery",
   "gallery": [
@@ -231,6 +243,14 @@
     {
       "text": "Visit Värmland",
       "url": "https://visitvarmland.com/tips-och-guider/spokhuset-frammegarden-har-en-gast-som-gast/?utm_source=chatgpt.com"
+    },
+    {
+      "text": "The Second World War and Skillingmark",
+      "url": "https://historicalsites.se/lander/sverige/skillingmark/?utm_source=chatgpt.com"
+    },
+    {
+      "text": "Skillingmark Church",
+      "url": "https://skillingmarksbygden.se/skillingmarks-kyrka-3/"
     },
     {
       "text": "Interview with Anna Eriksson's great-grandchildren",
