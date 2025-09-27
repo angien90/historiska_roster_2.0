@@ -15,8 +15,9 @@ defineProps({
   <section class="section">
     <h2>{{ storyTitle }}</h2>
     <div class="stories">
-      <div v-for="story in stories" :key="story.title">
-        <p>{{ story.text }}</p>
+      <div v-for="story in stories" :key="story.title" class="story">
+        <h3 v-if="story.title">{{ story.title }}</h3>
+        <p v-html="story.text"></p>
       </div>
     </div>
   </section>

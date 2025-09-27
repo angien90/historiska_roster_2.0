@@ -257,6 +257,30 @@
   "storyTitle": "Sägner",
   "stories": [
     {
+      "title": "",
+      "text": "I arkiven på Institutet för språk och folkminnen finns många uppteckningar från Mårdaklev med berättelser om väsen, andar och gamla föreställningar. Här är några exempel:"
+    },
+    {
+      "title": "Tomtar och småfolk",
+      "text": "Uppteckningar om tomtar och vättar i bygden <a href=\"https://sok.folke.isof.se/records/ifgh03326_201248_34/\" target=\"_blank\" class=\"link\">(Folke-post IFGH03326_201248_34)</a>"
+    },
+    {
+      "title": "Vattenväsen, troll och gastar",
+      "text": "Samlingar av berättelser om spöklika väsen och folktro <a href=\"https://sok.folke.isof.se/records/ifgh04441_203561\" target=\"_blank\" class=\"link\">(Läs i Folke)</a>"
+    },
+    {
+      "title": "Präster och kyrkoväsende",
+      "text": "Svar på frågelistor som innehåller lokala sägner, ritualer och tankar om döden <a href=\"https://sok.folke.isof.se/records/ifgh04891_204744\" target=\"_blank\" class=\"link\">(Folke-post IFGH04891_204744)</a>"
+    },
+    {
+      "title": "Odens jakt och naturväsen",
+      "text": "Berättelser om mytiska jakter, troll och naturplatser i Mårdaklev <a href=\"https://sok.folke.isof.se/records/ifgh04593_203902_3\" target=\"_blank\" class=\"link\">(Folke-post IFGH04593_203902_3)</a>"
+    },
+    {
+      "title": "Spöksägner och varsel",
+      "text": "Uppteckningar om gastar, maror och förebud om död <a href=\"https://sok.folke.isof.se/records/ifgh04594_203903\" target=\"_blank\" class=\"link\">(Folke-post IFGH04594_203903)</a>"
+    },
+    {
       "title": "Draken på Klevaberg",
       "text": "Enligt en lokal berättelse kan man från Klevaberg, vid rätt väderförhållanden, ibland skymta en drake vars rörelser tros påverka väderleken, som snöfall eller töväder, under vintermånaderna."
     }
