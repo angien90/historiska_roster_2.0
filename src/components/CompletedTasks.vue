@@ -5,7 +5,7 @@ const { t } = useI18n();
 
 const items = [
   { to: "/PageJugendHouse", 
-    src: "/images/jugend_house/Klevs Gästgiveri (CC BY).webp", 
+    src: "/images/jugend_house/klevs_gastgiveri.webp", 
     alt: "Jägarens grav", 
     label: "jugendhouse" 
   },

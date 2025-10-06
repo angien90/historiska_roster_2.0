@@ -8,17 +8,8 @@ const { t } = useI18n();
     <h2>{{ t("highlights_title") }}</h2>
 
     <div class="grid-style">
-    <!-- Nyheter -->
-    <router-link to="/PageJugendHouseEvent" class="highlight-upcoming" aria-label="Klevs Gästgiveri">
-      <h3>{{ t("klevs_gastgiveri_event") }}</h3>
-      <img src="/images/jugend_house/Klevs Gästgiveri (CC BY).webp" alt="Klevs Gästgiveri" width="250" height="180" class="upcoming-image" loading="lazy"/>
-      <div class="upcoming-text">
-          <p>{{ t("klevs_gastgiveri_event_text1") }}</p>
-          <p>{{ t("klevs_gastgiveri_event_text2") }}</p>
-          <p>{{ t("klevs_gastgiveri_event_text3") }}</p>
-      </div>
-    </router-link>
-
+      <!-- Nyheter -->
+       
       <!-- Kommande utredningar -->
       <div class="highlight-upcoming">
         <h3>{{ t("upcoming") }}</h3>

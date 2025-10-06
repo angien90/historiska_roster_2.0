@@ -5,8 +5,14 @@ const { t } = useI18n();
 
 const items = [
   {
+    to: "/PageJugendHouseEvent",
+    src: "/images/jugend_house/klevs_gastgiveri_event.webp",
+    alt: "event_place5",
+    label: "event_place5",
+  },
+  {
     to: "/PageSpirituellMassa",
-    src: "/images/spirituellmassa/spirituellamassan.webp",
+    src: "/images/spirituellmassa/massan.webp",
     alt: "event_place4",
     label: "event_place4",
   },
