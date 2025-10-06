@@ -4,6 +4,11 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const items = [
+  { to: "/PageJugendHouse", 
+    src: "/images/jugend_house/Klevs Gästgiveri (CC BY).webp", 
+    alt: "Jägarens grav", 
+    label: "jugendhouse" 
+  },
   { to: "/PageHuntersGrave", 
     src: "/images/hunters_grave/jagarens_grav.webp", 
     alt: "Jägarens grav", 

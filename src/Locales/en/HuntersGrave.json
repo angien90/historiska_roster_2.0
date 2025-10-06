@@ -42,9 +42,19 @@
   "galleryTitle": "Image Gallery",
   "gallery": [
     {
-      "src": "/",
-      "alt": "",
-      "caption": ""
+      "src": "public/images/hunters_grave/graven_i_skogen.webp",
+      "alt": "Grave site in the forest",
+      "caption": "The Hunter's Grave"
+    },
+    {
+      "src": "public/images/hunters_grave/stugan_i_skogen.webp",
+      "alt": "Abandoned cabin in the forest",
+      "caption": "Abandoned cabin in the forest"
+    },
+    {
+      "src": "public/images/hunters_grave/historisk_roster_vid_jagares_grav.webp",
+      "alt": "The team on their way to the grave",
+      "caption": "The team on their way to the grave"
     }
   ],
   "resultTitle": "Summary from our Investigation",
