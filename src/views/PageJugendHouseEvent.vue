@@ -4,6 +4,7 @@ import { useI18n } from "vue-i18n";
 
 import PlaceHeader from "../components/PlaceHeader.vue";
 import PlaceHistory from "../components/PlaceHistory.vue";
+import PlaceGallery from "../components/PlaceGallery.vue";
 import PlaceReadMore from "../components/PlaceReadMore.vue";
 
 import jugendHouseEvent_sv from "../Locales/sv/JugendHouseEvent.json";
@@ -28,6 +29,10 @@ const jugendHouseEvent = computed(() => {
     />
     <PlaceHistory 
       :content="jugendHouseEvent.history" 
+    />
+    <PlaceGallery
+      :galleryTitle="jugendHouseEvent.galleryTitle"
+      :gallery="jugendHouseEvent.gallery"
     />
     <PlaceReadMore
       :moreTitle="jugendHouseEvent.moreTitle"

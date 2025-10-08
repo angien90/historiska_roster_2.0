@@ -15,6 +15,24 @@
       ]
     }
   ],
+  "galleryTitle": "Photo Gallery",
+  "gallery": [
+    {
+      "src": "/images/jugend_house/middagsdukning.webp",
+      "alt": "Dinner setting",
+      "caption": "Dinner setting"
+    },
+    {
+      "src": "/images/jugend_house/rundvandring.webp",
+      "alt": "Guided tour",
+      "caption": "Guided tour"
+    },
+    {
+      "src": "/images/jugend_house/utredning.webp",
+      "alt": "Ghost hunt",
+      "caption": "Ghost hunt"
+    }
+  ],
   "moreTitle": "More Information",
   "more": "Read more about the location on Jugendhouse’s <a href='https://www.jugendhouse.se' target='_blank' rel='noopener'>official website</a> or learn more about our research and investigation <a href='/PageJugendHouse'>here</a>."
 }

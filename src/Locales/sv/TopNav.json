@@ -11,6 +11,7 @@
   "close_menu": "Stäng menyn",
   "dropdown": {
     "mapView": "Kartvy",
+    "pageJugendHouse": "Klevs Gästgiveri",
     "pageHuntersGrave": "Jägarens grav",
     "pageRydalsHerrgard": "Rydals Herrgård",
     "pageRankhyttan": "Rankhyttan",
@@ -18,7 +19,9 @@
     "pageHemsoktaMuseet": "Hemsökta Museet",
     "pageHjortsberga": "Hjortsberga",
     "pageFrammegarden": "Frammegården",
-    "pageRydalsHerrgardEvent": "Spökjakt event",
+    "pageJugendHouseEvent": "Spökjakt - Klevs Gästgiveri",
+    "pageSpirituellMassa": "Spirituellmässa",
+    "pageRydalsHerrgardEvent": "Spökjakt - Rydals Herrgård",
     "pageMysterieMassan": "Mysterie Mässan on Sea",
     "pageMysteriumMassan": "Mysterium Mässan",
     "ghost_school": "Om spökjakt",

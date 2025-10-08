@@ -86,6 +86,8 @@ const menuItems = computed(() => [
   {
     label: t("other_events"),
     children: [
+      { label: t("dropdown.pageJugendHouseEvent"), to: "/PageJugendHouseEvent" },
+      { label: t("dropdown.pageSpirituellMassa"), to: "/PageSpirituellMassa" },
       { label: t("dropdown.pageRydalsHerrgardEvent"), to: "/PageRydalsHerrgardEvent" },
       { label: t("dropdown.pageMysterieMassan"), to: "/PageMysterieMassan" },
       { label: t("dropdown.pageMysteriumMassan"), to: "/PageMysteriumMassan" },

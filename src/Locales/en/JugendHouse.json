@@ -288,6 +288,26 @@
       "src": "/images/jugend_house/Fornlämningar.webp",
       "alt": "Ancient remains near Klevs Gästgiveri",
       "caption": "Ancient remains near Klevs Gästgiveri"
+    },
+    {
+      "src": "/images/jugend_house/inredning_sten.webp",
+      "alt": "Old stone from 1837",
+      "caption": "Old stone from 1837"
+    },
+    {
+      "src": "/images/jugend_house/inredning_tapet.webp",
+      "alt": "Old wallpaper",
+      "caption": "Old wallpaper"
+    },
+    {
+      "src": "/images/jugend_house/inredning_flaskor.webp",
+      "alt": "Old bottles",
+      "caption": "Old bottles"
+    },
+    {
+      "src": "/images/jugend_house/overvakning_1.webp",
+      "alt": "Our surveillance during the investigation",
+      "caption": "Our surveillance during the investigation"
     }
   ],
   "resultTitle": "Summary from Our Investigation",

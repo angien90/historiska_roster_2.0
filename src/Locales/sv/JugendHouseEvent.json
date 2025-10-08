@@ -15,6 +15,24 @@
     ]
   }
 ],
+"galleryTitle": "Bildgalleri",
+  "gallery": [
+    {
+      "src": "/images/jugend_house/middagsdukning.webp",
+      "alt": "Middagsdukning",
+      "caption": "Middagsdukning"
+    },
+    {
+      "src": "/images/jugend_house/rundvandring.webp",
+      "alt": "Rundvandring",
+      "caption": "Rundvandring"
+    },
+    {
+      "src": "/images/jugend_house/utredning.webp",
+      "alt": "Spökjakt",
+      "caption": "Spökjakt"
+    }
+  ],
 "moreTitle": "Mer information",
 "more": "Läs mer om platsen på Jugendhouse <a href='https://www.jugendhouse.se' target='_blank' rel='noopener'>officiella sida</a> eller läs mer om vår forskning och utredning <a href='/PageJugendHouse'>här</a>."
 }

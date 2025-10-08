@@ -11,6 +11,7 @@
   "close_menu": "Close menu",
   "dropdown": {
     "mapView": "Map View",
+    "pageJugendHouse": "Klev's Guesthouse",
     "pageHuntersGrave": "Hunters grave",
     "pageRydalsHerrgard": "Rydals Manor",
     "pageRankhyttan": "Rankhyttan Manor",
@@ -18,6 +19,8 @@
     "pageHemsoktaMuseet": "The Haunted Museum",
     "pageHjortsberga": "Hjortsberga Vicarage",
     "pageFrammegarden": "Frammegården",
+    "pageJugendHouseEvent": "Ghost Hunt - Klev's Guesthouse",
+    "pageSpirituellMassa": "Spiritual Fair",
     "pageRydalsHerrgardEvent": "Ghost haunting event",
     "pageMysterieMassan": "Mystery Fair on Sea",
     "pageMysteriumMassan": "Mysterium Fair",
