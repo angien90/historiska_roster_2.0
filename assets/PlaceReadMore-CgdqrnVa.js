@@ -1,1 +1,0 @@
-import{c as r,o,a as t,t as n}from"./index-bmIk1bRT.js";const s={class:"section"},a=["innerHTML"],m={__name:"PlaceReadMore",props:{moreTitle:{type:String,required:!0},more:String},setup(e){return(c,i)=>(o(),r("section",s,[t("h2",null,n(e.moreTitle),1),t("p",{innerHTML:e.more},null,8,a)]))}};export{m as _};
