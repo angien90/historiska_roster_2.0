@@ -290,6 +290,7 @@ a:hover,
   font-weight: 500;
   color: var(--color-text);
   transition: color 0.3s ease;
+  padding: 0;
 }
 
 .dropbtn:hover {
