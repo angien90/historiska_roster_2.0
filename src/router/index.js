@@ -18,7 +18,8 @@ const routes = [
   { path: "/PageSpirituellMassa", name: "PageSpirituellMassa", component: () => import("../views/PageSpirituellMassa.vue") },
   { path: "/PageHuntersGrave", name: "PageHuntersGrave", component: () => import("../views/PageHuntersGrave.vue") },
   { path: "/PageJugendHouse", name: "PageJugendHouse", component: () => import("../views/PageJugendHouse.vue") },
-  { path: "/PageJugendHouseEvent", name: "PageJugendHouseEvent", component: () => import("../views/PageJugendHouseEvent.vue") }
+  { path: "/PageJugendHouseEvent", name: "PageJugendHouseEvent", component: () => import("../views/PageJugendHouseEvent.vue") },
+  { path: "/PageSonjasVeranda", name: "PageSonjasVeranda", component: () => import("../views/PageSonjasVeranda.vue") }
 ];
 
 const router = createRouter({

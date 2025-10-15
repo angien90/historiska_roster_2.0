@@ -256,12 +256,36 @@
 }
 ],
 "storyTitle": "Legends",
-  "stories": [
-    {
-      "title": "The Dragon of Klevaberg",
-      "text": "According to a local tale, from Klevaberg, under the right weather conditions, one can sometimes catch a glimpse of a dragon whose movements are believed to influence the weather, such as snowfall or thawing, during the winter months."
-    }
-  ],
+"stories": [
+  {
+    "title": "",
+    "text": "In the archives of the Institute for Language and Folklore, there are many records from Mårdaklev containing stories about supernatural beings, spirits, and old beliefs. Here are a few examples:"
+  },
+  {
+    "title": "Elves and Little Folk",
+    "text": "Records about elves and household spirits in the region <a href=\"https://sok.folke.isof.se/records/ifgh03326_201248_34/\" target=\"_blank\" class=\"link\">(Folke entry IFGH03326_201248_34)</a>"
+  },
+  {
+    "title": "Water Spirits, Trolls, and Ghosts",
+    "text": "Collections of tales about ghostly beings and folk beliefs <a href=\"https://sok.folke.isof.se/records/ifgh04441_203561\" target=\"_blank\" class=\"link\">(Read in Folke)</a>"
+  },
+  {
+    "title": "Priests and Church Spirits",
+    "text": "Responses to questionnaires containing local legends, rituals, and reflections on death <a href=\"https://sok.folke.isof.se/records/ifgh04891_204744\" target=\"_blank\" class=\"link\">(Folke entry IFGH04891_204744)</a>"
+  },
+  {
+    "title": "Odin’s Hunt and Nature Spirits",
+    "text": "Stories about mythical hunts, trolls, and sacred nature sites in Mårdaklev <a href=\"https://sok.folke.isof.se/records/ifgh04593_203902_3\" target=\"_blank\" class=\"link\">(Folke entry IFGH04593_203902_3)</a>"
+  },
+  {
+    "title": "Ghost Legends and Omens",
+    "text": "Records about ghosts, nightmares, and premonitions of death <a href=\"https://sok.folke.isof.se/records/ifgh04594_203903\" target=\"_blank\" class=\"link\">(Folke entry IFGH04594_203903)</a>"
+  },
+  {
+    "title": "The Dragon of Klevaberg",
+    "text": "According to a local legend, under the right weather conditions, a dragon can sometimes be glimpsed from Klevaberg. Its movements are said to influence the weather, bringing snow or thaw during the winter months."
+  }
+],
   "galleryTitle": "Image Gallery",
   "gallery": [
     {
