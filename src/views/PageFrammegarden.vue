@@ -48,10 +48,16 @@ const frammegardenImage = {
       :gallery="frammegarden.gallery"
     />
     <PlaceResult
-      :resultTitle="frammegarden.resultTitle"
-      :videoSectionTitle="frammegarden.videoSectionTitle"
-      :results="frammegarden.results"
-      :videos="frammegarden.videos"
+      :resultTitle="frammegarden.resultTitle1"
+      :videoSectionTitle="frammegarden.videoSectionTitle1"
+      :results="frammegarden.results1"
+      :videos="frammegarden.videos1"
+    />
+    <PlaceResult
+      :resultTitle="frammegarden.resultTitle2"
+      :videoSectionTitle="frammegarden.videoSectionTitle2"
+      :results="frammegarden.results2"
+      :videos="frammegarden.videos2"
     />
     <PlaceReadMore
       :moreTitle="frammegarden.moreTitle"

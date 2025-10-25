@@ -335,7 +335,6 @@
     }
   ],
   "resultTitle": "Sammanfattning från vår utredning",
-  "videoSectionTitle": "Film från utredningen kommer inom kort",
   "results": [
     {
       "title": "Kortfattat om vad vi fick uppleva",
@@ -354,6 +353,11 @@
         "Vi fick en känsla av att platsen kan ha blivit renad av tidigare ägare."
       ]
     }
+  ],
+  "videoSectionTitle": "Följ med oss på utredningen",
+  "videos": [
+  "https://www.youtube.com/embed/Qgc7HIyCmwM?si=TNKg-jZZpAY066F8",
+  "https://www.youtube.com/embed/0XmGWr4637A?si=sQ-RT_4C9Q7MZhTa"
   ],
   "moreTitle": "Läs mer om Klevs Gästgiveri",
   "more": "Besök <a href=\"https://jugendhouse.se/\" target=\"_blank\" class=\"link\">JugendHouse</a> och upplev en unik kombination av historisk charm och modern komfort. Njut av fika, övernattning eller boka plats för bröllop och andra evenemang.",

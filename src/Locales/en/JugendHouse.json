@@ -335,7 +335,6 @@
     }
   ],
   "resultTitle": "Summary from Our Investigation",
-  "videoSectionTitle": "Footage from the Investigation Coming Soon",
   "results": [
     {
       "title": "Brief Overview of What We Experienced",
@@ -354,6 +353,11 @@
         "We got the impression that the location may have been cleansed by a previous owner."
       ]
     }
+  ],
+  "videoSectionTitle": "Join us on the Investigation",
+  "videos": [
+  "https://www.youtube.com/embed/Qgc7HIyCmwM?si=TNKg-jZZpAY066F8",
+  "https://www.youtube.com/embed/0XmGWr4637A?si=sQ-RT_4C9Q7MZhTa"
   ],
   "moreTitle": "Learn More About Klevs Gästgiveri",
   "more": "Visit <a href=\"https://jugendhouse.se/\" target=\"_blank\" class=\"link\">JugendHouse</a> and experience a unique combination of historic charm and modern comfort. Enjoy fika, overnight stays, or book a venue for weddings and other events.",
