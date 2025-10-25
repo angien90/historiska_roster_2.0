@@ -3,6 +3,22 @@
   "readMore": "Läs mer",
   "locations": [
     {
+      "name": "Klevs Gästgiveri",
+      "description": "Klevs Gästgiveri är ett charmigt gästgiveri med anor från 1700-talet, känt för sin historiska atmosfär och mysiga miljö. En plats där både historia och spännande berättelser möts.",
+      "lat": 57.25447,
+      "lng": 12.98368,
+      "url": "/PageJugendHouse",
+      "image": "/images/jugend_house/klevs_gastgiveri.webp"
+    },
+    {
+      "name": "Jägarens grav",
+      "description": "Jägarens grav är ett så kallat offerkast, tillägnat en jägare som enligt sägnen försökte rädda en flicka från att drunkna – men tyvärr drunknade båda. OBS specifik plats är hemlig",
+      "lat": 57.91775,
+      "lng": 12.01752,
+      "url": "/PageHuntersGrave",
+      "image": "/images/hunters_grave/jagarens_grav.webp"
+    },
+    {
       "name": "Rydals herrgård",
       "description": "Rydals Herrgård är en historisk gård känd för sina spökhistorier och mystiska händelser som fascinerar både besökare och utredare.",
       "lat": 57.55471,

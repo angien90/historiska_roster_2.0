@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -23,8 +24,38 @@ const frammegarden = computed(() => {
 
 const frammegardenImage = {
   src: Familjetrad,
-  alt: frammegarden.value.historyImage.alt || "Frammegårdens family tree",
+  alt: frammegarden.value.historyImage?.alt || "Frammegårdens släktträd",
 };
+
+// Begränsa description till 155 tecken för SEO
+const seoDescription = frammegarden.value.history[0].text[0].slice(0, 155);
+
+// Head + JSON-LD schema
+useHead({
+  title: `${frammegarden.value.title} – Historiska Röster`,
+  meta: [
+    { name: "description", content: seoDescription },
+    { name: "keywords", content: "Frammegården, Frammegarden, spökhus Värmland, hemsökt hus, Historiska Röster" },
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": frammegarden.value.title,
+        "description": frammegarden.value.history[0].text[0],
+        "image": "https://www.historiskaroster.se" + frammegarden.value.image,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skillingmark",
+          "addressCountry": "SE"
+        },
+        "url": "https://www.historiskaroster.se/PageFrammegarden"
+      })
+    }
+  ]
+});
 </script>
 
 <template>

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "@vueuse/head": "^2.0.0",
     "leaflet": "^1.9.4",
     "vue": "^3.5.18",
     "vue-i18n": "^11.1.10",
