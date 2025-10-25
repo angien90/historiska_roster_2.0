@@ -9,6 +9,14 @@ const { t } = useI18n();
 
     <div class="grid-style">
       <!-- Nyheter -->
+       <div class="highlight-upcoming">
+        <h3>{{ t("upcoming1") }}</h3>
+        <img src="/images/mysterium_massan/Mysterium_massan.webp" alt="Tomt rum med ett spöke" width="250" height="180" class="upcoming-image" loading="lazy"/>
+        <div class="upcoming-text">
+            <p>{{ t("upcoming_paragraph4") }}</p>
+            <p>{{ t("upcoming_paragraph5") }}</p>
+        </div>
+      </div>
        
       <!-- Kommande utredningar -->
       <div class="highlight-upcoming">
