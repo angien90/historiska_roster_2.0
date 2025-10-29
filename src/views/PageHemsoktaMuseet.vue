@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -13,12 +14,48 @@ import hemsoktaMuseet_en from "../Locales/en/HemsoktaMuseet.json";
 
 const { locale } = useI18n();
 
-const hemsoktaMuseetImage = "/images/hemsokta/museet.webp"
-
 const hemsoktaMuseet = computed(() => {
   return locale.value === "sv" ? hemsoktaMuseet_sv : hemsoktaMuseet_en;
 });
+
+const hemsoktaMuseetImage = {
+  src: "/images/hemsokta/museet.webp",
+  alt: hemsoktaMuseet.value.historyImage?.alt || "Hemsökta Museet"
+};
+
+// Begränsa description till 155 tecken
+const seoDescription = hemsoktaMuseet.value.history[0].text[0].slice(0, 155);
+
+useHead({
+  title: `${hemsoktaMuseet.value.title} – Historiska Röster`,
+  meta: [
+    { name: "description", content: seoDescription },
+    { name: "keywords", content: "Hemsökta Museet, spökhus, Historiska Röster, hemsökt hus" },
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/PageHemsoktaMuseet" }
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": hemsoktaMuseet.value.title,
+        "description": hemsoktaMuseet.value.history[0].text[0],
+        "image": "https://www.historiskaroster.se" + hemsoktaMuseetImage.src,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Göteborg",
+          "addressCountry": "SE"
+        },
+        "url": "https://www.historiskaroster.se/PageHemsoktaMuseet"
+      })
+    }
+  ]
+});
 </script>
+
 
 <template>
   <div v-if="hemsoktaMuseet">

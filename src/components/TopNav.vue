@@ -1,34 +1,28 @@
 <script setup>
 import { useI18n } from "vue-i18n";
-import { ref, computed, nextTick } from "vue";
-import { onMounted, onBeforeUnmount } from "vue";
+import { ref, computed, nextTick, onMounted, onBeforeUnmount } from "vue";
 
 const { t } = useI18n();
 const isOpen = ref(false);
 const menuRef = ref(null);
 const closeButton = ref(null);
+const openDropdown = ref(null);
 
-const openDropdown = ref(null)
-
-  const toggleDropdown = (index) => {
-    openDropdown.value = openDropdown.value === index ? null : index
-  }
+const toggleDropdown = (index) => {
+  openDropdown.value = openDropdown.value === index ? null : index;
+};
 
 const toggleMenu = () => {
   isOpen.value = !isOpen.value;
 
   if (isOpen.value) {
-    document.addEventListener('keydown', trapFocus);
-
-    // Fokusera första tabb-bara element i menyn när den är synlig
+    document.addEventListener("keydown", trapFocus);
     nextTick(() => {
-      const focusableEls = menuRef.value.querySelectorAll('a, button');
+      const focusableEls = menuRef.value.querySelectorAll("a, button");
       focusableEls[0]?.focus();
     });
   } else {
-    document.removeEventListener('keydown', trapFocus);
-
-    // Sätt tillbaka fokus till hamburgaren när menyn stängs
+    document.removeEventListener("keydown", trapFocus);
     closeButton.value?.focus();
   }
 };
@@ -36,61 +30,60 @@ const toggleMenu = () => {
 const trapFocus = (event) => {
   if (!isOpen.value || event.key !== "Tab") return;
 
-  // Inkludera hamburgaren i tabb-fokus
   const focusableEls = [
-    closeButton.value, 
-    ...menuRef.value.querySelectorAll('a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])')
+    closeButton.value,
+    ...menuRef.value.querySelectorAll(
+      'a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])'
+    ),
   ].filter(Boolean);
 
   const firstEl = focusableEls[0];
   const lastEl = focusableEls[focusableEls.length - 1];
 
-  if (event.key === 'Tab') {
-    if (event.shiftKey && document.activeElement === firstEl) {
-      event.preventDefault();
-      lastEl.focus();
-    } else if (!event.shiftKey && document.activeElement === lastEl) {
-      event.preventDefault();
-      firstEl.focus();
-    }
+  if (event.shiftKey && document.activeElement === firstEl) {
+    event.preventDefault();
+    lastEl.focus();
+  } else if (!event.shiftKey && document.activeElement === lastEl) {
+    event.preventDefault();
+    firstEl.focus();
   }
 };
 
 onMounted(() => {
-  document.addEventListener('keydown', trapFocus);
+  document.addEventListener("keydown", trapFocus);
 });
 
 onBeforeUnmount(() => {
-  document.removeEventListener('keydown', trapFocus);
+  document.removeEventListener("keydown", trapFocus);
 });
 
 const menuItems = computed(() => [
   {
     label: t("about_us"),
-    to: "/AboutUs",
+    to: "/about-us",
   },
   {
     label: t("visited_places"),
     children: [
-      { label: t("dropdown.mapView"), to: "/MapView" },
-      { label: t("dropdown.pageJugendHouse"), to: "/PageJugendHouse" },
-      { label: t("dropdown.pageHuntersGrave"), to: "/PageHuntersGrave" },
-      { label: t("dropdown.pageRydalsHerrgard"), to: "/PageRydalsHerrgard" },
-      { label: t("dropdown.pageRankhyttan"), to: "/PageRankhyttan" },
-      { label: t("dropdown.pageGathenhielmskaHuset"), to: "/PageGathenhielmskaHuset" },
-      { label: t("dropdown.pageHemsoktaMuseet"), to: "/PageHemsoktaMuseet" },
-      { label: t("dropdown.pageHjortsberga"), to: "/PageHjortsberga" },
-      { label: t("dropdown.pageFrammegarden"), to: "/PageFrammegarden" },
+      { label: t("dropdown.mapView"), to: "/map-view" },
+      { label: t("dropdown.pageJugendHouse"), to: "/jugend-house" },
+      { label: t("dropdown.pageHuntersGrave"), to: "/hunters-grave" },
+      { label: t("dropdown.pageRydalsHerrgard"), to: "/rydals-herrgard" },
+      { label: t("dropdown.pageSonjasVeranda"), to: "/sonjas-veranda" },
+      { label: t("dropdown.pageRankhyttan"), to: "/rankhyttan" },
+      { label: t("dropdown.pageGathenhielmskaHuset"), to: "/gathenhielmska-huset" },
+      { label: t("dropdown.pageHemsoktaMuseet"), to: "/hemsokta-museet" },
+      { label: t("dropdown.pageHjortsberga"), to: "/hjortsberga" },
+      { label: t("dropdown.pageFrammegarden"), to: "/frammegarden" },
     ],
   },
   {
     label: t("other_events"),
     children: [
-      { label: t("dropdown.pageJugendHouseEvent"), to: "/PageJugendHouseEvent" },
-      { label: t("dropdown.pageSpirituellMassa"), to: "/PageSpirituellMassa" },
-      { label: t("dropdown.pageRydalsHerrgardEvent"), to: "/PageRydalsHerrgardEvent" },
-      { label: t("dropdown.pageMysterieMassan"), to: "/PageMysterieMassan" },
-      { label: t("dropdown.pageMysteriumMassan"), to: "/PageMysteriumMassan" },
+      { label: t("dropdown.pageJugendHouseEvent"), to: "/jugend-house-event" },
+      { label: t("dropdown.pageSpirituellMassa"), to: "/spirituell-massa" },
+      { label: t("dropdown.pageRydalsHerrgardEvent"), to: "/rydals-herrgard-event" },
+      { label: t("dropdown.pageMysteriumMassan"), to: "/mysterium-massan" },
     ],
   },
   {
@@ -115,7 +108,10 @@ const menuItems = computed(() => [
     ],
   },
   { label: t("contact_us"), href: "mailto:historiskaroster@outlook.com" },
-  { label: t("tip_us"), href: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__4JvANBURjRBUktXSjhNVDAzRllESlFaSDI4UlFRVC4u" },
+  {
+    label: t("tip_us"),
+    href: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__4JvANBURjRBUktXSjhNVDAzRllESlFaSDI4UlFRVC4u",
+  },
 ]);
 </script>
 

@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -17,6 +18,38 @@ const { locale } = useI18n();
 
 const jugendHouse = computed(() => {
   return locale.value === "sv" ? jugendHouse_sv : jugendHouse_en;
+});
+
+// Begränsa description till 155 tecken
+const seoDescription = jugendHouse.value.history[0].text[0].slice(0, 155);
+
+useHead({
+  title: `${jugendHouse.value.title} – Historiska Röster`,
+  meta: [
+    { name: "description", content: seoDescription },
+    { name: "keywords", content: "Klevs gästgiveri, Historiska Röster, spökhistoria" },
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/PageJugendHouse" }
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": jugendHouse.value.title,
+        "description": jugendHouse.value.history[0].text[0],
+        "image": "https://www.historiskaroster.se" + jugendHouse.value.image,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Okänd",
+          "addressCountry": "SE"
+        },
+        "url": "https://www.historiskaroster.se/PageJugendHouse"
+      })
+    }
+  ]
 });
 </script>
 

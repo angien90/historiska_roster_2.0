@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -17,6 +18,43 @@ const { locale } = useI18n();
 
 const rydalsHerrgard = computed(() => {
   return locale.value === "sv" ? rydalsHerrgard_sv : rydalsHerrgard_en;
+});
+
+// Begränsa description till 155 tecken
+const seoDescription = rydalsHerrgard.value.history[0].text[0].slice(0, 155);
+
+// Head + JSON-LD schema
+useHead({
+  title: `${rydalsHerrgard.value.title} – Historiska Röster`,
+  meta: [
+    { name: "description", content: seoDescription },
+    {
+      name: "keywords",
+      content:
+        "Rydals Herrgård, Rydal, hemsökt herrgård, spöken, Historiska Röster",
+    },
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/rydals-herrgard" },
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": rydalsHerrgard.value.title,
+        "description": rydalsHerrgard.value.history[0].text[0],
+        "image": "https://www.historiskaroster.se" + rydalsHerrgard.value.image,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Rydal",
+          "addressCountry": "SE",
+        },
+        "url": "https://www.historiskaroster.se/rydals-herrgard",
+      }),
+    },
+  ],
 });
 </script>
 

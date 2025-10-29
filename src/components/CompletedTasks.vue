@@ -4,42 +4,42 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const items = [
-  { to: "/PageJugendHouse", 
+  { to: "/jugend-house", 
     src: "/images/jugend_house/klevs_gastgiveri.webp", 
-    alt: "Jägarens grav", 
+    alt: "Klevs gästgiveri", 
     label: "jugendhouse" 
   },
-  { to: "/PageHuntersGrave", 
+  { to: "/hunters-grave", 
     src: "/images/hunters_grave/jagarens_grav.webp", 
     alt: "Jägarens grav", 
     label: "huntersgrave" 
   },
-  { to: "/PageRydalsHerrgard", 
+  { to: "/rydals-herrgard", 
     src: "/images/rydals_herrgard/rydals_herrgard.webp", 
     alt: "Rydals Herrgård", 
     label: "rydals" 
   },
-  { to: "/PageRankhyttan", 
+  { to: "/rankhyttan", 
     src: "/images/rankhyttan/rankhyttan.webp", 
     alt: "Rankhyttans Herrgård", 
     label: "rankhyttan" 
   },
-  { to: "/PageGathenhielmskaHuset", 
+  { to: "/gathenhielmska-huset", 
     src: "/images/gathenhielmska_huset/Gathenhielmska_huset.webp", 
     alt: "Gathenhielmska Huset", 
     label: "gathenhielmska" 
   },
-  { to: "/PageHemsoktaMuseet", 
+  { to: "/hemsokta-museet", 
     src: "/images/hemsokta_museet/Hemsokta_museet.webp", 
     alt: "Hemsökta museet", 
     label: "hemsokta" 
   },
-  { to: "/PageHjortsberga", 
+  { to: "/hjortsberga", 
     src: "/images/hjortsberga/Hjortsberga.webp", 
     alt: "Hjortsberga Prästgård", 
     label: "hjortsberga" 
   },
-  { to: "/PageFrammegarden", 
+  { to: "/frammegarden", 
     src: "/images/Frammegarden/Frammegarden.webp", 
     alt: "Frammegården",  
     label: "frammegarden" 
@@ -52,7 +52,7 @@ const items = [
     <h2>{{ t("investigations_heading") }}</h2>
     <p>
       {{ t("investigations_subheading") }}. {{ t("learn_subheading2") }}
-      <router-link to="/MapView" class="link">
+      <router-link to="/map-view" class="link">
         {{ t("learn_subheading3") }}
       </router-link>
     </p>

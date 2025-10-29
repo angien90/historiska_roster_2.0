@@ -13,8 +13,8 @@ import PlaceReferences from "../components/PlaceReferences.vue";
 
 import Familjetrad from "/images/Frammegarden/Familjetrad_frammegarden.webp";
 
-import frammegarden_sv from "../Locales/sv/Frammegarden.json";
-import frammegarden_en from "../Locales/en/Frammegarden.json";
+import frammegarden_sv from "../Locales/sv/Frammegarden.json"; 
+import frammegarden_en from "../Locales/en/Frammegarden.json"; 
 
 const { locale } = useI18n();
 
@@ -27,15 +27,18 @@ const frammegardenImage = {
   alt: frammegarden.value.historyImage?.alt || "Frammegårdens släktträd",
 };
 
-// Begränsa description till 155 tecken för SEO
+// Begränsa description till 155 tecken
 const seoDescription = frammegarden.value.history[0].text[0].slice(0, 155);
 
-// Head + JSON-LD schema
+// Head + JSON-LD
 useHead({
   title: `${frammegarden.value.title} – Historiska Röster`,
   meta: [
     { name: "description", content: seoDescription },
     { name: "keywords", content: "Frammegården, Frammegarden, spökhus Värmland, hemsökt hus, Historiska Röster" },
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/PageFrammegarden" }
   ],
   script: [
     {

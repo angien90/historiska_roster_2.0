@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -16,6 +17,53 @@ const { locale } = useI18n();
 
 const spirituellaMassan = computed(() => {
   return locale.value === "sv" ? spirituellaMassan_sv : spirituellaMassan_en;
+});
+
+// SEO-beskrivning (begränsad till 155 tecken)
+const seoDescription = spirituellaMassan.value.history[0].text[0].slice(0, 155);
+
+// Head + JSON-LD
+useHead({
+  title: `${spirituellaMassan.value.title} – Historiska Röster`,
+  meta: [
+    { name: "description", content: seoDescription },
+    {
+      name: "keywords",
+      content:
+        "Spirituella Mässan, andlig mässa, event, Historiska Röster, medium, andlighet",
+    },
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://www.historiskaroster.se/spirituell-massa",
+    },
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": spirituellaMassan.value.title,
+        "description": spirituellaMassan.value.history[0].text[0],
+        "image":
+          "https://www.historiskaroster.se" +
+          (spirituellaMassan.value.image || "/images/spirituellmassa/Har_ar_vi.jpg"),
+        "startDate": spirituellaMassan.value.eventDate || "Okänt",
+        "location": {
+          "@type": "Place",
+          "name": "Spirituella Mässan",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sverige",
+            "addressCountry": "SE",
+          },
+        },
+        "url": "https://www.historiskaroster.se/spirituell-massa",
+      }),
+    },
+  ],
 });
 </script>
 

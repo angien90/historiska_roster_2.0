@@ -11,7 +11,7 @@ const { t } = useI18n();
       <!-- Nyheter -->
        <div class="highlight-upcoming">
         <h3>{{ t("upcoming1") }}</h3>
-        <img src="/images/mysterium_massan/Mysterium_massan.webp" alt="Tomt rum med ett spöke" width="250" height="180" class="upcoming-image" loading="lazy"/>
+        <img src="/images/mysterium_massan/Mysterium_massan.webp" alt="Mysterium Mässan" width="auto" height="180" class="upcoming-image" loading="lazy"/>
         <div class="upcoming-text">
             <p>{{ t("upcoming_paragraph4") }}</p>
             <p>{{ t("upcoming_paragraph5") }}</p>
@@ -98,6 +98,7 @@ p {
     .upcoming-image {
       max-height: 320px;
       width: auto;
+      max-width: 100%
     }
   }
 </style>

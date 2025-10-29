@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -14,6 +15,19 @@ const { locale } = useI18n();
 
 const mysteriumMassan = computed(() => {
   return locale.value === "sv" ? mysteriumMassan_sv : mysteriumMassan_en;
+});
+
+const seoDescription = mysteriumMassan.value.history[0].text[0].slice(0, 155);
+
+useHead({
+  title: `Mysterium Mässan – Historiska Röster`,
+  meta: [
+    { name: "description", content: seoDescription },
+    { name: "keywords", content: "Mysterium Mässan, Historiska Röster, event" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/PageMysteriumMassan" }
+  ]
 });
 </script>
 

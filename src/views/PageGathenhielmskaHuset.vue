@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -15,9 +16,39 @@ import gathenhielmskaHuset_en from "../Locales/en/GathenhielmskaHuset.json";
 const { locale } = useI18n();
 
 const gathenhielmskaHuset = computed(() => {
-  return locale.value === "sv"
-    ? gathenhielmskaHuset_sv
-    : gathenhielmskaHuset_en;
+  return locale.value === "sv" ?gathenhielmskaHuset_sv : gathenhielmskaHuset_en;
+});
+
+// Begränsa description till 155 tecken
+const seoDescription = gathenhielmskaHuset.value.history[0].text[0].slice(0, 155);
+
+useHead({
+  title: `${gathenhielmskaHuset.value.title} – Historiska Röster`,
+  meta: [
+    { name: "description", content: seoDescription },
+    { name: "keywords", content: "Gathenhielmska huset, spökhus Göteborg, Historiska Röster, hemsökt hus" },
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/PageGathenhielmskaHuset" }
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": gathenhielmskaHuset.value.title,
+        "description": gathenhielmskaHuset.value.history[0].text[0],
+        "image": "https://www.historiskaroster.se" + gathenhielmskaHuset.value.image,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Göteborg",
+          "addressCountry": "SE"
+        },
+        "url": "https://www.historiskaroster.se/PageGathenhielmskaHuset"
+      })
+    }
+  ]
 });
 </script>
 

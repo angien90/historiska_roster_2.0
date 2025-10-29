@@ -1,5 +1,21 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import OurReviews from "../components/OurReviews.vue";
+
+// Enkel SEO-beskrivning, max 155 tecken
+const seoDescription = "Om Historiska Röster – vårt team, vårt arbete med spökhistorier och undersökningar i Sverige.";
+
+// Head-inställningar
+useHead({
+  title: "Om oss – Historiska Röster",
+  meta: [
+    { name: "description", content: seoDescription },
+    { name: "keywords", content: "Historiska Röster, team, undersökning, spökhistoria" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/AboutUs" }
+  ]
+});
 </script>
 
 <template>

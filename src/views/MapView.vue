@@ -1,4 +1,5 @@
 <script setup>
+import { useHead } from "@vueuse/head";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 import { LMap, LTileLayer, LMarker, LPopup } from "@vue-leaflet/vue-leaflet";
@@ -13,6 +14,7 @@ const translations = computed(() => {
   return locale.value === "sv" ? sv : en;
 });
 
+// Leaflet ikoninställningar
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: new URL(
@@ -29,6 +31,21 @@ const customIcon = new L.Icon({
   iconSize: [30, 30],
   iconAnchor: [15, 10],
   popupAnchor: [0, -40],
+});
+
+// SEO-beskrivning max 155 tecken
+const seoDescription = "Utforska hemsökta platser och spökhistorier med Historiska Röster – se våra kartor över intressanta platser i Sverige.";
+
+// Head-inställningar
+useHead({
+  title: "Historiska Röster – Kartor över hemsökta platser",
+  meta: [
+    { name: "description", content: seoDescription },
+    { name: "keywords", content: "Historiska Röster, kartor, hemsökta platser, spökhistorier, event" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/MapView" }
+  ]
 });
 </script>
 

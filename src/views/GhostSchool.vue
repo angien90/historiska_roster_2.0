@@ -1,4 +1,20 @@
 <script setup>
+import { useHead } from "@vueuse/head";
+
+// Enkel SEO-beskrivning, max 155 tecken
+const seoDescription = "GhostSchool – Lär dig om spökjakt, utrustning, metoder och etik i vårt team på Historiska Röster.";
+
+// Head-inställningar
+useHead({
+  title: "GhostSchool – Historiska Röster",
+  meta: [
+    { name: "description", content: seoDescription },
+    { name: "keywords", content: "GhostSchool, spökjakt, utrustning, metoder, etik, Historiska Röster" }
+  ],
+  link: [
+    { rel: "canonical", href: "https://www.historiskaroster.se/ghostschool" }
+  ]
+});
 </script>
 
 <template>

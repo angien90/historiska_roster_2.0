@@ -5,31 +5,31 @@ const { t } = useI18n();
 
 const items = [
   {
-    to: "/PageJugendHouseEvent",
+    to: "/jugend-house-event",
     src: "/images/jugend_house/klevs_gastgiveri_event.webp",
     alt: "event_place5",
     label: "event_place5",
   },
   {
-    to: "/PageSpirituellMassa",
+    to: "/spirituell-massa",
     src: "/images/spirituellmassa/massan.webp",
     alt: "event_place4",
     label: "event_place4",
   },
   {
-    to: "/PageRydalsHerrgardEvent",
+    to: "/rydals-herrgard-event",
     src: "/images/rydals_herrgard/spokjakt.webp",
     alt: "event_place3",
     label: "event_place3",
   },
   {
-    to: "/PageMysterieMassan",
+    to: "/mysterium-massan",
     src: "/images/mysterium_massan/silja_line.webp",
     alt: "event_place2",
     label: "event_place2",
   },
   {
-    to: "/PageMysteriumMassan",
+    to: "/mysterium-massan",
     src: "/images/mysterium_massan/Mysterium_massan.webp",
     alt: "event_place1",
     label: "event_place1",

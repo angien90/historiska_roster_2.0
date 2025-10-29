@@ -8,88 +8,83 @@
 
 
 <url>
-  <loc>https://www.historiskaroster.se</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/AboutUs</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/MapView</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageJugendHouse</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageHuntersGrave</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageRydalsHerrgard</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageRankhyttan</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageGathenhielmskaHuset</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageHemsoktaMuseet</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageHjortsberga</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageFrammegarden</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageJugendHouseEvent</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageSpirituellMassa</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageRydalsHerrgardEvent</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageMysterieMassan</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/PageMysteriumMassan</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.historiskaroster.se/ghostschool</loc>
-  <lastmod>2025-10-25T20:02:30+00:00</lastmod>
-  <priority>0.60</priority>
-</url>
+    <loc>https://www.historiskaroster.se/</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/about-us</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/map-view</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/jugend-house</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/hunters-grave</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/rydals-herrgard</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/rankhyttan</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/gathenhielmska-huset</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/hemsokta-museet</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/hjortsberga</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/frammegarden</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/jugend-house-event</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/spirituell-massa</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/rydals-herrgard-event</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/mysterium-massan</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.historiskaroster.se/ghostschool</loc>
+    <lastmod>2025-10-25T20:02:30+00:00</lastmod>
+    <priority>0.60</priority>
+  </url>
 </urlset>
