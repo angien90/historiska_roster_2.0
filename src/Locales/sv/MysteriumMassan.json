@@ -15,16 +15,17 @@
       "heading2": "Beyond Life Party",
       "text": [
         "Efter en dag fylld av insikter och inspiration på Mysterium Mässan är Beyond Life Party det perfekta sättet att avrunda kvällen. Här bjuds du in att släppa loss på dansgolvet tillsammans med likasinnade. Med energifylld musik och en fantastisk DJ skapas en atmosfär av glädje, gemenskap och oförglömliga ögonblick.",
-        "År 2024 firade vi dessutom Laxton Ghost Sweden som stolt markerade sitt 10-årsjubileum. Det var en magisk upplevelse och ett minne för livet - vi är stolta fans av Laxton Ghost Sweden!"
+        "År 2024 firade vi dessutom Laxton Ghost Sweden som stolt markerade sitt 10-årsjubileum. Det var en magisk upplevelse och ett minne för livet - vi är stolta fans av Laxton Ghost Sweden!",
+        "2025 var inte mycket sämre – samma härliga energi, samma värme och glädje. Det här gänget visar gång på gång vilken fantastisk gemenskap vi har, där alla är välkomna och vi tillsammans skapar riktigt fina upplevelser och minnen."
       ]
     }
   ],
   "resultTitle": "Häng med oss på Mysterium Mässan & Beyond Life Party",
    "videos": [
-  {
-    "url": "https://www.youtube.com/embed/ASPz8teIqCA?start=3"
-  }
-],
+      "https://www.youtube.com/embed/ASPz8teIqCA&t=3s",
+      "https://www.instagram.com/reel/DQjLPRzgD4b/",
+      "https://www.instagram.com/reel/DQj29-TDZ4o/"
+    ],
   "moreTitle": "Läs mer om Mysterium Mässan",
   "more": "Utforska Mysterium Mässans officiella sida <a href=\"https://www.laxton.se/mysteriummassan/\" target=\"_blank\" class=\"link\">här</a> och varför inte hänga på nästa gång."
 }

@@ -79,13 +79,14 @@ useHead({
 
 .custom-map {
   height: 480px;
-  width: 100%;
+  width: calc(100% - 40px);
+  max-width: 1200px;
+  margin: 20px auto;
   border: 1px solid #fff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(255 255 255 / 0.1);
   transition: box-shadow 0.3s ease;
-  margin-top: 20px;
 }
 
 .custom-map:hover {
@@ -158,6 +159,7 @@ useHead({
 
 @media (min-width: 600px) {
   .custom-map {
+    width: calc(100% - 100px);
     height: 700px;
     border-width: 2px;
   }

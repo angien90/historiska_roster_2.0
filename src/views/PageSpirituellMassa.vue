@@ -8,8 +8,6 @@ import PlaceHistory from "../components/PlaceHistory.vue";
 import PlaceResult from "../components/PlaceResult.vue";
 import PlaceReadMore from "../components/PlaceReadMore.vue";
 
-import Har_ar_vi from "/images/spirituellmassa/Har_ar_vi.jpg";
-
 import spirituellaMassan_sv from "../Locales/sv/SpirituellaMassan.json";
 import spirituellaMassan_en from "../Locales/en/SpirituellaMassan.json";
 

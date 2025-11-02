@@ -13,6 +13,7 @@ const routes = [
   { path: "/hemsokta-museet", name: "HemsoktaMuseet", component: () => import("../views/PageHemsoktaMuseet.vue") },
   { path: "/gathenhielmska-huset", name: "GathenhielmskaHuset", component: () => import("../views/PageGathenhielmskaHuset.vue") },
   { path: "/mysterium-massan", name: "MysteriumMassan", component: () => import("../views/PageMysteriumMassan.vue") },
+  { path: "/mysterie-massan", name: "MysterieMassan", component: () => import("../views/PageMysterieMassan.vue") },
   { path: "/rydals-herrgard-event", name: "RydalsHerrgardEvent", component: () => import("../views/PageRydalsHerrgardEvent.vue") },
   { path: "/spirituell-massa", name: "SpirituellMassa", component: () => import("../views/PageSpirituellMassa.vue") },
   { path: "/hunters-grave", name: "HuntersGrave", component: () => import("../views/PageHuntersGrave.vue") },

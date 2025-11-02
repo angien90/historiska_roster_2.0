@@ -23,7 +23,7 @@ const items = [
     label: "event_place3",
   },
   {
-    to: "/mysterium-massan",
+    to: "/mysterie-massan",
     src: "/images/mysterium_massan/silja_line.webp",
     alt: "event_place2",
     label: "event_place2",
