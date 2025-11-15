@@ -4,6 +4,11 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const items = [
+  { to: "/sonjas-veranda", 
+    src: "/images/sonjas_veranda/vykort.webp", 
+    alt: "Sonjas Veranda", 
+    label: "sonjasveranda" 
+  },
   { to: "/jugend-house", 
     src: "/images/jugend_house/klevs_gastgiveri.webp", 
     alt: "Klevs gästgiveri", 

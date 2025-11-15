@@ -2,7 +2,7 @@
   "title": "Sonjas Veranda",
   "investigation": "Historiska Röster var här",
   "investigationDate": "15–16 november 2025",
-  "image": "/images/hjortsberga/Hjortsberga.webp",
+  "image": "/images/sonjas_veranda/vykort.webp",
   "history": [
   {
     "heading2": "Sonjas Verandas historia",
@@ -37,7 +37,7 @@
       "År 1897 öppnade Ivar en speceri- och diversehandel i Tvååker, men flyttade sin verksamhet till Järnvägshotellet 1909 när Olof Larsson flyttade ut.",
       "År 1902 gifte sig Ivar med Lovisa Justina Larsson (f. 1878 11 mars i Tvååker – d. 31 maj 1930 av självmord genom att kasta sig framför snälltåget. Hon var då änka. De fick fyra barn: Carl Ivar (1903–1986), Carin Maria, kallad 'Maja' (1905–1977), Tore David (1906–1988) och Svea Ingrid (1912–2001). Familjen flyttade in 1919 i Fastarp nr 2. Alla barnen föddes i Tvååker, utom Carl Ivar, som föddes och dog i Göteborg. Ingrid avled även hon i Göteborg.",
       "År 1972 övertog Christer Bergendahl (f. 28 april 1938 – d. 21 november 2024) rörelsen efter sin farfar. Verksamheten hade då gått i arv via sonen Tore David Bergendahl och hans hustru Elsa Julia Margareta Johansson.",
-      "Ivar och hustrun Lovisa samt barnen Tore och 'Maja'är begravda på Tvååkers kyrkogård (Tv NÖ 224). I samma grav ligger även barnbarnet fru Elsa Julia Margareta Bergendahl samt Klara Margareta Bergendahl (f. 1847 - d. 1926) och Per-Anders Ivar Bergendahl (f. 5 januari 1947 - d. 25 april 2017) begravda."
+      "Ivar och hustrun Lovisa samt barnen Tore och 'Maja' är begravda på Tvååkers kyrkogård (Tv NÖ 224). I samma grav ligger även barnbarnet fru Elsa Julia Margareta Bergendahl samt Klara Margareta Bergendahl (f. 1847 - d. 1926) och Per-Anders Ivar Bergendahl (f. 5 januari 1947 - d. 25 april 2017) begravda."
     ]
   },
   {
@@ -69,12 +69,7 @@
 ],
   "galleryTitle": "Bildgalleri",
   "gallery": [
-    {
-      "src": "/images/sonjas_veranda/olof_larsson_och_familj.webp",
-      "alt": "Olof Larsson med familj",
-      "caption": "Olof Larsson med familj"
-    },
-    {
+        {
       "src": "/images/sonjas_veranda/lovisa_larsson_och_barn.webp",
       "alt": "Lovisa Larsson med familj",
       "caption": "Lovisa Larsson med familj"
@@ -87,12 +82,22 @@
     {
       "src": "/images/sonjas_veranda/oskar_svenssons_barn_och_alma_svensson.webp",
       "alt": "Oskar och Alma Svenssons barn",
-      "caption": "Oskar och Alma Svenssons barn"
+      "caption": "Sonja, Hans, Alf, Gunborg Svensson"
+    },
+    {
+      "src": "/images/sonjas_veranda/sonjas_student_rad2_vänster(PDM).webp",
+      "alt": "Sonja Svenssons Student, rad 2 vänster",
+      "caption": "Sonja Svenssons Student, rad 2 vänster"
     },
     {
       "src": "/images/sonjas_veranda/brand_maskinhall.webp",
       "alt": "Brand i Oskar Svenssons maskinhall",
       "caption": "Brand i Oskar Svenssons maskinhall"
+    },
+    {
+      "src": "/images/sonjas_veranda/olof_larsson_och_familj.webp",
+      "alt": "Olof Larsson med familj",
+      "caption": "Olof Larsson med familj"
     },
     {
       "src": "/images/sonjas_veranda/vykort.webp",
