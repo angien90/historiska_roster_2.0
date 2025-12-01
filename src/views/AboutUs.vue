@@ -22,7 +22,7 @@ useHead({
   <span class="about-us">
     <h1>{{ $t("aboutUs.title") }}</h1>
   </span>
-  <img :src="`/images/generell/historiska_roster_i_trappa.webp`" width="250" height="180" alt="En bild på teamet" class="responsive-img" loading="lazy"/>
+  <img :src="`/images/generell/historiska_röster.webp`" alt="En bild på teamet" class="responsive-img" loading="lazy"/>
   <div class="section-content">
     <section class="section">
       <h2>{{ $t("aboutUs.teamTitle") }}</h2>
@@ -98,6 +98,13 @@ h4 {
   margin-top: 1rem;
   }
 
+.responsive-img {
+  border-radius: 10px;
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+}
+
 @media (min-width: 1024px) {
   h4 {
     margin-bottom: -25px;
@@ -106,5 +113,9 @@ h4 {
   p {
     padding: 20px;
   }
+
+  .responsive-img {
+  width: 450px;
+}
 }
 </style>
