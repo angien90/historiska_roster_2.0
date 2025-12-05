@@ -251,7 +251,7 @@
     }
   ],
   "videoSectionTitle2": "YouTube video coming soon",
-  "videos2": ".",
+  "videos2": ["https://www.youtube.com/embed/J9UKlfgG47A?si=LpTRm3XgJrq7Jbaj"],
   "moreTitle": "Learn More About Frammegården",
   "more": "Explore Frammegården's official site <a href=\"https://www.skillingmarkshembygdsforening.com/\" target=\"_blank\">here</a> and discover even more information about this fascinating place. And if you have the chance, don’t miss visiting Frammegården.",
   "referencesTitle": "Sources",
