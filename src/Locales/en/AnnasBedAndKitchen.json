@@ -1,82 +1,114 @@
 {
   "title": "Annas Bed & Kitchen",
-  "investigation": "Historiska Röster were here",
-  "investigationDate": "January 3–4, 2026",
+  "investigation": "Historical Voices were here",
+  "investigationDate": "January 3-4, 2026",
   "image": "/images/annas_bed_and_kitchen/annas_bed_and_kitchen.webp",
 
   "history": [
     {
-      "heading2": "The house and the history of the place",
+      "heading2": "The House and Site History",
       "text": [
-        "In Vare, just outside Varberg, lies this charming farmstead with a garden dating back to the 17th–18th centuries. The property was previously known as the private residence Bengt Svensgård, the Poorhouse/Municipal Farm, and an Old People’s Home, but today it is known as Johnssons Gård and Annas Bed & Kitchen."
+        "In Vare, just outside Varberg, lies this charming estate with a garden dating back to the 17th–18th centuries. The property was previously known as the private residence Bengt Svensgård, the Poorhouse/Municipal House, and an Old People's Home, but today it is known as Johanssons Gård and Annas Bed & Kitchen."
       ]
     },
     {
-      "heading2": "17th–18th centuries – Bengt Svensgård takes shape",
+      "heading2": "17th–18th Century – The Formation of Bengt Svensgård",
       "text": [
-        "The site in Vare was already a thriving agricultural farm in the 17th century. It is believed that Börje Svensson (born c. 1670) purchased the farm around 1690 and lived there with his wife Barbro Olofsdotter (born c. 1670) and their children Ingrid (1703–1780) and Albrekt (born 1706). The farm later came to be known as Bengt Svensgård and became a home passed down through several generations.",
-        "As far as church records show, beginning in 1755, Albrekt Börjesson (born 1707 – died April 26, 1779), son of Börje Svensson, lived and worked at Bengt Svensgård together with his wife Anna Andersdotter (born 1720 – died January 9, 1774). They had the children Inger (born 1744), Beata (born 1748), Helena (1750–1789), Olof (born 1752), Börge (born 1754), and Anna (born 1759 – died December 25, 1771). During this time, the farm was a center of work and family life, with farmhands and maids regularly attached to the household.",
-        "When Albrekt Börjesson later passed away in 1779, his son Olof Albrektsson took over the farm and lived there together with his wife Johanna Jönsdotter (born 1750 – died 1813). Their children Anna (1770), Kerstin (1773), Albert (1776), Gertrud (1787–1862), Bengt (March 7, 1789), and Lena (1759) grew up there. The farm continued to be run as an agricultural holding, and many farmhands and maids lived and worked on the property."
+        "The site in Vare was already a thriving farm in the 1600s. It is believed that Börje Svensson (b. c. 1670) purchased the farm around 1690 and lived there with his wife Barbro Olofsdotter (b. c. 1670) and their children Ingrid (1703-1780) and Albrekt (1706). The farm later became known as Bengt Svensgård and was passed down through several generations.",
+        "As far as we can trace in church records, in 1755, Albrekt Börjesson (b. 1707 - d. April 26, 1779), son of Börje Svensson, lived and worked at Bengt Svensgård together with his wife Anna Andersdotter (b. 1720 - d. January 9, 1774). They had children Inger (b. 1744), Beata (b. 1748), Helena (1750 - 1789), Olof (b. 1752), Börge (b. 1754) and Anna (b. 1759 - d. December 25, 1771). During this time, the farm was a center of work and family life, with farmhands and maids regularly living on the property.",
+        "After Albrekt Börjesson passed away in 1779, his son Olof Albrektsson took over the farm and lived there with his wife Johanna Jönsdotter (b. 1750 - 1813). Their children Anna (1770), Kerstin (1773), Albert (1776), Gertrud (1787 - 1862), Bengt (b. March 7, 1789) and Lena (1759) grew up there. The farm continued to operate as an agricultural estate, with many farmhands and maids residing on the property."
       ]
     },
     {
-      "heading2": "Early 19th century – The Olofsson family",
+      "heading2": "Early 19th Century – The Olofsson Family",
       "text": [
-        "When Olof passed away, his wife Johanna and the children Bengt and Lena remained on the farm. The son Bengt Olofsson worked as a farmhand before starting his own family and taking over the operation of the farm.",
-        "Bengt and his wife Gunnild Larsdotter (born March 26, 1791) married on October 2, 1815, and lived on the farm with their children Lars Otto (March 15, 1818 – November 6, 1847), Albrekt (August 28, 1820 – October 23, 1890), Nils August (born October 7, 1827), Anna Johanna (born February 24, 1823), Anders (August 9, 1830 – 1903), Lovisa Beata (born April 29, 1832), Peter Johan (born 1834), and Beata Christina (January 26, 1838 – 1919).",
-        "Tragically, Lars Otto died in an accident in 1847 at the age of 29; the exact circumstances are unclear. The son Peter’s name is also crossed out in the household examination records, though the reason is unknown."
+        "After Olof passed away, his wife Johanna and their children Bengt and Lena remained on the farm. Their son Bengt Olofsson worked as a farmhand before starting his own family and taking over the farm operations.",
+        "Bengt and his wife Gunnild Larsdotter (b. March 26, 1791) married on October 2, 1815, and lived on the farm with their children Lars Otto (March 15, 1818 - November 6, 1847), Albrekt (August 28, 1820 - October 23, 1890), Nils August (b. October 7, 1827), Anna Johanna (b. February 24, 1823), Anders (August 9, 1830 - 1903), Lovisa Beata (b. April 29, 1832), Peter Johan (b. 1834), and Beata Christina (January 26, 1838 - 1919).",
+        "Unfortunately, Lars Otto died in an accident in 1847 at the age of 29; the exact circumstances are unclear. The records also confirm the name of their son Peter, but the cause of death is unknown."
       ]
     },
     {
-      "heading2": "Late 19th century – The Bengtsson family",
+      "heading2": "Late 19th Century – The Bengtsson Family",
       "text": [
-        "By the mid-19th century, the next generation took over. The son Albrekt Bengtsson assumed responsibility for the farm and married Inger Breta Nilsdotter (January 2, 1839 – February 15, 1862) on July 5, 1860. They had a son, Lars (born July 11, 1861). Sadly, Inger died in 1862, and Albrekt later married Augusta Sofia Bengtsdotter (born October 22, 1847 – died 1890) on January 21, 1876. The son Lars remained on the farm, and Albrekt and Augusta had the children Alma Justina (March 27, 1869 – 1879), Johan August (born February 15, 1871), Inger Britta (February 14, 1876 – 1879), Bengt Albert (July 2, 1880 – 1940), and Lovisa Gunilla (born January 8, 1886).",
-        "Tragically, the daughter Alma Justina died on September 14, 1879, at the age of 10, and the daughter Inger Britta died on August 28, 1879, at the age of 3. Albrekt himself passed away on October 23, 1890.",
-        "After Albrekt’s death, the widow Augusta Sofia Bengtsdotter remained on the farm with the children Johan August, Bengt Albert, and Lovisa Gunilla, as well as her sister-in-law Anna Bengtsdotter (born February 24, 1823). A man named Johannes Jönsson (born February 26, 1854) also lived on the farm.",
-        "It is supposed to be the eldest son, Lars Albrektsson, who sells the farm to the municipality. Lars and his wife, Johanna Larsdotter, are buried at Träslöv Church and next to them lies their grandson Carl."
+        "By the mid-1800s, the next generation took over. Son Albrekt Bengtsson assumed control of the farm and married Inger Breta Nilsdotter (b. January 2, 1839 - February 15, 1862) on July 5, 1860. They had a son, Lars (b. July 11, 1861). Sadly, Inger passed away in 1862, and Albrekt later married Augusta Sofia Bengtsdotter (b. October 22, 1847 - d. 1890) on January 21, 1876. Son Lars remained on the farm, and Albrekt and Augusta had children Alma Justina (March 27, 1869 - 1879), Johan August (b. February 15, 1871), Inger Britta (February 14, 1876 - 1879), Bengt Albert (July 2, 1880 - 1940), and Lovisa Gunilla (b. January 8, 1886).",
+        "Tragically, daughter Alma Justina died on September 14, 1879 (aged 10), and daughter Inger Britta passed on August 28, 1879 (aged 3). Albrekt himself died on October 23, 1890.",
+        "After Albrekt's death, his widow Augusta Sofia Bengtsdotter remained on the farm with their children Johan August, Bengt Albert, and Lovisa Gunilla, along with her sister-in-law Anna Bengtsdotter (b. February 24, 1823). A man named Johannes Jönsson (b. February 26, 1854) also lived on the property.",
+        "It was the eldest son, Lars Albrektsson, who later sold the farm to the municipality. Lars and his wife Johanna Larsdotter are buried at Träslöv Church, alongside their grandchild Carl."
       ]
     },
     {
-      "heading2": "1900–1960s – Poorhouse, municipal farm, and old people’s home",
+      "heading2": "1900–1960 – Poorhouse, Municipal House, and Old People's Home",
       "text": [
-        "The farm was converted into a poorhouse, later known as a municipal farm. People lived here whom society could no longer care for in other ways: the elderly, the sick, the poor, and sometimes mentally fragile individuals.",
-        "More than 30 people could live here at the same time, including residents, farmhands, and maids. Traces of padded cells and a mortuary still remain today.",
-        "It is said that a man in a straitjacket arrived by horse-drawn carriage to stay overnight at the farm during a transfer to a mental health institution in Helsingborg in 1912.",
-        "At this time, poorhouses were a common institution in Sweden, with municipalities responsible for caring for those unable to support themselves. These facilities, which later developed into old people’s homes, were often built in secluded locations—possibly reflecting a sense of shame surrounding poor relief."
+        "The estate was converted into a poorhouse, later called the Municipal House. Here lived people who society could no longer care for in other ways: the elderly, sick, poor, and sometimes mentally vulnerable individuals.",
+        "Over 30 people could live here simultaneously, including household staff, farmhands, and maids. Traces of isolation cells and mortuary rooms still exist today.",
+        "It is said that a man in a straitjacket arrived by horse-drawn carriage to spend the night in the house during a transport to a mental institution in Helsingborg in 1912.",
+        "Poorhouses were a common institution in Sweden at this time, where municipalities were responsible for the care of those unable to support themselves. These facilities, which later evolved into old people's homes, were often built in remote locations – perhaps reflecting a sense of shame surrounding poor relief."
       ]
     },
     {
-      "heading2": "The 1960s – The end of an era",
+      "heading2": "1960s – The End of an Era",
       "text": [
-        "When the municipality of Träslöv became part of the city of Varberg in 1960, the elderly residents were moved to the newly built retirement home Östergården. The farm then faced demolition. This could have been the end of its history.",
-        "Bengt, the son of Albrekt Bengtsson, worked as a gardener and caretaker at Östergården."
+        "When Träslöv Municipality became part of Varberg City in 1960, the elderly residents were moved to the newly built Östergården retirement home. The farm was then facing demolition. This could have been the end of its history.",
+        "Albrekt Bengtsson's son Bengt worked as a gardener and caretaker at Östergården."
       ]
     },
     {
-      "heading2": "The 1970s – The rescue",
+      "heading2": "1970s – The Rescue",
       "text": [
-        "In 1971, Gunnie Solveig Johnsson (born 1932 – died June 21, 2025) and Olof Göran Johnsson (March 21, 1930 – June 28, 2016) took over the farm—and saved it from demolition. This is when the name Johnssons Gård was born.",
-        "The buildings were preserved, restored, and given new life. The place slowly transformed from an institution into a meeting place.",
-        "The farm remains in the family, as their daughter Pia Kellström later took over."
+        "In 1971, Gunnie Solveig Johnsson (b. 1932 - d. June 21, 2025) and Olof Göran Johnsson (March 21, 1930 - June 28, 2016) took over the farm – saving it from demolition. This is when the name Johanssons Gård was established.",
+        "The buildings were preserved, restored, and given new life. The property slowly transformed from an institution into a community space.",
+        "The farm is still in the family, with her daughter Pia Kellström later taking over."
       ]
     },
     {
-      "heading2": "The 2000s – Annas Bed & Kitchen",
+      "heading2": "2000s – Annas Bed & Kitchen",
       "text": [
-        "In the old main building, Annas Bed & Kitchen gradually emerged—a place to stay and dine that consciously connects to the site’s history. Today, the building covers approximately 900 square meters with 18 rooms, carefully adapted for overnight stays, meetings, and community. In recent years, the house has been renovated, including an extension of the basement by the current owner Pia Kellström together with her brother.",
-        "The name Anna is no coincidence. It is a tribute to Pia’s grandmother Anna. Today, guests sleep in rooms where generations have lived, worked, been cared for, and dreamed."
+        "The old main building eventually became Annas Bed & Kitchen – a lodging and kitchen that deliberately connects to the site's history. Today, the building covers approximately 900 square meters with 18 rooms, carefully adapted for overnight stays, meetings, and community gatherings. In recent years, the house has been renovated, including an extension of the basement by current owner Pia Kellström and her brother.",
+        "The name Anna is no coincidence. It is a tribute to Pia's grandmother Anna. Today, guests sleep in rooms where generations have lived, worked, been cared for, and dreamed."
       ]
     },
     {
-      "heading2": "Today – A living cultural heritage",
+      "heading2": "Today – A Living Cultural Heritage",
       "text": [
-        "Today, Johnssons Gård is once again a place filled with life: businesses, crafts, food, meetings, and guests from near and far.",
-        "And at the heart of the farm is still Annas Bed & Kitchen—where history is not hidden away, but allowed to take its place."
+        "Today, Johanssons Gård is once again a place full of life: businesses, crafts, food, meetings, guests from near and far.",
+        "At the heart of the estate is still Annas Bed & Kitchen – where history is not hidden, but given space to be experienced."
       ]
     }
   ],
 
-  "galleryTitle": "Image Gallery",
+  "storyTitle": "Experiences of Guests and Owners",
+  "stories": [
+    {
+      "title": "Knocks and Sounds",
+      "text": "Guests have heard knocks and sounds from empty rooms in the house – as if someone were moving around, though no one is visible."
+    },
+    {
+      "title": "The 'Occupied' Armchair",
+      "text": "Many guests report feeling that someone is sitting in a specific armchair, even when no physical person is present. It is always the same armchair that is mentioned."
+    },
+    {
+      "title": "Voices Without a Visible Source",
+      "text": "Pia's husband (the owner) has several times heard voices and conversations from a room upstairs, but when he opened the door, no one was there – and the voices stopped."
+    },
+    {
+      "title": "Electrical Phenomena",
+      "text": "Lights can turn on or off by themselves, without anyone touching the switches."
+    },
+    {
+      "title": "Beds That Seem Used",
+      "text": "Sometimes a freshly made bed has an indentation in the blanket, as if someone had sat or lain there, though no one did."
+    },
+    {
+      "title": "The Spirits Alvina, Nils, and Oskar",
+      "text": "A medium visiting the hotel sensed several energies, later confirmed by previous owners and staff. One of these is said to be Alvina, who used to knock three times before entering a room – and these knocks are still heard in the house according to guests and staff. Owner Pia also mentions the entities Nils and Oskar, two men who once lived in the old people's home. Several guests have reported seeing them as tall figures dressed in white shirts – and Pia believes these spirits are not threatening but help 'maintain order' in the house."
+    },
+    {
+      "title": "Warning of Danger",
+      "text": "A particularly notable incident occurred when the owner had a strong feeling (an intuition) to go to a specific room, which later turned out to have almost caught fire. Pia attributes this feeling to the spirits warning her, as a lit lamp had been placed against the wood on an upper shelf, almost causing it to smolder."
+    }
+  ],
+
+  "galleryTitle": "Photo Gallery",
   "gallery": [
     {
       "src": "/images/annas_bed_and_kitchen/annas_bed_and_kitchen_1976.webp",
@@ -85,8 +117,8 @@
     },
     {
       "src": "/images/annas_bed_and_kitchen/lars_johannas_gravsten.webp",
-      "alt": "Gravestone of Lars, Johanna, and Carl",
-      "caption": "Gravestone of Lars, Johanna, and Carl"
+      "alt": "Gravestone for Lars, Johanna, and Carl",
+      "caption": "Gravestone for Lars, Johanna, and Carl"
     },
     {
       "src": "/images/annas_bed_and_kitchen/sjuksyster_barnmorska_i_hem-miljo_troligen_laura_alberktsson.webp",
@@ -95,8 +127,8 @@
     },
     {
       "src": "/images/annas_bed_and_kitchen/likvagnen_sibbarp.webp",
-      "alt": "The hearse used at the Municipal Farm",
-      "caption": "The hearse used at the Municipal Farm"
+      "alt": "The hearse used at the Municipal House",
+      "caption": "The hearse used at the Municipal House"
     },
     {
       "src": "/images/annas_bed_and_kitchen/personal_ostergarden.webp",
@@ -105,16 +137,16 @@
     }
   ],
 
-  "resultTitle": "Summary from our investigation",
+  "resultTitle": "Summary from Our Investigation",
   "results": [
     {
-      "title": "Coming soon",
+      "title": "Coming Soon",
       "text": [""]
     }
   ],
 
-  "moreTitle": "Learn even more about Annas Bed & Kitchen",
-  "more": "Explore their official website <a href=\"https://annasbedandkitchen.se/\" target=\"_blank\">here</a> and don’t miss the opportunity to book an overnight stay in this historic house.",
+  "moreTitle": "Learn More About Annas Bed & Kitchen",
+  "more": "Explore their official website <a href=\"https://annasbedandkitchen.se/\" target=\"_blank\">here</a> and don't miss the chance to book a stay in this historic house.",
 
   "referencesTitle": "Sources",
   "sources": [
@@ -123,7 +155,7 @@
       "url": "https://www.rotter.se/gsi/368771"
     },
     {
-      "text": "Digitalt Museum",
+      "text": "Digital Museum",
       "url": "https://digitaltmuseum.se/"
     },
     {
@@ -132,10 +164,14 @@
     },
     {
       "text": "Enterprise Magazine",
-      "url": "https://www.enterprisemagazine.se/nyheter/artikel/unikt-hotell-pa-landet?utm_source=chatgpt.com"
+      "url": "https://www.enterprisemagazine.se/nyheter/artikel/unikt-hotell-pa-landet"
     },
     {
-      "text": "The National Archives of Sweden",
+      "text": "Nära Magazine",
+      "url": "https://www.tidningennara.se/artiklar/andlighet/mystiska-platser-varberg"
+    },
+    {
+      "text": "National Archives of Sweden",
       "url": "https://sok.riksarkivet.se/digitala-arkiv?Arkivsok=Tr%c3%a4sl%c3%b6v&EndastDigitaliserat=true&Lan=Hallands+l%c3%a4n&Arkivtyp=Alla&AvanceradSok=False&PageSize=20&typAvLista=Standard&page=1&postid=Arkis+64218eae-ecc4-4c37-9c70-e13c56b3790f&tab=post&s=Balder"
     },
     {
