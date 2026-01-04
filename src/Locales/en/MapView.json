@@ -3,11 +3,43 @@
   "readMore": "Read More",
   "locations": [
     {
+      "name": "Annas Bed & Kitchen",
+      "description": "Annas Bed & Kitchen is a charming bed & kitchen accommodation located in Vare, just south of Varberg. It offers individually decorated rooms in a peaceful rural setting, with access to a fully equipped shared kitchen, a large garden, and close proximity to both a bakery and the restaurant Spiseriet.",
+      "lat": 57.06197,
+      "lng": 12.31255,
+      "url": "/annas-bed-and-kitchen",
+      "image": "/images/annas_bed_and_kitchen/annas_bed_and_kitchen.webp"
+    },
+    {
+      "name": "Sonjas Porch",
+      "description": "Sonjas Porch is a cozy and inviting café and restaurant known for its relaxed atmosphere and homemade food. Set in a charming countryside location, it is a popular place to enjoy coffee, pastries, and light meals in a personal and welcoming setting.",
+      "lat": 57.04273,
+      "lng": 12.39958,
+      "url": "/sonjas-veranda",
+      "image": "/images/sonjas_veranda/vykort.webp"
+    },
+    {
+      "name": "Klevs Gästgiveri",
+      "description": "Klevs Gästgiveri is a traditional guesthouse set in a scenic rural environment. It offers comfortable accommodation with a warm and welcoming atmosphere, combining historic charm with modern amenities, making it suitable for both short stays and longer visits.",
+      "lat": 57.25447,
+      "lng": 12.98368,
+      "url": "/jugend-house",
+      "image": "/images/klevs_gastgiveri/klevs_gastgiveri.webp"
+    },
+    {
+      "name": "Hunter’s Grave",
+      "description": "Hunter’s Grave is a so-called offering cairn, dedicated to a hunter who, according to legend, tried to save a girl from drowning — but sadly, both of them drowned. Note: the exact location is kept secret.",
+      "lat": 57.91775,
+      "lng": 12.01752,
+      "url": "/hunters-grave",
+      "image": "/images/hunters_grave/jagarens_grav.webp"
+    },
+    {
       "name": "Rydals Manor",
       "description": "Rydal Manor is a historic estate known for its ghost stories and mysterious events that captivate both visitors and investigators.",
       "lat": 57.55471,
       "lng": 12.69499,
-      "url": "/PageRydalsHerrgard",
+      "url": "/rydals-herrgard",
       "image": "/images/rydals_herrgard/rydals_herrgard.webp"
     },
     {
@@ -15,7 +47,7 @@
       "description": "Rankhyttans Manor is one of Dalarna's most enigmatic places, where history and supernatural experiences blend in an atmosphere of mystery. Dennis had his scariest experience during the Estes Method here.",
       "lat": 60.47551,
       "lng": 15.72056,
-      "url": "/PageRankhyttan",
+      "url": "/rankhyttan",
       "image": "/images/rankhyttan/rankhyttan.webp"
     },
     {
@@ -23,7 +55,7 @@
       "description": "The Gathenhielmska House in Gothenburg is a historic 18th-century building surrounded by legends, pirate history, and tales of ghosts that never left the place. This was where Stig came through for the second time.",
       "lat": 57.69856,
       "lng": 11.93414,
-      "url": "/PageGathenhielmskaHuset",
+      "url": "/gathenhielmska-huset",
       "image": "/images/gathenhielmska_huset/Gathenhielmska_huset.webp"
     },
     {
@@ -31,7 +63,7 @@
       "description": "The Haunted Museum in Borås is a unique place filled with cursed objects and supernatural phenomena that send shivers down visitors' spines. The team's calmest investigation so far.",
       "lat": 57.71478,
       "lng": 12.95052,
-      "url": "/PageHemsoktaMuseet",
+      "url": "/hemsokta-museet",
       "image": "/images/hemsokta_museet/Hemsokta_museet.webp"
     },
     {
@@ -39,7 +71,7 @@
       "description": "Hjortsberga Vicarage in Värnamo Park is a historic site surrounded by mystery and is said to be haunted by former residents. This is where we first made contact with Stig.",
       "lat": 56.17984,
       "lng": 15.6124,
-      "url": "/PageHjortsberga",
+      "url": "/hjortsberga",
       "image": "/images/hjortsberga/Hjortsberga.webp"
     },
     {
@@ -47,7 +79,7 @@
       "description": "The team's first investigation together. Frammegården in Skillingaryd is one of Sweden's most haunted locations, known for its eerie history and paranormal activity.",
       "lat": 59.81873,
       "lng": 11.98332,
-      "url": "/PageFrammegarden",
+      "url": "/frammegarden",
       "image": "/images/frammegarden/Frammegarden.webp"
     }
   ]
