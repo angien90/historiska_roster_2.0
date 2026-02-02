@@ -16,7 +16,7 @@
       "lat": 57.04273,
       "lng": 12.39958,
       "url": "/sonjas-veranda",
-      "image": "/images/sonjas_veranda/vykort.webp"
+      "image": "/images/sonjas_veranda/sonjas_veranda.webp"
     },
     {
       "name": "Klevs Gästgiveri",
@@ -24,7 +24,7 @@
       "lat": 57.25447,
       "lng": 12.98368,
       "url": "/jugend-house",
-      "image": "/images/klevs_gastgiveri/klevs_gastgiveri.webp"
+      "image": "/images/jugend_house/klevs_gastgiveri.webp"
     },
     {
       "name": "Hunter’s Grave",
@@ -80,7 +80,7 @@
       "lat": 59.81873,
       "lng": 11.98332,
       "url": "/frammegarden",
-      "image": "/images/frammegarden/Frammegarden.webp"
+      "image": "/images/Frammegarden/Frammegarden.webp"
     }
   ]
 }

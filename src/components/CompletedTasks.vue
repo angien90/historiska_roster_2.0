@@ -10,7 +10,7 @@ const items = [
     label: "annasbedandkitchen" 
   },
   { to: "/sonjas-veranda", 
-    src: "/images/sonjas_veranda/vykort.webp", 
+    src: "/images/sonjas_veranda/sonjas_veranda.webp", 
     alt: "Sonjas Veranda", 
     label: "sonjasveranda" 
   },
