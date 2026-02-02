@@ -156,14 +156,10 @@
     }
   ],
   "resultTitle": "Sammanfattning från vår utredning",
-  "results": [
-    {
-      "title": "Kommer inom kort",
-      "text": [
-        ""
-      ]
-    }
-  ],
+  "videos": [
+    "https://www.youtube.com/embed/gzb2WSn7Dtc?si=DTu-2G_VzgoV6ic_",
+    "https://www.youtube.com/embed/pTU0AXpaxl8?si=SBBSlDuQmqMpdHKk"
+    ],
   "moreTitle": "Läs mer om Sonjas Veranda",
   "more": "Utforska Sonjas Verandas officiella sida <a href=\"https://sonjasveranda.se/\" target=\"_blank\">här</a> och upptäck ännu mer om denna fantastiska plats. Får du chansen – missa inte ett besök! Njut av fika i toppklass och passa på att botanisera i deras charmiga lilla butik.",
   "referencesTitle": "Källor",
