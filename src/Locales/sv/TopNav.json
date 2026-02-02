@@ -5,6 +5,7 @@
   "other_events": "Event",
   "education": "Utbildning",
   "social_media": "Sociala medier",
+  "community": "Community",
   "contact_us": "Kontakta oss",
   "tip_us": "Tipsa oss",
   "open_menu": "Öppna menyn",
@@ -38,6 +39,7 @@
     "instagram": "Instagram",
     "tiktok": "TikTok",
     "facebook": "Facebook",
-    "soundcloud": "SoundCloud"
+    "digg_private": "För alla",
+    "digg_team": "För paranormala team"
   }
 }

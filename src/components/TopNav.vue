@@ -110,6 +110,13 @@ const menuItems = computed(() => [
       { label: t("dropdown.soundcloud"), href: "https://soundcloud.com/historiska-roester/sets/historiska-roester" },
     ],
   },
+  {
+    label: t("commuity"),
+    children: [
+      { label: t("dropdown.digg_private"), href: "https://digg.com/paranormal-activities/WArllRS/dare-to-share-welcome-to-paranormal" },
+      { label: t("dropdown.digg_team"), href: "https://digg.com/ghosthunters/11tWYNS/welcome-to-ghosthaunters-a-hub-for" },
+    ],
+  },
   { label: t("contact_us"), href: "mailto:historiskaroster@outlook.com" },
   {
     label: t("tip_us"),

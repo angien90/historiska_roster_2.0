@@ -5,6 +5,7 @@
   "other_events": "Events",
   "education": "Education",
   "social_media": "Social Media",
+  "community": "Community",
   "contact_us": "Contact Us",
   "tip_us": "Send us a tip",
   "open_menu": "Open menu",
@@ -38,6 +39,7 @@
     "instagram": "Instagram",
     "tiktok": "TikTok",
     "facebook": "Facebook",
-    "soundcloud": "SoundCloud"
+    "digg_private": "For everyone",
+    "digg_team": "For paranormal teams"
   }
 }
