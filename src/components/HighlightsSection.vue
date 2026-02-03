@@ -39,15 +39,16 @@ const { t } = useI18n();
   text-align: center;
 }
 
-/* Wrapper för bild och text */
 .upcoming-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-items: center; /* Centrerar vertikalt på mobil (när de är i en kolumn) */
+  align-items: center; 
+  justify-content: center;
 }
 
 h3 {
+  font-size: 2rem;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -60,13 +61,21 @@ h3 {
   object-fit: cover;
 }
 
-p {
-  font-size: 1.4rem;
-  line-height: 1.5;
-  font-weight: lighter;
-  margin-bottom: 1rem;
+.upcoming-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+  justify-content: center; 
 }
 
+.upcoming-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: lighter;
+  margin: 0; 
+  padding: 0; 
+}
 /* Tablet & Desktop */
 @media (min-width: 768px) {
   .highlight-upcoming {
@@ -89,9 +98,9 @@ p {
     flex: 1;
   }
 
-  p {
+  .upcoming-text p {
+    font-size: 1.6rem;
     text-align: left;
-    margin-bottom: 0rem;
   }
 }
 
