@@ -2,7 +2,7 @@
   "aboutUs": {
     "title": "About us",
     "teamTitle": "The Team",
-    "teamText": "This wonderful crew began their journey together on July 28, 2024. In the bottom left, you’ll find Nathalie from Karlshamn, the ghosts’ very own energy drink – when Nathalie starts nodding off during an investigation, you know something exciting is about to happen. In the top left is Angelica, our Gothenburg detective, who dives deep into historical archives to uncover ghostly mysteries. In the top right, you’ll find Annsofie from Borås, our storytelling voice who brings ghosts to life and makes every mystery a little more magical. Last but not least, there’s Dennis, the tech nerd from Borås, whose passion for technology and cameras captures our adventures and turns them into top-notch films.",
+    "teamText": "This wonderful group began their journey together on July 28, 2024. In the bottom left, you’ll find Nathalie from Karlshamn, the ghosts' very own energy drink – when Nathalie starts nodding off, you know something exciting is about to happen. In the top left, we have Angelica, the Gothenburg girl who is our very own detective, digging deep into historical archives. In the top right is Annsofie from Borås, our narrator who brings the echoes of history to life. We also have Björn, our certified medium, who with his unique ability serves as our human link to the other side, helping us interpret what we cannot yet measure with machines. Last but certainly not least is the tech geek Dennis from Borås, who with his passion for technology and his camera transforms our adventures into high-class films.",
     "whoAreWe": "Who are we?",
     "whoAreWeText": "Our team is a group of passionate souls from across Sweden united by a fascination for the mysterious and historical. We explore historical places in depth by combining traditional research with modern technology and paranormal investigation methods. By sharing our results with the world, we aim to revive historical events, preserve the past, prove that something lies beyond, and inspire others to explore the unknown.",
     "visionTitle": "Our Vision",
@@ -36,20 +36,32 @@
       "text": "We never fake results. Our ghost hunts are based on honest observations and an open, critical mind. Reliability always comes before drama – we seek truth, not sensationalism."
     }
   },
-    "howWeInvestigate": "How does an investigation work?",
+    "howWeInvestigate": "Our Investigation Process",
     "howWeInvestigateText": [
-      "To build a solid foundation for our research, we begin with an in-depth historical study before visiting the site. We look for names, photos, and specific events tied to the property and its previous owners.",
-      "On the day of the investigation, we visit relevant locations such as churches, cemeteries, and buildings connected to the site’s history.",
-      "Fieldwork starts at dawn and is conducted with modern equipment. We carry out our investigations in the darkness of night, when senses sharpen in the absence of sight.",
-      "Collected materials are carefully analyzed afterward to identify patterns and draw conclusions. The results are presented in a documentary film and teaser clips on our social media.",
-      "In the future, we plan to produce more films that highlight both the site's history and its surroundings. We will also interview past and current owners or staff to collect personal stories and insights."
+      "To create a solid foundation for our investigation, we begin with a thorough historical background study before visiting the site. We search for names, photographs, and specific events linked to the property and its previous owners.",
+      "During the day of the investigation, we visit relevant locations such as churches, burial grounds, and other buildings with historical ties to the property in question.",
+      "We prioritize interviewing current owners to gain a personal perspective of the site and listen to their own experiences and stories.",
+      "Fieldwork begins at dusk and is conducted using modern equipment. We carry out our investigations under the cover of night, as other senses sharpen when sight is limited.",
+      "The collected material is carefully analyzed following the fieldwork to identify patterns and draw well-founded conclusions. The results are compiled into a documentary and teasers for our social media."
+    ],
+    "ghostHauntingEvent": "Ghost Hunting Events (Guest Experience)",
+    "ghostHauntingEventText": [
+      "We arrange exclusive ghost hunting events in close collaboration with owners of historical and paranormal sites. Just like our own investigations, a solid historical background study serves as the foundation for the evening.",
+      "The evening often begins with a guided tour followed by a group dinner where the echoes of history become tangible. Here, guests can listen to the owner's own stories while we open up for discussions about the paranormal. It is a valued opportunity to share experiences and get to know each other on a deeper level before darkness falls.",
+      "After dinner, we at Historiska Röster hold a demonstration of our technical equipment. We educate guests on how the various tools are used to document and measure activity.",
+      "During the investigation itself, guests choose their own approach: either exploring the site on their own with borrowed equipment, or joining one of us for a guided investigation. Everything is based on what the guest feels comfortable with.",
+      "We conclude the night with a group gathering to review the night's experiences and observations. Afterward, the event wraps up; guests who have booked an overnight package retire to their rooms, while others head home.",
+      "A ghost hunting event with us is more than just a thrill – it is a way to unite history, community, and the unexplained in a safe environment.",
+      "Do you want to turn your history into an experience? We are always open to new ideas and happy to tailor collaborations to your specific needs. It’s better to reach out once too often than not at all!",
+      "Feel free to contact us <a href=\"mailto:historiskaroster@outlook.com\" class=\"link\">via this link</a> for an initial meeting."
     ],
     "interestedInCooperation": "Interested in collaborating with us?",
     "cooperationText": [
-      "Imagine joining us on a unique journey through time and space. With our passion for the unknown, our knowledge, and our advanced equipment, we’ll dive deep into the site’s history to reveal its secrets. We'll use every tool we have to capture even the smallest traces of paranormal activity and create compelling documentation.",
-      "Through our collaboration, we can craft an exciting story that attracts visitors and raises awareness of your location and the surrounding area. Imagine seeing your site in the spotlight across social media, with people engaging in both our research and your history. Together, we can create something truly special.",
-      "Don't hesitate to contact us! You can easily reach us <a href=\"mailto:historiskaroster@outlook.com\" class=\"link\">via this link</a> – and as we always say, it's better to reach out once too often than not at all.",
-      "We’re of course open to different kinds of collaborations. If you have an idea, we’re happy to discuss it further with you."
+      "At Historiska Röster, we believe in the power of working together. We are constantly looking for exciting new collaborations that can elevate both our investigations and the paranormal community at large.",
+      "Are you another paranormal team interested in a joint investigation, or do you represent a company selling advanced equipment? We are also interested in partnerships regarding branded apparel, printing, and other gear that helps strengthen our brand and presence in the field.",
+      "We see great potential in exchanging experiences, testing new technology, and creating unique content together that engages and fascinates our social media followers. By combining our expertise, we can create something truly special.",
+      "Do you have an idea for a collaboration or a product you think would suit us? Don't hesitate to get in touch! As we always say: it’s better to contact us once too often than not at all.",
+      "The easiest way to reach us is <a href=\"mailto:historiskaroster@outlook.com\" class=\"link\">via this link</a> for an open discussion."
     ]
   }
 }

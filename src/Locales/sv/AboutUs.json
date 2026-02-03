@@ -2,7 +2,7 @@
   "aboutUs": {
     "title": "Om oss",
     "teamTitle": "Teamet",
-    "teamText": "Detta härliga gäng började sin resa tillsammans den 28 juli 2024. Nere till vänster hittar ni Nathalie från Karlshamn, spökenas egen energidryck – när Nathalie börjar nicka till under utredningen vet man att något spännande snart är på gång. Uppe till vänster har vi Angelica, Göteborgstjejen som är vårt svar på en detektiv, och som gräver djupt i historiska arkiv för att avslöja spökliga mysterier. Uppe till höger hittar ni Annsofie från Borås, vår berättarröst som väcker spöken till liv och gör varje mysterium lite mer magiskt. Sist men inte minst har vi tekniknörden Dennis från Borås, som med sitt teknikintresse och sin kamera fångar våra äventyr och förvandlar dem till film av högsta klass.",
+    "teamText": "Detta härliga gäng började sin resa tillsammans den 28 juli 2024. Nere till vänster hittar ni Nathalie från Karlshamn, spökenas egen energidryck – när Nathalie börjar nicka till vet man att något spännande är på gång. Uppe till vänster har vi Angelica, Göteborgstjejen som är vårt svar på en detektiv och gräver djupt i historiska arkiv. Uppe till höger hittar ni Annsofie från Borås, vår berättarröst som väcker historiens vingslag till liv. Vi har även Björn, vårt utbildade medium, som med sin unika förmåga fungerar som vår mänskliga länk till andra sidan och hjälper oss att tolka det vi ännu inte kan mäta med maskiner. Sist men inte minst har vi tekniknörden Dennis från Borås, som med sin kamera förvandlar våra äventyr till film av högsta klass.",
     "whoAreWe": "Vilka är vi?",
     "whoAreWeText": "Vårt team är en samling passionerade själar från fyra hörn av Sverige, förenade av en fascination för det mystiska och det historiska. Vi utforskar historiska platser på djupet genom att kombinera traditionell historisk forskning med modern teknik och paranormala utredningsmetoder. Genom att dela våra resultat med världen strävar vi efter att återuppliva historiska händelser, bevara vårt förflutna, bevisa att det finns något bortom denna värld och inspirera andra att utforska det okända.",
     "visionTitle": "Vår vision",
@@ -36,20 +36,32 @@
         "text": "Vi förfalskar aldrig resultat. Vår spökjakt vilar på ärliga observationer och ett öppet, kritiskt sinne. Trovärdighet går alltid före dramatik – vi söker sanningen, inte sensationer."
       }
     },
-    "howWeInvestigate": "Hur går en utredning till?",
+    "howWeInvestigate": "Hur en vanlig utredning går till",
     "howWeInvestigateText": [
       "För att skapa en solid grund för vår undersökning börjar vi med en noggrann historisk bakgrundsstudie innan vi besöker platsen. Vi söker efter namn, fotografier och specifika händelser som är kopplade till fastigheten och dess tidigare ägare.",
       "Under utredningsdagen besöker vi relevanta platser, som kyrkor, begravningsplatser och andra byggnader med historiska kopplingar till den aktuella byggnaden.",
-      "Fältarbetet inleds vid gryningen och genomförs med hjälp av modern utrustning. Vi utför våra undersökningar under nattens mörker, då andra sinnen skärps när synen inte är närvarande.",
-      "Det insamlade materialet analyseras noggrant efter fältstudien för att identifiera samband och dra välgrundade slutsatser. Resultaten sammanställs i en dokumentärfilm och teasers på våra sociala medier.",
-      "I framtiden planerar vi att producera fler filmer som belyser både platsens historia och dess omgivning. Vi kommer också att intervjua nuvarande och tidigare ägare samt anställda för att samla in personliga berättelser och kompletterande information."
+      "Vi intervjuar gärna nuvarande ägare för att få en personlig bild av platsen och ta del av deras egna upplevelser och berättelser.",
+      "Fältarbetet inleds vid skymningen och genomförs med hjälp av modern utrustning. Vi utför våra undersökningar under nattens mörker, då andra sinnen skärps när synen inte är närvarande.",
+      "Det insamlade materialet analyseras noggrant efter fältstudien för att identifiera samband och dra välgrundade slutsatser. Resultaten sammanställs i en dokumentärfilm och teasers på våra sociala medier."
+    ],
+    "ghostHauntingEvent": "Spökjaktsevent (Gästupplevelse)",
+    "ghostHauntingEventText": [
+      "Vi arrangerar exklusiva spökjaktsevent i nära samarbete med ägare av historiska och paranormala platser. Precis som vid våra egna utredningar ligger en gedigen historisk bakgrundsstudie till grund för kvällen.",
+      "Kvällen inleds ofta med en rundvandring och därefter en gemensam middag där historiens vingslag blir påtagliga. Här får gästerna lyssna till ägarens egna berättelser om platsen, samtidigt som vi öppnar upp för diskussioner kring det paranormala. Det är ett uppskattat tillfälle att dela erfarenheter och lära känna varandra på ett djupare plan innan mörkret faller.",
+      "Efter middagen håller vi på Historiska Röster i en genomgång av vår tekniska utrustning. Vi utbildar gästerna i hur de olika verktygen används för att dokumentera och mäta aktivitet.",
+      "Under själva utredningen väljer gästerna själva sitt upplägg: antingen utforskar man platsen på egen hand med lånad utrustning, eller så följer man med någon av oss för en guidad undersökning. Allt sker utifrån vad gästen själv känner sig bekväm med.",
+      "Vi avslutar natten med en gemensam samling där vi går igenom kvällens upplevelser och iakttagelser. Efteråt avrundas eventet och de gäster som bokat ett paket med övernattning drar sig tillbaka till sina rum, medan övriga tackar för sig.",
+      "Ett spökjaktsevent med oss är mer än bara spänning – det är ett sätt att förena historia, gemenskap och det oförklarliga i en trygg miljö.",
+      "Vill du förvandla din historia till en upplevelse? Vi är alltid öppna för nya idéer och skräddarsyr gärna samarbetet efter era förutsättningar. Det är bättre att höra av sig en gång för mycket än en gång för lite!",
+      "Kontakta oss gärna <a href=\"mailto:historiskaroster@outlook.com\" class=\"link\">via denna länk</a> för ett förutsättningslöst möte."
     ],
     "interestedInCooperation": "Intresserad av att samarbeta med oss?",
     "cooperationText": [
-      "Tänk dig att tillsammans med oss, få ta del av en unik resa genom tid och rum. Med vår passion för det okända, vår kunskap och vår avancerade utrustning, kommer vi att dyka djupt in i platsens historia för att avslöja dess hemligheter. Vi kommer att använda varje verktyg vi har för att fånga de minsta spår av paranormal aktivitet och skapa en dokumentation som kommer att fascinera och överraska många.",
-      "Genom vårt samarbete kan vi tillsammans skapa en spännande berättelse som lockar besökare och ökar intresset för platsen och området. Tänk dig att se din anläggning i rampljuset på sociala medier som delar och engagerar sig i vår forskning och er historia. Tillsammans kan vi skapa något riktigt speciellt.",
-      "Tveka inte att kontakta oss! Du når oss enklast <a href=\"mailto:historiskaroster@outlook.com\" class=\"link\">via denna länk</a> och som vi alltid säger, det är bättre att höra av sig en gång för mycket än en gång för lite.",
-      "Vi är såklart intresserade av att hitta olika typer av samarbeten så har du en idé så diskuterar vi gärna detta närmare med er."
+      "Vi på Historiska Röster tror på styrkan i att jobba tillsammans. Vi letar ständigt efter nya spännande samarbeten som kan lyfta både våra utredningar och den paranormala communityn i stort.",
+      "Är ni ett annat paranormalt team som vill göra en gemensam utredning, eller representerar ni ett företag som säljer avancerad utrustning? Vi är även intresserade av samarbeten kring profilkläder, tryck och annan utrustning som hjälper oss att stärka vårt varumärke och vår närvaro ute på fältet.",
+      "Vi ser stora möjligheter i att utbyta erfarenheter, testa ny teknik och skapa unikt innehåll tillsammans som engagerar och fascinerar våra följare på sociala medier. Genom att kombinera våra expertiser kan vi skapa något riktigt speciellt.",
+      "Har du en idé om ett samarbete eller en produkt du tror skulle passa oss? Tveka inte att höra av dig! Som vi alltid säger: det är bättre att kontakta oss en gång för mycket än en gång för lite.",
+      "Du når oss enklast <a href=\"mailto:historiskaroster@outlook.com\" class=\"link\">via denna länk</a> för en förutsättningslös diskussion."
     ]
   }
 }

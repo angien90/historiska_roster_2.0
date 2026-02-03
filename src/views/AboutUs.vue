@@ -76,6 +76,11 @@ useHead({
     </section>
 
     <section class="section">
+      <h2>{{ $t("aboutUs.ghostHauntingEvent") }}</h2>
+      <p v-for="(text, index) in $tm('aboutUs.ghostHauntingEventText')" :key="index" v-html="text"/>
+    </section>
+
+    <section class="section">
       <h2>{{ $t("aboutUs.interestedInCooperation") }}</h2>
       <p v-for="(text, index) in $tm('aboutUs.cooperationText')" :key="index" v-html="text"/>
     </section>
