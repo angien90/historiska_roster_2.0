@@ -107,7 +107,6 @@ const menuItems = computed(() => [
       { label: t("dropdown.instagram"), href: "https://www.instagram.com/historiskaroster" },
       { label: t("dropdown.tiktok"), href: "https://www.tiktok.com/@historiskaroster" },
       { label: t("dropdown.facebook"), href: "https://www.facebook.com/profile.php?id=61564978259193" },
-      { label: t("dropdown.soundcloud"), href: "https://soundcloud.com/historiska-roester/sets/historiska-roester" },
     ],
   },
   {
