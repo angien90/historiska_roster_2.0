@@ -74,10 +74,9 @@ const items = [
   display: flex;
   flex-wrap: wrap;       
   justify-content: center; 
-  gap: 20px;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1400px;
+  margin: 40px auto;
   box-sizing: border-box;
 }
 
@@ -88,14 +87,26 @@ const items = [
 }
 
 @media (min-width: 768px) {
+  /* Dra av hela gapet (100px) så att två kort får plats bredvid varandra */
   .card-style {
-    flex: 0 1 calc(50% - 20px); 
+    flex: 0 1 calc(50% - 100px);
+  }
+
+  .grid-style {
+    gap: 40px;
   }
 }
 
 @media (min-width: 1024px) {
   .card-style {
-    flex: 0 1 calc(33.333% - 20px);
+    /* För tre kolumner behöver vi dra av en del av det totala gap-utrymmet */
+    /* Formel: (100% / antal kolumner) - (gap * (antal kolumner - 1) / antal kolumner) */
+    /* Enklare variant: */
+    flex: 0 1 calc(33.333% - 70px);
+  }
+
+  .grid-style {
+    gap: 80px;
   }
 }
 
