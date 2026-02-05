@@ -69,3 +69,44 @@ const items = [
   </section>
 </template>
 
+<style>
+.grid-style {
+  display: flex;
+  flex-wrap: wrap;       
+  justify-content: center; 
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.card-style {
+  flex: 0 1 100%; 
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  .card-style {
+    flex: 0 1 calc(50% - 20px); 
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-style {
+    flex: 0 1 calc(33.333% - 20px);
+  }
+}
+
+.card-style {
+  display: block;
+  width: 100%;
+  min-width: 0; 
+  overflow: hidden; 
+}
+
+.card-style {
+  margin: 0;
+}
+</style>
