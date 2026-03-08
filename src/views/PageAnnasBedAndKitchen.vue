@@ -85,7 +85,9 @@ useHead({
 
     <PlaceResult
       :resultTitle="annas.resultTitle"
+      :videoSectionTitle="annas.videoSectionTitle"
       :results="annas.results"
+      :videos="annas.videos"
     />
 
     <PlaceReadMore

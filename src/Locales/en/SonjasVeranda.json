@@ -156,12 +156,10 @@
     }
   ],
   "resultTitle": "Summary from Our Investigation",
-  "results": [
-    {
-      "title": "Coming soon",
-      "text": [""]
-    }
-  ],
+  "videos": [
+    "https://www.youtube.com/embed/gzb2WSn7Dtc?si=DTu-2G_VzgoV6ic_",
+    "https://www.youtube.com/embed/pTU0AXpaxl8?si=SBBSlDuQmqMpdHKk"
+    ],
   "moreTitle": "Read More About Sonja’s Veranda",
   "more": "Explore Sonja’s Veranda’s official website <a href=\"https://sonjasveranda.se/\" target=\"_blank\">here</a> and discover even more about this wonderful place. If you get the chance – don’t miss a visit! Enjoy top-quality pastries and take the opportunity to browse their charming little shop.",
   "referencesTitle": "Sources",

@@ -138,13 +138,8 @@
   ],
 
   "resultTitle": "Summary from Our Investigation",
-  "results": [
-    {
-      "title": "Coming Soon",
-      "text": [""]
-    }
-  ],
-
+  "videoSectionTitle": "Part 1",
+  "videos": ["https://www.youtube.com/embed/zkX6wYz_ahM?si=yX-Ys5DaGTf26xQR"],
   "moreTitle": "Learn More About Annas Bed & Kitchen",
   "more": "Explore their official website <a href=\"https://annasbedandkitchen.se/\" target=\"_blank\">here</a> and don't miss the chance to book a stay in this historic house.",
 

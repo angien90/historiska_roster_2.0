@@ -69,7 +69,6 @@ blockquote {
   font-style: italic;
   max-width: 90%;
   margin: 0 auto;
-  
 }
 
 p {

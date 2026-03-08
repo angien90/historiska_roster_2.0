@@ -2,6 +2,12 @@
   "reviews_heading": "Recensioner",
   "reviews": [
     {
+      "text": "En historisk spökafton i samarbete med Historiska Röster blev för oss på Jugendhouse en fantastisk kväll, där vi som lite skeptiska blev överraskade av att det faktiskt visuellt syntes på deras bildskärm att nånting hände i rummen! Mycket intressant och ett fantastisk bakgrundsarbete om historien om Klevs Gästgiveri. Ser fram emot fler samarbeten i framtiden!",
+      "name": "Madeleine Reidel",
+      "handle": "@jugendhouse_",
+      "image": "/public/images/jugend_house/klevs_gastgiveri.webp"
+    },
+    {
       "text": "Vi är tacksamma och glada över att sällskapet Historiska Röster valde just Rydals Herrgård för sina efterforskningar. De stannade hos oss ett par dar för att känna in om det fanns någon sanning i all de känslor på påtaglig närvaro som personer berättat om i över 150 år. Historiska Röster bjöd sedan in oss för att få vara med om och själva uppleva det som de kommit fram till. De tvar en otrolig och upplevelserik kväll, respektfull och informativ, och vi är mycket fascinerade över deras arbete och glada över att få ha varit en del av detta.",
       "name": "Sara Söderberg",
       "handle": "@rydalsherrgard",

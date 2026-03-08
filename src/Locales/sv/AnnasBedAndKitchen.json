@@ -144,13 +144,8 @@
   ],
 
   "resultTitle": "Sammanfattning från vår utredning",
-  "results": [
-    {
-      "title": "Kommer inom kort",
-      "text": [""]
-    }
-  ],
-
+  "videoSectionTitle": "Del 1",
+  "videos": ["https://www.youtube.com/embed/zkX6wYz_ahM?si=yX-Ys5DaGTf26xQR"],
   "moreTitle": "Lär dig ännu mer om Annas Bed & Kitchen",
   "more": "Utforska deras officiella sida <a href=\"https://annasbedandkitchen.se/\" target=\"_blank\">här</a> och missa inte chansen att boka en övernattning i detta historiska hus.",
 
