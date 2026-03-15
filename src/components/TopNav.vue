@@ -91,6 +91,7 @@ const menuItems = computed(() => [
     label: t("education"),
     children: [
       { label: t("dropdown.ghost_school"), to: "/ghostschool" },
+      { label: t("dropdown.lazer_grid"), href: "https://youtu.be/UZf5Xz9MaL4?si=_yWruPKMJon3HaiB" },
       { label: t("dropdown.spiritbox"), href: "https://www.youtube.com/watch?v=2FDUA-i3GbM" },
       { label: t("dropdown.sls_camera"), href: "https://www.youtube.com/watch?v=I06jPDzyG6Y" },
       { label: t("dropdown.polterscript"), href: "https://youtu.be/fyxAXO-zfLU?si=NPjWLBzPEYdktrlc" },

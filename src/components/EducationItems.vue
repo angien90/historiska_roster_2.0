@@ -4,6 +4,11 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const items = [
+  { href: "https://youtu.be/UZf5Xz9MaL4?si=_yWruPKMJon3HaiB",
+    image: "/images/equipment/lazer_grid.webp",
+    alt: "Lazer Grid",
+    heading: "Lazer Grid",
+  },
   { href: "https://www.youtube.com/watch?v=2FDUA-i3GbM",
     image: "/images/equipment/spiritbox.webp",
     alt: "Spiritbox",
