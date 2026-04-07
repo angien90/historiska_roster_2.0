@@ -144,8 +144,11 @@
   ],
 
   "resultTitle": "Sammanfattning från vår utredning",
-  "videoSectionTitle": "Del 1",
-  "videos": ["https://www.youtube.com/embed/zkX6wYz_ahM?si=yX-Ys5DaGTf26xQR"],
+  "videoSectionTitle": "Del 1 & 2",
+  "videos": [
+    "https://www.youtube.com/embed/zkX6wYz_ahM?si=yX-Ys5DaGTf26xQR",
+    "https://www.youtube.com/embed/44_aJgwaAaU?si=yEf-WpJmOOp3X7Mu"
+  ],
   "moreTitle": "Lär dig ännu mer om Annas Bed & Kitchen",
   "more": "Utforska deras officiella sida <a href=\"https://annasbedandkitchen.se/\" target=\"_blank\">här</a> och missa inte chansen att boka en övernattning i detta historiska hus.",
 
