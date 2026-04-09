@@ -4,7 +4,6 @@ import TopPage from "../components/TopPage.vue";
 import CompletedTasks from "../components/CompletedTasks.vue";
 import EducationItems from "../components/EducationItems.vue";
 import OurEvents from "../components/OurEvents.vue";
-import HighlightsSection from "../components/HighlightsSection.vue";
 
 // Enkel SEO-beskrivning, max 155 tecken
 const seoDescription = "Historiska Röster – Utforska hemsökta platser, spökhistorier och unika event i Sverige med vårt team av undersökare.";
@@ -26,7 +25,6 @@ useHead({
   <TopPage />
 
   <main>
-    <HighlightsSection />
     <CompletedTasks />
     <OurEvents />
     <EducationItems />

@@ -3,6 +3,14 @@
   "readMore": "Read More",
   "locations": [
     {
+      "name": "Äskhult Village",
+      "description": "A living cultural reserve featuring historic timbered farmsteads and ancient farmlands.",
+      "lat": 57.42707,
+      "lng": 12.28212,
+      "url": "/askhults-by",
+      "image": "/images/askhults_by/askhult.webp"
+    },
+    {
       "name": "Annas Bed & Kitchen",
       "description": "Annas Bed & Kitchen is a charming bed & kitchen accommodation located in Vare, just south of Varberg. It offers individually decorated rooms in a peaceful rural setting, with access to a fully equipped shared kitchen, a large garden, and close proximity to both a bakery and the restaurant Spiseriet.",
       "lat": 57.06197,

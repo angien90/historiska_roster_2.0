@@ -5,6 +5,7 @@ import { useI18n } from "vue-i18n";
 
 import PlaceHeader from "../components/PlaceHeader.vue";
 import PlaceHistory from "../components/PlaceHistory.vue";
+import PlaceStory from "../components/PlaceStory.vue";
 import PlaceGallery from "@/components/PlaceGallery.vue";
 import PlaceResult from "../components/PlaceResult.vue";
 import PlaceReadMore from "../components/PlaceReadMore.vue";
@@ -70,6 +71,9 @@ useHead({
     />
     <PlaceHistory 
       :content="askhultsby.history"  
+    />
+    <PlaceStory
+      :content="askhultsby.story"  
     />
     <PlaceGallery
       :galleryTitle="askhultsby.galleryTitle"

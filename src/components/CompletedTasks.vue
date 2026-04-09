@@ -4,6 +4,11 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const items = [
+  { to: "/askhults-by", 
+    src: "/images/askhults_by/askhult.webp", 
+    alt: "Äskhults By", 
+    label: "askhultsby" 
+  },
   { to: "/annas-bed-and-kitchen", 
     src: "/images/annas_bed_and_kitchen/annas_bed_and_kitchen.webp", 
     alt: "Annas Bed & Kitchen", 

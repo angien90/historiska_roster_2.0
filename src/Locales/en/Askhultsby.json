@@ -1,47 +1,191 @@
 {
-  "title": "Äskhultsby",
-  "investigation": "Historiska Röster var här",
-  "investigationDate": "",
-  "image": "/images/sonjas_veranda/vykort.webp",
+  "title": "Äskhult Village",
+  "investigation": "Historical Voices was here",
+  "investigationDate": "-",
+  "image": "/images/askhults_by/askhults_by.webp",
   "history": [
-  {
-    "heading2": "",
-    "text": [
-      ""
-    ]
-  },
-  {
-    "heading2": "",
-    "text": [
-      ""
-    ]
-  }
-],
-  "galleryTitle": "Bildgalleri",
-  "gallery": [
-        {
-      "src": "",
-      "alt": "",
-      "caption": ""
+    {
+      "heading2": "Äskhult Village",
+      "text": [
+        "In the forests of Halland, Äskhult village lies like a frozen snapshot of the past. But behind the grayed timber walls and untouched cattle paths hides more than just beautiful aesthetics – here lies a wealth of human destinies, legal documents, and agricultural development spanning centuries.",
+        "We have gathered extensive research on our four farms: Bengts, Derras, Jönsas, and Göttas. Immerse yourself in historical milestones, intriguing myths, and local folklore. We invite you to join us on our journey of discovery.",
+        "The farms in Äskhult belonged to Förlanda parish in the census records, but it is colloquially said that the village is located in Fjärås. This is because Äskhult balances right on the border between these two parishes.",
+        "The lands around Äskhult have been cultivated since the Iron Age. There are ancient remains nearby, suggesting that the site has been inhabited and worked for over a thousand years.",
+        "For us at Historiska Röster, this has been one of the most challenging projects to date regarding the research phase. In the household examination records, we encountered buildings without names, similar personal names, and faded handwriting that sometimes required a magnifying glass, patience, and a bit of detective work to decipher."
+      ]
+    },
+    {
+      "heading2": "Stora Eskhult - Bengt's Farm 1",
+      "text": [
+        "The farm consists of a dwelling house and a barn and is named after the Member of Parliament Bengt Pehrsson (b. 1759-03-16 – d. 1837). The farm was struck by an extensive fire in 1742. The barn dates from 1610 and is likely the oldest building in the village, while the dwelling house is from 1850 and was extended in 1914 to enlarge the kitchen. The last private owners were August and Hanna Göök, who owned the farm before it was sold to the municipality in 1958.",
+        "The last owner in the household records from 1900 shows that Petter Persson (b. 1833-02-16) took over the farm in 1869. He married Johanna Lena Johansdotter (b. 1839-07-07 – d. 1888-12-22) in 1866. They moved in during 1869 and had children: Sofia Albertina (b. 1867), Anna Mathilda (b. 1870), Anna Lena (b. 1872 – d. 1875), Anna Lena (b. 1875), and Anders Peter (b. 1880). For periods, the foster daughter Adelina Albertina Bengtsdotter (b. 1860) from Wallda also lived with the family, as did the illegitimate child Alfred Julius (b. 1894).",
+        "Petter's brother, Anders Persson (b. 1830 – d. 1898), and his wife Johanna Månsdotter (b. 1838) lived in a cottage on the farm. Their children were Anders Petter (b. 1876), Johan Aron (b. 1877), Johan Martin (b. 1878), and Klara Albertina (b. 1882).",
+        "Before Petter, the farm was owned by Bengt Pehrsson (b. 1759), who gave the farm its name. He moved in in 1785 and married Gunnilla Andersdotter (b. 1756). Children: Maria (b. 1785), Ingrid (b. 1785), Anders (b. 1787), Pehr (b. 1791), Brita (b. 1797), Börge (b. 1794 – d. 1796), and Börge (b. 1801). Gunnilla died between 1804–1814. Bengt's parents, Per Börgesson (b. 1732) and Marit (b. 1726 – d. 1800), moved in in 1795 and lived there until their deaths. Bengt became a lay assessor and took over after the three Jöns-sons.",
+        "In the household records, we cannot trace the ownership further back than Bengt Pehrsson in 1789."
+      ]
+    },
+    {
+      "heading2": "Stora Eskhult - Bengt's Farm 2",
+      "text": [
+        "The last owner of the household seen in the records was Lars Andersson (b. 1831 – d. 1878), who married Gunnor Andersdotter (b. 1842) in 1870. Children: Anders Benjamin (b. 1870), Aron (b. 1873), Johan Albin (b. 1875), and Anna Lena (b. 1878). The brother Johannes Andersson (b. 1840) and a Mariana (b. 1842) lived with the family for a period. The son Anders Benjamin emigrated to America in 1891, and the daughter Anna Lena moved to Wallda in 1896 but returned in 1897.",
+        "In the same household also lived Johannes Andersson (b. 1855 – d. 1892) with his wife Adelina Albertina Bengtsdotter (b. 1860). They married in 1881 and moved to the house, having daughters Anna Augustina (b. 1881) and Ida Amanda (b. 1887); the illegitimate child Jenny Alfrida (b. 1897) also lived with the family. It appears the family moved to America.",
+        "Before Lars, the house was owned by Anders Börjesson (b. 1799 – d. 1863) and his wife Anna Larsdotter (b. 1798 – d. 1861). Children: Börje (b. 1830 – d. 1863), Lars (b. 1831), Johannes (b. 1840), Anna Britta (b. 1844), and Mariana (b. 1842).",
+        "Before Anders, the farm was owned by Bengt Pehrsson's son Pehr Bengtsson (b. 1791 – d. 1836) and his wife Anna Britta Andersdotter (b. 1796 – d. 1866). Children: Johannes (b. 1823), Anders (b. 1825), Bengt (b. 1827), twins Anders & Magnus (b. 1830), and Gunnor (b. 1821). When Pehr died in 1836, Anna Britta and the remaining children moved into Bengt's Farm 1, and Lars took over. Börje Bengtsson (b. 1801 – d. 1852) also lived with Anna and the children.",
+        "Before that, meaning prior to 1814, this was part of Bengt's Farm 1."
+      ]
+    },
+    {
+      "heading2": "Stora Eskhult - Derras Farm 1",
+      "text": [
+        "The name Derras comes from the word 'the neighbor's' (grannens), and the farm has always carried this name. The dwelling house was likely originally a 'high-loft cottage' (högloftsstuga), and the farm also includes a stable with a pigsty and a barn. The farm seems to have been constructed in its current form between 1824–1826.",
+        "The last person to live in the village almost until his death was Gottfrid Pettersson (b. 1897 – d. 1964). He died an unmarried bachelor and was the last resident of the entire village. Gottfrid became a well-known local character, famous for his stories as a poacher. A famous episode involves him hunting elk with homemade dum-dum bullets; after a dramatic hunt, he was forced to finish it with a knife and butcher the elk on the spot to secretly carry the meat back to his own land.",
+        "Gottfrid's father is the last person seen in the household records owning the farm. His name was Peter Olsson (b. 1829) and he married Johanna Lena Ljunggren (b. 1862) in 1894. They had children Karl Algot (b. 1894 – d. 1918) and Gottfrid (b. 1897). The illegitimate child Matilda Oktavia (b. 1884) also lived with the family from 1897 onwards. Since Gottfrid remained unmarried, Karl Algot died of the Spanish Flu in America at age 24, and half-sister Matilda Oktavia died at age 23, the farm did not pass down within the family.",
+        "Before Peter, the farm was owned by Johannes Andersson (b. 1848), who married Anna Brita Andersdotter (b. 1850) in 1876. They had a large flock of children: Johan August (b. 1878), Anders Edvin (b. 1880 – d. 1880), Anders Peter (b. 1881 – d. 1881), Johan Edvin (b. 1882 – d. 1891), Anders Peter (b. 1885), Ida Augusta (b. 1888), and Olga Matilda (b. 1890).",
+        "Before Johannes, the farm was owned by his father Anders Johansson (b. 1820 – d. 1869) and mother Johanna Olofsdotter (b. 1825). They had children Johannes (b. 1848), Olof (b. 1851), Brother Börje (b. 1858), Brita Lena (b. 1861), and Anders Peter (b. 1868 – d. 1869). Living with the family were also the father Johannes Svensson (b. 1794) and Christina Pehrsdotter (b. 1799 – d. 1869), as well as the daughter Anna Christina (b. 1839).",
+        "Prior to that, the farm was owned by Johannes Andersson (b. 1793 – d. 1859) and his wife Anna Britta Persdotter (b. 1805). They had a son Andreas (b. 1841 – d. 1860) and daughters Anna Christina (b. 1833), Mariana (b. 1839), Johanna (b. 1844), and Anna Sara (b. 1847). Johannes' parents Jöns Andersson (b. 1768) and Anna Larsdotter (b. 1774), along with their daughter Börta (b. 1810), also lived on the farm.",
+        "Before Johannes, the farm was owned by Börje Olofsson (b. 1771 – d. 1836). He lived there with his wife Börtta Andersdotter (b. 1772) and their two sons Anders (b. 1799) and Olof (b. 1805). Börtta's mother Britta Börjesdotter (b. 1744) also lived with the family.",
+        "As far back as we can see in the records, the farm was owned by an Anders Persson (b. 1730) who was married to Brita Börgesdotter (b. 1744); they had children Gunnar (b. 1780), Brita (b. 1787), Per (b. 1783), and Börje Olsson (b. 1771)."
+      ]
+    },
+    {
+      "heading2": "Stora Eskhult - Derras Farm 2",
+      "text": [
+        "The most recent owner in the records is Anders Persson (b. 1835), who married Mariana Johansdotter (b. 1839) in 1862. They had children Johan Petter (b. 1862), Anna Britta (b. 1866), Aron (b. 1870), Johannes (b. 1870), and Anders (b. 1874). Both sons emigrated to America, but Johannes returned in 1897 to work on the farm. Mother-in-law Anna Britta Christiansdotter (b. 1805 – d. 1889) and brother Anders Pehrsson (b. 1830 – d. 1814) also lived with the family.",
+        "Before Anders' time, it was owned by Olof Andersson (b. 1851), son of Anders Johansson who owned the main building at Derras Farm. He gave his sons Olof and Johannes Andersson 1/8 of the farm each. Olof married Anna Sofia Andersdotter (b. 1855) and they had children Alma Josefina (b. 1876), Johanna Lena (b. 1880), and Anders (b. 1884).",
+        "The mother Johanna Olofsdotter (b. 1825 – d. 1887), grandfather Johannes Svensson (b. 1794 – d. 1879), brother Börje Andersson (b. 1858 – d. 1890), and sister Britta Lena Andersdotter (b. 1861) also lived either at Derras Farm or in the cottage during various periods.",
+        "Before Olof, the farm was owned by Johannes Svensson (b. 1794) and Christina Pehrsdotter (b. 1799 – d. 1869). They had a very large household with children Anders (b. 1820), Pehr (b. 1823), Zacharias (b. 1826 – d. 1828), Zacharias (b. 1829 – d. 1829), Zacharias (b. 1833), Anna Christina (b. 1839), Andreas (b. 1842 – d. 1843), Johanna Lena (b. 1846 – d. 1847), Anna Britta (b. 1846 – d. 1847), and Johannes (b. 1848). Sister-in-law Anna Britta Pehrsdotter (b. 1804) also lived with the family.",
+        "Before Johannes, the farm was owned by Pehr Andersson (b. 1754), and the records do not extend further back. He married Kjerstin Larsdotter (b. 1763) and they had children Christina (b. 1785), Anders (b. 1790 – d. 1746 [sic]), Lars (b. 1795), Christin (b. 1799), and Anna Britta (b. 1804). A Börta Persdotter (b. 1736 – d. 1799) and a Karin (b. 1751) also lived on the farm."
+      ]
+    },
+    {
+      "heading2": "Stora Eskhult - Jönsas Farm",
+      "text": [
+        "Today, the farm consists of a dwelling house and a barn. The current dwelling house was moved here from Timmerås between 1968–1970, after the original house tragically burned down in 1953. The house seen today was placed there in the 1970s to restore the village's historical appearance. An interesting detail is that the house's original loom survived the fire, as it was stored in the barn at the time. To this day, fire damage can still be seen on the part of the barn's facade facing the dwelling house. The barn was originally built in the 18th century and underwent a reconstruction during the 1870s.",
+        "The farm's early history was dominated for over a century by three generations named Jöns Jönsson. It was during this period, starting with the purchase of the farm in 1734, that the family's feared reputation began to grow in the district. Their strong influence and authoritarian presence left deep marks on the village's social life.",
+        "The last owner appearing in the household examination rolls was Magnus Svensson (b. Dec 25, 1824), who lived on the farm for a short period with his sister Anna Christina (b. Aug 17, 1836).",
+        "Before Magnus's time, the farm was owned by Lars Pehrsson (b. Nov 15, 1795) and his wife Britta Börgesdotter (b. Apr 30, 1789 – d. Dec 21, 1840). They had the children Johanna Beata (b. 1812), Anders (b. May 13, 1821), Magnus (b. Dec 23, 1823), Per (b. Nov 9, 1826), and Anders (b. Jan 21, 1830 – d. 1832).",
+        "Before Lars took over the farm, it was owned by Anders Jönsson and his father Jöns Andersson (b. Jan 27, 1768 – d. Oct 27, 1847). Jöns was first married to Maria Bengtsdotter (b. Aug 31, 1768 – d. Apr 16, 1805), and they had a son, Anders (b. Jan 10, 1801). After her death, he married Anna Pehrsdotter (b. 1774 – d. Jan 1, 1848), and they had the children Bengt (b. Feb 22, 1805) and Börta (b. Oct 15, 1810). Also living on the farm were the parents Anders Jönsson (b. Feb 27, 1799) and Börta Månsdotter (b. Mar 24, 1739 – d. 1798).",
+        "The records in the household examination rolls do not extend further back than this."
+      ]
+    },
+    {
+      "heading2": "Lilla Äskhult - Göttas Farm",
+      "text": [
+        "The farm received its name in 1755 after Anders Persson from Gödatorp in Gällinge purchased it. Göttas is Äskhult's best-preserved farm and consists of a dwelling house, stable, barn, root cellar, carpenter's workshop, and woodshed. The dwelling house and carpenter's workshop were built in 1755, while the barn is as old as 1726. Following a fire in the 18th century, the farm was relocated, which is one of the few major changes in the village's layout. The farm was inhabited until 1945.",
+        "The farm's history holds several powerful stories, from the tragic tale of the maid Kirstin in the 1740s, who murdered her child, to the defiant maid Anna, who later challenged the village hierarchy. During the 19th century, the farm gained a special status in the village as it was inhabited by forest wardens. At a time when timber was a scarce commodity, the task of protecting the Crown's forests was both important and prestigious.",
+        "The last owner in the household examination rolls is Magnus Persson (b. Apr 28, 1830), who moved in in 1859 with his wife Anna Lena Karlsdotter (b. Feb 17, 1836). The group of children was large: Britta Lena (b. Jan 13, 1860) who emigrated to Michigan in 1881, Johan (b. Apr 8, 1861 – d. July 5, 1863), Anna (b. July 4, 1864) who returned from the USA in 1894 with her daughter Ester Alida Viktoria (b. 1899), Johan Petter (b. Dec 31, 1866) who moved to Michigan in 1886, Anders (b. May 27, 1871), Anna Martina (b. Dec 18, 1873), Johannes (b. Apr 7, 1876), and Clara Albertina (b. Apr 11, 1883 – d. Apr 25, 1883). Magnus's mother Anna Brita Andersdotter (b. Feb 30, 1802 – d. Nov 25, 1890) and sisters-in-law Anna Malena and Mariana Johansdotter also lived here periodically.",
+        "Before the Persson family, the farm was owned by the forest warden Johan Carl Wennerlund (b. Aug 6, 1799 – d. Jan 10, 1858) and his wife Anna Britta Andersdotter (b. Mar 30, 1802). Their children were Anders (b. Dec 27, 1849), Johannes (b. Jan 21, 1847 – d. Oct 21, 1847), Börta (b. Nov 3, 1834 – d. Dec 1, 1843), Mariana (b. July 13, 1837), Anna Lena (b. Feb 17, 1836), Anna Martina (b. Mar 23, 1843), and Börta (b. Jan 14, 1847 – d. Apr 7, 1847). The sister Anna Johanna (b. Aug 26, 1812) was also registered on the farm.",
+        "Johan Carl, in turn, took over from his father, Magnus Wennerlund (b. 1759 – d. 1829), who was also a forest warden. With his wife Börta Johansdotter (b. Aug 20, 1779), he had the children Johan Carl (b. Aug 6, 1799) and Anna Johanna (b. Aug 26, 1812). During the 19th century, timber was a scarce resource, and the forest warden's duty to protect the Crown's forests gave the family a special status in the village.",
+        "As far back as the church records reach, we see Erik Andersson (b. Feb 20, 1733 – d. Apr 21, 1793) as the owner. He lived there with his wife Anna Eriksdotter (b. Oct 23, 1735 – d. 1799), the maid Börta (b. May 20, 1779), and his brother Börge Eriksson. A cottage also appears to have existed on the farm where the widow Bengta Andersdotter (b. Dec 5, 1718 – d. 1793) lived with her daughter Gunilla (b. Dec 12, 1746), as well as Carl Andersson (b. Dec 8, 1748) with his wife Kjestin Eriksdotter (b. Apr 22, 1753) and daughter Börta (b. Nov 15, 1786)."
+      ]
     }
   ],
-  "resultTitle": "Sammanfattning från vår utredning",
+  "story": [
+    {
+      "heading2": "Community and the Untouched Village",
+      "text": [
+        "In the heart of the village lay the gathering place, often beneath a 'warden tree' (vårdträd). Here, village meetings were held where communal decisions were made on everything from sowing to harvesting. The reason Äskhult looks as it does today is that the village never underwent the late 19th-century 'Laga skifte' (The Great Land Reform). Instead, it stopped at the 'Storskifte' of 1825, which meant the farms remained in a tight cluster rather than being split up and moved out to the fields.",
+        "This dense settlement required total consensus; no one could begin harvesting until their neighbor was also ready. A central part of the village logistics was the 'fägata'—the stone-walled path that functioned as a 'highway' for the livestock. The walls protected the vital crops so that the cows wouldn't eat the harvest while being driven out to the outmark pastures.",
+        "Äskhult is therefore not just a collection of beautiful houses, but a preserved system of cooperation where the 'fägata' and communal decisions were the keys to the village's survival."
+      ]
+    },
+    {
+      "heading2": "A Self-Sufficient Life",
+      "text": [
+        "Life in Äskhult was characterized by almost total self-sufficiency, where each farm was its own small factory. Everything from food and tools to clothing and candles was produced on-site. Buying something from the outside was rare and considered a luxury; what was needed simply had to be created by hand or traded with a neighbor.",
+        "Flax played a central role in the village's economy and daily life. It was grown in the fields, retted, scutched, and spun into thread before finally ending up in the farm's loom. The result was durable linen fabric used for everything from bedsheets to the work clothes that had to withstand years of hard labor in the forests and fields.",
+        "Self-sufficiency required immense knowledge of natural resources. The forest provided timber for buildings and wood for the stoves, while the outlands provided grazing for the animals, which in turn provided milk, meat, and wool. It was a circular existence where nothing went to waste—a lifestyle that demanded both diligence and careful planning to survive the long, cold winters."
+      ]
+    },
+    {
+      "heading2": "Warden Trees and Hop Gardens",
+      "text": [
+        "At every farm in Äskhult stood the 'vårdträd' (warden tree) as a living guardian of the farm's prosperity. It was believed that the farm's luck resided within the tree; if it died or was cut down, misfortune would surely befall the entire family. The warden tree was so sacred that it was never used for firewood, not even during the harshest winters when the need was greatest.",
+        "Equally characteristic of the farmyards were the hop gardens. According to ancient law, every farmer was required to grow hops, as beer was a vital part of the daily diet and safer to drink than water. However, hops were more than just an ingredient for brewing; they were also an important medicinal plant, with their calming properties used to help the villagers with insomnia and anxiety."
+      ]
+    },
+    {
+      "heading2": "Disease and Emigration",
+      "text": [
+        "Tuberculosis was the disease that claimed the most lives in the village over time. The village's last inhabitant, Gottfrid Pettersson, lived as a bachelor and watched the village slowly grow silent as his neighbors passed away. He himself died of pulmonary tuberculosis in 1964, marking the final end of Äskhult as a living farming village.",
+        "Between 1888 and 1927, many of the village's young people left their homes to seek their fortune in America. However, several of them met tragic fates and died shortly thereafter in accidents or diseases on the other side of the Atlantic. As the younger generation disappeared, technical development in the village ground to a halt—which, paradoxically, is the reason the farms were never modernized but preserved in their original state.",
+        "Running from Äskhult toward Förlanda Church is an old cultural path known as a 'corpse road' (likväg). This was the path along which coffins were carried or driven when someone in the village had passed away. Following the path today provides a strong sense of how laborious it was to say goodbye in the past. Förlanda Church stands on historic ground where an older church from the 12th or 13th century once lay. During the 18th and 19th centuries, most deaths occurred at home in the main room, where both the shrouding and the wake over the deceased took place."
+      ]
+    },
+    {
+      "heading2": "The Infanticide at Göttas Farm",
+      "text": [
+        "One of the village's darkest stories concerns Kirstin Eriksdotter (b. 1722). While serving as a chambermaid for Chief Forest Warden Jernsköld at the Smedstorp estate, she became pregnant, likely following an assault by her master. In desperation and fear of total social exclusion, she suffocated her newborn child.",
+        "She initially denied the deed but confessed after the bailiff forced a discovery by having 'sensible wives' examine her. Although she named the noble Jernsköld as the father, he was protected by testimonies, while Kirstin was sentenced to death. At only 23 years old, she was beheaded for her crime at Älvsborg Fortress."
+      ]
+    },
+    {
+      "heading2": "The Wicked Jurors of Jönsas Farm",
+      "text": [
+        "The family at Jönsas farm was notorious under the name 'lea' (the wicked ones). They were feared throughout the district for their tendency to pursue ruthless legal processes against their neighbors for the smallest of matters. They did not hesitate to take disputes to court, and remarkably, they almost always won their cases.",
+        "A telling example from 1744 involves a young boy whose cow happened to wander onto their land—an incident that immediately triggered an extensive legal apparatus. It is these stories that have made Jönsas one of the most mythologized farms in Äskhult.",
+        "In the church records, there is a note about the maid Anna Andersdotter from Göttas farm, who ended up in open conflict with the powerful Jönsson family. Anna challenged the village's strict hierarchy by seating herself in the Jönsas farm pew in church. When the juror's daughter demanded she move, Anna defiantly replied, 'Who should I move for?' and pushed the daughter into the lap of a neighbor. For this defiance, she was sentenced to 16 days in prison on a diet of water and bread."
+      ]
+    },
+    {
+      "heading2": "Fire – The Village's Constant Threat",
+      "text": [
+        "The history of Äskhult is deeply marked by fires. The fact that the village looks the way it does today is partly a result of how farms were forced to be rebuilt after devastating blazes. Fire was the greatest fear in a village where wooden houses stood close together and roofs were covered with highly flammable straw.",
+        "As early as 1742, Bengts farm was struck by an extensive fire that destroyed large parts of the settlement. A few years later, in the mid-18th century, it was Göttas farm's turn to burn. It was after that event that the unusual decision was made to move the entire farm to its current location, altering the village's medieval layout.",
+        "The last major fire occurred as recently as 1953 at Jönsas farm. These events remind us of how fragile existence was and why the buildings that remain today, such as the 400-year-old barn at Bengts, are such unique miracles."
+      ]
+    },
+    {
+      "heading2": "Heather Burning",
+      "text": [
+        "To preserve and recreate the historical heathland landscape, regular and controlled burnings are still carried out today. This is an ancient method for keeping the lands open and giving life to the special flora that has characterized Äskhult for centuries."
+      ]
+    },
+    {
+      "heading2": "Legends and Traces in the Landscape",
+      "text": [
+        "A 'stenvarp' (cairn) still marks the site of a historical murder today. According to folklore, every passerby must cast a stone or a twig onto the cairn to 'appease the dead' and avoid their own misfortune. The identity of the murdered person has been forgotten, but the site lives on as a reminder in the landscape.",
+        "Every farm was believed to have a 'gårdstomte' (farm gnome), a small grey man who watched over the property. It was vital to stay on his good side. If one swore in the barn or treated the animals poorly, the gnome could take revenge by making the animals sick or knocking over milk pails in a rage.",
+        "Äskhult had a communal 'skvaltkvarn' (horizontal mill) a short distance from the village. Venturing there alone at dusk to grind grain was considered life-threatening, as it was believed that water spirits like the Nix (Näcken) lurked by the stream to pull the unwary into the depths."
+      ]
+    }
+  ],
+  "galleryTitle": "Image Gallery",
+  "gallery": [
+    {
+      "src": "",
+      "alt": "",
+      "caption": "Coming soon"
+    }
+  ],
+  "resultTitle": "Summary from Our Investigation",
   "results": [
     {
-      "title": "Kommer inom kort",
+      "title": "Coming soon!",
       "text": [
         ""
       ]
     }
   ],
-  "moreTitle": "Läs mer om Äskhults by",
-  "more": "",
-  "referencesTitle": "Källor",
+  "moreTitle": "Read More About Äskhult Village",
+  "more": "For further information about the village's inhabitants and history, visit Äskhult Village's <a href=\"https://visitkungsbacka.se/askhults-by/om-askhult/historia/byns-invanare/\" target=\"_blank\">official website</a>. We highly recommend a visit on-site during the summer season; be sure to stop by their café and soak in the atmosphere of this unique cultural environment preserved since the 19th century.",
+  "referencesTitle": "Sources",
   "sources": [
     {
-        "text": "",
-        "url": ""
+      "text": "Äskhult village on Wikipedia",
+      "url": "https://sv.wikipedia.org/wiki/%C3%84skhults_by"
+    },
+    {
+      "text": "Äskhult village on Visit Kungsbacka",
+      "url": "https://visitkungsbacka.se/askhults-by/om-askhult/historia/byns-invanare"
+    },
+    {
+      "text": "Förlanda Church Archives - Household Records",
+      "url": "https://sok.riksarkivet.se/fritext?Sokord=f%c3%b6rlanda&EndastDigitaliserat=true&page=1&postid=Arkis+ec90a1c3-0254-4a63-be0b-f93630b53bb3&tab=post&s=Balder"
+    },
+    {
+      "text": "The Child Murderess in Äskhult",
+      "url": "https://www.iglabo.se/b23/?fbclid=IwY2xjawRDR7pleHRuA2FlbQIxMQBicmlkETFRVjA0SFU0OHhRVVJhbkFYc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsVH0neyPZv7xEcn6LF7bxH-qkmPhN362Y3T8_cnLpU5lfzMyrNjRRYDarFY_aem_Bjb8KXLWGyRVKzk-F7kKvA"
     }
-    ]
+  ]
 }
-
