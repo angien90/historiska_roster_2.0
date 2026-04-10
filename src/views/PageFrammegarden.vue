@@ -38,7 +38,7 @@ useHead({
     { name: "keywords", content: "Frammegården, Frammegarden, spökhus Värmland, hemsökt hus, Historiska Röster" },
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/PageFrammegarden" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/frammegarden" }
   ],
   script: [
     {
@@ -54,7 +54,7 @@ useHead({
           "addressLocality": "Skillingmark",
           "addressCountry": "SE"
         },
-        "url": "https://www.historiskaroster.se/PageFrammegarden"
+        "url": "https://www.historiskaroster.se/frammegarden"
       })
     }
   ]

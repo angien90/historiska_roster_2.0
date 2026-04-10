@@ -36,7 +36,7 @@ useHead({
   link: [
     {
       rel: "canonical",
-      href: "https://www.historiskaroster.se/sonjas-veranda",
+      href: "https://www.historiskaroster.se/borgvattnet",
     },
   ],
   script: [
@@ -53,7 +53,7 @@ useHead({
           "addressLocality": "Sverige",
           "addressCountry": "SE",
         },
-        "url": "https://www.historiskaroster.se/sonjas-veranda",
+        "url": "https://www.historiskaroster.se/borgvattnet",
       }),
     },
   ],

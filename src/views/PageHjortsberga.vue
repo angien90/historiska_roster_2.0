@@ -28,7 +28,7 @@ useHead({
     { name: "keywords", content: "Hjortsberga Prästgård, Historiska Röster, spökhistoria" },
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/PageHjortsberga" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/hjortsberga" }
   ],
   script: [
     {
@@ -44,7 +44,7 @@ useHead({
           "addressLocality": "Hjortsberga",
           "addressCountry": "SE"
         },
-        "url": "https://www.historiskaroster.se/PageHjortsberga"
+        "url": "https://www.historiskaroster.se/hjortsberga"
       })
     }
   ]

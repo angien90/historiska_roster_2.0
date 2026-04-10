@@ -28,7 +28,7 @@ useHead({
     { name: "keywords", content: "Jägarens grav, Historiska Röster, spökhistoria" },
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/PageHuntersGrave" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/hunters-grave" }
   ],
   script: [
     {
@@ -44,7 +44,7 @@ useHead({
           "addressLocality": "Okänd",
           "addressCountry": "SE"
         },
-        "url": "https://www.historiskaroster.se/PageHuntersGrave"
+        "url": "https://www.historiskaroster.se/hunters-grave"
       })
     }
   ]

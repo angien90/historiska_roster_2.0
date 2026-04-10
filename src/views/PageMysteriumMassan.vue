@@ -26,7 +26,7 @@ useHead({
     { name: "keywords", content: "Mysterium Mässan, Historiska Röster, event" }
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/PageMysteriumMassan" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/mysterium-massan" }
   ]
 });
 </script>

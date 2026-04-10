@@ -27,7 +27,7 @@ useHead({
     { name: "keywords", content: "Klevs gästgiveri, spökjakt, Historiska Röster, event" },
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/PageJugendHouseEvent" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/jugend-house-event" }
   ],
   script: [
     {
@@ -48,7 +48,7 @@ useHead({
             "addressCountry": "SE"
           }
         },
-        "url": "https://www.historiskaroster.se/PageJugendHouseEvent"
+        "url": "https://www.historiskaroster.se/jugend-house-event"
       })
     }
   ]

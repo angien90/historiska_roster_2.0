@@ -33,7 +33,7 @@ useHead({
     { name: "keywords", content: "Hemsökta Museet, spökhus, Historiska Röster, hemsökt hus" },
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/PageHemsoktaMuseet" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/hemsokta-museet" }
   ],
   script: [
     {
@@ -49,7 +49,7 @@ useHead({
           "addressLocality": "Göteborg",
           "addressCountry": "SE"
         },
-        "url": "https://www.historiskaroster.se/PageHemsoktaMuseet"
+        "url": "https://www.historiskaroster.se/hemsokta-museet"
       })
     }
   ]

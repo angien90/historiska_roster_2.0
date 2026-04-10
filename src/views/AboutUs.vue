@@ -13,7 +13,7 @@ useHead({
     { name: "keywords", content: "Historiska Röster, team, undersökning, spökhistoria" }
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/AboutUs" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/about-us" }
   ]
 });
 </script>

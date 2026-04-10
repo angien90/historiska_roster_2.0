@@ -29,7 +29,7 @@ useHead({
     { name: "keywords", content: "Gathenhielmska huset, spökhus Göteborg, Historiska Röster, hemsökt hus" },
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/PageGathenhielmskaHuset" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/gathenhielmska-huset" }
   ],
   script: [
     {
@@ -45,7 +45,7 @@ useHead({
           "addressLocality": "Göteborg",
           "addressCountry": "SE"
         },
-        "url": "https://www.historiskaroster.se/PageGathenhielmskaHuset"
+        "url": "https://www.historiskaroster.se/gathenhielmska-huset"
       })
     }
   ]

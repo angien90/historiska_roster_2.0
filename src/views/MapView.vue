@@ -44,7 +44,7 @@ useHead({
     { name: "keywords", content: "Historiska Röster, kartor, hemsökta platser, spökhistorier, event" }
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/MapView" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/map-view" }
   ]
 });
 </script>

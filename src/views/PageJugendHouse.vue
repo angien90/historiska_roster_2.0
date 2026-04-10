@@ -30,7 +30,7 @@ useHead({
     { name: "keywords", content: "Klevs gästgiveri, Historiska Röster, spökhistoria" },
   ],
   link: [
-    { rel: "canonical", href: "https://www.historiskaroster.se/PageJugendHouse" }
+    { rel: "canonical", href: "https://www.historiskaroster.se/jugend-house" }
   ],
   script: [
     {
@@ -46,7 +46,7 @@ useHead({
           "addressLocality": "Okänd",
           "addressCountry": "SE"
         },
-        "url": "https://www.historiskaroster.se/PageJugendHouse"
+        "url": "https://www.historiskaroster.se/jugend-house"
       })
     }
   ]
