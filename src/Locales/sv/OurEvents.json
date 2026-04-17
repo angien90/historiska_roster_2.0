@@ -10,5 +10,9 @@
   "event_place4": "Spirituell Mässa",
   "event_place3": "Spökjaktsevent - Rydals Herrgård",
   "event_place2": "Mysterie Mässan On Sea",
-  "event_place1": "Mysterium Mässan"
+  "event_place1": "Mysterium Mässan",
+  "event_link": "Läs mer",
+  "event_previous": "Föregående",
+  "event_next": "Nästa",
+  "event_page": "Sida"
 }

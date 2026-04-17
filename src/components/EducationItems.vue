@@ -1,15 +1,20 @@
 <script setup>
-import ContentItem from "./ContentItem.vue";
+import { computed, ref } from "vue";
 import { useI18n } from "vue-i18n";
+
 const { t } = useI18n();
+const pageSize = 6;
+const currentPage = ref(0);
 
 const items = [
-  { href: "https://youtu.be/UZf5Xz9MaL4?si=_yWruPKMJon3HaiB",
+  {
+    href: "https://youtu.be/UZf5Xz9MaL4?si=_yWruPKMJon3HaiB",
     image: "/images/equipment/lazer_grid.webp",
     alt: "Lazer Grid",
-    heading: "Lazer Grid",
+    heading: "lazer_grid",
   },
-  { href: "https://www.youtube.com/watch?v=2FDUA-i3GbM",
+  {
+    href: "https://www.youtube.com/watch?v=2FDUA-i3GbM",
     image: "/images/equipment/spiritbox.webp",
     alt: "Spiritbox",
     heading: "spiritbox",
@@ -51,78 +56,307 @@ const items = [
     heading: "k2_meter",
   },
 ];
+
+const totalPages = computed(() => Math.ceil(items.length / pageSize));
+
+const pagedItems = computed(() => {
+  const start = currentPage.value * pageSize;
+  return items.slice(start, start + pageSize);
+});
+
+function goToPage(index) {
+  currentPage.value = index;
+}
+
+function goPrevious() {
+  currentPage.value =
+    currentPage.value === 0 ? totalPages.value - 1 : currentPage.value - 1;
+}
+
+function goNext() {
+  currentPage.value =
+    currentPage.value === totalPages.value - 1 ? 0 : currentPage.value + 1;
+}
 </script>
 
 <template>
-  <section class="section-style">
-    <h2>{{ t("learn_heading") }}</h2>
-    <p>
-      {{ t("learn_subheading1") }}
-      <router-link to="/ghostschool" class="link">{{ t("learning_school") }}.</router-link>
-    </p>
+  <section class="section-shell learning-section">
+    <div class="section-heading">
+      <p class="section-kicker">{{ t("learn_kicker") }}</p>
+      <h2>{{ t("learn_heading") }}</h2>
+      <p>
+        {{ t("learn_subheading1") }}
+        <router-link to="/ghostschool" class="ghostschool-link">
+          {{ t("learning_school") }}.
+        </router-link>
+      </p>
+    </div>
 
-    <div class="grid-style">
-      <a v-for="(item, index) in items" :key="index" :href="item.href" class="card-style" target="_blank" rel="noopener">
-        <ContentItem>
-          <template #icon>
-            <img :src="item.image" :alt="item.alt" class="card-img-style" width="125" height="125" loading="lazy"/>
-          </template>
-          <template #heading>{{ t(item.heading) }}</template>
-        </ContentItem>
+    <div class="events-grid">
+      <a
+        v-for="item in pagedItems"
+        :key="item.href"
+        :href="item.href"
+        class="featured-card"
+        target="_blank"
+        rel="noopener"
+      >
+        <img :src="item.image" :alt="item.alt" loading="lazy" />
+        <div class="featured-overlay"></div>
+        <div class="featured-copy">
+          <h3>{{ t(item.heading) }}</h3>
+          <span class="featured-link">{{ t("learn_link") }}</span>
+        </div>
       </a>
+    </div>
+
+    <div v-if="totalPages > 1" class="carousel-controls">
+      <button type="button" class="carousel-button" @click="goPrevious">
+        Föregående
+      </button>
+
+      <div class="carousel-dots" aria-label="Equipment pages">
+        <button
+          v-for="page in totalPages"
+          :key="page"
+          type="button"
+          class="carousel-dot"
+          :class="{ 'carousel-dot-active': currentPage === page - 1 }"
+          @click="goToPage(page - 1)"
+        >
+          <span class="sr-only">Sida {{ page }}</span>
+        </button>
+      </div>
+
+      <button type="button" class="carousel-button" @click="goNext">
+        Nästa
+      </button>
     </div>
   </section>
 </template>
 
-<style>
-.grid-style {
-  display: flex;
-  flex-wrap: wrap;       
-  justify-content: center; 
-  width: 100%;
-  max-width: 1400px;
-  margin: 40px auto;
-  box-sizing: border-box;
+<style scoped>
+.learning-section {
+  margin-top: 0;
+  padding-top: 4rem;
 }
 
-.card-style {
-  flex: 0 1 100%; 
+.section-shell {
+  width: min(1200px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.section-heading {
+  margin-bottom: 2.5rem;
+}
+
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d8c39c;
+}
+
+.section-kicker::before {
+  content: "";
+  width: 2.5rem;
+  height: 1px;
+  background: currentColor;
+}
+
+.section-heading h2,
+.section-heading p {
+  text-align: left;
+}
+
+.section-heading h2 {
+  justify-content: flex-start;
+}
+
+.section-heading p {
+  padding-top: 0;
+}
+
+.ghostschool-link {
+  color: #d8c39c;
+}
+
+.events-grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.featured-card {
+  position: relative;
+  min-height: 250px;
+  border-radius: 22px;
+  overflow: hidden;
   text-decoration: none;
   color: inherit;
 }
 
-@media (min-width: 768px) {
-  /* Dra av hela gapet (100px) så att två kort får plats bredvid varandra */
-  .card-style {
-    flex: 0 1 calc(50% - 100px);
-  }
-
-  .grid-style {
-    gap: 40px;
-  }
+.featured-card img,
+.featured-overlay {
+  position: absolute;
+  inset: 0;
 }
 
-@media (min-width: 1024px) {
-  .card-style {
-    /* För tre kolumner behöver vi dra av en del av det totala gap-utrymmet */
-    /* Formel: (100% / antal kolumner) - (gap * (antal kolumner - 1) / antal kolumner) */
-    /* Enklare variant: */
-    flex: 0 1 calc(33.333% - 70px);
-  }
-
-  .grid-style {
-    gap: 80px;
-  }
-}
-
-.card-style {
-  display: block;
+.featured-card img {
   width: 100%;
-  min-width: 0; 
-  overflow: hidden; 
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
 }
 
-.card-style {
-  margin: 0;
+.featured-card:hover img {
+  transform: scale(1.05);
+}
+
+.featured-overlay {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.48)),
+    linear-gradient(0deg, rgba(10, 12, 14, 0.62), transparent 42%);
+}
+
+.featured-copy {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  left: 0;
+  right: 0;
+  bottom: 1.5rem;
+  padding: 0 1.1rem;
+}
+
+.featured-copy h3 {
+  text-align: left;
+  padding: 0;
+  margin-top: 0;
+  font-size: 1.25rem;
+  line-height: 1.05;
+}
+
+.featured-link {
+  display: inline-flex;
+  margin-top: 0.7rem;
+  font-family: var(--font-display);
+  color: #d8c39c;
+  font-size: 1rem;
+  align-self: flex-start;
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.carousel-button {
+  border: 1px solid rgba(216, 195, 156, 0.35);
+  background: rgba(255, 255, 255, 0.04);
+  color: #f8f2e8;
+  border-radius: 999px;
+  padding: 0.85rem 1.2rem;
+  font-family: var(--font-display);
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.carousel-button:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(216, 195, 156, 0.65);
+}
+
+.carousel-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.carousel-dot {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+}
+
+.carousel-dot-active {
+  background: #d8c39c;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (min-width: 900px) {
+  .events-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .featured-card {
+    min-height: 220px;
+  }
+
+  .carousel-controls {
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+  }
+
+  .carousel-button {
+    width: 2.75rem;
+    min-width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
+    border-radius: 8px;
+    font-size: 0;
+  }
+
+  .carousel-button::before {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .carousel-button:first-child::before {
+    content: "‹";
+  }
+
+  .carousel-button:last-child::before {
+    content: "›";
+  }
+
+  .carousel-dots {
+    min-height: 2.75rem;
+    padding: 0 0.35rem;
+  }
+
+  .carousel-dot {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
 }
 </style>

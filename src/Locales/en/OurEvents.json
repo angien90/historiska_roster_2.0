@@ -10,5 +10,9 @@
   "event_place4": "Spiritual Fair",
   "event_place3": "Ghost hunting event - Rydal Manor",
   "event_place2": "The Mystery Fair at Sea",
-  "event_place1": "The Mystery Fair"
+  "event_place1": "The Mystery Fair",
+  "event_link": "Read more",
+  "event_previous": "Previous",
+  "event_next": "Next",
+  "event_page": "Page"
 }

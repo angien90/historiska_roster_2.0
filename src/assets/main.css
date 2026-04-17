@@ -1,5 +1,9 @@
 @import "./base.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 #app {
   width: 100%;
   overflow-x: hidden;
