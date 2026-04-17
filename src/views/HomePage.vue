@@ -103,7 +103,22 @@ function requestParallaxUpdate() {
   animationFrame = window.requestAnimationFrame(updateParallax);
 }
 
+function scrollToInvestigations() {
+  document.getElementById("investigations")?.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+}
+
+function removeInvestigationsHash() {
+  if (window.location.hash === "#investigations") {
+    window.history.replaceState(null, "", window.location.pathname + window.location.search);
+  }
+}
+
 onMounted(() => {
+  removeInvestigationsHash();
+
   reduceMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   if (!reduceMotionQuery.matches) {
@@ -187,9 +202,13 @@ onBeforeUnmount(() => {
         <p class="hero-lead">{{ copy.lead }}</p>
 
         <div class="hero-actions">
-          <a href="#investigations" class="hero-button hero-button-primary">
+          <button
+            type="button"
+            class="hero-button hero-button-primary"
+            @click="scrollToInvestigations"
+          >
             {{ copy.primaryCta }}
-          </a>
+          </button>
           <router-link to="/map-view" class="hero-button hero-button-secondary">
             {{ copy.secondaryCta }}
           </router-link>
@@ -404,11 +423,13 @@ onBeforeUnmount(() => {
   justify-content: center;
   min-width: 11rem;
   padding: 0.95rem 1.35rem;
+  border: 0;
   border-radius: 999px;
   text-decoration: none;
   font-family: var(--font-display);
   font-size: 1rem;
   letter-spacing: 0.03em;
+  cursor: pointer;
   transition:
     transform 0.25s ease,
     background-color 0.25s ease,
@@ -522,19 +543,19 @@ onBeforeUnmount(() => {
 
 @media (max-width: 767px) {
   .hero {
-    min-height: 78vh;
+    min-height: auto;
   }
 
   .hero-logo-mark {
-    top: 0.75rem;
+    top: 0.9rem;
     right: 1rem;
-    width: 82px;
-    opacity: 0.62;
+    width: clamp(118px, 36vw, 142px);
+    opacity: 0.72;
     padding-right: 0;
   }
 
   .hero-content {
-    padding: 6rem 1.25rem 4rem;
+    padding: 6.35rem 1.25rem 3.5rem;
   }
 
   .hero h1 {

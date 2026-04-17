@@ -218,8 +218,8 @@ function goNext() {
 
 .featured-overlay {
   background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.48)),
-    linear-gradient(0deg, rgba(10, 12, 14, 0.62), transparent 42%);
+    linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.85)),
+    linear-gradient(0deg, rgba(10, 12, 14, 0.9), transparent 35%);
 }
 
 .featured-copy {
