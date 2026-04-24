@@ -22,11 +22,15 @@ useHead({
   <span class="about-us">
     <h1>{{ $t("aboutUs.title") }}</h1>
   </span>
-  <img :src="`/images/generell/historiska_röster.webp`" alt="En bild på teamet" class="responsive-img" loading="lazy"/>
   <div class="section-content">
-    <section class="section">
+    <section class="section team-section">
       <h2>{{ $t("aboutUs.teamTitle") }}</h2>
-      <p>{{ $t("aboutUs.teamText") }}</p>
+      <div class="team-layout">
+        <img :src="`/images/generell/historiska_röster.webp`" alt="En bild på teamet" class="responsive-img team-image" loading="lazy"/>
+        <div class="team-copy">
+          <p class="team-text">{{ $t("aboutUs.teamText") }}</p>
+        </div>
+      </div>
     </section>
 
     <section class="section">
@@ -101,13 +105,29 @@ h4 {
   display: grid;
   gap: 1.5rem;
   margin-top: 1rem;
-  }
+}
 
-.responsive-img {
-  border-radius: 10px;
-  width: 300px;
+.team-text {
+  margin: 0;
+}
+
+.team-layout {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.team-copy {
+  min-width: 0;
+  width: 100%;
+}
+
+.team-image {
+  display: block;
+  width: min(100%, 320px) !important;
   height: auto;
-  margin: 20px auto;
+  margin: 1rem auto 1rem !important;
+  border-radius: 10px;
 }
 
 @media (min-width: 1024px) {
@@ -115,12 +135,28 @@ h4 {
     margin-bottom: -25px;
   }
 
+  .team-layout {
+    grid-template-areas: "copy image";
+    grid-template-columns: minmax(0, 1fr) 450px;
+    align-items: center;
+    justify-items: stretch;
+    gap: 2rem;
+  }
+
+  .team-copy {
+    grid-area: copy;
+  }
+
+  .team-image {
+    grid-area: image;
+    align-self: center;
+    width: 100% !important;
+    max-width: 450px;
+    margin: 0 !important;
+  }
+
   p {
     padding: 20px;
   }
-
-  .responsive-img {
-  width: 450px;
-}
 }
 </style>
