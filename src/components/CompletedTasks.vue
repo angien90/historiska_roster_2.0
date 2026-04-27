@@ -33,12 +33,6 @@ const items = [
     label: "jugendhouse",
   },
   {
-    to: "/hunters-grave",
-    src: "/images/hunters_grave/jagarens_grav.webp",
-    alt: "Jägarens grav",
-    label: "huntersgrave",
-  },
-  {
     to: "/rydals-herrgard",
     src: "/images/rydals_herrgard/rydals_herrgard.webp",
     alt: "Rydals Herrgård",

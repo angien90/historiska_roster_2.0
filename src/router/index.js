@@ -16,7 +16,6 @@ const routes = [
   { path: "/mysterie-massan", name: "MysterieMassan", component: () => import("../views/PageMysterieMassan.vue") },
   { path: "/rydals-herrgard-event", name: "RydalsHerrgardEvent", component: () => import("../views/PageRydalsHerrgardEvent.vue") },
   { path: "/spirituell-massa", name: "SpirituellMassa", component: () => import("../views/PageSpirituellMassa.vue") },
-  { path: "/hunters-grave", name: "HuntersGrave", component: () => import("../views/PageHuntersGrave.vue") },
   { path: "/jugend-house", name: "JugendHouse", component: () => import("../views/PageJugendHouse.vue") },
   { path: "/jugend-house-event", name: "JugendHouseEvent", component: () => import("../views/PageJugendHouseEvent.vue") },
   { path: "/sonjas-veranda", name: "SonjasVeranda", component: () => import("../views/PageSonjasVeranda.vue") },

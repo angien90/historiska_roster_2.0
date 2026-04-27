@@ -543,15 +543,21 @@ onBeforeUnmount(() => {
 
 @media (max-width: 767px) {
   .hero {
-    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem; /* Add padding to ensure spacing */
   }
 
   .hero-logo-mark {
-    top: 0.9rem;
-    right: 1rem;
-    width: clamp(118px, 36vw, 142px);
-    opacity: 0.72;
-    padding-right: 0;
+    margin-bottom: 2rem; /* Increase spacing below the logo */
+  }
+
+  .eyebrow {
+    margin-top: 0;
+    font-size: 1.2rem; /* Adjust font size for better readability */
   }
 
   .hero-content {

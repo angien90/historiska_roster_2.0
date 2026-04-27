@@ -70,7 +70,6 @@ const menuItems = computed(() => [
       { label: t("dropdown.pageAnnasBedAndKitchen"), to: "/annas-bed-and-kitchen" },
       { label: t("dropdown.pageSonjasVeranda"), to: "/sonjas-veranda" },
       { label: t("dropdown.pageJugendHouse"), to: "/jugend-house" },
-      { label: t("dropdown.pageHuntersGrave"), to: "/hunters-grave" },
       { label: t("dropdown.pageRydalsHerrgard"), to: "/rydals-herrgard" },
       { label: t("dropdown.pageRankhyttan"), to: "/rankhyttan" },
       { label: t("dropdown.pageGathenhielmskaHuset"), to: "/gathenhielmska-huset" },
