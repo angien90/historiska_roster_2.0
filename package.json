@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "mkdir -p dist && cp index.html dist/index.html || (mkdir dist && copy index.html dist\\index.html)",
+    "build": "if not exist dist mkdir dist && copy index.html dist\\index.html",
     "preview": "vite preview"
   },
   "devDependencies": {
