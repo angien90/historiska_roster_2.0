@@ -8,7 +8,14 @@ defineProps({
 <template>
   <section class="section">
     <div v-for="(section, index) in content" :key="index" class="history-section">
-      <h2>{{ section.heading1 }}{{ section.heading2 }}</h2>
+      <h2 v-if="section.heading1 || section.heading2">
+        {{ section.heading1 }}{{ section.heading2 }}
+      </h2>
+
+      <h3 v-if="section.heading3">
+        {{ section.heading3 }}
+      </h3>
+
       <p v-for="(paragraph, pIndex) in section.text" :key="pIndex" v-html="paragraph"></p>
     </div>
 
@@ -23,5 +30,12 @@ defineProps({
 <style scoped>
 h2 {
   margin-top: 50px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 </style>

@@ -1,47 +1,256 @@
 {
   "title": "Borgvattnet",
-  "investigation": "Historiska Röster var här",
-  "investigationDate": "",
-  "image": "/images/sonjas_veranda/vykort.webp",
+  "investigation": "Historical Voices was here",
+  "investigationDate": "-",
+  "image": "/images/borgvattnet/Borgvattnet.webp",
   "history": [
-  {
-    "heading2": "",
-    "text": [
-      ""
-    ]
-  },
-  {
-    "heading2": "",
-    "text": [
-      ""
-    ]
-  }
-],
-  "galleryTitle": "Bildgalleri",
-  "gallery": [
-        {
-      "src": "",
-      "alt": "",
-      "caption": ""
+    {
+      "heading2": "The Name and the Early Pioneers",
+      "text": [
+        "The history of Borgvattnet has its deepest roots in the land and nature, long before any hauntings were spoken of. The village's name is a classic Jämtland nature name where 'Borg-' comes from the steep Borgberget (Castle Mountain) located next to the village, and '-vattnet' refers to Borgvattensjön (Borgvattnet Lake). The meaning is therefore simply 'the water by the castle-like mountain'.",
+        "The history actually begins with the land reclamation and division process (skogsavvittringen) in the 1750s. During this time, the state provided tax breaks to young pioneers who dared to move up to the inland of Norrland to clear new land. It was an extremely tough existence in a roadless wilderness under the parish of Hammerdal. The first settlers lived in simple log cabins and survived on porridge, sour milk, and dried fish while clearing the forest by hand.",
+        "Around the year 1767, the village was officially founded by Erik Larsson from Björksjön, who settled down by the lake to build a farm. He was an ordinary man who struggled with farming, hunting, and fishing for pure survival."
+      ]
+    },
+    {
+      "heading2": "Forest Boom and Social Divides",
+      "text": [
+        "During the 1800s, the village changed fundamentally when forestry companies realized the economic value of the vast pine forests. Borgvattnet was heavily affected by the so-called 'baggböleri' (unscrupulous logging practices), where large corporations bought up forest cheaply from unsuspecting farmers. This created deep social class divides that characterized the village's social life for generations; some became poor forest workers while others managed to maintain control.",
+        "A fascinating contrast to the modest Borgvattnet is the neighboring village of Skyttmon. During the late 1800s, the farmers there became enormously wealthy by selling timber directly, without going through the large corporations. This allowed them to afford to build the enormous, palace-like wooden houses that still stand today as a monument to the glory days of the forest boom."
+      ]
+    },
+    {
+      "heading2": "Ecclesiastical Development and Parish Formation",
+      "text": [
+        "Originally, the area belonged to the Hammerdal parish, which is mentioned as early as 1314. On February 8, 1781, the settlers in the area were granted the right to build their own chapel. This led to the construction of Borgvattnet Church in 1782 by the well-known master builder Pål Persson of Stugun, and that same year, Borgvattnet received its very first church records.",
+        "In 1799, Borgvattnet became its own chapel parish. In the spring of 1873, a separate pastorate was formed together with the neighboring parish of Stugun, which was a major step forward for the area's independence.",
+        "The final piece of the puzzle fell into place at the beginning of 1880. It was then that Borgvattnet was formally severed completely from Hammerdal to instead form its very own, independent parish."
+      ]
+    },
+    {
+      "heading2": "List of Rectors: Those Who Lived in the House",
+      "text": [
+        "Here follows the complete timeline of the priests who had the vicarage as their home and official residence:",
+        "• 1876–1883: Per Johan Strindberg (June 2, 1845 – April 21, 1921) – The very first priest to move into the newly built house. He married Kristina (September 30, 1851 – December 6, 1920) on March 14, 1876. They had the children Märta Kristina (b. January 4, 1877), Olof (b. June 16, 1878), Johan (b. April 1, 1881), Lilly (b. October 31, 1883), Katharina Elizabeth Forell (b. June 25, 1886), and Lars (b. May 9, 1891).",
+        "• 1883–1891: Karl Johan Nordén (October 22, 1852 – April 30, 1907) – Lived in the vicarage with his wife Katarina Charlotta Söderberg (b. November 27, 1860). They married on September 2, 1883. In the church records, their son Karl Theodor Johannes Söderberg (b. July 19, 1884) is also noted on the property, and during this time, many domestic servants also lived on the estate.",
+        "• 1889–1891: Karl Abraham Josefson (June 6, 1857) - Unfortunately, no further data is available about him.",
+        "• 1891–1900: Anders Holmer (b. October 28, 1858) – Married Kristina Lovisa (b. May 2, 1860) on January 13, 1886. They had the children Ruth Viktoria (February 25, 1887 – April 20, 1889), Vivia Magnhild (b. February 25, 1890), Seth Artur Waldemar (b. March 23, 1892), Laura Hildegard (b. May 26, 1894), Gerda Naomi (b. June 4, 1896), and Ruben Gottfrid Agathon (b. March 23, 1898).",
+        "• 1900–1908: Per Hedlund (March 1, 1865 – 1922) – Married Märta Larsson (July 26, 1875 – April 11, 1098) on August 27, 1893, who passed away in the vicarage. They had the children Martin (b. October 16, 1894), Lars (b. April 28, 1896), Mikael (b. February 1, 1898), Karin (b. August 5, 1899), Brita (b. October 6, 1900), Nils (b. November 3, 1902), Olof (b. January 4, 1904), Kjerstin (b. April 17, 1905), Inga (b. August 4, 1906), and Sven (b. March 15, 1908).",
+        "• 1909–?: Otto Olsson - Unfortunately, no further data is available about him.",
+        "• 1915–?: Nils Hamberg - Unfortunately, no further data is available about him.",
+        "• 1916–1927: Carl Victor Strömgren (b. January 19, 1885) – Lived in the house with his wife Dagmar Anna Teresia Grube (b. December 21, 1889).",
+        "• 1927–1930: Nils Hedlund (November 3, 1902 – February 25, 1975) – Returned to his childhood home as a perpetual curate (komminister). He married Ingrid Charlotta Beata Pemer (September 3, 1903 – April 1, 1987) on December 21, 1926, and they had a son, Sten, on January 28, 1929. It was during this period, in the autumn of 1927, that Nils experienced the famous clothesline phenomenon.",
+        "• 1930–1936: Rudolf Tängdén (b. March 27, 1903) – Married Svea Lydia Kristina Melin (b. August 18, 1905) on February 4, 1934. It was Rudolf who, in 1930, reported meeting the lady dressed in gray in his office.",
+        "• 1936–1940: Otto Albert Leonard Lindgren (b. June 20, 1898) – Married Eda Karlsson (b. September 6, 1902) on July 18, 1933. They had the children Per Otto Johannes (b. June 4, 1934), Anna Birgitta (b. February 3, 1938), and Bertil Leonard (b. June 25, 1940). It was during his first year in the house, 1936, that Otto himself heard footsteps and doors opening by themselves.",
+        "• 1940–1940: Sixten Sverre Groth (b. November 28, 1908) – Served as a substitute priest and was married to Vega Kristina Moberg (b. July 30, 1914).",
+        "• 1941–1942: Nils Albert Bertil Thunström (b. March 24, 1907) – Married Anna Margareta Nyman (b. September 7, 1911) on May 2, 1940. During their time in the vicarage, twins Jan Erik and Kerstin Margareta were born on January 3, 1941.",
+        "• 1943–1943: Erik Abrahamsson - Unfortunately, no further data is available about him.",
+        "• 1943–1945: Lars Bygdén - Unfortunately, no further data is available about him.",
+        "• 1945–1948: Erik Lindgren (October 18, 1907 – February 12, 1983) – The priest who lived in the house during the glory days of the hauntings. He became nationally famous after the events of the summer of 1947, when he reported being thrown headlong out of his rocking chair by an invisible force."
+      ]
+    },
+    {
+      "heading2": "General Phenomena: Footsteps, Doors, and Cold Drafts",
+      "text": [
+        "Over the years, in addition to the priests, hundreds of guests and mediums have reported similar experiences in the house. Among the most classic phenomena are unexplained footsteps on the upper floor, doors opening and closing by themselves, and sudden, ice-cold drafts in the rooms despite the windows being closed.",
+        "Several testimonies also speak of a feeling of being watched, invisible hands touching guests during the night, and the sound of crying children. There are also stories of dark figures – so-called 'shadow people' – moving in the corner of one's eye in the corridors, as well as kitchen utensils moving on their own in the old kitchen."
+      ]
+    },
+    {
+      "heading3": "The Mystery of the Rocking Rocking Chair",
+      "text": [
+        "One of the vicarage's absolute most talked-about objects is the old rocking chair, which has a strong and dramatic connection to Erik Lindgren. As early as 1930, the then-curate Rudolf Tängdén saw a lady dressed in gray enter his office. When he followed her, the room was empty, but the rocking chair was left rocking at an intense speed.",
+        "A few years later, his successor Erik Lindgren was handled even more violently by the same force. When the hauntings in the vicarage became too intense, he fled to his neighbors for company, but was thrown headlong out of the family's rocking chair there when it suddenly began to rock on its own. Today, a rocking chair is placed in the vicarage, and guests still testify to how it starts moving completely without any visible explanation."
+      ]
+    },
+    {
+      "heading3": "The Mystery of the Moved Furniture and the Broken Mirror",
+      "text": [
+        "One of the most well-documented reports from the 1940s concerns how furniture moved entirely without human assistance. Curate Erik Lindgren noted in his records how heavy dressers and chairs could have changed places in the rooms while he was out on parish duties or sleeping.",
+        "Most famous is the story of a large mirror that hung in the hallway. Several testimonies, including visiting rectors, have described how the mirror was suddenly lifted from its hook and thrown to the floor with violent force. Although the fall should have shattered the glass into a thousand pieces, it was reported on one occasion that the mirror was found completely intact on the floor – but turned upside down."
+      ]
+    },
+    {
+      "heading3": "The Crying Children Under the Terrace and the Legend of the Maid",
+      "text": [
+        "One of the darkest and most persistent legends surrounding the vicarage involves the sound of children crying and infants wailing, which guests have reported hearing beneath the floorboards and from outside the terrace. According to local tradition, a maid who worked in the house during the late 1800s allegedly became pregnant in secret – an enormous sin and shame at the time, especially in a vicarage.",
+        "The legend says that she gave birth to the child in secrecy and buried it under the house or in the subflooring to hide her secret. Although this has never been legally or archaeologically proven, it is a story that has been used for generations to explain the persistent crying sounds and the sorrowful energies in the Blue Room."
+      ]
+    },
+    {
+      "heading3": "The Blue Room and the Three Crying Ladies",
+      "text": [
+        "One of the house's most infamous overnight rooms is the so-called 'Blue Room' (or 'The Crying Women's Room'). It is said that guests who have slept here have awakened in the middle of the night to find three figures – often described as grief-stricken ladies or young mothers – sitting on the room's sofa, staring silently toward the bed while crying.",
+        "In popular folklore, this terrifying phenomenon has been linked to old rumors of tragic fates of women on the estate and hidden infant graves adjacent to the property, creating a deeply sorrowful yet palpable energy in the room."
+      ]
+    },
+    {
+      "heading3": "The 'Yellow Room' and the Invisible Weight",
+      "text": [
+        "In the so-called Yellow Room on the upper floor, guests frequently report a very specific physical phenomenon: an intense, suffocating weight across the chest. Visitors have described it as waking up in the middle of the night and feeling as though someone is sitting or lying directly on top of them, making it difficult to breathe.",
+        "This paranormal phenomenon, which in popular terms is often likened to a classic night terror or 'mare' encounter, is one of the most common reasons why guests to this day choose to cut their overnight stay short, abandon their certificate, and sleep in their cars in the parking lot instead.",
+        "One of the vicarage's most talked-about legends revolves around this exact room. It tells that the priest Per Hedlund, driven by deep grief after his wife Märta's death in April 1908, secretly dug up her body from the cemetery and kept her here in the Yellow Room, until the villagers grew suspicious and she was finally reburied. This eerie story has a fascinating connection to an old Norrland reality: because the ground was frozen when Märta died, her coffin, in complete accordance with the custom of the time, had to first be stored in the cemetery's ice-cold morgue while waiting for the winter frost to thaw. Whether the legend of her being barricaded in the house is true, or if it was born out of this practical winter necessity, remains a part of the vicarage's deeply rooted mysteries."
+      ]
+    },
+    {
+      "heading3": "The 'Pink Room' and the Technical Drain",
+      "text": [
+        "In addition to the Blue and Yellow rooms, the 'Pink Room' on the upper floor is widely discussed on the internet, but here the energy is often described as significantly more hostile and guarding than in the rest of the house.",
+        "Many visitors, ghost hunters, and mediums have witnessed a very specific phenomenon in this exact room: modern electronics do not seem to function properly. There are a large number of reports of fully charged camera batteries, mobile phones, and flashlights dying completely in just a few seconds as soon as one steps over the threshold, only to function perfectly again once leaving the room."
+      ]
+    },
+    {
+      "heading3": "The Bishop's Visit and the Official Investigation of 1948",
+      "text": [
+        "The rumors of the hauntings eventually reached the highest leadership of the church. In the winter of 1948, the bishop of the Härnösand diocese, Torsten Bohlin, decided to personally visit Borgvattnet to investigate the matter and calm the media storm. The idea was to show that everything had a natural explanation.",
+        "The bishop stayed overnight in the house and interviewed curate Erik Lindgren thoroughly. Although the bishop officially remained skeptical in his public statements, the visit led to the Church of Sweden appointing a minor, internal inquiry. The fact that a bishop took the reports so seriously gave the vicarage a unique status and meant that the phenomena could no longer be dismissed merely as local gossip."
+      ]
+    },
+    {
+      "heading3": "The Phenomena in the Stairs and 'The Invisible Barrier'",
+      "text": [
+        "The staircase leading up to the top floor is another central location for paranormal reports. It is here that the most guests have experienced sudden, dramatic temperature drops, where the air in just a single second can become so cold that you can see your own breath.",
+        "Several mediums and sensitive visitors have described that it sometimes feels like walking into an 'invisible wall' or barrier in the middle of the stairs. There have also been reports of the sound of heavy, dragging footsteps moving from the top down, which disappear without a trace as soon as someone turns on the light or looks."
+      ]
+    },
+    {
+      "heading3": "The Clothesline Phenomenon of 1927",
+      "text": [
+        "The very first paranormal phenomenon documented in Borgvattnet affected curate Nils Hedlund in the autumn of 1927, shortly after he moved back to his childhood vicarage.",
+        "Nils was hanging up freshly washed sheets on a clothesline when an invisible, violent force suddenly ripped down all the laundry and threw it onto the ground. Surprised, he gathered the laundry and hung it up again, only to see a second later how the sheets were once again torn from the line by invisible hands – despite the air being completely still without the slightest breeze. The incident shook the young priest deeply and became the starting point for the house's dark reputation."
+      ]
+    },
+    {
+      "heading3": "The Mysterious Window Photograph",
+      "text": [
+        "One of the most discussed and well-known modern stories concerns a photograph taken from the outside facing the vicarage's facade during the 1980s, on a day when the house was completely empty, locked, and boarded up for the season.",
+        "When the photograph was later developed, something terrifying was discovered: in one of the windows on the upper floor, a sharp and clear figure of a pale woman in old-fashioned clothing could be seen standing and staring straight out toward the parking lot. Over the years, the image has been published in several books and newspapers, and is for many one of the strongest visual indications that something is watching over the house when the lights are turned off."
+      ]
+    },
+    {
+      "heading3": "Tore Brännström's Experiences and the 'Overnight Certificate'",
+      "text": [
+        "When Tore Brännström bought the house in 1970, he was determined to downplay its reputation, but he quickly got to experience the phenomena firsthand. He recounted in interviews how he, on several occasions, heard tables being set and porcelain rattling in the empty kitchen in the evenings. The most famous story involves how he met a figure in a rector's gown in the corridor – the apparition looked completely alive, but dissolved into thin air as soon as Brännström spoke to it.",
+        "It was these experiences that prompted him to instead embrace the house's history and start the tradition of allowing the general public to stay overnight. Brännström realized early on how deeply fascinated people were and began handing out a printed diploma – the so-called 'Overnight Certificate' – to the brave guests who actually managed to stay in the house for an entire night without fleeing, a tradition that lives on to this day."
+      ]
+    },
+    {
+      "heading2": "The Hostel: The Old Church School",
+      "text": [
+        "In direct connection to the vicarage lies the village hostel, a building that carries its own unique history. The house was originally built in the early 1900s and served for many decades as Borgvattnet's church school and teacher's residence. Today, it serves as a comfortable complement for guests who want to visit the vicarage but spend the night in a slightly more modern environment.",
+        "Despite the vicarage stealing most of the spotlight, hundreds of guests and ghost hunters testify that paranormal life is at least as active inside the hostel. Since the house used to be a school, the phenomena here are often of a more lively nature. The absolute most common testimony is the sound of running children's feet, laughter, and thuds from the upper floor, as well as the distinct sound of heavy furniture or school desks being dragged across the floor when the premises are completely empty.",
+        "The energy in the old hostel is often described as more playful than in the vicarage, with doors opening by themselves and lights turning on and off at night. Several visitors have also reported the perception of a guarding figure in the rooms that formerly constituted the teacher's residence – a presence that in popular parlance is usually attributed to an old teacher who still keeps a watchful eye over their old school.",
+        "Inside the hostel, there are primarily three phenomena that have become recurring in guests' stories. The first is a faint, low radio murmur or muffled conversation sound that is often heard from the kitchen areas at night. When guests have searched for the source, the whispering sound seems to move, only to eventually disappear completely into thin air.",
+        "The second is the dark shadow figures that are frequently sighted in the long, central corridor on the ground floor – figures that out of the corner of the eye appear to hurry between the old classrooms and then dissolve. In addition, there are reports from the old teacher's residence on the upper floor, where visitors have awoken to find the beds suddenly vibrating or shaking lightly in the middle of the night, as if someone had grabbed hold of the bed frame to wake the sleeper."
+      ]
+    },
+    {
+      "heading2": "Archaeological Finds and Historical Tragedies",
+      "text": [
+        "The paranormal reputation was further reinforced when, during renovation work in or around the house, old objects were found that raised questions. Among other things, it has been said that beneath floorboards or in the subflooring, old items of clothing and traces were found which local legends suggest can be linked to hidden births during the time when it was a source of immense shame for unmarried women (such as a maid in the house) to become pregnant.",
+        "The combination of the isolated wilderness, the strict religious environment of the 1800s, and the extremely harsh winters has made the vicarage a perfect breeding ground for stories of locked-away tragedies, remorse, and spirits that have never found rest."
+      ]
     }
   ],
-  "resultTitle": "Sammanfattning från vår utredning",
+  "galleryTitle": "Image Gallery",
+  "gallery": [
+    {
+      "src": "/images/borgvattnet/Per Johan Strindberg.webp",
+      "alt": "Per Johan Strindberg",
+      "caption": "Per Johan Strindberg"
+    },
+    {
+      "src": "/images/borgvattnet/Karl Johan Norden.webp",
+      "alt": "Karl Johan Nordén",
+      "caption": "Karl Johan Nordén"
+    },
+    {
+      "src": "/images/borgvattnet/Karl Abraham Josefson.webp",
+      "alt": "Karl Abraham Josefson",
+      "caption": "Karl Abraham Josefson"
+    },
+    {
+      "src": "/images/borgvattnet/Per Hedlund.webp",
+      "alt": "Per Hedlund",
+      "caption": "Per Hedlund"
+    },
+    {
+      "src": "/images/borgvattnet/Märta Hedlund.webp",
+      "alt": "Märta Hedlund",
+      "caption": "Märta Hedlund (wife of Per Hedlund)"
+    },
+    {
+      "src": "/images/borgvattnet/Otto Albert Leonard Lindgren.webp",
+      "alt": "Otto Albert Leonard Lindgren",
+      "caption": "Otto Albert Leonard Lindgren"
+    },
+    {
+      "src": "/images/borgvattnet/Erik Lindgren.webp",
+      "alt": "Erik Lindgren",
+      "caption": "Erik Lindgren"
+    },
+    {
+      "src": "/images/borgvattnet/Församlingsböcker (1895-1925) sidan 35.webp",
+      "alt": "Borgvattnet parish record book 1895–1925",
+      "caption": "Parish record book 1895–1925, page 35."
+    },
+    {
+      "src": "/images/borgvattnet/Församlingsböcker (1926-1947) sidan 54.webp",
+      "alt": "Borgvattnet parish record book 1926–1947",
+      "caption": "Parish record book 1926–1947, page 54."
+    },
+    {
+      "src": "/images/borgvattnet/Församlingsböcker (1926-1947) sidan 55.webp",
+      "alt": "Borgvattnet parish record book 1926–1947",
+      "caption": "Parish record book 1926–1947, page 55."
+    },
+    {
+      "src": "/images/borgvattnet/Husförhörslängder (1875-1884) sidan 16.webp",
+      "alt": "Borgvattnet household examination book 1875–1884",
+      "caption": "Household examination book 1875–1884, page 16."
+    },
+    {
+      "src": "/images/borgvattnet/Husförhörslängder (1885-1894) sidan 16.webp",
+      "alt": "Borgvattnet household examination book 1885–1894",
+      "caption": "Household examination book 1885–1894, page 16."
+    }
+  ],
+  "resultTitle": "Summary From Our Investigation",
   "results": [
     {
-      "title": "Kommer inom kort",
+      "title": "Coming soon",
       "text": [
         ""
       ]
     }
   ],
-  "moreTitle": "Läs mer om Borgvattnet",
-  "more": "",
-  "referencesTitle": "Källor",
+  "moreTitle": "Read More About Borgvattnet",
+  "more": "Borgvattnet Vicarage and Hostel stand ready for the bravest of visitors. Whether you want to challenge yourself with a night in the legendary Blue Room or just wander through the historical environments, an unforgettable experience awaits. During the summer months, the vicarage's café is also open, where you can enjoy a cozy coffee break in the unique atmosphere. Do you dare to stay the whole night and claim the coveted Overnight Certificate? Plan your visit, see the café's opening hours, and book your stay at borgvattnet.eu.",
+  "referencesTitle": "Sources",
   "sources": [
     {
-        "text": "",
-        "url": ""
+      "text": "Riksarkivet (The National Archives)",
+      "url": "https://sok.riksarkivet.se/kyrkoarkiv?Arkivsok=Borgvattnet&Lan=0&lf=Ladda+arkiv&Arkiv=SE%2f%c3%96LA%2f11044&Serie=0&PageSize=100&tab=serie"
+    },
+    {
+      "text": "Skatteverket (The Swedish Tax Agency)",
+      "url": "https://www.skatteverket.se"
+    },
+    {
+      "text": "Borgvattnet Vicarage (Official Website)",
+      "url": "https://www.borgvattnet.eu/"
+    },
+    {
+      "text": "Skyttmon's official village website",
+      "url": "http://www.skyttmon.se/"
+    },
+    {
+      "text": "Nils Hedlund",
+      "url": "https://www.geni.com/people/Nils-Hedlund/4495099751140038064"
+    },
+    {
+      "text": "Per Johan Strindberg",
+      "url": "https://www.geni.com/people/Per-Johan-Strindberg/6000000025840653989"
     }
-    ]
+  ]
 }
-

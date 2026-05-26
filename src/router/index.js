@@ -21,7 +21,9 @@ const routes = [
   { path: "/sonjas-veranda", name: "SonjasVeranda", component: () => import("../views/PageSonjasVeranda.vue") },
   { path: "/annas-bed-and-kitchen", name: "AnnasBedAndKitchen", component: () => import("../views/PageAnnasBedAndKitchen.vue") },
   { path: "/askhults-by", name: "AskhultsBy", component: () => import("../views/PageAskhultsBy.vue") },
-  { path: "/borgvattnet", name: "Borgvattnet", component: () => import("../views/PageBorgvattnet.vue") }
+  { path: "/borgvattnet", name: "Borgvattnet", component: () => import("../views/PageBorgvattnet.vue") },
+  { path: "/brahehus", name: "Brahehus", component: () => import("../views/PageBrahehus.vue") },
+  { path: "/barnmordarkorset", name: "Barnmordarkorset", component: () => import("../views/PageBarnmordarkorset.vue") }
 ];
 
 const router = createRouter({
