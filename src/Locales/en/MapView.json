@@ -3,6 +3,22 @@
   "readMore": "Read More",
   "locations": [
     {
+      "name": "Brahehus",
+      "description": "A dramatic clifftop ruin overlooking Lake Vättern, offering breathtaking panoramic views and a storied past from the Swedish Age of Greatness.",
+      "lat": 58.05294,
+      "lng": 14.50491,
+      "url": "/brahehus",
+      "image": "/images/brahehus/Brahehus.webp"
+    },
+    {
+      "name": "The Child Murderer's Cross",
+      "description": "An ancient, gnarled tree marking a somber chapter of local folklore, standing as a silent, living witness to long-forgotten tragedy and penance.",
+      "lat": 58.09586,
+      "lng": 14.74348,
+      "url": "/barnmordarkorset",
+      "image": "/images/barnmordarkorset/Barnmordarkorset.webp"
+    },
+    {
       "name": "Äskhult Village",
       "description": "A living cultural reserve featuring historic timbered farmsteads and ancient farmlands.",
       "lat": 57.42707,

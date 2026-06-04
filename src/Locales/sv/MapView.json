@@ -3,6 +3,22 @@
   "readMore": "Läs mer",
   "locations": [
     {
+      "name": "Brahehus",
+      "description": "En dramatisk ruin på klippkanten med utsikt över Vättern, som erbjuder hisnande panoramavyer och en rik historia från den svenska stormaktstiden.",
+      "lat": 58.05294,
+      "lng": 14.50491,
+      "url": "/brahehus",
+      "image": "/images/brahehus/Brahehus.webp"
+    },
+    {
+      "name": "Barnmördarkorset",
+      "description": "Ett uråldrigt, knotigt träd som markerar ett dystert kapitel i lokal folktro och står som ett tyst, levande vittne till en sedan länge bortglömd tragedi och botgöring.",
+      "lat": 58.09586,
+      "lng": 14.74348,
+      "url": "/barnmordarkorset",
+      "image": "/images/barnmordarkorset/Barnmordarkorset.webp"
+    },
+    {
       "name": "Äskhults By",
       "description": "Ett levande kulturreservat med timrade gårdar och ett historiskt odlingslandskap.",
       "lat": 57.42707,
