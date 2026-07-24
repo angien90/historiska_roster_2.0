@@ -9,6 +9,18 @@ const currentPage = ref(0);
 
 const items = [
   {
+    to: "/brahehus",
+    src: "/images/brahehus/Brahehus.webp",
+    alt: "Brahehus",
+    label: "brahehus",
+  },
+  {
+    to: "/barnmordarkorset",
+    src: "/images/barnmordarkorset/Barnmordarkorset.webp",
+    alt: "Barnmördarkorset",
+    label: "barnmordarkorset",
+  },
+  {
     to: "/askhults-by",
     src: "/images/askhults_by/askhult.webp",
     alt: "Äskhults By",

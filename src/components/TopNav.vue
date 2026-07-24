@@ -66,6 +66,8 @@ const menuItems = computed(() => [
     label: t("visited_places"),
     children: [
       { label: t("dropdown.mapView"), to: "/map-view" },
+      { label: t("dropdown.pageBrahehus"), to: "/brahehus" },
+      { label: t("dropdown.pageBarnmordarkorset"), to: "/barnmordarkorset" },
       { label: t("dropdown.pageAskhultsBy"), to: "/askhults-by" },
       { label: t("dropdown.pageAnnasBedAndKitchen"), to: "/annas-bed-and-kitchen" },
       { label: t("dropdown.pageSonjasVeranda"), to: "/sonjas-veranda" },
