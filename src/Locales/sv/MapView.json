@@ -3,6 +3,14 @@
   "readMore": "Läs mer",
   "locations": [
     {
+      "name": "Borgvattnets prästgård & vandrarhem",
+      "description": "Sveriges mest kända spökhus till prästgård inbäddat i det jämtländska landskapet, som erbjuder rysliga övernattningar och ett djupt mystiskt förflutet präglat av övernaturliga legender.",
+      "lat": 63.4249687,
+      "lng": 15.8458700,
+      "url": "/borgvattnet",
+      "image": "/images/borgvattnet/Borgvattnet.webp"
+    }, 
+    {
       "name": "Brahehus",
       "description": "En dramatisk ruin på klippkanten med utsikt över Vättern, som erbjuder hisnande panoramavyer och en rik historia från den svenska stormaktstiden.",
       "lat": 58.05294,

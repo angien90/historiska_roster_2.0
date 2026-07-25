@@ -9,6 +9,12 @@ const currentPage = ref(0);
 
 const items = [
   {
+    to: "/borgvattnet",
+    src: "/images/borgvattnet/Borgvattnet.webp",
+    alt: "Borgvattnet",
+    label: "borgvattnet",
+  },
+  {
     to: "/brahehus",
     src: "/images/brahehus/Brahehus.webp",
     alt: "Brahehus",

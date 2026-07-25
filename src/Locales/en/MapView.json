@@ -3,6 +3,14 @@
   "readMore": "Read More",
   "locations": [
     {
+      "name": "Borgvattnet Vicarage & Hostel",
+      "description": "Sweden's most infamous haunted vicarage nestled in rural Jämtland, offering spine-chilling overnight stays and a deeply mysterious past steeped in supernatural lore.",
+      "lat": 63.4249687,
+      "lng": 15.8458700,
+      "url": "/borgvattnet",
+      "image": "/images/borgvattnet/Borgvattnet.webp"
+    },
+    {
       "name": "Brahehus",
       "description": "A dramatic clifftop ruin overlooking Lake Vättern, offering breathtaking panoramic views and a storied past from the Swedish Age of Greatness.",
       "lat": 58.05294,
