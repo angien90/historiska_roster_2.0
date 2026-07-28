@@ -75,10 +75,6 @@ useHead({
     <PlaceStory
       :content="askhultsby.story"  
     />
-    <PlaceGallery
-      :galleryTitle="askhultsby.galleryTitle"
-      :gallery="askhultsby.gallery"
-    />
     <PlaceResult
       :resultTitle="askhultsby.resultTitle"
       :videoSectionTitle="askhultsby.videoSectionTitle"

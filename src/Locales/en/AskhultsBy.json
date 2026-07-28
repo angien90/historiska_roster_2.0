@@ -1,7 +1,7 @@
 {
   "title": "Äskhult Village",
   "investigation": "Historical Voices was here",
-  "investigationDate": "-",
+  "investigationDate": "18-19 April 2024",
   "image": "/images/askhults_by/askhults_by.webp",
   "history": [
     {
@@ -151,22 +151,11 @@
       ]
     }
   ],
-  "galleryTitle": "Image Gallery",
-  "gallery": [
-    {
-      "src": "",
-      "alt": "",
-      "caption": "Coming soon"
-    }
-  ],
-  "resultTitle": "Summary from Our Investigation",
-  "results": [
-    {
-      "title": "Coming soon!",
-      "text": [
-        ""
-      ]
-    }
+  "resultTitle": "Sammanfattning från vår utredning",
+  "videoSectionTitle": "Del 1 & 2",
+  "videos": [
+    "https://www.youtube.com/embed/a_4psOihyFg?si=I6et-4V9LyBWsaPT",
+    "https://www.youtube.com/embed/oacHJAme-Zk?si=RAy0fBgY6FyIMKqd"
   ],
   "moreTitle": "Read More About Äskhult Village",
   "more": "For further information about the village's inhabitants and history, visit Äskhult Village's <a href=\"https://visitkungsbacka.se/askhults-by/om-askhult/historia/byns-invanare/\" target=\"_blank\">official website</a>. We highly recommend a visit on-site during the summer season; be sure to stop by their café and soak in the atmosphere of this unique cultural environment preserved since the 19th century.",
