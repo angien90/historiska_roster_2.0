@@ -1,0 +1,40 @@
+{
+  "experiences_heading": "Våra Upplevelser",
+  "experiences_subheading": "Berättelser från våra paranormala utredningar",
+  "experiences": [
+    {
+      "title": "Borgvattnet",
+      "path": "/borgvattnet",
+      "link_text": "Läs mer om Borgvattnet",
+      "stories": [
+        "Under vår utredning upplevde vi en plötslig temperaturfall som registrerades på värmekameran. En av våra teammedlemmar rapporterade en stark närvaro.",
+        "En person höll på att falla ner från trappan, när vi skulle fråga han vad som hände så brann sd kortet upp i kameran."
+      ]
+    },
+    {
+      "title": "Frammegården",
+      "path": "/frammegarden",
+      "link_text": "Läs mer om Frammegården",
+      "stories": [
+        "Under vår utredning upplevde vi en plötslig temperaturfall som registrerades på värmekameran. En av våra teammedlemmar rapporterade en stark närvaro.",
+        "En person höll på att falla ner från trappan, när vi skulle fråga han vad som hände så brann sd kortet upp i kameran."
+      ]
+    },
+    {
+      "title": "Jugendhouse - Klevs Gästgiveri",
+      "path": "/jugend-house",
+      "link_text": "Läs mer om Jugendhouse - Klevs Gästgiveri",
+      "stories": [
+        "Tydliga fotsteg hördes från ett tomt rum bredvid oss. Vår värmekamera fångade en humanoid form som rörde sig längs väggen."
+      ]
+    },
+    {
+      "title": "Jugendhouse - Klevs Gästgiveri",
+      "path": "/jugend-house",
+      "link_text": "Läs mer om Jugendhouse - Klevs Gästgiveri",
+      "stories": [
+        "Tydliga fotsteg hördes från ett tomt rum bredvid oss. Vår värmekamera fångade en humanoid form som rörde sig längs väggen."
+      ]
+    }
+  ]
+}

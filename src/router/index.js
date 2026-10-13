@@ -6,6 +6,7 @@ const routes = [
   { path: "/ghostschool", name: "GhostSchool", component: () => import("../views/GhostSchool.vue") },
   { path: "/map-view", name: "MapView", component: () => import("../views/MapView.vue") },
   { path: "/about-us", name: "AboutUs", component: () => import("../views/AboutUs.vue") },
+  { path: "/experiences", name: "Experiences", component: () => import("../views/PageExperiences.vue") },
   { path: "/rydals-herrgard", name: "RydalsHerrgard", component: () => import("../views/PageRydalsHerrgard.vue") },
   { path: "/rankhyttan", name: "Rankhyttan", component: () => import("../views/PageRankhyttan.vue") },
   { path: "/frammegarden", name: "Frammegarden", component: () => import("../views/PageFrammegarden.vue") },
@@ -23,7 +24,8 @@ const routes = [
   { path: "/askhults-by", name: "AskhultsBy", component: () => import("../views/PageAskhultsBy.vue") },
   { path: "/borgvattnet", name: "Borgvattnet", component: () => import("../views/PageBorgvattnet.vue") },
   { path: "/brahehus", name: "Brahehus", component: () => import("../views/PageBrahehus.vue") },
-  { path: "/barnmordarkorset", name: "Barnmordarkorset", component: () => import("../views/PageBarnmordarkorset.vue") }
+  { path: "/barnmordarkorset", name: "Barnmordarkorset", component: () => import("../views/PageBarnmordarkorset.vue") },
+  { path: "/valinge", name: "Valinge", component: () => import("../views/PageValinge.vue") },
 ];
 
 const router = createRouter({

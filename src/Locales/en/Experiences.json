@@ -1,0 +1,42 @@
+{
+  "experiences_heading": "Our Experiences",
+  "experiences_subheading": "Stories from our paranormal investigations",
+  "experiences": [
+    {
+      "title": "Rydals Herrgård",
+      "story": "During our investigation we experienced a sudden temperature drop captured on thermal camera. One of our team members reported a strong presence.",
+      "path": "/rydals-herrgard",
+      "link_text": "Read more"
+    },
+    {
+      "title": "Jugendhouse - Klevs Gästgiveri",
+      "story": "Clear footsteps were heard from an empty room next to us. Our thermal camera captured a humanoid form moving along the wall.",
+      "path": "/jugend-house",
+      "link_text": "Read more"
+    },
+    {
+      "title": "Haunted Museum",
+      "story": "We saw objects move without anyone touching them. A ball rolled across the floor and back by itself several times.",
+      "path": "/hemsokta-museet",
+      "link_text": "Read more"
+    },
+    {
+      "title": "Hjortsberga",
+      "story": "Strong emotional impact when approaching old graves. Team members spontaneously told stories from earlier centuries.",
+      "path": "/hjortsberga",
+      "link_text": "Read more"
+    },
+    {
+      "title": "Frammegården",
+      "story": "The air became thick and heavy, all instrument activity stopped. Six doors began slamming slowly from upstairs, one after another.",
+      "path": "/frammegarden",
+      "link_text": "Read more"
+    },
+    {
+      "title": "Rankhyttan",
+      "story": "Thermal cameras captured several shadow-like forms moving through the rooms. Their movements could be tracked for several minutes.",
+      "path": "/rankhyttan",
+      "link_text": "Read more"
+    }
+  ]
+}

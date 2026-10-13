@@ -11,6 +11,7 @@ import GhostSchool from "./GhostSchool.json";
 import OurEvents from "./OurEvents.json";
 import OurReviews from "./OurReviews.json";
 import HighlightsSection from "./HighlightsSection.json";
+import Experiences from "./Experiences.json";
 // Importera fler svenska filer här
 
 export default {
@@ -27,5 +28,6 @@ export default {
   ...GhostSchool,
   ...OurReviews,
   ...HighlightsSection,
+  ...Experiences,
   // Lägg till fler svenska objekt här
 };

@@ -9,6 +9,12 @@ const currentPage = ref(0);
 
 const items = [
   {
+    to: "https://open.spotify.com/episode/0H8A9fXmuiiyC5t0LRAzzr?si=wgwoNotCTZC84eHDQBOJ4Q",
+    src: "/images/generell/grevensskugga.webp",
+    alt: "event_place6",
+    label: "event_place6",
+  },
+  {
     to: "/jugend-house-event",
     src: "/images/jugend_house/klevs_gastgiveri_event.webp",
     alt: "event_place5",
@@ -71,19 +77,31 @@ function goNext() {
     </div>
 
     <div class="events-grid">
-      <router-link
-        v-for="item in pagedItems"
-        :key="item.to"
-        :to="item.to"
-        class="featured-card"
-      >
-        <img :src="item.src" :alt="t(item.alt)" loading="lazy" />
-        <div class="featured-overlay"></div>
-        <div class="featured-copy">
-          <h3>{{ t(item.label) }}</h3>
-          <span class="featured-link">{{ t("event_link") }}</span>
-        </div>
-      </router-link>
+      <template v-for="item in pagedItems" :key="item.to">
+        <a
+          v-if="item.to.startsWith('http')"
+          :href="item.to"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="featured-card"
+        >
+          <img :src="item.src" :alt="t(item.alt)" loading="lazy" />
+          <div class="featured-overlay"></div>
+          <div class="featured-copy">
+            <h3>{{ t(item.label) }}</h3>
+            <span class="featured-link">{{ t("event_link") }}</span>
+          </div>
+        </a>
+
+        <router-link v-else :to="item.to" class="featured-card">
+          <img :src="item.src" :alt="t(item.alt)" loading="lazy" />
+          <div class="featured-overlay"></div>
+          <div class="featured-copy">
+            <h3>{{ t(item.label) }}</h3>
+            <span class="featured-link">{{ t("event_link") }}</span>
+          </div>
+        </router-link>
+      </template>
     </div>
 
     <div v-if="totalPages > 1" class="carousel-controls">
