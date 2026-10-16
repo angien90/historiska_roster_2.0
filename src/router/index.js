@@ -19,6 +19,7 @@ const routes = [
   { path: "/spirituell-massa", name: "SpirituellMassa", component: () => import("../views/PageSpirituellMassa.vue") },
   { path: "/jugend-house", name: "JugendHouse", component: () => import("../views/PageJugendHouse.vue") },
   { path: "/jugend-house-event", name: "JugendHouseEvent", component: () => import("../views/PageJugendHouseEvent.vue") },
+ { path: "/foredrag-kungsbacka", name: "ForedragKungsbacka", component: () => import("../views/PageForedragKungsbacka.vue") },
   { path: "/sonjas-veranda", name: "SonjasVeranda", component: () => import("../views/PageSonjasVeranda.vue") },
   { path: "/annas-bed-and-kitchen", name: "AnnasBedAndKitchen", component: () => import("../views/PageAnnasBedAndKitchen.vue") },
   { path: "/askhults-by", name: "AskhultsBy", component: () => import("../views/PageAskhultsBy.vue") },

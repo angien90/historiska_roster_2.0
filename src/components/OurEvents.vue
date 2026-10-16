@@ -9,6 +9,12 @@ const currentPage = ref(0);
 
 const items = [
   {
+    to: "/foredrag-kungsbacka",
+    src: "/images/foredragKungsbacka/Kungsbacka.webp",
+    alt: "event_place7",
+    label: "event_place7",
+  },
+  {
     to: "https://open.spotify.com/episode/0H8A9fXmuiiyC5t0LRAzzr?si=wgwoNotCTZC84eHDQBOJ4Q",
     src: "/images/generell/grevensskugga.webp",
     alt: "event_place6",

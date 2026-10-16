@@ -84,6 +84,7 @@ const menuItems = computed(() => [
   {
     label: t("other_events"),
     children: [
+      { label: t("dropdown.pageForedragKungsbacka"), to: "/foredrag-kungsbacka" },
       { label: t("dropdown.pagePoddinspelning"), to: "https://open.spotify.com/episode/0H8A9fXmuiiyC5t0LRAzzr?si=wgwoNotCTZC84eHDQBOJ4Q" },
       { label: t("dropdown.pageJugendHouseEvent"), to: "/jugend-house-event" },
       { label: t("dropdown.pageSpirituellMassa"), to: "/spirituell-massa" },
