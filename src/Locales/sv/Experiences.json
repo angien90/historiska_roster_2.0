@@ -1,16 +1,26 @@
 {
-  "experiences_heading": "Våra Upplevelser",
-  "experiences_subheading": "Berättelser från våra paranormala utredningar",
+  "experiences_heading": "Våra mest anmärkningsvärda upplevelser",
+  "experiences_subheading": "De upplevelser som har satt djupast spår i oss",
   "experiences": [
     {
       "title": "Borgvattnet",
       "path": "/borgvattnet",
       "link_text": "Läs mer om Borgvattnet",
       "stories": [
-        "Under vår utredning upplevde vi en plötslig temperaturfall som registrerades på värmekameran. En av våra teammedlemmar rapporterade en stark närvaro.",
-        "En person höll på att falla ner från trappan, när vi skulle fråga han vad som hände så brann sd kortet upp i kameran."
+        ""
       ]
     },
+    {
+      "title": "Rydals Herrgård",
+      "path": "/rydals-herrgard",
+      "link_text": "Läs mer om Rydals Herrgård",
+      "stories": [
+        "Under dagen före ett av våra event tog vi en promenad i området och passade på att kika på övervakningskameran. Till vår förvåning fick vi se hur en av våra anställda var nära att falla baklänges nerför trappan, men i sista sekund lyckades få tag i räcket och rädda sig själv.",
+        "När vi kom tillbaka frågade vi honom vad som egentligen hände – men han hade inget som helst minne av händelsen. Eftersom vi var tre stycken från Historiska Röster som med egna ögon sett det inträffa, bestämde vi oss för att ta fram videoklippet och visa honom.",
+        "Men precis när vi spoleade fram till sekunden då det hände, brann SD-kortet upp. Vi gjorde allt vi kunde för att rädda filen, men videon var förlorad för alltid.",
+        "Att energier påverkar och stör elektronisk utrustning är ingenting nytt för oss eller andra paranormala utredare, men det är alltid lika synd när en så pass häftig händelse inte går att bevara på film. Varför saknade den anställde helt minne av tillbudet? Och varför ville energierna inte att situationen skulle finnas kvar på bild?"
+      ]    
+},
     {
       "title": "Frammegården",
       "path": "/frammegarden",
@@ -25,15 +35,7 @@
       "path": "/jugend-house",
       "link_text": "Läs mer om Jugendhouse - Klevs Gästgiveri",
       "stories": [
-        "Tydliga fotsteg hördes från ett tomt rum bredvid oss. Vår värmekamera fångade en humanoid form som rörde sig längs väggen."
-      ]
-    },
-    {
-      "title": "Jugendhouse - Klevs Gästgiveri",
-      "path": "/jugend-house",
-      "link_text": "Läs mer om Jugendhouse - Klevs Gästgiveri",
-      "stories": [
-        "Tydliga fotsteg hördes från ett tomt rum bredvid oss. Vår värmekamera fångade en humanoid form som rörde sig längs väggen."
+        ""
       ]
     }
   ]
