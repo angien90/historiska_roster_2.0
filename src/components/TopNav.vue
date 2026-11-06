@@ -447,6 +447,15 @@ button.dropbtn {
     z-index: 1000;
   }
 
+  .dropdown-content::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    height: 0.6rem;
+  }
+
   .dropdown:hover .dropdown-content,
   .dropdown:focus-within .dropdown-content {
     display: block !important;
