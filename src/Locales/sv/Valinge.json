@@ -74,9 +74,19 @@
   "galleryTitle": "Bildgalleri",
   "gallery": [
     {
-      "src": "",
-      "alt": "",
-      "caption": ""
+      "src": "/images/valinge/2026-11-09_12h39_05.png",
+      "alt": "Gravplats Artur och Junis (sektion ASPE)",
+      "caption": "Artur Nilsson"
+    },
+    {
+      "src": "/images/valinge/2026-11-09_12h39_23.png",
+      "alt": "Gravplats Sven, Himla, Albertina och Josefina (sektion 4)",
+      "caption": "Sven Andersson"
+    },
+    {
+      "src": "/images/valinge/2026-11-09_12h40_13.png",
+      "alt": "Gravplats Johan, Anna och Astrid (sektion 2)",
+      "caption": "Johan Andersson"
     }
   ],
   "resultTitle": "Sammanfattning från vår utredning",
